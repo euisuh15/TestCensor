@@ -12,6 +12,7 @@ pip install beautifulsoup4
 pip install lxml
 pip install django-clear-cache
 pip install matplotlib
+pip install numpy
 ```
 ## Usage
 
