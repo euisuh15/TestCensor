@@ -4,7 +4,7 @@ Attempts to establish connections with various websites in different categories 
 ## Getting Started
 Install Python
 
-Install package manager pip, requests, beautifulsoup4, and lxml by typing in the following command lines in cmd
+Install package manager pip, requests, beautifulsoup4, lxml, etc. by typing in the following command lines in cmd
 ```bash
 python -m pip install --upgrade pip
 pip install requests
