@@ -1,0 +1,515 @@
+Starting Tor
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+53%: Loading relay descriptors
+54%: Loading relay descriptors
+57%: Loading relay descriptors
+61%: Loading relay descriptors
+65%: Loading relay descriptors
+71%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for http://www.Google.com/
+* doing DNS query for www.Google.com
+
+Starting test for http://www.Naver.com/
+* doing DNS query for www.Naver.com
+
+Starting test for http://www.Youtube.com/
+* doing DNS query for www.Youtube.com
+
+Starting test for http://www.Daum.net/
+* doing DNS query for www.Daum.net
+* connecting to 172.217.161.36:80
+* connecting to 125.209.222.142:80
+* connecting to 125.209.222.141:80
+* connecting to 172.217.175.78:80
+* connecting to 216.58.197.174:80
+* connecting to 172.217.26.14:80
+* connecting to 172.217.27.78:80
+* connecting to 172.217.25.238:80
+* connecting to 172.217.26.46:80
+* connecting to 172.217.175.46:80
+* connecting to 172.217.175.110:80
+* connecting to 172.217.175.238:80
+* connecting to 172.217.175.14:80
+* connecting to 216.58.220.110:80
+* connecting to 172.217.24.142:80
+* connecting to 172.217.25.78:80
+* connecting to 172.217.25.110:80
+* connecting to 172.217.31.142:80
+* connecting to 172.217.161.78:80
+* connecting to 211.231.99.80:80
+* connecting to 203.133.167.16:80
+* doing HTTP(s) request http://www.Naver.com/
+* doing HTTP(s) request http://www.Daum.net/
+* doing HTTP(s) request http://www.Google.com/
+* doing HTTP(s) request http://www.Youtube.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xeb in position 385: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xeb in position 355: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xec in position 19559: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 100048: ordinal not in range(128)
+* performing control request with backend
+
+Result for http://www.Google.com/
+---------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for http://www.Tmall.com/
+* doing DNS query for www.Tmall.com
+* connecting to 47.246.29.234:80
+* connecting to 47.246.29.233:80
+* doing HTTP(s) request http://www.Tmall.com/
+
+Result for http://www.Naver.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for http://www.Tistory.com/
+* doing DNS query for www.Tistory.com
+* connecting to 211.231.108.151:80
+* doing HTTP(s) request http://www.Tistory.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xeb in position 271: ordinal not in range(128)
+* performing control request with backend
+
+Result for http://www.Youtube.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for http://www.Google.co.kr/
+* doing DNS query for www.Google.co.kr
+* connecting to 172.217.161.67:80
+* doing HTTP(s) request http://www.Google.co.kr/
+
+Result for http://www.Daum.net/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for http://www.Kakao.com/
+* doing DNS query for www.Kakao.com
+* connecting to 211.249.221.27:80
+* doing HTTP(s) request http://www.Kakao.com/
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Status
+------
+1 completed 22 remaining
+4.5% (ETA: 6s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xec in position 19560: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+2 completed 22 remaining
+9.1% (ETA: 9s)
+
+Status
+------
+3 completed 22 remaining
+13.6% (ETA: 12s)
+
+Status
+------
+4 completed 22 remaining
+18.2% (ETA: 15s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe5 in position 600: ordinal not in range(128)
+* performing control request with backend
+
+Result for http://www.Google.co.kr/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for http://www.Sohu.com/
+* doing DNS query for www.Sohu.com
+* connecting to 175.100.207.201:80
+* doing HTTP(s) request http://www.Sohu.com/
+
+Result for http://www.Tistory.com/
+----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for http://www.Qq.com/
+* doing DNS query for www.Qq.com
+
+Result for http://www.Kakao.com/
+--------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for http://www.Facebook.com/
+* doing DNS query for www.Facebook.com
+* connecting to 104.75.11.151:80
+* connecting to 157.240.215.35:80
+* doing HTTP(s) request http://www.Qq.com/
+* doing HTTP(s) request http://www.Facebook.com/
+
+Status
+------
+5 completed 22 remaining
+22.7% (ETA: 13s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xcc in position 53: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe6 in position 38: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 117505: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+6 completed 22 remaining
+27.3% (ETA: 13s)
+
+Status
+------
+7 completed 22 remaining
+31.8% (ETA: 14s)
+
+Result for http://www.Facebook.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for http://www.Login.tmall.com/
+* doing DNS query for www.Login.tmall.com
+
+Result for http://www.Tmall.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for http://www.Taobao.com/
+* doing DNS query for www.Taobao.com
+* doing HTTP(s) request http://www.Login.tmall.com/
+* connecting to 47.246.29.234:80
+* connecting to 47.246.29.233:80
+* doing HTTP(s) request http://www.Taobao.com/
+
+Result for http://www.Qq.com/
+-----------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for http://www.Wikipedia.org/
+* doing DNS query for www.Wikipedia.org
+* connecting to 103.102.166.224:80
+Error performing HTTP request: http://www.Login.tmall.com/
+Error performing HTTP request: http://www.Login.tmall.com/
+Error performing HTTP request: http://www.Login.tmall.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+* doing HTTP(s) request http://www.Wikipedia.org/
+
+Result for http://www.Sohu.com/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for http://www.Amazon.com/
+* doing DNS query for www.Amazon.com
+* connecting to 99.86.144.225:80
+* doing HTTP(s) request http://www.Amazon.com/
+
+Status
+------
+8 completed 22 remaining
+36.4% (ETA: 12s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 19311: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+9 completed 22 remaining
+40.9% (ETA: 12s)
+
+Status
+------
+10 completed 22 remaining
+45.5% (ETA: 12s)
+
+Status
+------
+11 completed 22 remaining
+50.0% (ETA: 12s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 239614: ordinal not in range(128)
+* performing control request with backend
+
+Result for http://www.Login.tmall.com/
+--------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for http://www.Namu.wiki/
+* doing DNS query for www.Namu.wiki
+* connecting to 104.16.180.45:80
+* connecting to 104.16.181.45:80
+* doing HTTP(s) request http://www.Namu.wiki/
+
+Result for http://www.Wikipedia.org/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for http://www.Jd.com/
+* doing DNS query for www.Jd.com
+* connecting to 14.0.115.223:80
+* connecting to 14.0.112.207:80
+* doing HTTP(s) request http://www.Jd.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xeb in position 52: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe4 in position 64: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+12 completed 22 remaining
+54.5% (ETA: 10s)
+
+Result for http://www.Amazon.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for http://www.360.cn/
+* doing DNS query for www.360.cn
+* connecting to 36.110.213.10:80
+* doing HTTP(s) request http://www.360.cn/
+
+Status
+------
+13 completed 22 remaining
+59.1% (ETA: 9s)
+
+Status
+------
+14 completed 22 remaining
+63.6% (ETA: 8s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe6 in position 230: ordinal not in range(128)
+* performing control request with backend
+
+Result for http://www.Namu.wiki/
+--------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for http://www.Netflix.com/
+* doing DNS query for www.Netflix.com
+* connecting to 54.68.234.134:80
+* connecting to 54.149.160.164:80
+* connecting to 34.215.127.206:80
+* connecting to 34.216.122.36:80
+* connecting to 34.213.113.6:80
+* connecting to 35.166.180.66:80
+* connecting to 35.163.82.195:80
+* connecting to 34.210.107.195:80
+* doing HTTP(s) request http://www.Netflix.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe5 in position 531: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+15 completed 22 remaining
+68.2% (ETA: 7s)
+
+Result for http://www.Jd.com/
+-----------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for http://www.Coupang.com/
+* doing DNS query for www.Coupang.com
+* connecting to 23.35.220.127:80
+* doing HTTP(s) request http://www.Coupang.com/
+
+Status
+------
+16 completed 22 remaining
+72.7% (ETA: 5s)
+
+Result for http://www.360.cn/
+-----------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for http://www.Baidu.com/
+* doing DNS query for www.Baidu.com
+* connecting to 119.63.197.151:80
+* connecting to 119.63.197.139:80
+* doing HTTP(s) request http://www.Baidu.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 30559: ordinal not in range(128)
+* performing control request with backend
+
+Result for http://www.Taobao.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for http://www.Pages.tmall.com/
+* doing DNS query for www.Pages.tmall.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe5 in position 294: ordinal not in range(128)
+* performing control request with backend
+* doing HTTP(s) request http://www.Pages.tmall.com/
+Error performing HTTP request: http://www.Pages.tmall.com/
+Error performing HTTP request: http://www.Pages.tmall.com/
+Error performing HTTP request: http://www.Pages.tmall.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+
+Status
+------
+17 completed 22 remaining
+77.3% (ETA: 4s)
+
+Status
+------
+18 completed 22 remaining
+81.8% (ETA: 3s)
+
+Result for http://www.Netflix.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Result for http://www.Pages.tmall.com/
+--------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Result for http://www.Baidu.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Status
+------
+19 completed 22 remaining
+86.4% (ETA: 2s)
+
+Status
+------
+20 completed 22 remaining
+90.9% (ETA: 1s)
+
+Status
+------
+21 completed 22 remaining
+95.5% (ETA: 0s)
+
+
+
+
+
+
+
+
+Starting test for http://www.Coupang.com/
+* doing DNS query for www.Coupang.com
+* connecting to 104.74.212.183:80
+* doing HTTP(s) request http://www.Coupang.com/
+
+Status
+------
+22 completed 22 remaining
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Not accessible URLS
+-------------------
+* http://www.Google.com/
+* http://www.Naver.com/
+* http://www.Youtube.com/
+* http://www.Daum.net/
+* http://www.Google.co.kr/
+* http://www.Tistory.com/
+* http://www.Kakao.com/
+* http://www.Facebook.com/
+* http://www.Tmall.com/
+* http://www.Qq.com/
+* http://www.Sohu.com/
+* http://www.Login.tmall.com/
+* http://www.Wikipedia.org/
+* http://www.Amazon.com/
+* http://www.Namu.wiki/
+* http://www.Jd.com/
+* http://www.360.cn/
+* http://www.Taobao.com/
+* http://www.Netflix.com/
+* http://www.Pages.tmall.com/
+* http://www.Baidu.com/
+* http://www.Coupang.com/
+
+URLS possibly blocked due to http-failure
+-----------------------------------------
+* http://www.Google.com/
+* http://www.Daum.net/
+* http://www.Google.co.kr/
+* http://www.Tistory.com/
+* http://www.Kakao.com/
+* http://www.Sohu.com/
+* http://www.Namu.wiki/
+* http://www.360.cn/
+
+URLS possibly blocked due to dns
+--------------------------------
+* http://www.Naver.com/
+* http://www.Youtube.com/
+* http://www.Facebook.com/
+* http://www.Tmall.com/
+* http://www.Qq.com/
+* http://www.Wikipedia.org/
+* http://www.Amazon.com/
+* http://www.Jd.com/
+* http://www.Taobao.com/
+* http://www.Netflix.com/
+* http://www.Baidu.com/
+Report ID: 20200709T062825Z_AS4766_Qo94UWiipQhwCQUeWSlWtmmTWduPJM6NcCZvJZcVpRxviPa8xE
+Error performing HTTP request: http://www.Coupang.com/
+Error performing HTTP request: http://www.Coupang.com/
+
