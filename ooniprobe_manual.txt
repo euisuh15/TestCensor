@@ -1,0 +1,257 @@
+
+Installed nettests
+==================
+
+TCP Connect
+-----------
+Performs a TCP connect scan of all the host port combinations given as input.
+
+$ ooniprobe blocking/tcp_connect
+
+      --file  File containing the IP:PORT combinations to be tested, one per
+              line.
+
+Note: Third party tests require an external application to run properly.
+
+Traceroute
+----------
+Performs a UDP, TCP, ICMP traceroute with destination port number set to 0, 22,
+23, 53, 80, 123, 443, 8080 and 65535.
+
+$ ooniprobe manipulation/traceroute
+
+      --backend     Test backend to use.
+      --dstport     Specify a single destination port. May be repeated.
+      --interval    Specify the inter-packet delay in seconds.
+      --maxttl      The maximum value of ttl to set on packets.
+      --numPackets  Specify the number of packets to send per hop.
+      --timeout     The timeout for the traceroute test.
+
+Note: Third party tests require an external application to run properly.
+
+DNS Consistency
+---------------
+Checks to see if the DNS responses from a set of DNS resolvers are consistent.
+
+$ ooniprobe blocking/dns_consistency
+
+      --backend        The OONI backend that runs the DNS resolver.
+      --file           Input file of list of hostnames to attempt to resolve
+      --testresolver   Specify a single test resolver to use for testing.
+      --testresolvers  File containing list of DNS resolvers to test against.
+
+Note: Third party tests require an external application to run properly.
+
+Bridge Reachability
+-------------------
+This test examines the reachability of Tor bridges in your network.
+
+$ ooniprobe blocking/bridge_reachability
+
+      --file     File containing bridges to test reachability for. They should
+                 be one per line IP:ORPort or TransportType IP:ORPort (ex. obfs2
+                 127.0.0.1:443).
+      --timeout  Specify the timeout after which to consider the Tor
+                 bootstrapping process to have failed.
+
+Note: Third party tests require an external application to run properly.
+
+Telegram
+--------
+This test examines the reachability of Telegram in your network.
+
+$ ooniprobe blocking/telegram
+
+
+Note: Third party tests require an external application to run properly.
+
+Facebook Messenger
+------------------
+This test examines the reachability of Facebook Messenger in your network.
+
+$ ooniprobe blocking/facebook_messenger
+
+
+Note: Third party tests require an external application to run properly.
+
+HTTP Header Field Manipulation
+------------------------------
+Checks if the HTTP request the server sees is the same as the one that the
+client has created.
+
+$ ooniprobe manipulation/http_header_field_manipulation
+
+      --backend  URL of the backend to use for sending the requests.
+      --headers  Specify a yaml formatted file from which to read the request
+                 headers to send.
+
+Note: Third party tests require an external application to run properly.
+
+Vanilla Tor
+-----------
+This test examines the reachability of the Tor network.
+
+$ ooniprobe blocking/vanilla_tor
+
+      --timeout  Specify the timeout after which to consider the Tor
+                 bootstrapping process to have failed.
+
+Note: Third party tests require an external application to run properly.
+
+Meek fronted requests test
+--------------------------
+This test examines whether the domains used by Meek (a type of Tor bridge) work
+in your network.
+
+$ ooniprobe blocking/meek_fronted_requests
+
+      --domainName    Specify a single fronted domainName to test.
+      --expectedBody  Expected body content from GET response.
+      --file          File containing the domainName:hostHeader combinations to
+                      be tested, one per line.
+      --hostHeader    Specify "inside" Host Header to test.
+
+Note: Third party tests require an external application to run properly.
+
+HTTP Requests
+-------------
+Performs a HTTP GET request over Tor and one over the local network and compares
+the two results.
+
+$ ooniprobe blocking/http_requests
+
+      --factor  What factor should be used for triggering censorship (0.8 ==
+                80%).
+      --file    List of URLS to perform GET and POST requests to
+      --url     Specify a single URL to test.
+
+Note: Third party tests require an external application to run properly.
+
+captiveportal
+-------------
+Captive Portal Test.
+
+$ ooniprobe manipulation/captiveportal
+
+      --asset           Asset file.
+      --experiment-url  Experiment URL.
+      --user-agent      User agent for HTTP requests.
+
+Note: Third party tests require an external application to run properly.
+
+DNS Spoof
+---------
+Used to validate if the type of censorship happening is DNS spoofing or not.
+
+$ ooniprobe manipulation/dns_spoof
+
+      --backend   Specify the IP address of a good DNS resolver (ip:port).
+      --hostname  Specify the hostname of a censored site.
+      --resolver  Specify the resolver that should be used for DNS queries
+                  (ip:port).
+
+Note: Third party tests require an external application to run properly.
+
+OpenVPN Client Test
+-------------------
+Connects to an OpenVPN server and does a HTTP GET for thespecified URL.
+
+$ ooniprobe third_party/openvpn
+
+      --openvpn-config  Specify an OpenVPN configuration file.
+      --url             Specify a single URL on the OpenVPN subnet to test.
+
+Note: Third party tests require an external application to run properly.
+
+Web connectivity
+----------------
+Identifies the reason for blocking of a given URL by performing DNS resolution
+of the hostname, doing a TCP connect to the resolved IPs and then fetching the
+page and comparing all these results with those of a control.
+
+$ ooniprobe blocking/web_connectivity
+
+      --backend        The web_consistency backend test helper
+      --dns-discovery  Specify the dns discovery test helper
+      --file           List of URLS to perform GET requests to
+      --retries        Number of retries for the HTTP request
+      --timeout        Total timeout for this test
+      --url            Specify a single URL to test
+
+Note: Third party tests require an external application to run properly.
+
+HTTP Host
+---------
+Tests a variety of different filter bypassing techniques based on the HTTP Host
+header field.
+
+$ ooniprobe manipulation/http_host
+
+      --backend  URL of the test backend to use. Should be listening on port 80
+                 and be a HTTPReturnJSONHeadersHelper (ex. http://1.1.1.1).
+      --content  The file to read from containing the content of a block page.
+      --file     List of hostnames to test for censorship.
+
+Note: Third party tests require an external application to run properly.
+
+Whatsapp
+--------
+This test examines the reachability of WhatsApp  and WhatsApp's web interface
+(web.whatsapp.com) in your network.
+
+$ ooniprobe blocking/whatsapp
+
+
+Note: Third party tests require an external application to run properly.
+
+NetalyzrWrapper
+---------------
+A wrapper around the Netalyzr java command line client.
+
+$ ooniprobe third_party/netalyzr
+
+      --clipath  Specify the path to NetalyzrCLI.jar (can be downloaded from
+                 http://netalyzr.icsi.berkeley.edu/NetalyzrCLI.jar).
+
+Note: Third party tests require an external application to run properly.
+
+Psiphon Test
+------------
+Bootstraps Psiphon and does a HTTP GET for the specified URL.
+
+$ ooniprobe third_party/psiphon
+
+      --expected-body  Specify the beginning of the expected body in the
+                       response (default: Google is built by a large).
+      --psiphonpath    Specify psiphon python client path.
+      --url            Specify the URL to fetch over psiphon (default:
+                       http://www.google.com/humans.txt).
+
+Note: Third party tests require an external application to run properly.
+
+HTTP Invalid Request Line
+-------------------------
+Performs out of spec HTTP requests in an attempt to trigger a proxy error
+message.
+
+$ ooniprobe manipulation/http_invalid_request_line
+
+      --backend      The OONI backend that runs a TCP echo server.
+      --backendport  Specify the port that the TCP echo server is running
+                     (should only be set for debugging).
+
+Note: Third party tests require an external application to run properly.
+
+Lantern Circumvention Tool Test
+-------------------------------
+Bootstraps Lantern, connects to a URL and verifies if it contains the expected
+input.
+
+$ ooniprobe third_party/lantern
+
+      --expected-body  Specify the beginning of the expected body in the
+                       response (default: Google is built by a large).
+      --url            Specify the URL to fetch over lantern (default:
+                       http://www.google.com/humans.txt).
+
+Note: Third party tests require an external application to run properly.
