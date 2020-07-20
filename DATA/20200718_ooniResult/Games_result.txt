@@ -1,0 +1,1951 @@
+Starting Tor
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+57%: Loading relay descriptors
+60%: Loading relay descriptors
+65%: Loading relay descriptors
+71%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for http://www.pogo.com/
+* doing DNS query for www.pogo.com
+
+Starting test for https://www.pogo.com/
+* doing DNS query for www.pogo.com
+
+Starting test for http://www.mtggoldfish.com/
+* doing DNS query for www.mtggoldfish.com
+
+Starting test for https://www.mtggoldfish.com/
+* doing DNS query for www.mtggoldfish.com
+* connecting to 54.144.213.223:443
+* connecting to 54.161.153.48:443
+* connecting to 52.72.167.252:443
+* connecting to 54.144.213.223:80
+* connecting to 54.161.153.48:80
+* connecting to 52.72.167.252:80
+* connecting to 23.35.221.245:443
+* connecting to 23.35.221.245:80
+* doing HTTP(s) request https://www.pogo.com/
+* doing HTTP(s) request http://www.pogo.com/
+* doing HTTP(s) request http://www.mtggoldfish.com/
+* doing HTTP(s) request https://www.mtggoldfish.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.pogo.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.bungie.net/
+* doing DNS query for www.bungie.net
+* connecting to 104.20.28.30:80
+* connecting to 104.20.29.30:80
+* doing HTTP(s) request http://www.bungie.net/
+
+Result for http://www.pogo.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.bungie.net/
+* doing DNS query for www.bungie.net
+* connecting to 104.20.29.30:443
+* connecting to 104.20.28.30:443
+* doing HTTP(s) request https://www.bungie.net/
+
+Result for https://www.mtggoldfish.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.eurogamer.net/
+* doing DNS query for www.eurogamer.net
+* connecting to 52.31.169.144:80
+* connecting to 63.35.17.160:80
+* performing control request with backend
+
+Result for http://www.mtggoldfish.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.eurogamer.net/
+* doing DNS query for www.eurogamer.net
+* connecting to 63.35.17.160:443
+* connecting to 52.31.169.144:443
+* performing control request with backend
+* doing HTTP(s) request https://www.eurogamer.net/
+* doing HTTP(s) request http://www.eurogamer.net/
+
+Status
+------
+1/100 completed
+1.0% (ETA: 30s)
+
+Status
+------
+2/100 completed
+2.0% (ETA: 58s)
+
+Status
+------
+3/100 completed
+3.0% (ETA: 82s)
+* performing control request with backend
+
+Result for https://www.bungie.net/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.wizards.com/
+* doing DNS query for www.wizards.com
+* connecting to 69.8.198.251:80
+
+Status
+------
+4/100 completed
+4.0% (ETA: 103s)
+* doing HTTP(s) request http://www.wizards.com/
+
+Result for http://www.bungie.net/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.wizards.com/
+* doing DNS query for www.wizards.com
+* connecting to 69.8.198.251:443
+* performing control request with backend
+* doing HTTP(s) request https://www.wizards.com/
+
+Result for https://www.eurogamer.net/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nexusmods.com/
+* doing DNS query for www.nexusmods.com
+* connecting to 172.67.15.252:80
+* connecting to 104.22.3.55:80
+* connecting to 104.22.2.55:80
+* doing HTTP(s) request http://www.nexusmods.com/
+* performing control request with backend
+Error performing HTTP request: https://www.wizards.com/
+Error performing HTTP request: https://www.wizards.com/
+Error performing HTTP request: https://www.wizards.com/
+Failed to perform HTTP request response_never_received
+* performing control request with backend
+
+Status
+------
+5/100 completed
+5.0% (ETA: 92s)
+
+Result for http://www.wizards.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nexusmods.com/
+* doing DNS query for www.nexusmods.com
+* connecting to 104.22.2.55:443
+* connecting to 104.22.3.55:443
+* connecting to 172.67.15.252:443
+* doing HTTP(s) request https://www.nexusmods.com/
+
+Result for http://www.eurogamer.net/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.itch.io/
+* doing DNS query for www.itch.io
+* connecting to 172.67.69.99:80
+* connecting to 104.26.8.198:80
+* connecting to 104.26.9.198:80
+
+Status
+------
+6/100 completed
+6.0% (ETA: 97s)
+* doing HTTP(s) request http://www.itch.io/
+
+Status
+------
+7/100 completed
+7.0% (ETA: 110s)
+* performing control request with backend
+
+Result for https://www.wizards.com/
+-----------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.itch.io/
+* doing DNS query for www.itch.io
+* connecting to 104.26.9.198:443
+* connecting to 104.26.8.198:443
+* connecting to 172.67.69.99:443
+* performing control request with backend
+* doing HTTP(s) request https://www.itch.io/
+
+Result for http://www.nexusmods.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.activision.com/
+* doing DNS query for www.activision.com
+* connecting to 184.25.26.223:80
+
+Status
+------
+8/100 completed
+8.0% (ETA: 99s)
+* doing HTTP(s) request http://www.activision.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+9/100 completed
+9.0% (ETA: 102s)
+* performing control request with backend
+
+Status
+------
+10/100 completed
+10.0% (ETA: 110s)
+
+Result for http://www.activision.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.activision.com/
+* doing DNS query for www.activision.com
+* connecting to 184.25.26.223:443
+* doing HTTP(s) request https://www.activision.com/
+* performing control request with backend
+
+Result for http://www.itch.io/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.pokemon.com/
+* doing DNS query for www.pokemon.com
+* connecting to 99.86.144.25:80
+* connecting to 99.86.144.115:80
+* connecting to 99.86.144.116:80
+* connecting to 99.86.144.70:80
+* doing HTTP(s) request http://www.pokemon.com/
+* performing control request with backend
+
+Result for https://www.nexusmods.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.pokemon.com/
+* doing DNS query for www.pokemon.com
+* connecting to 99.86.144.70:443
+* connecting to 99.86.144.116:443
+* connecting to 99.86.144.115:443
+* connecting to 99.86.144.25:443
+* doing HTTP(s) request https://www.pokemon.com/
+* performing control request with backend
+
+Result for https://www.activision.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.boardgamegeek.com/
+* doing DNS query for www.boardgamegeek.com
+* connecting to 130.211.47.221:80
+* doing HTTP(s) request http://www.boardgamegeek.com/
+
+Result for http://www.pokemon.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.boardgamegeek.com/
+* doing DNS query for www.boardgamegeek.com
+* connecting to 130.211.47.221:443
+* doing HTTP(s) request https://www.boardgamegeek.com/
+
+Status
+------
+11/100 completed
+11.0% (ETA: 100s)
+
+Result for https://www.itch.io/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.xbox.com/
+* doing DNS query for www.xbox.com
+* connecting to 23.35.220.109:80
+* doing HTTP(s) request http://www.xbox.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+12/100 completed
+12.0% (ETA: 103s)
+
+Result for https://www.pokemon.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.xbox.com/
+* doing DNS query for www.xbox.com
+* connecting to 23.35.220.109:443
+
+Status
+------
+13/100 completed
+13.0% (ETA: 109s)
+* doing HTTP(s) request https://www.xbox.com/
+* performing control request with backend
+
+Status
+------
+14/100 completed
+14.0% (ETA: 110s)
+
+Status
+------
+15/100 completed
+15.0% (ETA: 116s)
+
+Result for https://www.boardgamegeek.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.rockstargames.com/
+* doing DNS query for www.rockstargames.com
+* connecting to 184.25.21.103:80
+* doing HTTP(s) request http://www.rockstargames.com/
+
+Result for http://www.boardgamegeek.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.rockstargames.com/
+* doing DNS query for www.rockstargames.com
+* connecting to 184.25.21.103:443
+* doing HTTP(s) request https://www.rockstargames.com/
+
+Status
+------
+16/100 completed
+16.0% (ETA: 117s)
+
+Result for http://www.xbox.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.minecraft.net/
+* doing DNS query for www.minecraft.net
+* connecting to 152.199.39.108:80
+* doing HTTP(s) request http://www.minecraft.net/
+
+Status
+------
+17/100 completed
+17.0% (ETA: 122s)
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.xbox.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.minecraft.net/
+* doing DNS query for www.minecraft.net
+* connecting to 152.199.39.108:443
+* doing HTTP(s) request https://www.minecraft.net/
+
+Status
+------
+18/100 completed
+18.0% (ETA: 120s)
+
+Status
+------
+19/100 completed
+19.0% (ETA: 123s)
+
+Status
+------
+20/100 completed
+20.0% (ETA: 126s)
+
+Status
+------
+21/100 completed
+21.0% (ETA: 130s)
+
+Result for https://www.rockstargames.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.finalfantasyxiv.com/
+* doing DNS query for www.finalfantasyxiv.com
+* connecting to 104.76.94.6:80
+* doing HTTP(s) request http://www.finalfantasyxiv.com/
+
+Result for http://www.rockstargames.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.finalfantasyxiv.com/
+* doing DNS query for www.finalfantasyxiv.com
+* connecting to 104.76.94.6:443
+* doing HTTP(s) request https://www.finalfantasyxiv.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+22/100 completed
+22.0% (ETA: 128s)
+
+Status
+------
+23/100 completed
+23.0% (ETA: 126s)
+
+Status
+------
+24/100 completed
+24.0% (ETA: 128s)
+
+Result for https://www.minecraft.net/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.blizzard.com/
+* doing DNS query for www.blizzard.com
+* connecting to 18.182.71.71:80
+* connecting to 52.199.211.202:80
+* doing HTTP(s) request http://www.blizzard.com/
+
+Result for http://www.minecraft.net/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.blizzard.com/
+* doing DNS query for www.blizzard.com
+* connecting to 52.199.211.202:443
+* connecting to 18.182.71.71:443
+* doing HTTP(s) request https://www.blizzard.com/
+
+Result for https://www.finalfantasyxiv.com/
+-------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.pch.com/
+* doing DNS query for www.pch.com
+* connecting to 23.50.3.13:80
+* doing HTTP(s) request http://www.pch.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.finalfantasyxiv.com/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.pch.com/
+* doing DNS query for www.pch.com
+* connecting to 23.50.3.13:443
+* doing HTTP(s) request https://www.pch.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+25/100 completed
+25.0% (ETA: 117s)
+
+Status
+------
+26/100 completed
+26.0% (ETA: 120s)
+
+Result for https://www.blizzard.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.store.steampowered.com/
+* doing DNS query for www.store.steampowered.com
+* doing HTTP(s) request http://www.store.steampowered.com/
+
+Result for https://www.pch.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.store.steampowered.com/
+* doing DNS query for www.store.steampowered.com
+
+Status
+------
+27/100 completed
+27.0% (ETA: 121s)
+* doing HTTP(s) request https://www.store.steampowered.com/
+
+Result for http://www.blizzard.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nvidia.com/
+* doing DNS query for www.nvidia.com
+Error performing HTTP request: http://www.store.steampowered.com/
+Error performing HTTP request: https://www.store.steampowered.com/
+* connecting to 104.74.235.133:80
+Error performing HTTP request: http://www.store.steampowered.com/
+Error performing HTTP request: https://www.store.steampowered.com/
+Error performing HTTP request: http://www.store.steampowered.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+Error performing HTTP request: https://www.store.steampowered.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+* doing HTTP(s) request http://www.nvidia.com/
+
+Result for http://www.pch.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nvidia.com/
+* doing DNS query for www.nvidia.com
+
+Status
+------
+28/100 completed
+28.0% (ETA: 122s)
+* connecting to 104.74.235.133:443
+* doing HTTP(s) request https://www.nvidia.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+29/100 completed
+29.0% (ETA: 118s)
+
+Status
+------
+30/100 completed
+30.0% (ETA: 120s)
+
+Result for http://www.store.steampowered.com/
+---------------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for http://www.ubisoft.com/
+* doing DNS query for www.ubisoft.com
+* connecting to 3.223.160.183:80
+* connecting to 34.205.242.33:80
+* connecting to 34.225.224.62:80
+* connecting to 54.175.232.103:80
+* connecting to 50.16.189.54:80
+* connecting to 34.201.156.37:80
+* connecting to 54.210.107.189:80
+* connecting to 52.1.7.114:80
+
+Status
+------
+31/100 completed
+31.0% (ETA: 122s)
+
+Result for https://www.store.steampowered.com/
+----------------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.ubisoft.com/
+* doing DNS query for www.ubisoft.com
+* connecting to 3.223.160.183:443
+* connecting to 34.205.242.33:443
+* connecting to 34.225.224.62:443
+* connecting to 54.175.232.103:443
+* connecting to 50.16.189.54:443
+* connecting to 34.201.156.37:443
+* connecting to 54.210.107.189:443
+* connecting to 52.1.7.114:443
+* doing HTTP(s) request http://www.ubisoft.com/
+
+Result for http://www.nvidia.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.leagueoflegends.com/
+* doing DNS query for www.leagueoflegends.com
+
+Status
+------
+32/100 completed
+32.0% (ETA: 123s)
+* connecting to 54.187.35.49:80
+* connecting to 52.36.141.158:80
+* doing HTTP(s) request https://www.ubisoft.com/
+* doing HTTP(s) request http://www.leagueoflegends.com/
+
+Result for https://www.nvidia.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.leagueoflegends.com/
+* doing DNS query for www.leagueoflegends.com
+* connecting to 52.36.141.158:443
+* connecting to 54.187.35.49:443
+* doing HTTP(s) request https://www.leagueoflegends.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+33/100 completed
+33.0% (ETA: 119s)
+
+Status
+------
+34/100 completed
+34.0% (ETA: 120s)
+
+Result for http://www.leagueoflegends.com/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.gamespot.com/
+* doing DNS query for www.gamespot.com
+
+Result for https://www.leagueoflegends.com/
+-------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.gamespot.com/
+* doing DNS query for www.gamespot.com
+* connecting to 151.101.197.188:443
+* connecting to 151.101.197.188:80
+
+Status
+------
+35/100 completed
+35.0% (ETA: 116s)
+* doing HTTP(s) request https://www.gamespot.com/
+* doing HTTP(s) request http://www.gamespot.com/
+* performing control request with backend
+
+Status
+------
+36/100 completed
+36.0% (ETA: 115s)
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+37/100 completed
+37.0% (ETA: 109s)
+
+Status
+------
+38/100 completed
+38.0% (ETA: 109s)
+
+Result for https://www.gamespot.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.betfair.com/
+* doing DNS query for www.betfair.com
+* connecting to 84.20.210.9:80
+
+Result for http://www.gamespot.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.betfair.com/
+* doing DNS query for www.betfair.com
+* connecting to 84.20.210.9:443
+* doing HTTP(s) request http://www.betfair.com/
+
+Result for http://www.ubisoft.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.miniclip.com/
+* doing DNS query for www.miniclip.com
+* connecting to 99.86.144.124:80
+* connecting to 99.86.144.86:80
+* connecting to 99.86.144.87:80
+* connecting to 99.86.144.48:80
+* doing HTTP(s) request http://www.miniclip.com/
+* doing HTTP(s) request https://www.betfair.com/
+
+Result for https://www.ubisoft.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.miniclip.com/
+* doing DNS query for www.miniclip.com
+* connecting to 99.86.144.48:443
+* connecting to 99.86.144.87:443
+* connecting to 99.86.144.86:443
+* connecting to 99.86.144.124:443
+* doing HTTP(s) request https://www.miniclip.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+39/100 completed
+39.0% (ETA: 101s)
+
+Status
+------
+40/100 completed
+40.0% (ETA: 101s)
+
+Status
+------
+41/100 completed
+41.0% (ETA: 101s)
+* performing control request with backend
+
+Status
+------
+42/100 completed
+42.0% (ETA: 101s)
+
+Result for http://www.miniclip.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.wowhead.com/
+* doing DNS query for www.wowhead.com
+* connecting to 104.18.31.49:80
+* connecting to 104.18.30.49:80
+* doing HTTP(s) request http://www.wowhead.com/
+* performing control request with backend
+
+Result for http://www.betfair.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.wowhead.com/
+* doing DNS query for www.wowhead.com
+* connecting to 104.18.30.49:443
+* connecting to 104.18.31.49:443
+* doing HTTP(s) request https://www.wowhead.com/
+* performing control request with backend
+
+Result for https://www.miniclip.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.pcgamer.com/
+* doing DNS query for www.pcgamer.com
+
+Result for https://www.betfair.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.pcgamer.com/
+* doing DNS query for www.pcgamer.com
+* connecting to 185.113.25.56:443
+* connecting to 185.113.25.56:80
+* doing HTTP(s) request http://www.pcgamer.com/
+* doing HTTP(s) request https://www.pcgamer.com/
+
+Result for http://www.wowhead.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.runescape.com/
+* doing DNS query for www.runescape.com
+
+Result for https://www.wowhead.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.runescape.com/
+* doing DNS query for www.runescape.com
+* connecting to 91.235.140.148:443
+* connecting to 91.235.140.148:80
+* doing HTTP(s) request http://www.runescape.com/
+* doing HTTP(s) request https://www.runescape.com/
+
+Status
+------
+43/100 completed
+43.0% (ETA: 95s)
+
+Status
+------
+44/100 completed
+44.0% (ETA: 95s)
+* performing control request with backend
+
+Status
+------
+45/100 completed
+45.0% (ETA: 93s)
+
+Status
+------
+46/100 completed
+46.0% (ETA: 93s)
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+47/100 completed
+47.0% (ETA: 92s)
+
+Status
+------
+48/100 completed
+48.0% (ETA: 91s)
+
+Result for https://www.pcgamer.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.thesimsresource.com/
+* doing DNS query for www.thesimsresource.com
+* connecting to 143.204.131.4:80
+* connecting to 143.204.131.124:80
+* connecting to 143.204.131.129:80
+* connecting to 143.204.131.80:80
+* doing HTTP(s) request http://www.thesimsresource.com/
+
+Result for http://www.pcgamer.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.thesimsresource.com/
+* doing DNS query for www.thesimsresource.com
+* connecting to 143.204.131.80:443
+* connecting to 143.204.131.129:443
+* connecting to 143.204.131.124:443
+* connecting to 143.204.131.4:443
+* doing HTTP(s) request https://www.thesimsresource.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.runescape.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.twitch.tv/
+* doing DNS query for www.twitch.tv
+* connecting to 151.101.230.167:80
+* doing HTTP(s) request http://www.twitch.tv/
+
+Result for http://www.runescape.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.twitch.tv/
+* doing DNS query for www.twitch.tv
+* connecting to 151.101.230.167:443
+* doing HTTP(s) request https://www.twitch.tv/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.thesimsresource.com/
+-------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.battle.net/
+* doing DNS query for www.battle.net
+* connecting to 117.52.35.104:80
+* doing HTTP(s) request http://www.battle.net/
+
+Result for http://www.thesimsresource.com/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.battle.net/
+* doing DNS query for www.battle.net
+* connecting to 117.52.35.104:443
+* doing HTTP(s) request https://www.battle.net/
+
+Status
+------
+49/100 completed
+49.0% (ETA: 84s)
+
+Result for http://www.twitch.tv/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nintendo.com/
+* doing DNS query for www.nintendo.com
+* connecting to 184.25.24.181:80
+* doing HTTP(s) request http://www.nintendo.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.twitch.tv/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nintendo.com/
+* doing DNS query for www.nintendo.com
+* connecting to 184.25.24.181:443
+* doing HTTP(s) request https://www.nintendo.com/
+* performing control request with backend
+
+Status
+------
+50/100 completed
+50.0% (ETA: 83s)
+
+Status
+------
+51/100 completed
+51.0% (ETA: 82s)
+
+Status
+------
+52/100 completed
+52.0% (ETA: 82s)
+
+Result for http://www.nintendo.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.easports.com/
+* doing DNS query for www.easports.com
+* connecting to 184.25.184.98:80
+* doing HTTP(s) request http://www.easports.com/
+
+Status
+------
+53/100 completed
+53.0% (ETA: 80s)
+
+Status
+------
+54/100 completed
+54.0% (ETA: 80s)
+* performing control request with backend
+
+Result for https://www.nintendo.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.easports.com/
+* doing DNS query for www.easports.com
+* connecting to 184.25.184.98:443
+* doing HTTP(s) request https://www.easports.com/
+
+Result for http://www.battle.net/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.hattrick.org/
+* doing DNS query for www.hattrick.org
+* performing control request with backend
+* connecting to 193.34.189.80:80
+* connecting to 193.34.189.81:80
+
+Result for https://www.battle.net/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.hattrick.org/
+* doing DNS query for www.hattrick.org
+* connecting to 193.34.189.81:443
+* connecting to 193.34.189.80:443
+* doing HTTP(s) request http://www.hattrick.org/
+* doing HTTP(s) request https://www.hattrick.org/
+
+Status
+------
+55/100 completed
+55.0% (ETA: 79s)
+
+Status
+------
+56/100 completed
+56.0% (ETA: 78s)
+
+Result for http://www.easports.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.icy-veins.com/
+* doing DNS query for www.icy-veins.com
+
+Result for https://www.easports.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.icy-veins.com/
+* doing DNS query for www.icy-veins.com
+
+Status
+------
+57/100 completed
+57.0% (ETA: 76s)
+
+Status
+------
+58/100 completed
+58.0% (ETA: 75s)
+* connecting to 87.98.161.106:443
+* connecting to 87.98.161.106:80
+
+Status
+------
+59/100 completed
+59.0% (ETA: 74s)
+* doing HTTP(s) request http://www.icy-veins.com/
+* doing HTTP(s) request https://www.icy-veins.com/
+
+Status
+------
+60/100 completed
+60.0% (ETA: 73s)
+
+Status
+------
+61/100 completed
+61.0% (ETA: 71s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+62/100 completed
+62.0% (ETA: 69s)
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.hattrick.org/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.vocabulary.com/
+* doing DNS query for www.vocabulary.com
+* connecting to 99.86.144.82:80
+* connecting to 99.86.144.77:80
+* connecting to 99.86.144.53:80
+* connecting to 99.86.144.101:80
+* doing HTTP(s) request http://www.vocabulary.com/
+
+Result for https://www.icy-veins.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.vocabulary.com/
+* doing DNS query for www.vocabulary.com
+* connecting to 99.86.144.101:443
+* connecting to 99.86.144.53:443
+* connecting to 99.86.144.77:443
+* connecting to 99.86.144.82:443
+* doing HTTP(s) request https://www.vocabulary.com/
+
+Result for http://www.hattrick.org/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ea.com/
+* doing DNS query for www.ea.com
+* performing control request with backend
+* connecting to 184.25.184.98:80
+* doing HTTP(s) request http://www.ea.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.icy-veins.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ea.com/
+* doing DNS query for www.ea.com
+* connecting to 184.25.184.98:443
+* doing HTTP(s) request https://www.ea.com/
+* performing control request with backend
+
+Status
+------
+63/100 completed
+63.0% (ETA: 65s)
+
+Status
+------
+64/100 completed
+64.0% (ETA: 64s)
+
+Result for http://www.ea.com/
+-----------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.kongregate.com/
+* doing DNS query for www.kongregate.com
+
+Status
+------
+65/100 completed
+65.0% (ETA: 63s)
+* connecting to 151.101.53.36:80
+* doing HTTP(s) request http://www.kongregate.com/
+
+Result for https://www.vocabulary.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.kongregate.com/
+* doing DNS query for www.kongregate.com
+* connecting to 151.101.53.36:443
+* doing HTTP(s) request https://www.kongregate.com/
+
+Result for https://www.ea.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.epicgames.com/
+* doing DNS query for www.epicgames.com
+* connecting to 34.205.201.146:80
+* connecting to 52.55.72.208:80
+* connecting to 52.21.166.226:80
+* connecting to 52.207.5.59:80
+* connecting to 52.3.106.58:80
+* connecting to 34.195.20.235:80
+* connecting to 52.206.124.243:80
+* connecting to 54.86.164.3:80
+
+Result for http://www.vocabulary.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.epicgames.com/
+* doing DNS query for www.epicgames.com
+* connecting to 34.205.201.146:443
+* connecting to 52.55.72.208:443
+* connecting to 52.21.166.226:443
+* connecting to 52.207.5.59:443
+* connecting to 52.3.106.58:443
+* connecting to 34.195.20.235:443
+* connecting to 52.206.124.243:443
+* connecting to 54.86.164.3:443
+* doing HTTP(s) request http://www.epicgames.com/
+* doing HTTP(s) request https://www.epicgames.com/
+
+Status
+------
+66/100 completed
+66.0% (ETA: 61s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+67/100 completed
+67.0% (ETA: 59s)
+
+Status
+------
+68/100 completed
+68.0% (ETA: 58s)
+
+Status
+------
+69/100 completed
+69.0% (ETA: 56s)
+
+Result for https://www.kongregate.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.unity3d.com/
+* doing DNS query for www.unity3d.com
+* connecting to 23.35.220.87:80
+* doing HTTP(s) request http://www.unity3d.com/
+
+Status
+------
+70/100 completed
+70.0% (ETA: 55s)
+
+Result for http://www.kongregate.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.unity3d.com/
+* doing DNS query for www.unity3d.com
+* connecting to 23.35.220.87:443
+* doing HTTP(s) request https://www.unity3d.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+71/100 completed
+71.0% (ETA: 52s)
+* performing control request with backend
+
+Status
+------
+72/100 completed
+72.0% (ETA: 50s)
+* performing control request with backend
+
+Result for https://www.epicgames.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.mmo-champion.com/
+* doing DNS query for www.mmo-champion.com
+* connecting to 104.26.3.92:80
+* connecting to 104.26.2.92:80
+* connecting to 172.67.69.150:80
+* doing HTTP(s) request http://www.mmo-champion.com/
+
+Result for http://www.unity3d.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.mmo-champion.com/
+* doing DNS query for www.mmo-champion.com
+* connecting to 172.67.69.150:443
+* connecting to 104.26.2.92:443
+* connecting to 104.26.3.92:443
+* doing HTTP(s) request https://www.mmo-champion.com/
+
+Result for http://www.epicgames.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.roblox.com/
+* doing DNS query for www.roblox.com
+* connecting to 128.116.120.3:80
+* doing HTTP(s) request http://www.roblox.com/
+
+Result for https://www.unity3d.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.roblox.com/
+* doing DNS query for www.roblox.com
+* connecting to 128.116.120.3:443
+* doing HTTP(s) request https://www.roblox.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+73/100 completed
+73.0% (ETA: 46s)
+
+Result for https://www.roblox.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.callofduty.com/
+* doing DNS query for www.callofduty.com
+* connecting to 23.35.220.253:80
+* doing HTTP(s) request http://www.callofduty.com/
+* performing control request with backend
+
+Status
+------
+74/100 completed
+74.0% (ETA: 45s)
+
+Result for http://www.roblox.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.callofduty.com/
+* doing DNS query for www.callofduty.com
+* connecting to 23.35.220.253:443
+* doing HTTP(s) request https://www.callofduty.com/
+* performing control request with backend
+
+Status
+------
+75/100 completed
+75.0% (ETA: 43s)
+
+Result for http://www.mmo-champion.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.playstation.com/
+* doing DNS query for www.playstation.com
+* connecting to 104.74.244.38:80
+* doing HTTP(s) request http://www.playstation.com/
+
+Status
+------
+76/100 completed
+76.0% (ETA: 42s)
+* performing control request with backend
+
+Result for http://www.callofduty.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.playstation.com/
+* doing DNS query for www.playstation.com
+* connecting to 104.74.244.38:443
+* doing HTTP(s) request https://www.playstation.com/
+
+Status
+------
+77/100 completed
+77.0% (ETA: 40s)
+
+Result for https://www.callofduty.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.bulbagarden.net/
+* doing DNS query for www.bulbagarden.net
+* connecting to 172.64.139.38:80
+* connecting to 172.64.138.38:80
+* doing HTTP(s) request http://www.bulbagarden.net/
+* performing control request with backend
+
+Status
+------
+78/100 completed
+78.0% (ETA: 38s)
+* performing control request with backend
+
+Status
+------
+79/100 completed
+79.0% (ETA: 37s)
+
+Result for http://www.playstation.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.bulbagarden.net/
+* doing DNS query for www.bulbagarden.net
+* connecting to 172.64.138.38:443
+* connecting to 172.64.139.38:443
+* doing HTTP(s) request https://www.bulbagarden.net/
+
+Result for https://www.playstation.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.sporcle.com/
+* doing DNS query for www.sporcle.com
+* connecting to 99.86.144.36:80
+* connecting to 99.86.144.104:80
+* connecting to 99.86.144.90:80
+* connecting to 99.86.144.49:80
+* doing HTTP(s) request http://www.sporcle.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.bulbagarden.net/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.sporcle.com/
+* doing DNS query for www.sporcle.com
+* connecting to 99.86.144.49:443
+* connecting to 99.86.144.90:443
+* connecting to 99.86.144.104:443
+* connecting to 99.86.144.36:443
+* doing HTTP(s) request https://www.sporcle.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+80/100 completed
+80.0% (ETA: 34s)
+
+Status
+------
+81/100 completed
+81.0% (ETA: 33s)
+
+Result for https://www.bulbagarden.net/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.pcgamesn.com/
+* doing DNS query for www.pcgamesn.com
+* connecting to 172.67.25.229:80
+* connecting to 104.22.68.154:80
+* connecting to 104.22.69.154:80
+* doing HTTP(s) request http://www.pcgamesn.com/
+
+Status
+------
+82/100 completed
+82.0% (ETA: 31s)
+
+Result for https://www.mmo-champion.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.pcgamesn.com/
+* doing DNS query for www.pcgamesn.com
+* connecting to 104.22.69.154:443
+* connecting to 104.22.68.154:443
+* connecting to 172.67.25.229:443
+* doing HTTP(s) request https://www.pcgamesn.com/
+
+Status
+------
+83/100 completed
+83.0% (ETA: 30s)
+* performing control request with backend
+
+Status
+------
+84/100 completed
+84.0% (ETA: 28s)
+* performing control request with backend
+
+Result for http://www.sporcle.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.planetminecraft.com/
+* doing DNS query for www.planetminecraft.com
+* connecting to 104.22.1.111:80
+* connecting to 104.22.0.111:80
+* connecting to 172.67.38.113:80
+* doing HTTP(s) request http://www.planetminecraft.com/
+
+Result for https://www.sporcle.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.planetminecraft.com/
+* doing DNS query for www.planetminecraft.com
+* connecting to 172.67.38.113:443
+* connecting to 104.22.0.111:443
+* connecting to 104.22.1.111:443
+* doing HTTP(s) request https://www.planetminecraft.com/
+* performing control request with backend
+
+Result for https://www.pcgamesn.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.gamesradar.com/
+* doing DNS query for www.gamesradar.com
+* connecting to 185.113.25.56:80
+
+Status
+------
+85/100 completed
+85.0% (ETA: 26s)
+* doing HTTP(s) request http://www.gamesradar.com/
+* performing control request with backend
+
+Status
+------
+86/100 completed
+86.0% (ETA: 25s)
+
+Result for http://www.pcgamesn.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.gamesradar.com/
+* doing DNS query for www.gamesradar.com
+* connecting to 185.113.25.56:443
+* doing HTTP(s) request https://www.gamesradar.com/
+
+Status
+------
+87/100 completed
+87.0% (ETA: 23s)
+
+Result for http://www.planetminecraft.com/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.chess.com/
+* doing DNS query for www.chess.com
+* connecting to 104.17.238.85:80
+* connecting to 104.17.241.85:80
+* connecting to 104.17.239.85:80
+* connecting to 104.17.237.85:80
+* connecting to 104.17.240.85:80
+* doing HTTP(s) request http://www.chess.com/
+
+Status
+------
+88/100 completed
+88.0% (ETA: 21s)
+
+Result for https://www.planetminecraft.com/
+-------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.chess.com/
+* doing DNS query for www.chess.com
+* connecting to 104.17.238.85:443
+* connecting to 104.17.241.85:443
+* connecting to 104.17.239.85:443
+* connecting to 104.17.237.85:443
+* connecting to 104.17.240.85:443
+* doing HTTP(s) request https://www.chess.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+89/100 completed
+89.0% (ETA: 19s)
+
+Status
+------
+90/100 completed
+90.0% (ETA: 18s)
+* performing control request with backend
+
+Result for https://www.chess.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.games-workshop.com/
+* doing DNS query for www.games-workshop.com
+* connecting to 104.17.142.85:80
+* connecting to 104.16.44.72:80
+* doing HTTP(s) request http://www.games-workshop.com/
+
+Result for http://www.chess.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.games-workshop.com/
+* doing DNS query for www.games-workshop.com
+* connecting to 104.16.44.72:443
+* connecting to 104.17.142.85:443
+* doing HTTP(s) request https://www.games-workshop.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+91/100 completed
+91.0% (ETA: 16s)
+
+Status
+------
+92/100 completed
+92.0% (ETA: 14s)
+
+Result for https://www.gamesradar.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ign.com/
+* doing DNS query for www.ign.com
+* connecting to 151.101.109.135:80
+* doing HTTP(s) request http://www.ign.com/
+
+Result for https://www.games-workshop.com/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ign.com/
+* doing DNS query for www.ign.com
+
+Result for http://www.games-workshop.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+* connecting to 151.101.109.135:443
+* doing HTTP(s) request https://www.ign.com/
+
+Status
+------
+93/100 completed
+93.0% (ETA: 12s)
+
+Result for http://www.gamesradar.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+94/100 completed
+94.0% (ETA: 10s)
+
+Result for https://www.ign.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for http://www.ign.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+95/100 completed
+95.0% (ETA: 8s)
+
+Status
+------
+96/100 completed
+96.0% (ETA: 7s)
+
+Status
+------
+97/100 completed
+97.0% (ETA: 5s)
+
+Status
+------
+98/100 completed
+98.0% (ETA: 3s)
+
+Status
+------
+99/100 completed
+99.0% (ETA: 1s)
+
+Status
+------
+100/100 completed
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Accessible URLS
+---------------
+* https://www.pogo.com/
+* http://www.pogo.com/
+* https://www.mtggoldfish.com/
+* http://www.mtggoldfish.com/
+* https://www.bungie.net/
+* http://www.bungie.net/
+* https://www.eurogamer.net/
+* http://www.wizards.com/
+* http://www.eurogamer.net/
+* http://www.nexusmods.com/
+* http://www.activision.com/
+* http://www.itch.io/
+* https://www.nexusmods.com/
+* https://www.activision.com/
+* http://www.pokemon.com/
+* https://www.itch.io/
+* https://www.pokemon.com/
+* https://www.boardgamegeek.com/
+* http://www.boardgamegeek.com/
+* http://www.xbox.com/
+* https://www.xbox.com/
+* https://www.rockstargames.com/
+* http://www.rockstargames.com/
+* https://www.minecraft.net/
+* http://www.minecraft.net/
+* https://www.finalfantasyxiv.com/
+* http://www.finalfantasyxiv.com/
+* https://www.blizzard.com/
+* https://www.pch.com/
+* http://www.blizzard.com/
+* http://www.pch.com/
+* http://www.nvidia.com/
+* https://www.nvidia.com/
+* http://www.leagueoflegends.com/
+* https://www.leagueoflegends.com/
+* https://www.gamespot.com/
+* http://www.gamespot.com/
+* http://www.ubisoft.com/
+* https://www.ubisoft.com/
+* http://www.miniclip.com/
+* http://www.betfair.com/
+* https://www.miniclip.com/
+* https://www.betfair.com/
+* http://www.wowhead.com/
+* https://www.wowhead.com/
+* https://www.pcgamer.com/
+* http://www.pcgamer.com/
+* https://www.runescape.com/
+* http://www.runescape.com/
+* https://www.thesimsresource.com/
+* http://www.thesimsresource.com/
+* http://www.twitch.tv/
+* https://www.twitch.tv/
+* http://www.nintendo.com/
+* https://www.nintendo.com/
+* http://www.battle.net/
+* https://www.battle.net/
+* http://www.easports.com/
+* https://www.easports.com/
+* https://www.hattrick.org/
+* https://www.icy-veins.com/
+* http://www.hattrick.org/
+* http://www.icy-veins.com/
+* http://www.ea.com/
+* https://www.vocabulary.com/
+* https://www.ea.com/
+* http://www.vocabulary.com/
+* https://www.kongregate.com/
+* http://www.kongregate.com/
+* https://www.epicgames.com/
+* http://www.unity3d.com/
+* http://www.epicgames.com/
+* https://www.unity3d.com/
+* https://www.roblox.com/
+* http://www.roblox.com/
+* http://www.mmo-champion.com/
+* http://www.callofduty.com/
+* https://www.callofduty.com/
+* http://www.playstation.com/
+* https://www.playstation.com/
+* http://www.bulbagarden.net/
+* https://www.bulbagarden.net/
+* https://www.mmo-champion.com/
+* http://www.sporcle.com/
+* https://www.sporcle.com/
+* https://www.pcgamesn.com/
+* http://www.pcgamesn.com/
+* http://www.planetminecraft.com/
+* https://www.planetminecraft.com/
+* https://www.chess.com/
+* http://www.chess.com/
+* https://www.gamesradar.com/
+* https://www.games-workshop.com/
+* http://www.games-workshop.com/
+* http://www.gamesradar.com/
+* https://www.ign.com/
+* http://www.ign.com/
+
+Not accessible URLS
+-------------------
+* https://www.wizards.com/
+* http://www.store.steampowered.com/
+* https://www.store.steampowered.com/
+Report ID: 20200718T155308Z_AS4766_lDq1yQjmDtRlBDODZ4uWFocH2iCk4Z1uTwLMoidky8Bl6zWYGt

@@ -1,0 +1,1924 @@
+Starting Tor
+5%: Connecting to directory server
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+57%: Loading relay descriptors
+60%: Loading relay descriptors
+65%: Loading relay descriptors
+71%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for http://www.jw.org/
+* doing DNS query for www.jw.org
+
+Starting test for https://www.jw.org/
+* doing DNS query for www.jw.org
+
+Starting test for http://www.bbb.org/
+* doing DNS query for www.bbb.org
+
+Starting test for https://www.bbb.org/
+* doing DNS query for www.bbb.org
+* connecting to 184.25.25.74:443
+* connecting to 184.25.25.74:80
+* doing HTTP(s) request https://www.jw.org/
+* doing HTTP(s) request http://www.jw.org/
+* connecting to 216.52.119.101:443
+* connecting to 216.52.119.101:80
+* doing HTTP(s) request https://www.bbb.org/
+* doing HTTP(s) request http://www.bbb.org/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.jw.org/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nih.gov/
+* doing DNS query for www.nih.gov
+* connecting to 35.169.209.222:80
+* connecting to 52.72.169.229:80
+* performing control request with backend
+* doing HTTP(s) request http://www.nih.gov/
+
+Result for http://www.jw.org/
+-----------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nih.gov/
+* doing DNS query for www.nih.gov
+* connecting to 35.169.209.222:443
+* connecting to 52.72.169.229:443
+* doing HTTP(s) request https://www.nih.gov/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.bbb.org/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.esquire.com/
+* doing DNS query for www.esquire.com
+* connecting to 151.101.108.155:80
+* doing HTTP(s) request http://www.esquire.com/
+* performing control request with backend
+
+Result for http://www.bbb.org/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.esquire.com/
+* doing DNS query for www.esquire.com
+* connecting to 151.101.108.155:443
+* doing HTTP(s) request https://www.esquire.com/
+
+Status
+------
+1/100 completed
+1.0% (ETA: 29s)
+* performing control request with backend
+
+Result for https://www.nih.gov/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.biblehub.com/
+* doing DNS query for www.biblehub.com
+
+Status
+------
+2/100 completed
+2.0% (ETA: 53s)
+
+Result for http://www.nih.gov/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.biblehub.com/
+* doing DNS query for www.biblehub.com
+* connecting to 192.169.82.74:443
+* connecting to 192.169.82.74:80
+* doing HTTP(s) request http://www.biblehub.com/
+* doing HTTP(s) request https://www.biblehub.com/
+
+Result for http://www.esquire.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.aarp.org/
+* doing DNS query for www.aarp.org
+* connecting to 99.86.144.20:80
+* connecting to 99.86.144.98:80
+* connecting to 99.86.144.83:80
+* connecting to 99.86.144.76:80
+* doing HTTP(s) request http://www.aarp.org/
+
+Result for https://www.esquire.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.aarp.org/
+* doing DNS query for www.aarp.org
+* connecting to 99.86.144.20:443
+* connecting to 99.86.144.98:443
+* connecting to 99.86.144.83:443
+* connecting to 99.86.144.76:443
+* doing HTTP(s) request https://www.aarp.org/
+* performing control request with backend
+
+Status
+------
+3/100 completed
+3.0% (ETA: 60s)
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+4/100 completed
+4.0% (ETA: 77s)
+
+Status
+------
+5/100 completed
+5.0% (ETA: 91s)
+
+Status
+------
+6/100 completed
+6.0% (ETA: 106s)
+
+Result for http://www.aarp.org/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.menshealth.com/
+* doing DNS query for www.menshealth.com
+* connecting to 151.101.228.155:80
+* doing HTTP(s) request http://www.menshealth.com/
+
+Result for https://www.aarp.org/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.menshealth.com/
+* doing DNS query for www.menshealth.com
+* connecting to 151.101.228.155:443
+* doing HTTP(s) request https://www.menshealth.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+7/100 completed
+7.0% (ETA: 107s)
+
+Result for https://www.biblehub.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.match.com/
+* doing DNS query for www.match.com
+* connecting to 208.83.242.49:80
+* doing HTTP(s) request http://www.match.com/
+
+Status
+------
+8/100 completed
+8.0% (ETA: 113s)
+
+Result for https://www.menshealth.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.match.com/
+* doing DNS query for www.match.com
+* connecting to 208.83.242.49:443
+* doing HTTP(s) request https://www.match.com/
+
+Result for http://www.menshealth.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.interpals.net/
+* doing DNS query for www.interpals.net
+* connecting to 104.26.15.140:80
+* connecting to 172.67.74.94:80
+* connecting to 104.26.14.140:80
+* doing HTTP(s) request http://www.interpals.net/
+
+Result for http://www.biblehub.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.interpals.net/
+* doing DNS query for www.interpals.net
+* connecting to 104.26.14.140:443
+* connecting to 172.67.74.94:443
+* connecting to 104.26.15.140:443
+* doing HTTP(s) request https://www.interpals.net/
+* performing control request with backend
+
+Status
+------
+9/100 completed
+9.0% (ETA: 105s)
+
+Status
+------
+10/100 completed
+10.0% (ETA: 114s)
+
+Status
+------
+11/100 completed
+11.0% (ETA: 121s)
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.interpals.net/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.answers.yahoo.com/
+* doing DNS query for www.answers.yahoo.com
+
+Result for https://www.interpals.net/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.answers.yahoo.com/
+* doing DNS query for www.answers.yahoo.com
+* connecting to 124.108.115.74:443
+* connecting to 180.222.102.151:443
+* connecting to 124.108.115.74:80
+* connecting to 180.222.102.151:80
+* doing HTTP(s) request http://www.answers.yahoo.com/
+* doing HTTP(s) request https://www.answers.yahoo.com/
+
+Status
+------
+12/100 completed
+12.0% (ETA: 115s)
+
+Status
+------
+13/100 completed
+13.0% (ETA: 123s)
+
+Status
+------
+14/100 completed
+14.0% (ETA: 129s)
+* performing control request with backend
+
+Result for http://www.match.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for http://www.sulekha.com/
+* doing DNS query for www.sulekha.com
+* connecting to 52.170.100.84:80
+* performing control request with backend
+* doing HTTP(s) request http://www.sulekha.com/
+
+Status
+------
+15/100 completed
+15.0% (ETA: 125s)
+
+Status
+------
+16/100 completed
+16.0% (ETA: 129s)
+
+Result for https://www.match.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.sulekha.com/
+* doing DNS query for www.sulekha.com
+* connecting to 52.170.100.84:443
+* doing HTTP(s) request https://www.sulekha.com/
+
+Result for https://www.answers.yahoo.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.va.gov/
+* doing DNS query for www.va.gov
+
+Status
+------
+17/100 completed
+17.0% (ETA: 123s)
+* connecting to 152.133.106.221:80
+
+Result for http://www.answers.yahoo.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.va.gov/
+* doing DNS query for www.va.gov
+* connecting to 152.133.106.221:443
+* doing HTTP(s) request http://www.va.gov/
+* doing HTTP(s) request https://www.va.gov/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+18/100 completed
+18.0% (ETA: 122s)
+
+Status
+------
+19/100 completed
+19.0% (ETA: 124s)
+
+Status
+------
+20/100 completed
+20.0% (ETA: 124s)
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.sulekha.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.change.org/
+* doing DNS query for www.change.org
+* connecting to 104.17.89.51:80
+* connecting to 104.17.88.51:80
+* doing HTTP(s) request http://www.change.org/
+
+Result for http://www.sulekha.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.change.org/
+* doing DNS query for www.change.org
+* connecting to 104.17.89.51:443
+* connecting to 104.17.88.51:443
+* doing HTTP(s) request https://www.change.org/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.va.gov/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.biblegateway.com/
+* doing DNS query for www.biblegateway.com
+* connecting to 99.86.144.106:80
+* connecting to 99.86.144.53:80
+* connecting to 99.86.144.88:80
+* connecting to 99.86.144.52:80
+* doing HTTP(s) request http://www.biblegateway.com/
+
+Result for http://www.change.org/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.biblegateway.com/
+* doing DNS query for www.biblegateway.com
+* connecting to 99.86.144.52:443
+* connecting to 99.86.144.88:443
+* connecting to 99.86.144.53:443
+* connecting to 99.86.144.106:443
+* doing HTTP(s) request https://www.biblegateway.com/
+
+Result for https://www.change.org/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ato.gov.au/
+* doing DNS query for www.ato.gov.au
+
+Status
+------
+21/100 completed
+21.0% (ETA: 104s)
+
+Status
+------
+22/100 completed
+22.0% (ETA: 108s)
+* connecting to 182.162.56.195:80
+* doing HTTP(s) request http://www.ato.gov.au/
+* performing control request with backend
+
+Result for http://www.va.gov/
+-----------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ato.gov.au/
+* doing DNS query for www.ato.gov.au
+* connecting to 182.162.56.195:443
+* performing control request with backend
+* doing HTTP(s) request https://www.ato.gov.au/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+23/100 completed
+23.0% (ETA: 108s)
+
+Result for http://www.biblegateway.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.auspost.com.au/
+* doing DNS query for www.auspost.com.au
+
+Result for http://www.ato.gov.au/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.auspost.com.au/
+* doing DNS query for www.auspost.com.au
+
+Result for https://www.ato.gov.au/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.legacy.com/
+* doing DNS query for www.legacy.com
+* connecting to 104.17.189.220:80
+* connecting to 104.17.187.220:80
+* connecting to 104.17.185.220:80
+* connecting to 104.17.188.220:80
+* connecting to 104.17.186.220:80
+* doing HTTP(s) request http://www.legacy.com/
+* connecting to 99.86.145.54:443
+* connecting to 99.86.145.54:80
+* doing HTTP(s) request http://www.auspost.com.au/
+* doing HTTP(s) request https://www.auspost.com.au/
+
+Result for https://www.biblegateway.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.legacy.com/
+* doing DNS query for www.legacy.com
+* connecting to 104.17.189.220:443
+* connecting to 104.17.187.220:443
+* connecting to 104.17.185.220:443
+* connecting to 104.17.188.220:443
+* connecting to 104.17.186.220:443
+* doing HTTP(s) request https://www.legacy.com/
+
+Status
+------
+24/100 completed
+24.0% (ETA: 102s)
+
+Status
+------
+25/100 completed
+25.0% (ETA: 104s)
+
+Status
+------
+26/100 completed
+26.0% (ETA: 106s)
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+27/100 completed
+27.0% (ETA: 105s)
+
+Status
+------
+28/100 completed
+28.0% (ETA: 106s)
+
+Status
+------
+29/100 completed
+29.0% (ETA: 108s)
+
+Status
+------
+30/100 completed
+30.0% (ETA: 110s)
+
+Result for https://www.legacy.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ec.europa.eu/
+* doing DNS query for www.ec.europa.eu
+* connecting to 147.67.34.30:80
+* connecting to 147.67.210.30:80
+
+Result for http://www.legacy.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ec.europa.eu/
+* doing DNS query for www.ec.europa.eu
+* connecting to 147.67.34.30:443
+* connecting to 147.67.210.30:443
+* doing HTTP(s) request http://www.ec.europa.eu/
+* doing HTTP(s) request https://www.ec.europa.eu/
+
+Result for http://www.auspost.com.au/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.weforum.org/
+* doing DNS query for www.weforum.org
+
+Status
+------
+31/100 completed
+31.0% (ETA: 101s)
+* connecting to 202.43.54.60:80
+* doing HTTP(s) request http://www.weforum.org/
+
+Status
+------
+32/100 completed
+32.0% (ETA: 102s)
+
+Result for https://www.auspost.com.au/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.weforum.org/
+* doing DNS query for www.weforum.org
+* connecting to 202.43.54.60:443
+* performing control request with backend
+* doing HTTP(s) request https://www.weforum.org/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.ec.europa.eu/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.justice.gov/
+* doing DNS query for www.justice.gov
+* connecting to 104.76.79.30:80
+* doing HTTP(s) request http://www.justice.gov/
+
+Result for http://www.ec.europa.eu/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.justice.gov/
+* doing DNS query for www.justice.gov
+* connecting to 104.76.79.30:443
+* doing HTTP(s) request https://www.justice.gov/
+* performing control request with backend
+
+Result for https://www.weforum.org/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.sec.gov/
+* doing DNS query for www.sec.gov
+* performing control request with backend
+* connecting to 184.25.84.106:80
+* doing HTTP(s) request http://www.sec.gov/
+
+Result for http://www.weforum.org/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.sec.gov/
+* doing DNS query for www.sec.gov
+* connecting to 184.25.84.106:443
+* doing HTTP(s) request https://www.sec.gov/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.sec.gov/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.hi5.com/
+* doing DNS query for www.hi5.com
+
+Status
+------
+33/100 completed
+33.0% (ETA: 90s)
+* connecting to 135.84.35.167:80
+
+Result for http://www.sec.gov/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.hi5.com/
+* doing DNS query for www.hi5.com
+* connecting to 135.84.35.167:443
+* doing HTTP(s) request http://www.hi5.com/
+* doing HTTP(s) request https://www.hi5.com/
+
+Status
+------
+34/100 completed
+34.0% (ETA: 91s)
+
+Status
+------
+35/100 completed
+35.0% (ETA: 92s)
+* performing control request with backend
+
+Result for https://www.justice.gov/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.alrajhibank.com.sa/
+* doing DNS query for www.alrajhibank.com.sa
+
+Result for http://www.justice.gov/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.alrajhibank.com.sa/
+* doing DNS query for www.alrajhibank.com.sa
+* performing control request with backend
+
+Status
+------
+36/100 completed
+36.0% (ETA: 91s)
+
+Status
+------
+37/100 completed
+37.0% (ETA: 91s)
+
+Status
+------
+38/100 completed
+38.0% (ETA: 91s)
+
+Status
+------
+39/100 completed
+39.0% (ETA: 91s)
+
+Status
+------
+40/100 completed
+40.0% (ETA: 92s)
+
+Result for https://www.hi5.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.complex.com/
+* doing DNS query for www.complex.com
+* connecting to 151.101.110.133:80
+* doing HTTP(s) request http://www.complex.com/
+
+Status
+------
+41/100 completed
+41.0% (ETA: 91s)
+* connecting to 193.19.90.20:443
+* connecting to 193.19.90.20:80
+
+Status
+------
+42/100 completed
+42.0% (ETA: 91s)
+
+Result for http://www.hi5.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.complex.com/
+* doing DNS query for www.complex.com
+* connecting to 151.101.110.133:443
+* doing HTTP(s) request https://www.complex.com/
+* doing HTTP(s) request http://www.alrajhibank.com.sa/
+* doing HTTP(s) request https://www.alrajhibank.com.sa/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+43/100 completed
+43.0% (ETA: 88s)
+
+Result for http://www.complex.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.post.japanpost.jp/
+* doing DNS query for www.post.japanpost.jp
+
+Status
+------
+44/100 completed
+44.0% (ETA: 88s)
+* connecting to 43.253.48.17:80
+
+Result for https://www.complex.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.post.japanpost.jp/
+* doing DNS query for www.post.japanpost.jp
+* connecting to 43.253.48.17:443
+* doing HTTP(s) request http://www.post.japanpost.jp/
+* doing HTTP(s) request https://www.post.japanpost.jp/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.post.japanpost.jp/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.fao.org/
+* doing DNS query for www.fao.org
+* connecting to 104.18.22.5:80
+* connecting to 104.18.23.5:80
+* doing HTTP(s) request http://www.fao.org/
+* performing control request with backend
+
+Status
+------
+45/100 completed
+45.0% (ETA: 68s)
+* performing control request with backend
+
+Result for http://www.fao.org/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.fao.org/
+* doing DNS query for www.fao.org
+* connecting to 104.18.22.5:443
+* connecting to 104.18.23.5:443
+* doing HTTP(s) request https://www.fao.org/
+* performing control request with backend
+
+Result for http://www.post.japanpost.jp/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.digg.com/
+* doing DNS query for www.digg.com
+* connecting to 172.67.33.204:80
+* connecting to 104.20.9.174:80
+* connecting to 104.20.10.174:80
+
+Result for https://www.fao.org/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.digg.com/
+* doing DNS query for www.digg.com
+* connecting to 104.20.10.174:443
+* connecting to 104.20.9.174:443
+* connecting to 172.67.33.204:443
+* doing HTTP(s) request http://www.digg.com/
+
+Status
+------
+46/100 completed
+46.0% (ETA: 64s)
+* doing HTTP(s) request https://www.digg.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.alrajhibank.com.sa/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.unesco.org/
+* doing DNS query for www.unesco.org
+
+Status
+------
+47/100 completed
+47.0% (ETA: 62s)
+* connecting to 193.242.192.41:80
+
+Result for https://www.digg.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.unesco.org/
+* doing DNS query for www.unesco.org
+* connecting to 193.242.192.41:443
+* doing HTTP(s) request http://www.unesco.org/
+
+Result for http://www.digg.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.theknot.com/
+* doing DNS query for www.theknot.com
+* connecting to 104.16.209.249:80
+* connecting to 104.16.208.249:80
+* doing HTTP(s) request http://www.theknot.com/
+
+Status
+------
+48/100 completed
+48.0% (ETA: 61s)
+* performing control request with backend
+
+Result for http://www.theknot.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.theknot.com/
+* doing DNS query for www.theknot.com
+* connecting to 104.16.208.249:443
+* connecting to 104.16.209.249:443
+* doing HTTP(s) request https://www.theknot.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.alrajhibank.com.sa/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.slate.com/
+* doing DNS query for www.slate.com
+* connecting to 151.101.53.131:80
+* doing HTTP(s) request http://www.slate.com/
+
+Result for https://www.theknot.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+* performing control request with backend
+
+Status
+------
+49/100 completed
+49.0% (ETA: 58s)
+
+Starting test for https://www.slate.com/
+* doing DNS query for www.slate.com
+* connecting to 151.101.53.131:443
+* doing HTTP(s) request https://www.slate.com/
+
+Status
+------
+50/100 completed
+50.0% (ETA: 58s)
+
+Status
+------
+51/100 completed
+51.0% (ETA: 57s)
+
+Result for http://www.unesco.org/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.familysearch.org/
+* doing DNS query for www.familysearch.org
+* connecting to 99.84.238.94:80
+* connecting to 99.84.238.97:80
+* connecting to 99.84.238.96:80
+* connecting to 99.84.238.55:80
+* doing HTTP(s) request http://www.familysearch.org/
+
+Result for http://www.slate.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.familysearch.org/
+* doing DNS query for www.familysearch.org
+* connecting to 99.84.238.94:443
+* connecting to 99.84.238.97:443
+* connecting to 99.84.238.96:443
+* connecting to 99.84.238.55:443
+
+Status
+------
+52/100 completed
+52.0% (ETA: 57s)
+* doing HTTP(s) request https://www.familysearch.org/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+53/100 completed
+53.0% (ETA: 55s)
+* performing control request with backend
+
+Status
+------
+54/100 completed
+54.0% (ETA: 54s)
+
+Status
+------
+55/100 completed
+55.0% (ETA: 54s)
+
+Result for https://www.slate.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.royalmail.com/
+* doing DNS query for www.royalmail.com
+* connecting to 77.95.81.226:80
+* doing HTTP(s) request http://www.royalmail.com/
+
+Result for https://www.familysearch.org/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.royalmail.com/
+* doing DNS query for www.royalmail.com
+* connecting to 77.95.81.226:443
+
+Result for http://www.familysearch.org/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.who.int/
+* doing DNS query for www.who.int
+* doing HTTP(s) request https://www.royalmail.com/
+* connecting to 99.84.238.17:80
+* connecting to 99.84.238.68:80
+* connecting to 99.84.238.85:80
+* connecting to 99.84.238.39:80
+* doing HTTP(s) request http://www.who.int/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.who.int/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.who.int/
+* doing DNS query for www.who.int
+* connecting to 99.84.238.17:443
+* connecting to 99.84.238.68:443
+* connecting to 99.84.238.85:443
+* connecting to 99.84.238.39:443
+
+Status
+------
+56/100 completed
+56.0% (ETA: 50s)
+* doing HTTP(s) request https://www.who.int/
+
+Result for https://www.royalmail.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ssa.gov/
+* doing DNS query for www.ssa.gov
+* performing control request with backend
+
+Status
+------
+57/100 completed
+57.0% (ETA: 50s)
+* connecting to 137.200.39.19:80
+
+Status
+------
+58/100 completed
+58.0% (ETA: 49s)
+
+Result for http://www.royalmail.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ssa.gov/
+* doing DNS query for www.ssa.gov
+* connecting to 137.200.39.19:443
+* doing HTTP(s) request http://www.ssa.gov/
+* doing HTTP(s) request https://www.ssa.gov/
+
+Status
+------
+59/100 completed
+59.0% (ETA: 49s)
+
+Status
+------
+60/100 completed
+60.0% (ETA: 48s)
+
+Result for https://www.who.int/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.salon.com/
+* doing DNS query for www.salon.com
+* connecting to 104.16.246.94:80
+* connecting to 104.16.245.94:80
+* doing HTTP(s) request http://www.salon.com/
+
+Status
+------
+61/100 completed
+61.0% (ETA: 47s)
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+62/100 completed
+62.0% (ETA: 46s)
+
+Status
+------
+63/100 completed
+63.0% (ETA: 46s)
+
+Status
+------
+64/100 completed
+64.0% (ETA: 45s)
+
+Result for http://www.salon.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.salon.com/
+* doing DNS query for www.salon.com
+* connecting to 104.16.245.94:443
+* connecting to 104.16.246.94:443
+* doing HTTP(s) request https://www.salon.com/
+* performing control request with backend
+
+Status
+------
+65/100 completed
+65.0% (ETA: 44s)
+
+Result for https://www.salon.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.correios.com.br/
+* doing DNS query for www.correios.com.br
+
+Status
+------
+66/100 completed
+66.0% (ETA: 42s)
+* connecting to 201.48.198.24:80
+* doing HTTP(s) request http://www.correios.com.br/
+
+Result for https://www.ssa.gov/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.correios.com.br/
+* doing DNS query for www.correios.com.br
+* connecting to 201.48.198.24:443
+* doing HTTP(s) request https://www.correios.com.br/
+
+Status
+------
+67/100 completed
+67.0% (ETA: 41s)
+* doing HTTP(s) request https://www.unesco.org/
+* performing control request with backend
+
+Status
+------
+68/100 completed
+68.0% (ETA: 40s)
+* performing control request with backend
+
+Result for http://www.ssa.gov/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.irs.gov/
+* doing DNS query for www.irs.gov
+* connecting to 23.47.176.91:80
+* doing HTTP(s) request http://www.irs.gov/
+* performing control request with backend
+
+Status
+------
+69/100 completed
+69.0% (ETA: 38s)
+
+Result for http://www.correios.com.br/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.irs.gov/
+* doing DNS query for www.irs.gov
+* connecting to 23.47.176.91:443
+* doing HTTP(s) request https://www.irs.gov/
+* performing control request with backend
+
+Result for https://www.correios.com.br/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.creativecommons.org/
+* doing DNS query for www.creativecommons.org
+* connecting to 172.67.34.140:80
+* connecting to 104.20.151.16:80
+* connecting to 104.20.150.16:80
+* doing HTTP(s) request http://www.creativecommons.org/
+
+Status
+------
+70/100 completed
+70.0% (ETA: 35s)
+* performing control request with backend
+
+Status
+------
+71/100 completed
+71.0% (ETA: 34s)
+
+Result for http://www.irs.gov/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.creativecommons.org/
+* doing DNS query for www.creativecommons.org
+* connecting to 104.20.150.16:443
+* connecting to 104.20.151.16:443
+* connecting to 172.67.34.140:443
+* doing HTTP(s) request https://www.creativecommons.org/
+
+Result for http://www.creativecommons.org/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.patreon.com/
+* doing DNS query for www.patreon.com
+* connecting to 104.16.6.49:80
+* connecting to 104.16.7.49:80
+* doing HTTP(s) request http://www.patreon.com/
+
+Result for https://www.irs.gov/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.patreon.com/
+* doing DNS query for www.patreon.com
+* connecting to 104.16.7.49:443
+* connecting to 104.16.6.49:443
+* doing HTTP(s) request https://www.patreon.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+72/100 completed
+72.0% (ETA: 32s)
+
+Status
+------
+73/100 completed
+73.0% (ETA: 32s)
+
+Result for http://www.patreon.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.soompi.com/
+* doing DNS query for www.soompi.com
+* connecting to 172.217.175.115:80
+* doing HTTP(s) request http://www.soompi.com/
+
+Result for https://www.patreon.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.soompi.com/
+* doing DNS query for www.soompi.com
+* connecting to 172.217.175.115:443
+
+Status
+------
+74/100 completed
+74.0% (ETA: 31s)
+* doing HTTP(s) request https://www.soompi.com/
+* performing control request with backend
+
+Result for https://www.creativecommons.org/
+-------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.cosmopolitan.com/
+* doing DNS query for www.cosmopolitan.com
+* connecting to 151.101.108.155:80
+* performing control request with backend
+* doing HTTP(s) request http://www.cosmopolitan.com/
+* performing control request with backend
+
+Status
+------
+75/100 completed
+75.0% (ETA: 29s)
+
+Result for https://www.soompi.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.cosmopolitan.com/
+* doing DNS query for www.cosmopolitan.com
+* connecting to 151.101.108.155:443
+* doing HTTP(s) request https://www.cosmopolitan.com/
+* performing control request with backend
+
+Status
+------
+76/100 completed
+76.0% (ETA: 28s)
+
+Result for http://www.cosmopolitan.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.worldbank.org/
+* doing DNS query for www.worldbank.org
+* connecting to 99.86.144.68:80
+* connecting to 99.86.144.14:80
+* connecting to 99.86.144.116:80
+* connecting to 99.86.144.47:80
+* doing HTTP(s) request http://www.worldbank.org/
+* performing control request with backend
+
+Result for http://www.soompi.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.worldbank.org/
+* doing DNS query for www.worldbank.org
+* connecting to 99.86.144.68:443
+* connecting to 99.86.144.14:443
+* connecting to 99.86.144.116:443
+* connecting to 99.86.144.47:443
+* doing HTTP(s) request https://www.worldbank.org/
+* performing control request with backend
+
+Status
+------
+77/100 completed
+77.0% (ETA: 27s)
+
+Result for https://www.cosmopolitan.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ancestry.com/
+* doing DNS query for www.ancestry.com
+* connecting to 45.60.157.132:80
+* doing HTTP(s) request http://www.ancestry.com/
+
+Result for http://www.worldbank.org/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ancestry.com/
+* doing DNS query for www.ancestry.com
+* connecting to 45.60.157.132:443
+* doing HTTP(s) request https://www.ancestry.com/
+
+Status
+------
+78/100 completed
+78.0% (ETA: 26s)
+
+Result for https://www.worldbank.org/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.infowars.com/
+* doing DNS query for www.infowars.com
+* connecting to 104.16.250.6:80
+* connecting to 104.16.184.40:80
+* doing HTTP(s) request http://www.infowars.com/
+
+Status
+------
+79/100 completed
+79.0% (ETA: 25s)
+* performing control request with backend
+
+Status
+------
+80/100 completed
+80.0% (ETA: 24s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+81/100 completed
+81.0% (ETA: 23s)
+
+Status
+------
+82/100 completed
+82.0% (ETA: 22s)
+
+Status
+------
+83/100 completed
+83.0% (ETA: 21s)
+
+Result for http://www.infowars.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.infowars.com/
+* doing DNS query for www.infowars.com
+* connecting to 104.16.184.40:443
+* connecting to 104.16.250.6:443
+* doing HTTP(s) request https://www.infowars.com/
+
+Result for https://www.ancestry.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.snopes.com/
+* doing DNS query for www.snopes.com
+* connecting to 99.86.144.10:80
+* connecting to 99.86.144.69:80
+* connecting to 99.86.144.34:80
+* connecting to 99.86.144.14:80
+* doing HTTP(s) request http://www.snopes.com/
+
+Result for http://www.ancestry.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.snopes.com/
+* doing DNS query for www.snopes.com
+* connecting to 99.86.144.10:443
+* connecting to 99.86.144.69:443
+* connecting to 99.86.144.34:443
+* connecting to 99.86.144.14:443
+* doing HTTP(s) request https://www.snopes.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+84/100 completed
+84.0% (ETA: 19s)
+
+Status
+------
+85/100 completed
+85.0% (ETA: 18s)
+
+Status
+------
+86/100 completed
+86.0% (ETA: 17s)
+
+Result for https://www.infowars.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.collegeboard.org/
+* doing DNS query for www.collegeboard.org
+* connecting to 23.33.150.217:80
+* doing HTTP(s) request http://www.collegeboard.org/
+Error performing HTTP request: https://www.unesco.org/
+* performing control request with backend
+
+Result for http://www.collegeboard.org/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.collegeboard.org/
+* doing DNS query for www.collegeboard.org
+* connecting to 23.33.150.217:443
+* doing HTTP(s) request https://www.collegeboard.org/
+* performing control request with backend
+
+Result for https://www.snopes.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.europa.eu/
+* doing DNS query for www.europa.eu
+
+Status
+------
+87/100 completed
+87.0% (ETA: 16s)
+* connecting to 147.67.34.25:80
+* connecting to 147.67.210.25:80
+
+Result for https://www.collegeboard.org/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.europa.eu/
+* doing DNS query for www.europa.eu
+* connecting to 147.67.34.25:443
+* connecting to 147.67.210.25:443
+* doing HTTP(s) request http://www.europa.eu/
+
+Status
+------
+88/100 completed
+88.0% (ETA: 14s)
+* doing HTTP(s) request https://www.europa.eu/
+
+Status
+------
+89/100 completed
+89.0% (ETA: 13s)
+
+Status
+------
+90/100 completed
+90.0% (ETA: 12s)
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.europa.eu/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.un.org/
+* doing DNS query for www.un.org
+
+Result for http://www.snopes.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.un.org/
+* doing DNS query for www.un.org
+* connecting to 157.150.185.49:443
+* connecting to 157.150.185.49:80
+* doing HTTP(s) request https://www.un.org/
+* doing HTTP(s) request http://www.un.org/
+
+Result for http://www.europa.eu/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.state.gov/
+* doing DNS query for www.state.gov
+* connecting to 104.74.203.230:80
+* doing HTTP(s) request http://www.state.gov/
+* performing control request with backend
+
+Status
+------
+91/100 completed
+91.0% (ETA: 11s)
+* performing control request with backend
+
+Status
+------
+92/100 completed
+92.0% (ETA: 9s)
+* performing control request with backend
+
+Result for http://www.state.gov/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.state.gov/
+* doing DNS query for www.state.gov
+* connecting to 104.74.203.230:443
+* doing HTTP(s) request https://www.state.gov/
+* performing control request with backend
+
+Status
+------
+93/100 completed
+93.0% (ETA: 8s)
+
+Result for https://www.un.org/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.expatriates.com/
+* doing DNS query for www.expatriates.com
+* connecting to 104.17.82.49:80
+* connecting to 104.17.96.47:80
+* doing HTTP(s) request http://www.expatriates.com/
+* performing control request with backend
+
+Result for https://www.state.gov/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.expatriates.com/
+* doing DNS query for www.expatriates.com
+* connecting to 104.17.96.47:443
+* connecting to 104.17.82.49:443
+* doing HTTP(s) request https://www.expatriates.com/
+
+Result for http://www.un.org/
+-----------------------------
+* No blocking detected
+* Is accessible
+
+* performing control request with backend
+
+Result for http://www.expatriates.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+94/100 completed
+94.0% (ETA: 7s)
+
+Result for https://www.expatriates.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+95/100 completed
+95.0% (ETA: 6s)
+
+Status
+------
+96/100 completed
+96.0% (ETA: 4s)
+
+Status
+------
+97/100 completed
+97.0% (ETA: 3s)
+
+Status
+------
+98/100 completed
+98.0% (ETA: 2s)
+
+Status
+------
+99/100 completed
+99.0% (ETA: 1s)
+Error performing HTTP request: https://www.unesco.org/
+Error performing HTTP request: https://www.unesco.org/
+Failed to perform HTTP request connection_refused_error
+* performing control request with backend
+
+Result for https://www.unesco.org/
+----------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Status
+------
+100/100 completed
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Accessible URLS
+---------------
+* https://www.jw.org/
+* http://www.jw.org/
+* https://www.bbb.org/
+* http://www.bbb.org/
+* https://www.nih.gov/
+* http://www.nih.gov/
+* http://www.esquire.com/
+* https://www.esquire.com/
+* http://www.aarp.org/
+* https://www.aarp.org/
+* https://www.biblehub.com/
+* https://www.menshealth.com/
+* http://www.menshealth.com/
+* http://www.biblehub.com/
+* http://www.interpals.net/
+* https://www.interpals.net/
+* https://www.match.com/
+* https://www.answers.yahoo.com/
+* http://www.answers.yahoo.com/
+* https://www.sulekha.com/
+* http://www.sulekha.com/
+* https://www.va.gov/
+* http://www.change.org/
+* https://www.change.org/
+* http://www.va.gov/
+* http://www.biblegateway.com/
+* http://www.ato.gov.au/
+* https://www.ato.gov.au/
+* https://www.biblegateway.com/
+* https://www.legacy.com/
+* http://www.legacy.com/
+* http://www.auspost.com.au/
+* https://www.auspost.com.au/
+* https://www.ec.europa.eu/
+* http://www.ec.europa.eu/
+* https://www.weforum.org/
+* http://www.weforum.org/
+* https://www.sec.gov/
+* http://www.sec.gov/
+* https://www.justice.gov/
+* http://www.justice.gov/
+* https://www.hi5.com/
+* http://www.hi5.com/
+* http://www.complex.com/
+* https://www.complex.com/
+* https://www.post.japanpost.jp/
+* http://www.fao.org/
+* http://www.post.japanpost.jp/
+* https://www.fao.org/
+* https://www.alrajhibank.com.sa/
+* https://www.digg.com/
+* http://www.digg.com/
+* http://www.theknot.com/
+* http://www.alrajhibank.com.sa/
+* https://www.theknot.com/
+* http://www.unesco.org/
+* http://www.slate.com/
+* https://www.slate.com/
+* https://www.familysearch.org/
+* http://www.familysearch.org/
+* http://www.who.int/
+* https://www.royalmail.com/
+* http://www.royalmail.com/
+* https://www.who.int/
+* http://www.salon.com/
+* https://www.salon.com/
+* https://www.ssa.gov/
+* http://www.ssa.gov/
+* http://www.correios.com.br/
+* https://www.correios.com.br/
+* http://www.irs.gov/
+* http://www.creativecommons.org/
+* https://www.irs.gov/
+* http://www.patreon.com/
+* https://www.patreon.com/
+* https://www.creativecommons.org/
+* https://www.soompi.com/
+* http://www.cosmopolitan.com/
+* http://www.soompi.com/
+* https://www.cosmopolitan.com/
+* http://www.worldbank.org/
+* https://www.worldbank.org/
+* http://www.infowars.com/
+* https://www.ancestry.com/
+* http://www.ancestry.com/
+* https://www.infowars.com/
+* http://www.collegeboard.org/
+* https://www.snopes.com/
+* https://www.collegeboard.org/
+* https://www.europa.eu/
+* http://www.snopes.com/
+* http://www.europa.eu/
+* http://www.state.gov/
+* https://www.un.org/
+* https://www.state.gov/
+* http://www.un.org/
+* http://www.expatriates.com/
+* https://www.expatriates.com/
+
+Not accessible URLS
+-------------------
+* http://www.match.com/
+* https://www.unesco.org/
+
+URLS possibly blocked due to dns
+--------------------------------
+* http://www.match.com/
+Report ID: 20200718T175206Z_AS4766_87K2hHqwhocLWu5SaQmrhbhr1Nl2BQwmPTVlDmzEdbNr6Noq5O

@@ -1,0 +1,1951 @@
+Starting Tor
+5%: Connecting to directory server
+5%: Connecting to directory server
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+57%: Loading relay descriptors
+60%: Loading relay descriptors
+65%: Loading relay descriptors
+71%: Loading relay descriptors
+78%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for http://www.timeanddate.com/
+* doing DNS query for www.timeanddate.com
+
+Starting test for https://www.timeanddate.com/
+* doing DNS query for www.timeanddate.com
+
+Starting test for http://www.italki.com/
+* doing DNS query for www.italki.com
+
+Starting test for https://www.italki.com/
+* doing DNS query for www.italki.com
+* connecting to 151.101.109.176:443
+* connecting to 151.101.109.176:80
+* connecting to 99.86.144.62:443
+* connecting to 99.86.144.26:443
+* connecting to 99.86.144.78:443
+* connecting to 99.86.144.101:443
+* connecting to 99.86.144.62:80
+* connecting to 99.86.144.26:80
+* connecting to 99.86.144.78:80
+* connecting to 99.86.144.101:80
+* doing HTTP(s) request https://www.italki.com/
+* doing HTTP(s) request http://www.italki.com/
+* doing HTTP(s) request http://www.timeanddate.com/
+* doing HTTP(s) request https://www.timeanddate.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.timeanddate.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.autodesk.com/
+* doing DNS query for www.autodesk.com
+* connecting to 104.74.226.100:80
+* doing HTTP(s) request http://www.autodesk.com/
+
+Result for http://www.italki.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.autodesk.com/
+* doing DNS query for www.autodesk.com
+* connecting to 104.74.226.100:443
+* doing HTTP(s) request https://www.autodesk.com/
+* performing control request with backend
+
+Result for https://www.italki.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.cointelegraph.com/
+* doing DNS query for www.cointelegraph.com
+* connecting to 104.20.40.71:80
+* connecting to 172.67.18.64:80
+* connecting to 104.20.39.71:80
+* doing HTTP(s) request http://www.cointelegraph.com/
+* performing control request with backend
+
+Result for http://www.timeanddate.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.cointelegraph.com/
+* doing DNS query for www.cointelegraph.com
+* connecting to 104.20.39.71:443
+* connecting to 172.67.18.64:443
+* connecting to 104.20.40.71:443
+* doing HTTP(s) request https://www.cointelegraph.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.autodesk.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.usgs.gov/
+* doing DNS query for www.usgs.gov
+* connecting to 99.86.144.40:80
+* connecting to 99.86.144.104:80
+* connecting to 99.86.144.45:80
+* connecting to 99.86.144.28:80
+* doing HTTP(s) request http://www.usgs.gov/
+
+Status
+------
+1/100 completed
+1.0% (ETA: 25s)
+
+Status
+------
+2/100 completed
+2.0% (ETA: 49s)
+
+Result for http://www.autodesk.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.usgs.gov/
+* doing DNS query for www.usgs.gov
+* connecting to 99.86.144.40:443
+* connecting to 99.86.144.104:443
+* connecting to 99.86.144.45:443
+* connecting to 99.86.144.28:443
+* doing HTTP(s) request https://www.usgs.gov/
+* performing control request with backend
+
+Status
+------
+3/100 completed
+3.0% (ETA: 66s)
+
+Status
+------
+4/100 completed
+4.0% (ETA: 87s)
+* performing control request with backend
+
+Result for http://www.cointelegraph.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.duolingo.com/
+* doing DNS query for www.duolingo.com
+* connecting to 54.81.215.168:80
+* connecting to 52.201.100.33:80
+* connecting to 54.89.23.229:80
+* connecting to 52.203.121.79:80
+* connecting to 34.194.227.229:80
+* connecting to 54.209.183.192:80
+* connecting to 54.156.185.212:80
+* connecting to 52.73.158.170:80
+* doing HTTP(s) request http://www.duolingo.com/
+
+Result for https://www.cointelegraph.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.duolingo.com/
+* doing DNS query for www.duolingo.com
+* connecting to 52.73.158.170:443
+* connecting to 54.156.185.212:443
+* connecting to 54.209.183.192:443
+* connecting to 34.194.227.229:443
+* connecting to 52.203.121.79:443
+* connecting to 54.89.23.229:443
+* connecting to 52.201.100.33:443
+* connecting to 54.81.215.168:443
+* doing HTTP(s) request https://www.duolingo.com/
+
+Result for http://www.usgs.gov/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.economist.com/
+* doing DNS query for www.economist.com
+* connecting to 45.60.55.108:80
+* doing HTTP(s) request http://www.economist.com/
+* performing control request with backend
+
+Result for https://www.usgs.gov/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.economist.com/
+* doing DNS query for www.economist.com
+* connecting to 45.60.55.108:443
+* doing HTTP(s) request https://www.economist.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+5/100 completed
+5.0% (ETA: 69s)
+
+Status
+------
+6/100 completed
+6.0% (ETA: 80s)
+
+Result for http://www.duolingo.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.mathworks.com/
+* doing DNS query for www.mathworks.com
+* connecting to 202.43.50.12:80
+* doing HTTP(s) request http://www.mathworks.com/
+* performing control request with backend
+
+Result for https://www.economist.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.mathworks.com/
+* doing DNS query for www.mathworks.com
+* connecting to 202.43.50.12:443
+* doing HTTP(s) request https://www.mathworks.com/
+
+Status
+------
+7/100 completed
+7.0% (ETA: 83s)
+* performing control request with backend
+
+Result for http://www.economist.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.researchgate.net/
+* doing DNS query for www.researchgate.net
+* connecting to 104.17.33.105:80
+* connecting to 104.17.32.105:80
+* doing HTTP(s) request http://www.researchgate.net/
+* performing control request with backend
+
+Result for https://www.duolingo.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.researchgate.net/
+* doing DNS query for www.researchgate.net
+* connecting to 104.17.32.105:443
+* connecting to 104.17.33.105:443
+* doing HTTP(s) request https://www.researchgate.net/
+* performing control request with backend
+
+Status
+------
+8/100 completed
+8.0% (ETA: 86s)
+
+Result for http://www.mathworks.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.biomedcentral.com/
+* doing DNS query for www.biomedcentral.com
+* connecting to 151.101.228.95:80
+* doing HTTP(s) request http://www.biomedcentral.com/
+
+Result for https://www.mathworks.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+9/100 completed
+9.0% (ETA: 88s)
+
+Starting test for https://www.biomedcentral.com/
+* doing DNS query for www.biomedcentral.com
+* connecting to 151.101.228.95:443
+* doing HTTP(s) request https://www.biomedcentral.com/
+* performing control request with backend
+
+Result for http://www.researchgate.net/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+10/100 completed
+10.0% (ETA: 95s)
+
+Starting test for http://www.sciencemag.org/
+* doing DNS query for www.sciencemag.org
+* performing control request with backend
+
+Status
+------
+11/100 completed
+11.0% (ETA: 103s)
+* connecting to 52.8.149.57:80
+* connecting to 54.177.116.136:80
+
+Status
+------
+12/100 completed
+12.0% (ETA: 109s)
+* doing HTTP(s) request http://www.sciencemag.org/
+
+Result for https://www.researchgate.net/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.sciencemag.org/
+* doing DNS query for www.sciencemag.org
+* connecting to 52.8.149.57:443
+* connecting to 54.177.116.136:443
+* doing HTTP(s) request https://www.sciencemag.org/
+
+Status
+------
+13/100 completed
+13.0% (ETA: 114s)
+
+Status
+------
+14/100 completed
+14.0% (ETA: 119s)
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.biomedcentral.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.livescience.com/
+* doing DNS query for www.livescience.com
+* connecting to 185.113.25.56:80
+
+Result for http://www.biomedcentral.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.livescience.com/
+* doing DNS query for www.livescience.com
+* connecting to 185.113.25.56:443
+* doing HTTP(s) request http://www.livescience.com/
+
+Status
+------
+15/100 completed
+15.0% (ETA: 114s)
+* doing HTTP(s) request https://www.livescience.com/
+
+Status
+------
+16/100 completed
+16.0% (ETA: 119s)
+
+Status
+------
+17/100 completed
+17.0% (ETA: 124s)
+
+Status
+------
+18/100 completed
+18.0% (ETA: 127s)
+
+Result for https://www.sciencemag.org/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.elsevier.com/
+* doing DNS query for www.elsevier.com
+* performing control request with backend
+* connecting to 203.82.24.7:80
+* doing HTTP(s) request http://www.elsevier.com/
+
+Result for http://www.sciencemag.org/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.elsevier.com/
+* doing DNS query for www.elsevier.com
+* connecting to 203.82.24.7:443
+* doing HTTP(s) request https://www.elsevier.com/
+* performing control request with backend
+
+Status
+------
+19/100 completed
+19.0% (ETA: 120s)
+
+Status
+------
+20/100 completed
+20.0% (ETA: 123s)
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.livescience.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.sciencedirect.com/
+* doing DNS query for www.sciencedirect.com
+* connecting to 162.159.129.81:80
+* connecting to 162.159.130.81:80
+* doing HTTP(s) request http://www.sciencedirect.com/
+
+Status
+------
+21/100 completed
+21.0% (ETA: 115s)
+
+Result for http://www.livescience.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.sciencedirect.com/
+* doing DNS query for www.sciencedirect.com
+* connecting to 162.159.130.81:443
+* connecting to 162.159.129.81:443
+* doing HTTP(s) request https://www.sciencedirect.com/
+* performing control request with backend
+
+Status
+------
+22/100 completed
+22.0% (ETA: 116s)
+
+Result for https://www.elsevier.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.symbolab.com/
+* doing DNS query for www.symbolab.com
+* connecting to 104.26.15.42:80
+* connecting to 172.67.69.209:80
+* connecting to 104.26.14.42:80
+* doing HTTP(s) request http://www.symbolab.com/
+
+Result for http://www.elsevier.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.symbolab.com/
+* doing DNS query for www.symbolab.com
+* connecting to 104.26.14.42:443
+* connecting to 172.67.69.209:443
+* connecting to 104.26.15.42:443
+* performing control request with backend
+* doing HTTP(s) request https://www.symbolab.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.sciencedirect.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.apa.org/
+* doing DNS query for www.apa.org
+* connecting to 192.225.220.51:80
+* doing HTTP(s) request http://www.apa.org/
+* performing control request with backend
+
+Status
+------
+23/100 completed
+23.0% (ETA: 105s)
+
+Status
+------
+24/100 completed
+24.0% (ETA: 107s)
+
+Result for https://www.sciencedirect.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.apa.org/
+* doing DNS query for www.apa.org
+* connecting to 192.225.220.51:443
+
+Status
+------
+25/100 completed
+25.0% (ETA: 108s)
+* doing HTTP(s) request https://www.apa.org/
+
+Result for https://www.symbolab.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.he.wikipedia.org/
+* doing DNS query for www.he.wikipedia.org
+* doing HTTP(s) request http://www.he.wikipedia.org/
+
+Status
+------
+26/100 completed
+26.0% (ETA: 108s)
+Error performing HTTP request: http://www.he.wikipedia.org/
+Error performing HTTP request: http://www.he.wikipedia.org/
+Error performing HTTP request: http://www.he.wikipedia.org/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.symbolab.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.he.wikipedia.org/
+* doing DNS query for www.he.wikipedia.org
+* doing HTTP(s) request https://www.he.wikipedia.org/
+Error performing HTTP request: https://www.he.wikipedia.org/
+Error performing HTTP request: https://www.he.wikipedia.org/
+Error performing HTTP request: https://www.he.wikipedia.org/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+
+Status
+------
+27/100 completed
+27.0% (ETA: 107s)
+
+Status
+------
+28/100 completed
+28.0% (ETA: 104s)
+
+Result for http://www.apa.org/
+------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for http://www.arxiv.org/
+* doing DNS query for www.arxiv.org
+
+Status
+------
+29/100 completed
+29.0% (ETA: 105s)
+* connecting to 128.84.21.199:80
+
+Result for http://www.he.wikipedia.org/
+---------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.arxiv.org/
+* doing DNS query for www.arxiv.org
+* connecting to 128.84.21.199:443
+* doing HTTP(s) request http://www.arxiv.org/
+* doing HTTP(s) request https://www.arxiv.org/
+
+Status
+------
+30/100 completed
+30.0% (ETA: 105s)
+
+Result for https://www.he.wikipedia.org/
+----------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for http://www.mdpi.com/
+* doing DNS query for www.mdpi.com
+* connecting to 104.18.24.151:80
+* connecting to 104.18.25.151:80
+* doing HTTP(s) request http://www.mdpi.com/
+* performing control request with backend
+
+Result for https://www.apa.org/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.mdpi.com/
+* doing DNS query for www.mdpi.com
+* connecting to 104.18.25.151:443
+* connecting to 104.18.24.151:443
+* doing HTTP(s) request https://www.mdpi.com/
+* performing control request with backend
+
+Status
+------
+31/100 completed
+31.0% (ETA: 102s)
+
+Status
+------
+32/100 completed
+32.0% (ETA: 101s)
+
+Status
+------
+33/100 completed
+33.0% (ETA: 102s)
+
+Result for https://www.mdpi.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.jma.go.jp/
+* doing DNS query for www.jma.go.jp
+* connecting to 104.75.40.19:80
+* doing HTTP(s) request http://www.jma.go.jp/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+34/100 completed
+34.0% (ETA: 102s)
+
+Result for http://www.mdpi.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.jma.go.jp/
+* doing DNS query for www.jma.go.jp
+* connecting to 104.75.40.19:443
+* doing HTTP(s) request https://www.jma.go.jp/
+* performing control request with backend
+
+Result for http://www.jma.go.jp/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.hindawi.com/
+* doing DNS query for www.hindawi.com
+* connecting to 99.86.144.61:80
+* connecting to 99.86.144.104:80
+* connecting to 99.86.144.11:80
+* connecting to 99.86.144.15:80
+* doing HTTP(s) request http://www.hindawi.com/
+* performing control request with backend
+
+Result for https://www.arxiv.org/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.hindawi.com/
+* doing DNS query for www.hindawi.com
+* connecting to 99.86.144.61:443
+* connecting to 99.86.144.104:443
+* connecting to 99.86.144.11:443
+* connecting to 99.86.144.15:443
+* doing HTTP(s) request https://www.hindawi.com/
+
+Result for https://www.jma.go.jp/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nationalgeographic.com/
+* doing DNS query for www.nationalgeographic.com
+* connecting to 23.35.220.177:80
+* doing HTTP(s) request http://www.nationalgeographic.com/
+* performing control request with backend
+
+Result for http://www.arxiv.org/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nationalgeographic.com/
+* doing DNS query for www.nationalgeographic.com
+
+Status
+------
+35/100 completed
+35.0% (ETA: 92s)
+* connecting to 23.35.220.177:443
+* doing HTTP(s) request https://www.nationalgeographic.com/
+* performing control request with backend
+
+Status
+------
+36/100 completed
+36.0% (ETA: 91s)
+
+Result for http://www.hindawi.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.desmos.com/
+* doing DNS query for www.desmos.com
+* connecting to 99.86.144.108:80
+* connecting to 99.86.144.112:80
+* connecting to 99.86.144.14:80
+* connecting to 99.86.144.7:80
+* doing HTTP(s) request http://www.desmos.com/
+
+Status
+------
+37/100 completed
+37.0% (ETA: 91s)
+* performing control request with backend
+
+Result for https://www.hindawi.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.desmos.com/
+* doing DNS query for www.desmos.com
+* connecting to 99.86.144.7:443
+* connecting to 99.86.144.14:443
+* connecting to 99.86.144.112:443
+* connecting to 99.86.144.108:443
+* doing HTTP(s) request https://www.desmos.com/
+* performing control request with backend
+
+Status
+------
+38/100 completed
+38.0% (ETA: 89s)
+
+Status
+------
+39/100 completed
+39.0% (ETA: 90s)
+
+Result for https://www.nationalgeographic.com/
+----------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.translate.google.com/
+* doing DNS query for www.translate.google.com
+* doing HTTP(s) request http://www.translate.google.com/
+
+Status
+------
+40/100 completed
+40.0% (ETA: 89s)
+Error performing HTTP request: http://www.translate.google.com/
+Error performing HTTP request: http://www.translate.google.com/
+Error performing HTTP request: http://www.translate.google.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+
+Result for http://www.desmos.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.translate.google.com/
+* doing DNS query for www.translate.google.com
+* doing HTTP(s) request https://www.translate.google.com/
+Error performing HTTP request: https://www.translate.google.com/
+Error performing HTTP request: https://www.translate.google.com/
+Error performing HTTP request: https://www.translate.google.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+
+Status
+------
+41/100 completed
+41.0% (ETA: 87s)
+
+Result for https://www.desmos.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nps.gov/
+* doing DNS query for www.nps.gov
+* connecting to 104.75.45.179:80
+* doing HTTP(s) request http://www.nps.gov/
+* performing control request with backend
+
+Status
+------
+42/100 completed
+42.0% (ETA: 86s)
+
+Result for http://www.translate.google.com/
+-------------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.nps.gov/
+* doing DNS query for www.nps.gov
+* connecting to 104.75.45.179:443
+* doing HTTP(s) request https://www.nps.gov/
+* performing control request with backend
+
+Result for https://www.translate.google.com/
+--------------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for http://www.ncbi.nlm.nih.gov/
+* doing DNS query for www.ncbi.nlm.nih.gov
+
+Status
+------
+43/100 completed
+43.0% (ETA: 84s)
+* connecting to 130.14.29.110:80
+* doing HTTP(s) request http://www.ncbi.nlm.nih.gov/
+
+Result for http://www.nps.gov/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ncbi.nlm.nih.gov/
+* doing DNS query for www.ncbi.nlm.nih.gov
+* connecting to 130.14.29.110:443
+* doing HTTP(s) request https://www.ncbi.nlm.nih.gov/
+
+Status
+------
+44/100 completed
+44.0% (ETA: 83s)
+
+Status
+------
+45/100 completed
+45.0% (ETA: 82s)
+* performing control request with backend
+
+Result for https://www.nps.gov/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.kraken.com/
+* doing DNS query for www.kraken.com
+* connecting to 104.16.215.191:80
+* connecting to 104.16.212.191:80
+* connecting to 104.16.214.191:80
+* connecting to 104.16.211.191:80
+* connecting to 104.16.213.191:80
+* doing HTTP(s) request http://www.kraken.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+46/100 completed
+46.0% (ETA: 81s)
+
+Status
+------
+47/100 completed
+47.0% (ETA: 80s)
+
+Status
+------
+48/100 completed
+48.0% (ETA: 79s)
+
+Result for https://www.ncbi.nlm.nih.gov/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.kraken.com/
+* doing DNS query for www.kraken.com
+* connecting to 104.16.213.191:443
+* connecting to 104.16.211.191:443
+* connecting to 104.16.214.191:443
+* connecting to 104.16.212.191:443
+* connecting to 104.16.215.191:443
+* doing HTTP(s) request https://www.kraken.com/
+* performing control request with backend
+
+Status
+------
+49/100 completed
+49.0% (ETA: 78s)
+
+Result for http://www.ncbi.nlm.nih.gov/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.coinmarketcap.com/
+* doing DNS query for www.coinmarketcap.com
+* connecting to 104.17.139.178:80
+* connecting to 104.17.141.178:80
+* connecting to 104.17.140.178:80
+* connecting to 104.17.137.178:80
+* connecting to 104.17.138.178:80
+* doing HTTP(s) request http://www.coinmarketcap.com/
+
+Result for http://www.kraken.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.coinmarketcap.com/
+* doing DNS query for www.coinmarketcap.com
+* connecting to 104.17.138.178:443
+* connecting to 104.17.137.178:443
+* connecting to 104.17.140.178:443
+* connecting to 104.17.141.178:443
+* connecting to 104.17.139.178:443
+* doing HTTP(s) request https://www.coinmarketcap.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.kraken.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.scientificamerican.com/
+* doing DNS query for www.scientificamerican.com
+* connecting to 151.101.230.49:80
+* doing HTTP(s) request http://www.scientificamerican.com/
+
+Status
+------
+50/100 completed
+50.0% (ETA: 74s)
+
+Status
+------
+51/100 completed
+51.0% (ETA: 73s)
+* performing control request with backend
+
+Result for http://www.coinmarketcap.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.scientificamerican.com/
+* doing DNS query for www.scientificamerican.com
+* connecting to 151.101.230.49:443
+* doing HTTP(s) request https://www.scientificamerican.com/
+
+Result for https://www.coinmarketcap.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.jstor.org/
+* doing DNS query for www.jstor.org
+
+Status
+------
+52/100 completed
+52.0% (ETA: 72s)
+* connecting to 151.101.108.152:80
+* doing HTTP(s) request http://www.jstor.org/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+53/100 completed
+53.0% (ETA: 69s)
+
+Result for http://www.scientificamerican.com/
+---------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.jstor.org/
+* doing DNS query for www.jstor.org
+* connecting to 151.101.108.152:443
+* doing HTTP(s) request https://www.jstor.org/
+
+Result for https://www.scientificamerican.com/
+----------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.howstuffworks.com/
+* doing DNS query for www.howstuffworks.com
+* connecting to 99.86.144.89:80
+* connecting to 99.86.144.110:80
+* connecting to 99.86.144.3:80
+* connecting to 99.86.144.4:80
+* doing HTTP(s) request http://www.howstuffworks.com/
+* performing control request with backend
+
+Result for http://www.jstor.org/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.howstuffworks.com/
+* doing DNS query for www.howstuffworks.com
+* connecting to 99.86.144.89:443
+* connecting to 99.86.144.110:443
+* connecting to 99.86.144.3:443
+* connecting to 99.86.144.4:443
+* doing HTTP(s) request https://www.howstuffworks.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+54/100 completed
+54.0% (ETA: 65s)
+
+Status
+------
+55/100 completed
+55.0% (ETA: 65s)
+
+Result for https://www.jstor.org/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ieee.org/
+* doing DNS query for www.ieee.org
+* connecting to 104.76.95.173:80
+* doing HTTP(s) request http://www.ieee.org/
+
+Status
+------
+56/100 completed
+56.0% (ETA: 63s)
+
+Status
+------
+57/100 completed
+57.0% (ETA: 63s)
+* performing control request with backend
+
+Result for https://www.howstuffworks.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ieee.org/
+* doing DNS query for www.ieee.org
+* connecting to 104.76.95.173:443
+* doing HTTP(s) request https://www.ieee.org/
+
+Result for http://www.howstuffworks.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.noaa.gov/
+* doing DNS query for www.noaa.gov
+* connecting to 99.86.144.44:80
+* connecting to 99.86.144.122:80
+* connecting to 99.86.144.34:80
+* connecting to 99.86.144.47:80
+* doing HTTP(s) request http://www.noaa.gov/
+
+Status
+------
+58/100 completed
+58.0% (ETA: 61s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+59/100 completed
+59.0% (ETA: 60s)
+
+Result for http://www.ieee.org/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.noaa.gov/
+* doing DNS query for www.noaa.gov
+* connecting to 99.86.144.44:443
+* connecting to 99.86.144.122:443
+* connecting to 99.86.144.34:443
+* connecting to 99.86.144.47:443
+* doing HTTP(s) request https://www.noaa.gov/
+* performing control request with backend
+
+Status
+------
+60/100 completed
+60.0% (ETA: 58s)
+
+Status
+------
+61/100 completed
+61.0% (ETA: 57s)
+
+Result for http://www.noaa.gov/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.localbitcoins.com/
+* doing DNS query for www.localbitcoins.com
+* connecting to 104.16.83.19:80
+* connecting to 104.18.201.62:80
+* doing HTTP(s) request http://www.localbitcoins.com/
+
+Result for https://www.ieee.org/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.localbitcoins.com/
+* doing DNS query for www.localbitcoins.com
+* connecting to 104.18.201.62:443
+* connecting to 104.16.83.19:443
+* doing HTTP(s) request https://www.localbitcoins.com/
+* performing control request with backend
+
+Result for https://www.noaa.gov/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.urbandictionary.com/
+* doing DNS query for www.urbandictionary.com
+* connecting to 151.101.228.207:80
+* doing HTTP(s) request http://www.urbandictionary.com/
+* performing control request with backend
+
+Status
+------
+62/100 completed
+62.0% (ETA: 54s)
+
+Status
+------
+63/100 completed
+63.0% (ETA: 53s)
+
+Result for http://www.localbitcoins.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.urbandictionary.com/
+* doing DNS query for www.urbandictionary.com
+* connecting to 151.101.228.207:443
+* doing HTTP(s) request https://www.urbandictionary.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+64/100 completed
+64.0% (ETA: 52s)
+
+Result for http://www.urbandictionary.com/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.usda.gov/
+* doing DNS query for www.usda.gov
+* connecting to 184.25.21.157:80
+* doing HTTP(s) request http://www.usda.gov/
+* performing control request with backend
+
+Status
+------
+65/100 completed
+65.0% (ETA: 50s)
+
+Result for https://www.urbandictionary.com/
+-------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.usda.gov/
+* doing DNS query for www.usda.gov
+* connecting to 184.25.21.157:443
+* doing HTTP(s) request https://www.usda.gov/
+* performing control request with backend
+
+Result for https://www.localbitcoins.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.mayoclinic.org/
+* doing DNS query for www.mayoclinic.org
+* connecting to 104.76.28.203:80
+* doing HTTP(s) request http://www.mayoclinic.org/
+* performing control request with backend
+
+Status
+------
+66/100 completed
+66.0% (ETA: 48s)
+
+Result for http://www.usda.gov/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.mayoclinic.org/
+* doing DNS query for www.mayoclinic.org
+
+Status
+------
+67/100 completed
+67.0% (ETA: 47s)
+* connecting to 104.76.28.203:443
+* doing HTTP(s) request https://www.mayoclinic.org/
+* performing control request with backend
+
+Result for https://www.usda.gov/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.fao.org/
+* doing DNS query for www.fao.org
+* connecting to 104.18.23.5:80
+* connecting to 104.18.22.5:80
+* doing HTTP(s) request http://www.fao.org/
+
+Result for http://www.mayoclinic.org/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.fao.org/
+* doing DNS query for www.fao.org
+* connecting to 104.18.23.5:443
+* connecting to 104.18.22.5:443
+* doing HTTP(s) request https://www.fao.org/
+
+Result for https://www.mayoclinic.org/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.acs.org/
+* doing DNS query for www.acs.org
+* performing control request with backend
+
+Status
+------
+68/100 completed
+68.0% (ETA: 45s)
+* connecting to 45.60.83.135:80
+* doing HTTP(s) request http://www.acs.org/
+
+Status
+------
+69/100 completed
+69.0% (ETA: 44s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+70/100 completed
+70.0% (ETA: 42s)
+
+Result for http://www.fao.org/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.acs.org/
+* doing DNS query for www.acs.org
+* connecting to 45.60.83.135:443
+* doing HTTP(s) request https://www.acs.org/
+
+Status
+------
+71/100 completed
+71.0% (ETA: 41s)
+
+Status
+------
+72/100 completed
+72.0% (ETA: 40s)
+* performing control request with backend
+
+Status
+------
+73/100 completed
+73.0% (ETA: 39s)
+
+Result for https://www.fao.org/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.sciencedaily.com/
+* doing DNS query for www.sciencedaily.com
+* connecting to 99.86.144.100:80
+* connecting to 99.86.144.22:80
+* connecting to 99.86.144.64:80
+* connecting to 99.86.144.43:80
+* doing HTTP(s) request http://www.sciencedaily.com/
+* performing control request with backend
+
+Result for http://www.acs.org/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.sciencedaily.com/
+* doing DNS query for www.sciencedaily.com
+* connecting to 99.86.144.43:443
+* connecting to 99.86.144.64:443
+* connecting to 99.86.144.22:443
+* connecting to 99.86.144.100:443
+* doing HTTP(s) request https://www.sciencedaily.com/
+* performing control request with backend
+
+Status
+------
+74/100 completed
+74.0% (ETA: 37s)
+
+Result for https://www.acs.org/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.frontiersin.org/
+* doing DNS query for www.frontiersin.org
+* connecting to 134.213.70.247:80
+* doing HTTP(s) request http://www.frontiersin.org/
+
+Result for http://www.sciencedaily.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.frontiersin.org/
+* doing DNS query for www.frontiersin.org
+* connecting to 134.213.70.247:443
+* doing HTTP(s) request https://www.frontiersin.org/
+
+Result for https://www.sciencedaily.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.bom.gov.au/
+* doing DNS query for www.bom.gov.au
+
+Status
+------
+75/100 completed
+75.0% (ETA: 35s)
+* connecting to 23.50.1.104:80
+* doing HTTP(s) request http://www.bom.gov.au/
+
+Status
+------
+76/100 completed
+76.0% (ETA: 34s)
+* performing control request with backend
+
+Status
+------
+77/100 completed
+77.0% (ETA: 33s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+78/100 completed
+78.0% (ETA: 31s)
+
+Status
+------
+79/100 completed
+79.0% (ETA: 30s)
+
+Result for https://www.frontiersin.org/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.bom.gov.au/
+* doing DNS query for www.bom.gov.au
+* connecting to 23.50.1.104:443
+* doing HTTP(s) request https://www.bom.gov.au/
+* performing control request with backend
+
+Result for http://www.frontiersin.org/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.weather.gov/
+* doing DNS query for www.weather.gov
+* connecting to 23.35.220.20:80
+* doing HTTP(s) request http://www.weather.gov/
+* performing control request with backend
+
+Result for http://www.bom.gov.au/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.weather.gov/
+* doing DNS query for www.weather.gov
+* connecting to 23.35.220.20:443
+* doing HTTP(s) request https://www.weather.gov/
+* performing control request with backend
+
+Result for http://www.weather.gov/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.epa.gov/
+* doing DNS query for www.epa.gov
+* connecting to 104.75.22.119:80
+* doing HTTP(s) request http://www.epa.gov/
+
+Status
+------
+80/100 completed
+80.0% (ETA: 27s)
+* performing control request with backend
+
+Status
+------
+81/100 completed
+81.0% (ETA: 26s)
+
+Result for https://www.weather.gov/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.epa.gov/
+* doing DNS query for www.epa.gov
+* connecting to 104.75.22.119:443
+* doing HTTP(s) request https://www.epa.gov/
+* performing control request with backend
+
+Status
+------
+82/100 completed
+82.0% (ETA: 25s)
+
+Result for http://www.epa.gov/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.rsc.org/
+* doing DNS query for www.rsc.org
+* connecting to 78.25.196.148:80
+* doing HTTP(s) request http://www.rsc.org/
+
+Status
+------
+83/100 completed
+83.0% (ETA: 23s)
+
+Status
+------
+84/100 completed
+84.0% (ETA: 22s)
+
+Result for https://www.epa.gov/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.rsc.org/
+* doing DNS query for www.rsc.org
+* connecting to 78.25.196.148:443
+* doing HTTP(s) request https://www.rsc.org/
+* performing control request with backend
+
+Result for https://www.bom.gov.au/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.berkeley.edu/
+* doing DNS query for www.berkeley.edu
+* connecting to 54.69.24.145:80
+* connecting to 52.88.197.125:80
+* performing control request with backend
+* doing HTTP(s) request http://www.berkeley.edu/
+
+Status
+------
+85/100 completed
+85.0% (ETA: 20s)
+* performing control request with backend
+
+Status
+------
+86/100 completed
+86.0% (ETA: 19s)
+
+Result for https://www.rsc.org/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.berkeley.edu/
+* doing DNS query for www.berkeley.edu
+* connecting to 54.69.24.145:443
+* connecting to 52.88.197.125:443
+* doing HTTP(s) request https://www.berkeley.edu/
+* performing control request with backend
+
+Result for http://www.rsc.org/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ted.com/
+* doing DNS query for www.ted.com
+* connecting to 151.101.230.133:80
+* doing HTTP(s) request http://www.ted.com/
+
+Status
+------
+87/100 completed
+87.0% (ETA: 18s)
+* performing control request with backend
+
+Status
+------
+88/100 completed
+88.0% (ETA: 16s)
+
+Result for http://www.berkeley.edu/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ted.com/
+* doing DNS query for www.ted.com
+* connecting to 151.101.230.133:443
+* doing HTTP(s) request https://www.ted.com/
+
+Result for http://www.ted.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.calculatorsoup.com/
+* doing DNS query for www.calculatorsoup.com
+* performing control request with backend
+
+Result for https://www.berkeley.edu/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.calculatorsoup.com/
+* doing DNS query for www.calculatorsoup.com
+* connecting to 216.92.14.11:443
+* connecting to 216.92.14.11:80
+
+Status
+------
+89/100 completed
+89.0% (ETA: 15s)
+* doing HTTP(s) request http://www.calculatorsoup.com/
+* doing HTTP(s) request https://www.calculatorsoup.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.ted.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.reverso.net/
+* doing DNS query for www.reverso.net
+* connecting to 54.36.69.215:80
+
+Status
+------
+90/100 completed
+90.0% (ETA: 13s)
+* doing HTTP(s) request http://www.reverso.net/
+
+Status
+------
+91/100 completed
+91.0% (ETA: 12s)
+
+Status
+------
+92/100 completed
+92.0% (ETA: 11s)
+
+Result for https://www.calculatorsoup.com/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.reverso.net/
+* doing DNS query for www.reverso.net
+* connecting to 54.36.69.215:443
+* doing HTTP(s) request https://www.reverso.net/
+
+Status
+------
+93/100 completed
+93.0% (ETA: 9s)
+* performing control request with backend
+
+Result for http://www.calculatorsoup.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nature.com/
+* doing DNS query for www.nature.com
+* connecting to 151.101.108.95:80
+* doing HTTP(s) request http://www.nature.com/
+* performing control request with backend
+
+Status
+------
+94/100 completed
+94.0% (ETA: 8s)
+
+Result for http://www.reverso.net/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nature.com/
+* doing DNS query for www.nature.com
+* connecting to 151.101.108.95:443
+* doing HTTP(s) request https://www.nature.com/
+
+Status
+------
+95/100 completed
+95.0% (ETA: 6s)
+* performing control request with backend
+
+Result for https://www.reverso.net/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+* performing control request with backend
+
+Status
+------
+96/100 completed
+96.0% (ETA: 5s)
+
+Result for http://www.nature.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+97/100 completed
+97.0% (ETA: 4s)
+
+Result for https://www.nature.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+98/100 completed
+98.0% (ETA: 2s)
+
+Status
+------
+99/100 completed
+99.0% (ETA: 1s)
+
+Starting test for http://www.nationalgeographic.com/
+* doing DNS query for www.nationalgeographic.com
+* connecting to 23.35.220.177:80
+* doing HTTP(s) request http://www.nationalgeographic.com/
+
+Status
+------
+100/100 completed
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Accessible URLS
+---------------
+* https://www.timeanddate.com/
+* http://www.italki.com/
+* https://www.italki.com/
+* http://www.timeanddate.com/
+* https://www.autodesk.com/
+* http://www.autodesk.com/
+* http://www.cointelegraph.com/
+* https://www.cointelegraph.com/
+* http://www.usgs.gov/
+* https://www.usgs.gov/
+* http://www.duolingo.com/
+* https://www.economist.com/
+* http://www.economist.com/
+* https://www.duolingo.com/
+* http://www.mathworks.com/
+* https://www.mathworks.com/
+* http://www.researchgate.net/
+* https://www.researchgate.net/
+* https://www.biomedcentral.com/
+* http://www.biomedcentral.com/
+* https://www.sciencemag.org/
+* http://www.sciencemag.org/
+* https://www.livescience.com/
+* http://www.livescience.com/
+* https://www.elsevier.com/
+* http://www.elsevier.com/
+* http://www.sciencedirect.com/
+* https://www.sciencedirect.com/
+* https://www.symbolab.com/
+* http://www.symbolab.com/
+* https://www.mdpi.com/
+* http://www.mdpi.com/
+* http://www.jma.go.jp/
+* https://www.arxiv.org/
+* https://www.jma.go.jp/
+* http://www.arxiv.org/
+* http://www.hindawi.com/
+* https://www.hindawi.com/
+* https://www.nationalgeographic.com/
+* http://www.desmos.com/
+* https://www.desmos.com/
+* http://www.nps.gov/
+* https://www.nps.gov/
+* https://www.ncbi.nlm.nih.gov/
+* http://www.ncbi.nlm.nih.gov/
+* http://www.kraken.com/
+* https://www.kraken.com/
+* http://www.coinmarketcap.com/
+* https://www.coinmarketcap.com/
+* http://www.scientificamerican.com/
+* https://www.scientificamerican.com/
+* http://www.jstor.org/
+* https://www.jstor.org/
+* https://www.howstuffworks.com/
+* http://www.howstuffworks.com/
+* http://www.ieee.org/
+* http://www.noaa.gov/
+* https://www.ieee.org/
+* https://www.noaa.gov/
+* http://www.localbitcoins.com/
+* http://www.urbandictionary.com/
+* https://www.urbandictionary.com/
+* https://www.localbitcoins.com/
+* http://www.usda.gov/
+* https://www.usda.gov/
+* http://www.mayoclinic.org/
+* https://www.mayoclinic.org/
+* http://www.fao.org/
+* https://www.fao.org/
+* http://www.acs.org/
+* https://www.acs.org/
+* http://www.sciencedaily.com/
+* https://www.sciencedaily.com/
+* https://www.frontiersin.org/
+* http://www.frontiersin.org/
+* http://www.bom.gov.au/
+* http://www.weather.gov/
+* https://www.weather.gov/
+* http://www.epa.gov/
+* https://www.epa.gov/
+* https://www.bom.gov.au/
+* https://www.rsc.org/
+* http://www.rsc.org/
+* http://www.berkeley.edu/
+* http://www.ted.com/
+* https://www.berkeley.edu/
+* https://www.ted.com/
+* https://www.calculatorsoup.com/
+* http://www.calculatorsoup.com/
+* http://www.reverso.net/
+* https://www.reverso.net/
+* http://www.nature.com/
+* https://www.nature.com/
+
+Not accessible URLS
+-------------------
+* http://www.apa.org/
+* http://www.he.wikipedia.org/
+* https://www.he.wikipedia.org/
+* https://www.apa.org/
+* http://www.translate.google.com/
+* https://www.translate.google.com/
+* http://www.nationalgeographic.com/
+
+URLS possibly blocked due to dns
+--------------------------------
+* http://www.apa.org/
+* https://www.apa.org/
+Report ID: 20200718T171326Z_AS4766_aLozZB4i25y0B2Y8nLog37psJoZKjga51oIOAbM8Vz6uMK8obx
+Error performing HTTP request: http://www.nationalgeographic.com/
+Error performing HTTP request: http://www.nationalgeographic.com/

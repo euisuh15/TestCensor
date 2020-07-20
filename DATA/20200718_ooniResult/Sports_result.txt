@@ -1,0 +1,1939 @@
+Starting Tor
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+57%: Loading relay descriptors
+60%: Loading relay descriptors
+65%: Loading relay descriptors
+71%: Loading relay descriptors
+78%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for http://www.nascar.com/
+* doing DNS query for www.nascar.com
+
+Starting test for https://www.nascar.com/
+* doing DNS query for www.nascar.com
+
+Starting test for http://www.hattrick.org/
+* doing DNS query for www.hattrick.org
+
+Starting test for https://www.hattrick.org/
+* doing DNS query for www.hattrick.org
+* connecting to 104.76.78.118:443
+* connecting to 104.76.78.118:80
+* doing HTTP(s) request http://www.nascar.com/
+* doing HTTP(s) request https://www.nascar.com/
+* connecting to 193.34.189.80:443
+* connecting to 193.34.189.81:443
+* connecting to 193.34.189.80:80
+* connecting to 193.34.189.81:80
+* doing HTTP(s) request https://www.hattrick.org/
+* doing HTTP(s) request http://www.hattrick.org/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.nascar.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.rotoworld.com/
+* doing DNS query for www.rotoworld.com
+* connecting to 173.223.227.56:80
+* connecting to 173.223.227.11:80
+* doing HTTP(s) request http://www.rotoworld.com/
+
+Result for https://www.nascar.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.rotoworld.com/
+* doing DNS query for www.rotoworld.com
+* connecting to 173.223.227.56:443
+* connecting to 173.223.227.11:443
+* doing HTTP(s) request https://www.rotoworld.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+1/100 completed
+1.0% (ETA: 24s)
+
+Status
+------
+2/100 completed
+2.0% (ETA: 45s)
+
+Result for https://www.hattrick.org/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.realmadrid.com/
+* doing DNS query for www.realmadrid.com
+* connecting to 104.76.93.196:80
+* doing HTTP(s) request http://www.realmadrid.com/
+* performing control request with backend
+
+Result for https://www.rotoworld.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.realmadrid.com/
+* doing DNS query for www.realmadrid.com
+* connecting to 104.76.93.196:443
+* doing HTTP(s) request https://www.realmadrid.com/
+* performing control request with backend
+
+Result for http://www.rotoworld.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.sport360.com/
+* doing DNS query for www.sport360.com
+* connecting to 104.20.219.24:80
+* connecting to 104.20.218.24:80
+* connecting to 172.67.0.103:80
+* doing HTTP(s) request http://www.sport360.com/
+
+Result for http://www.hattrick.org/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.sport360.com/
+* doing DNS query for www.sport360.com
+* connecting to 172.67.0.103:443
+* connecting to 104.20.218.24:443
+* connecting to 104.20.219.24:443
+* doing HTTP(s) request https://www.sport360.com/
+
+Status
+------
+3/100 completed
+3.0% (ETA: 48s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+4/100 completed
+4.0% (ETA: 63s)
+
+Status
+------
+5/100 completed
+5.0% (ETA: 75s)
+
+Result for http://www.realmadrid.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.premierleague.com/
+* doing DNS query for www.premierleague.com
+* connecting to 99.86.144.97:80
+* connecting to 99.86.144.65:80
+* connecting to 99.86.144.118:80
+* connecting to 99.86.144.126:80
+* doing HTTP(s) request http://www.premierleague.com/
+
+Result for https://www.realmadrid.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.premierleague.com/
+* doing DNS query for www.premierleague.com
+* connecting to 99.86.144.97:443
+* connecting to 99.86.144.65:443
+* connecting to 99.86.144.118:443
+* connecting to 99.86.144.126:443
+* doing HTTP(s) request https://www.premierleague.com/
+
+Status
+------
+6/100 completed
+6.0% (ETA: 84s)
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.sport360.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.skysports.com/
+* doing DNS query for www.skysports.com
+* connecting to 184.25.23.160:80
+* doing HTTP(s) request http://www.skysports.com/
+
+Result for https://www.sport360.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.skysports.com/
+* doing DNS query for www.skysports.com
+* connecting to 184.25.23.160:443
+* doing HTTP(s) request https://www.skysports.com/
+
+Status
+------
+7/100 completed
+7.0% (ETA: 79s)
+
+Status
+------
+8/100 completed
+8.0% (ETA: 87s)
+
+Status
+------
+9/100 completed
+9.0% (ETA: 90s)
+
+Result for https://www.premierleague.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ufc.com/
+* doing DNS query for www.ufc.com
+
+Status
+------
+10/100 completed
+10.0% (ETA: 97s)
+* connecting to 23.185.0.4:80
+* doing HTTP(s) request http://www.ufc.com/
+
+Result for http://www.premierleague.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ufc.com/
+* doing DNS query for www.ufc.com
+* connecting to 23.185.0.4:443
+* doing HTTP(s) request https://www.ufc.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+11/100 completed
+11.0% (ETA: 95s)
+
+Status
+------
+12/100 completed
+12.0% (ETA: 100s)
+* performing control request with backend
+
+Result for http://www.ufc.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.sbnation.com/
+* doing DNS query for www.sbnation.com
+* connecting to 151.101.229.52:80
+* doing HTTP(s) request http://www.sbnation.com/
+
+Result for https://www.ufc.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.sbnation.com/
+* doing DNS query for www.sbnation.com
+* connecting to 151.101.229.52:443
+* doing HTTP(s) request https://www.sbnation.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+13/100 completed
+13.0% (ETA: 91s)
+
+Result for http://www.skysports.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.si.com/
+* doing DNS query for www.si.com
+* connecting to 151.101.66.98:80
+* connecting to 151.101.130.98:80
+* connecting to 151.101.2.98:80
+* connecting to 151.101.194.98:80
+* doing HTTP(s) request http://www.si.com/
+
+Status
+------
+14/100 completed
+14.0% (ETA: 95s)
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.sbnation.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.si.com/
+* doing DNS query for www.si.com
+* connecting to 151.101.194.98:443
+* connecting to 151.101.2.98:443
+* connecting to 151.101.130.98:443
+* connecting to 151.101.66.98:443
+
+Result for https://www.sbnation.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.uefa.com/
+* doing DNS query for www.uefa.com
+* doing HTTP(s) request https://www.si.com/
+* performing control request with backend
+* connecting to 182.162.59.108:80
+* doing HTTP(s) request http://www.uefa.com/
+
+Status
+------
+15/100 completed
+15.0% (ETA: 90s)
+
+Result for http://www.si.com/
+-----------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.uefa.com/
+* doing DNS query for www.uefa.com
+* connecting to 182.162.59.108:443
+* doing HTTP(s) request https://www.uefa.com/
+
+Result for https://www.skysports.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.goal.com/
+* doing DNS query for www.goal.com
+* performing control request with backend
+* connecting to 184.25.23.60:80
+* doing HTTP(s) request http://www.goal.com/
+
+Result for https://www.si.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.goal.com/
+* doing DNS query for www.goal.com
+* connecting to 184.25.23.60:443
+* doing HTTP(s) request https://www.goal.com/
+* performing control request with backend
+
+Result for http://www.uefa.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.bleacherreport.com/
+* doing DNS query for www.bleacherreport.com
+* connecting to 151.101.1.5:80
+* connecting to 151.101.65.5:80
+* connecting to 151.101.193.5:80
+* connecting to 151.101.129.5:80
+* doing HTTP(s) request http://www.bleacherreport.com/
+* performing control request with backend
+
+Status
+------
+16/100 completed
+16.0% (ETA: 79s)
+
+Status
+------
+17/100 completed
+17.0% (ETA: 82s)
+* performing control request with backend
+
+Status
+------
+18/100 completed
+18.0% (ETA: 84s)
+* performing control request with backend
+
+Status
+------
+19/100 completed
+19.0% (ETA: 86s)
+
+Status
+------
+20/100 completed
+20.0% (ETA: 89s)
+
+Result for https://www.uefa.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.bleacherreport.com/
+* doing DNS query for www.bleacherreport.com
+* connecting to 151.101.1.5:443
+* connecting to 151.101.65.5:443
+* connecting to 151.101.193.5:443
+* connecting to 151.101.129.5:443
+* doing HTTP(s) request https://www.bleacherreport.com/
+
+Status
+------
+21/100 completed
+21.0% (ETA: 90s)
+
+Result for http://www.goal.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.basketball-reference.com/
+* doing DNS query for www.basketball-reference.com
+* connecting to 99.86.144.23:80
+* connecting to 99.86.144.116:80
+* connecting to 99.86.144.100:80
+* connecting to 99.86.144.123:80
+* doing HTTP(s) request http://www.basketball-reference.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.goal.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.basketball-reference.com/
+* doing DNS query for www.basketball-reference.com
+* connecting to 99.86.144.123:443
+* connecting to 99.86.144.100:443
+* connecting to 99.86.144.116:443
+* connecting to 99.86.144.23:443
+* doing HTTP(s) request https://www.basketball-reference.com/
+* performing control request with backend
+
+Status
+------
+22/100 completed
+22.0% (ETA: 89s)
+
+Result for http://www.bleacherreport.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.pro-football-reference.com/
+* doing DNS query for www.pro-football-reference.com
+* connecting to 99.86.144.26:80
+* connecting to 99.86.144.52:80
+* connecting to 99.86.144.31:80
+* connecting to 99.86.144.91:80
+* doing HTTP(s) request http://www.pro-football-reference.com/
+* performing control request with backend
+
+Result for http://www.basketball-reference.com/
+-----------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.pro-football-reference.com/
+* doing DNS query for www.pro-football-reference.com
+* connecting to 99.86.144.91:443
+* connecting to 99.86.144.31:443
+* connecting to 99.86.144.52:443
+* connecting to 99.86.144.26:443
+* doing HTTP(s) request https://www.pro-football-reference.com/
+* performing control request with backend
+
+Status
+------
+23/100 completed
+23.0% (ETA: 85s)
+
+Result for https://www.bleacherreport.com/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.whoscored.com/
+* doing DNS query for www.whoscored.com
+* connecting to 45.60.70.60:80
+
+Status
+------
+24/100 completed
+24.0% (ETA: 87s)
+* doing HTTP(s) request http://www.whoscored.com/
+* performing control request with backend
+
+Result for https://www.basketball-reference.com/
+------------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.whoscored.com/
+* doing DNS query for www.whoscored.com
+* connecting to 45.60.70.60:443
+* doing HTTP(s) request https://www.whoscored.com/
+* performing control request with backend
+
+Result for http://www.pro-football-reference.com/
+-------------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.active.com/
+* doing DNS query for www.active.com
+* connecting to 104.76.67.13:80
+* doing HTTP(s) request http://www.active.com/
+
+Status
+------
+25/100 completed
+25.0% (ETA: 84s)
+
+Result for https://www.pro-football-reference.com/
+--------------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.active.com/
+* doing DNS query for www.active.com
+* connecting to 104.76.67.13:443
+* doing HTTP(s) request https://www.active.com/
+
+Result for http://www.whoscored.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.rivals.com/
+* doing DNS query for www.rivals.com
+* performing control request with backend
+* connecting to 152.195.57.253:80
+* doing HTTP(s) request http://www.rivals.com/
+
+Result for https://www.whoscored.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.rivals.com/
+* doing DNS query for www.rivals.com
+* connecting to 152.195.57.253:443
+* doing HTTP(s) request https://www.rivals.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+26/100 completed
+26.0% (ETA: 82s)
+
+Status
+------
+27/100 completed
+27.0% (ETA: 82s)
+
+Status
+------
+28/100 completed
+28.0% (ETA: 84s)
+
+Status
+------
+29/100 completed
+29.0% (ETA: 85s)
+
+Status
+------
+30/100 completed
+30.0% (ETA: 86s)
+
+Status
+------
+31/100 completed
+31.0% (ETA: 87s)
+
+Result for https://www.active.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.filgoal.com/
+* doing DNS query for www.filgoal.com
+* connecting to 104.20.31.157:80
+* connecting to 104.20.32.157:80
+* doing HTTP(s) request http://www.filgoal.com/
+
+Status
+------
+32/100 completed
+32.0% (ETA: 87s)
+
+Result for http://www.active.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.filgoal.com/
+* doing DNS query for www.filgoal.com
+* connecting to 104.20.32.157:443
+* connecting to 104.20.31.157:443
+* doing HTTP(s) request https://www.filgoal.com/
+
+Result for https://www.rivals.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.wwe.com/
+* doing DNS query for www.wwe.com
+* connecting to 151.101.230.133:80
+* doing HTTP(s) request http://www.wwe.com/
+
+Result for http://www.rivals.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.wwe.com/
+* doing DNS query for www.wwe.com
+* connecting to 151.101.230.133:443
+* doing HTTP(s) request https://www.wwe.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+33/100 completed
+33.0% (ETA: 84s)
+
+Status
+------
+34/100 completed
+34.0% (ETA: 85s)
+
+Status
+------
+35/100 completed
+35.0% (ETA: 84s)
+
+Status
+------
+36/100 completed
+36.0% (ETA: 85s)
+
+Result for http://www.filgoal.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nrl.com/
+* doing DNS query for www.nrl.com
+* connecting to 151.101.230.133:80
+* doing HTTP(s) request http://www.nrl.com/
+
+Result for http://www.wwe.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nrl.com/
+* doing DNS query for www.nrl.com
+* connecting to 151.101.230.133:443
+* doing HTTP(s) request https://www.nrl.com/
+* performing control request with backend
+
+Result for https://www.wwe.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.flashscore.com/
+* doing DNS query for www.flashscore.com
+
+Result for https://www.filgoal.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.flashscore.com/
+* doing DNS query for www.flashscore.com
+* performing control request with backend
+* connecting to 34.96.84.62:443
+* connecting to 34.96.84.62:80
+* doing HTTP(s) request http://www.flashscore.com/
+* doing HTTP(s) request https://www.flashscore.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+37/100 completed
+37.0% (ETA: 81s)
+
+Status
+------
+38/100 completed
+38.0% (ETA: 81s)
+
+Status
+------
+39/100 completed
+39.0% (ETA: 80s)
+
+Status
+------
+40/100 completed
+40.0% (ETA: 80s)
+
+Result for https://www.flashscore.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.cbssports.com/
+* doing DNS query for www.cbssports.com
+* connecting to 151.101.109.188:80
+* doing HTTP(s) request http://www.cbssports.com/
+
+Result for http://www.nrl.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.cbssports.com/
+* doing DNS query for www.cbssports.com
+* connecting to 151.101.109.188:443
+* doing HTTP(s) request https://www.cbssports.com/
+
+Result for http://www.flashscore.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nbcsports.com/
+* doing DNS query for www.nbcsports.com
+* connecting to 173.223.227.32:80
+* connecting to 173.223.227.40:80
+* doing HTTP(s) request http://www.nbcsports.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.nrl.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nbcsports.com/
+* doing DNS query for www.nbcsports.com
+* connecting to 173.223.227.32:443
+* connecting to 173.223.227.40:443
+* doing HTTP(s) request https://www.nbcsports.com/
+* performing control request with backend
+
+Status
+------
+41/100 completed
+41.0% (ETA: 77s)
+
+Status
+------
+42/100 completed
+42.0% (ETA: 76s)
+
+Status
+------
+43/100 completed
+43.0% (ETA: 76s)
+
+Result for https://www.cbssports.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.runnersworld.com/
+* doing DNS query for www.runnersworld.com
+* connecting to 151.101.108.155:80
+* doing HTTP(s) request http://www.runnersworld.com/
+
+Result for http://www.cbssports.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.runnersworld.com/
+* doing DNS query for www.runnersworld.com
+* connecting to 151.101.108.155:443
+* doing HTTP(s) request https://www.runnersworld.com/
+* performing control request with backend
+
+Result for http://www.nbcsports.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.sports.yahoo.com/
+* doing DNS query for www.sports.yahoo.com
+* performing control request with backend
+* connecting to 98.136.103.24:80
+
+Status
+------
+44/100 completed
+44.0% (ETA: 75s)
+
+Result for https://www.nbcsports.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.sports.yahoo.com/
+* doing DNS query for www.sports.yahoo.com
+* connecting to 98.136.103.24:443
+* doing HTTP(s) request http://www.sports.yahoo.com/
+* doing HTTP(s) request https://www.sports.yahoo.com/
+
+Result for http://www.runnersworld.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.profootballtalk.nbcsports.com/
+* doing DNS query for www.profootballtalk.nbcsports.com
+* doing HTTP(s) request http://www.profootballtalk.nbcsports.com/
+Error performing HTTP request: http://www.profootballtalk.nbcsports.com/
+Error performing HTTP request: http://www.profootballtalk.nbcsports.com/
+Error performing HTTP request: http://www.profootballtalk.nbcsports.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.runnersworld.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.profootballtalk.nbcsports.com/
+* doing DNS query for www.profootballtalk.nbcsports.com
+* doing HTTP(s) request https://www.profootballtalk.nbcsports.com/
+Error performing HTTP request: https://www.profootballtalk.nbcsports.com/
+Error performing HTTP request: https://www.profootballtalk.nbcsports.com/
+Error performing HTTP request: https://www.profootballtalk.nbcsports.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+45/100 completed
+45.0% (ETA: 71s)
+
+Result for http://www.profootballtalk.nbcsports.com/
+----------------------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for http://www.strava.com/
+* doing DNS query for www.strava.com
+* connecting to 54.85.233.233:80
+* connecting to 52.71.107.147:80
+* connecting to 54.161.171.210:80
+* connecting to 34.239.64.64:80
+* connecting to 34.203.104.63:80
+* connecting to 52.71.249.7:80
+* connecting to 3.232.58.26:80
+* connecting to 34.237.131.168:80
+
+Result for https://www.profootballtalk.nbcsports.com/
+-----------------------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.strava.com/
+* doing DNS query for www.strava.com
+* connecting to 54.85.233.233:443
+* connecting to 52.71.107.147:443
+* connecting to 54.161.171.210:443
+* connecting to 34.239.64.64:443
+* connecting to 34.203.104.63:443
+* connecting to 52.71.249.7:443
+* connecting to 3.232.58.26:443
+* connecting to 34.237.131.168:443
+* doing HTTP(s) request http://www.strava.com/
+* doing HTTP(s) request https://www.strava.com/
+
+Result for https://www.sports.yahoo.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for http://www.sports.yahoo.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+46/100 completed
+46.0% (ETA: 67s)
+
+Starting test for http://www.pinkbike.com/
+* doing DNS query for www.pinkbike.com
+* connecting to 198.90.5.100:80
+
+Status
+------
+47/100 completed
+47.0% (ETA: 67s)
+
+Starting test for https://www.pinkbike.com/
+* doing DNS query for www.pinkbike.com
+
+Status
+------
+48/100 completed
+48.0% (ETA: 67s)
+* connecting to 198.90.5.100:443
+* performing control request with backend
+* doing HTTP(s) request http://www.pinkbike.com/
+* doing HTTP(s) request https://www.pinkbike.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+49/100 completed
+49.0% (ETA: 65s)
+
+Status
+------
+50/100 completed
+50.0% (ETA: 65s)
+
+Status
+------
+51/100 completed
+51.0% (ETA: 65s)
+
+Status
+------
+52/100 completed
+52.0% (ETA: 65s)
+
+Result for https://www.strava.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.sportingnews.com/
+* doing DNS query for www.sportingnews.com
+* connecting to 184.25.23.60:80
+* doing HTTP(s) request http://www.sportingnews.com/
+
+Result for http://www.strava.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.sportingnews.com/
+* doing DNS query for www.sportingnews.com
+* connecting to 184.25.23.60:443
+* doing HTTP(s) request https://www.sportingnews.com/
+
+Result for https://www.pinkbike.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nhl.com/
+* doing DNS query for www.nhl.com
+* connecting to 104.75.37.116:80
+* doing HTTP(s) request http://www.nhl.com/
+
+Result for http://www.pinkbike.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nhl.com/
+* doing DNS query for www.nhl.com
+* connecting to 104.75.37.116:443
+* doing HTTP(s) request https://www.nhl.com/
+* performing control request with backend
+
+Status
+------
+53/100 completed
+53.0% (ETA: 61s)
+
+Status
+------
+54/100 completed
+54.0% (ETA: 60s)
+* performing control request with backend
+
+Status
+------
+55/100 completed
+55.0% (ETA: 60s)
+
+Status
+------
+56/100 completed
+56.0% (ETA: 59s)
+
+Status
+------
+57/100 completed
+57.0% (ETA: 59s)
+
+Status
+------
+58/100 completed
+58.0% (ETA: 58s)
+* performing control request with backend
+
+Result for https://www.nhl.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.pgatour.com/
+* doing DNS query for www.pgatour.com
+* connecting to 202.43.49.129:80
+* doing HTTP(s) request http://www.pgatour.com/
+Error performing HTTP request: http://www.pgatour.com/
+Error performing HTTP request: http://www.pgatour.com/
+
+Result for http://www.nhl.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.pgatour.com/
+* doing DNS query for www.pgatour.com
+* connecting to 202.43.49.129:443
+* doing HTTP(s) request https://www.pgatour.com/
+* performing control request with backend
+Error performing HTTP request: http://www.pgatour.com/
+Failed to perform HTTP request unknown_failure cannot concatenate 'str' and 'URI' objects
+* performing control request with backend
+Error performing HTTP request: https://www.pgatour.com/
+Error performing HTTP request: https://www.pgatour.com/
+Error performing HTTP request: https://www.pgatour.com/
+Failed to perform HTTP request unknown_failure cannot concatenate 'str' and 'URI' objects
+* performing control request with backend
+
+Result for http://www.sportingnews.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.sherdog.com/
+* doing DNS query for www.sherdog.com
+* connecting to 104.17.99.66:80
+* connecting to 104.17.100.66:80
+* doing HTTP(s) request http://www.sherdog.com/
+
+Result for https://www.sportingnews.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.sherdog.com/
+* doing DNS query for www.sherdog.com
+* connecting to 104.17.100.66:443
+* connecting to 104.17.99.66:443
+* doing HTTP(s) request https://www.sherdog.com/
+* performing control request with backend
+
+Status
+------
+59/100 completed
+59.0% (ETA: 54s)
+
+Result for http://www.pgatour.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for http://www.surfline.com/
+* doing DNS query for www.surfline.com
+* performing control request with backend
+* connecting to 104.22.22.108:80
+* connecting to 172.67.22.34:80
+* connecting to 104.22.23.108:80
+* doing HTTP(s) request http://www.surfline.com/
+
+Status
+------
+60/100 completed
+60.0% (ETA: 52s)
+* performing control request with backend
+
+Result for https://www.pgatour.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.surfline.com/
+* doing DNS query for www.surfline.com
+* connecting to 104.22.22.108:443
+* connecting to 172.67.22.34:443
+* connecting to 104.22.23.108:443
+* doing HTTP(s) request https://www.surfline.com/
+* performing control request with backend
+
+Status
+------
+61/100 completed
+61.0% (ETA: 51s)
+
+Result for https://www.sherdog.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.hkjc.com/
+* doing DNS query for www.hkjc.com
+
+Status
+------
+62/100 completed
+62.0% (ETA: 50s)
+
+Result for http://www.sherdog.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.hkjc.com/
+* doing DNS query for www.hkjc.com
+
+Status
+------
+63/100 completed
+63.0% (ETA: 49s)
+
+Status
+------
+64/100 completed
+64.0% (ETA: 49s)
+* connecting to 218.188.80.138:443
+* connecting to 218.188.80.138:80
+* doing HTTP(s) request https://www.hkjc.com/
+* doing HTTP(s) request http://www.hkjc.com/
+
+Result for https://www.surfline.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.afl.com.au/
+* doing DNS query for www.afl.com.au
+* connecting to 23.67.53.153:80
+* connecting to 23.67.53.137:80
+* doing HTTP(s) request http://www.afl.com.au/
+
+Result for http://www.surfline.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.afl.com.au/
+* doing DNS query for www.afl.com.au
+* connecting to 23.67.53.153:443
+* connecting to 23.67.53.137:443
+* doing HTTP(s) request https://www.afl.com.au/
+
+Status
+------
+65/100 completed
+65.0% (ETA: 47s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+66/100 completed
+66.0% (ETA: 46s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+67/100 completed
+67.0% (ETA: 45s)
+
+Status
+------
+68/100 completed
+68.0% (ETA: 44s)
+
+Result for https://www.afl.com.au/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.cricbuzz.com/
+* doing DNS query for www.cricbuzz.com
+* connecting to 23.67.53.211:80
+* connecting to 23.67.53.66:80
+* doing HTTP(s) request http://www.cricbuzz.com/
+
+Result for http://www.afl.com.au/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.cricbuzz.com/
+* doing DNS query for www.cricbuzz.com
+* connecting to 23.67.53.211:443
+* connecting to 23.67.53.66:443
+* doing HTTP(s) request https://www.cricbuzz.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.cricbuzz.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nfl.com/
+* doing DNS query for www.nfl.com
+* connecting to 151.101.229.153:80
+* doing HTTP(s) request http://www.nfl.com/
+
+Result for http://www.cricbuzz.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nfl.com/
+* doing DNS query for www.nfl.com
+* connecting to 151.101.229.153:443
+* doing HTTP(s) request https://www.nfl.com/
+
+Status
+------
+69/100 completed
+69.0% (ETA: 40s)
+
+Status
+------
+70/100 completed
+70.0% (ETA: 39s)
+
+Status
+------
+71/100 completed
+71.0% (ETA: 37s)
+
+Status
+------
+72/100 completed
+72.0% (ETA: 36s)
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.hkjc.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.soccerstand.com/
+* doing DNS query for www.soccerstand.com
+
+Result for https://www.nfl.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.soccerstand.com/
+* doing DNS query for www.soccerstand.com
+
+Result for http://www.nfl.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.motorsport.com/
+* doing DNS query for www.motorsport.com
+* connecting to 52.72.114.240:80
+* connecting to 18.233.252.26:80
+* connecting to 188.92.40.117:443
+* connecting to 188.92.40.117:80
+* doing HTTP(s) request http://www.motorsport.com/
+* doing HTTP(s) request https://www.soccerstand.com/
+* doing HTTP(s) request http://www.soccerstand.com/
+
+Result for https://www.hkjc.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.motorsport.com/
+* doing DNS query for www.motorsport.com
+* connecting to 18.233.252.26:443
+* connecting to 52.72.114.240:443
+* doing HTTP(s) request https://www.motorsport.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+73/100 completed
+73.0% (ETA: 33s)
+
+Result for https://www.soccerstand.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.livescore.com/
+* doing DNS query for www.livescore.com
+* connecting to 35.186.243.87:80
+* doing HTTP(s) request http://www.livescore.com/
+
+Result for http://www.motorsport.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.livescore.com/
+* doing DNS query for www.livescore.com
+* connecting to 35.186.243.87:443
+* doing HTTP(s) request https://www.livescore.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.soccerstand.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.formula1.com/
+* doing DNS query for www.formula1.com
+* connecting to 64.185.167.101:80
+
+Result for https://www.motorsport.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.formula1.com/
+* doing DNS query for www.formula1.com
+* connecting to 64.185.167.101:443
+* doing HTTP(s) request http://www.formula1.com/
+* doing HTTP(s) request https://www.formula1.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.livescore.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for http://www.livescore.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+74/100 completed
+74.0% (ETA: 30s)
+
+Starting test for http://www.nba.com/
+* doing DNS query for www.nba.com
+* connecting to 104.75.34.122:80
+* doing HTTP(s) request http://www.nba.com/
+
+Result for https://www.formula1.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for http://www.formula1.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+75/100 completed
+75.0% (ETA: 29s)
+
+Starting test for https://www.nba.com/
+* doing DNS query for www.nba.com
+
+Status
+------
+76/100 completed
+76.0% (ETA: 29s)
+
+Starting test for http://www.espncricinfo.com/
+* doing DNS query for www.espncricinfo.com
+* connecting to 104.75.34.122:443
+* connecting to 61.111.58.3:80
+* connecting to 61.111.58.38:80
+* doing HTTP(s) request https://www.nba.com/
+* doing HTTP(s) request http://www.espncricinfo.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+77/100 completed
+77.0% (ETA: 27s)
+
+Starting test for https://www.espncricinfo.com/
+* doing DNS query for www.espncricinfo.com
+
+Status
+------
+78/100 completed
+78.0% (ETA: 26s)
+* connecting to 61.111.58.3:443
+* connecting to 61.111.58.38:443
+* doing HTTP(s) request https://www.espncricinfo.com/
+* performing control request with backend
+
+Status
+------
+79/100 completed
+79.0% (ETA: 25s)
+
+Status
+------
+80/100 completed
+80.0% (ETA: 24s)
+
+Result for http://www.espncricinfo.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.baseball-reference.com/
+* doing DNS query for www.baseball-reference.com
+* connecting to 99.86.144.59:80
+* connecting to 99.86.144.40:80
+* connecting to 99.86.144.103:80
+* connecting to 99.86.144.11:80
+* doing HTTP(s) request http://www.baseball-reference.com/
+* performing control request with backend
+
+Status
+------
+81/100 completed
+81.0% (ETA: 23s)
+
+Result for http://www.nba.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.baseball-reference.com/
+* doing DNS query for www.baseball-reference.com
+* connecting to 99.86.144.11:443
+* connecting to 99.86.144.103:443
+* connecting to 99.86.144.40:443
+* connecting to 99.86.144.59:443
+* doing HTTP(s) request https://www.baseball-reference.com/
+* performing control request with backend
+
+Result for https://www.nba.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.soccerway.com/
+* doing DNS query for www.soccerway.com
+* connecting to 184.25.25.62:80
+* doing HTTP(s) request http://www.soccerway.com/
+
+Status
+------
+82/100 completed
+82.0% (ETA: 22s)
+
+Result for https://www.espncricinfo.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.soccerway.com/
+* doing DNS query for www.soccerway.com
+* connecting to 184.25.25.62:443
+* doing HTTP(s) request https://www.soccerway.com/
+* performing control request with backend
+
+Status
+------
+83/100 completed
+83.0% (ETA: 21s)
+
+Result for http://www.baseball-reference.com/
+---------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.espn.com/
+* doing DNS query for www.espn.com
+* connecting to 99.86.144.114:80
+* connecting to 99.86.144.10:80
+* connecting to 99.86.144.52:80
+* connecting to 99.86.144.103:80
+* doing HTTP(s) request http://www.espn.com/
+
+Status
+------
+84/100 completed
+84.0% (ETA: 20s)
+* performing control request with backend
+
+Result for https://www.baseball-reference.com/
+----------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.espn.com/
+* doing DNS query for www.espn.com
+* connecting to 99.86.144.103:443
+* connecting to 99.86.144.52:443
+* connecting to 99.86.144.10:443
+* connecting to 99.86.144.114:443
+* doing HTTP(s) request https://www.espn.com/
+* performing control request with backend
+
+Status
+------
+85/100 completed
+85.0% (ETA: 19s)
+* performing control request with backend
+
+Status
+------
+86/100 completed
+86.0% (ETA: 17s)
+
+Status
+------
+87/100 completed
+87.0% (ETA: 16s)
+
+Result for http://www.soccerway.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.foxsports.com/
+* doing DNS query for www.foxsports.com
+* connecting to 23.212.12.85:80
+* doing HTTP(s) request http://www.foxsports.com/
+* performing control request with backend
+
+Result for https://www.soccerway.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.foxsports.com/
+* doing DNS query for www.foxsports.com
+* connecting to 23.212.12.85:443
+* doing HTTP(s) request https://www.foxsports.com/
+* performing control request with backend
+
+Result for https://www.espn.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.rei.com/
+* doing DNS query for www.rei.com
+
+Status
+------
+88/100 completed
+88.0% (ETA: 15s)
+* connecting to 23.74.20.235:80
+* doing HTTP(s) request http://www.rei.com/
+
+Result for http://www.foxsports.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.rei.com/
+* doing DNS query for www.rei.com
+* connecting to 23.74.20.235:443
+* doing HTTP(s) request https://www.rei.com/
+
+Result for http://www.espn.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ronaldo7.net/
+* doing DNS query for www.ronaldo7.net
+* connecting to 104.27.196.91:80
+* connecting to 104.27.195.91:80
+* doing HTTP(s) request http://www.ronaldo7.net/
+
+Result for https://www.foxsports.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+89/100 completed
+89.0% (ETA: 13s)
+
+Starting test for https://www.ronaldo7.net/
+* doing DNS query for www.ronaldo7.net
+
+Status
+------
+90/100 completed
+90.0% (ETA: 12s)
+* connecting to 104.27.195.91:443
+* connecting to 104.27.196.91:443
+* doing HTTP(s) request https://www.ronaldo7.net/
+
+Status
+------
+91/100 completed
+91.0% (ETA: 11s)
+
+Status
+------
+92/100 completed
+92.0% (ETA: 10s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+93/100 completed
+93.0% (ETA: 9s)
+
+Status
+------
+94/100 completed
+94.0% (ETA: 7s)
+
+Result for https://www.ronaldo7.net/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for http://www.ronaldo7.net/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+95/100 completed
+95.0% (ETA: 6s)
+
+Status
+------
+96/100 completed
+96.0% (ETA: 5s)
+
+Status
+------
+97/100 completed
+97.0% (ETA: 3s)
+
+Status
+------
+98/100 completed
+98.0% (ETA: 2s)
+
+Starting test for http://www.rei.com/
+* doing DNS query for www.rei.com
+* connecting to 104.74.252.167:80
+* doing HTTP(s) request http://www.rei.com/
+
+Starting test for https://www.rei.com/
+* doing DNS query for www.rei.com
+* connecting to 104.74.252.167:443
+* doing HTTP(s) request https://www.rei.com/
+
+Status
+------
+99/100 completed
+99.0% (ETA: 0s)
+
+Status
+------
+100/100 completed
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Accessible URLS
+---------------
+* http://www.nascar.com/
+* https://www.nascar.com/
+* https://www.hattrick.org/
+* https://www.rotoworld.com/
+* http://www.rotoworld.com/
+* http://www.hattrick.org/
+* http://www.realmadrid.com/
+* https://www.realmadrid.com/
+* http://www.sport360.com/
+* https://www.sport360.com/
+* https://www.premierleague.com/
+* http://www.premierleague.com/
+* http://www.ufc.com/
+* https://www.ufc.com/
+* http://www.skysports.com/
+* http://www.sbnation.com/
+* https://www.sbnation.com/
+* http://www.si.com/
+* https://www.skysports.com/
+* https://www.si.com/
+* http://www.uefa.com/
+* https://www.uefa.com/
+* http://www.goal.com/
+* https://www.goal.com/
+* http://www.bleacherreport.com/
+* http://www.basketball-reference.com/
+* https://www.bleacherreport.com/
+* https://www.basketball-reference.com/
+* http://www.pro-football-reference.com/
+* https://www.pro-football-reference.com/
+* http://www.whoscored.com/
+* https://www.whoscored.com/
+* https://www.active.com/
+* http://www.active.com/
+* https://www.rivals.com/
+* http://www.rivals.com/
+* http://www.filgoal.com/
+* http://www.wwe.com/
+* https://www.wwe.com/
+* https://www.filgoal.com/
+* https://www.flashscore.com/
+* http://www.nrl.com/
+* http://www.flashscore.com/
+* https://www.nrl.com/
+* https://www.cbssports.com/
+* http://www.cbssports.com/
+* http://www.nbcsports.com/
+* https://www.nbcsports.com/
+* http://www.runnersworld.com/
+* https://www.runnersworld.com/
+* https://www.sports.yahoo.com/
+* http://www.sports.yahoo.com/
+* https://www.strava.com/
+* http://www.strava.com/
+* https://www.pinkbike.com/
+* http://www.pinkbike.com/
+* https://www.nhl.com/
+* http://www.nhl.com/
+* http://www.sportingnews.com/
+* https://www.sportingnews.com/
+* https://www.sherdog.com/
+* http://www.sherdog.com/
+* https://www.surfline.com/
+* http://www.surfline.com/
+* https://www.afl.com.au/
+* http://www.afl.com.au/
+* https://www.cricbuzz.com/
+* http://www.cricbuzz.com/
+* http://www.hkjc.com/
+* https://www.nfl.com/
+* http://www.nfl.com/
+* https://www.hkjc.com/
+* https://www.soccerstand.com/
+* http://www.motorsport.com/
+* http://www.soccerstand.com/
+* https://www.motorsport.com/
+* https://www.livescore.com/
+* http://www.livescore.com/
+* https://www.formula1.com/
+* http://www.formula1.com/
+* http://www.espncricinfo.com/
+* http://www.nba.com/
+* https://www.nba.com/
+* https://www.espncricinfo.com/
+* http://www.baseball-reference.com/
+* https://www.baseball-reference.com/
+* http://www.soccerway.com/
+* https://www.soccerway.com/
+* https://www.espn.com/
+* http://www.foxsports.com/
+* http://www.espn.com/
+* https://www.foxsports.com/
+* https://www.ronaldo7.net/
+* http://www.ronaldo7.net/
+
+Not accessible URLS
+-------------------
+* http://www.profootballtalk.nbcsports.com/
+* https://www.profootballtalk.nbcsports.com/
+* http://www.pgatour.com/
+* https://www.pgatour.com/
+* http://www.rei.com/
+* https://www.rei.com/
+
+URLS possibly blocked due to dns
+--------------------------------
+* http://www.pgatour.com/
+* https://www.pgatour.com/
+Report ID: 20200718T175713Z_AS4766_YK0n3RKGDGexyVxyXIVPEJQQBlogLkuRmWU4fDiEFkYhtLsoHZ
+Error performing HTTP request: http://www.rei.com/
+Error performing HTTP request: https://www.rei.com/
+Error performing HTTP request: http://www.rei.com/
+Error performing HTTP request: https://www.rei.com/
