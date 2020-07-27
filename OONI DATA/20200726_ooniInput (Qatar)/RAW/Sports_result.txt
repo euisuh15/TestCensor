@@ -1,0 +1,1087 @@
+[!] Error processing dns_spoof.py
+[!] Error processing traceroute.py
+Starting Tor
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+57%: Loading relay descriptors
+61%: Loading relay descriptors
+65%: Loading relay descriptors
+72%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for https://www.espn.com/
+* doing DNS query for www.espn.com
+
+Starting test for https://www.livescore.com/
+* doing DNS query for www.livescore.com
+
+Starting test for https://www.strava.com/
+* doing DNS query for www.strava.com
+
+Starting test for https://www.premierleague.com/
+* doing DNS query for www.premierleague.com
+* connecting to 13.226.118.103:443
+* connecting to 13.226.118.87:443
+* connecting to 13.226.118.59:443
+* connecting to 13.226.118.71:443
+* connecting to 35.186.243.87:443
+* connecting to 54.161.171.210:443
+* connecting to 3.232.58.26:443
+* connecting to 34.203.104.63:443
+* connecting to 54.208.149.222:443
+* connecting to 34.239.64.64:443
+* connecting to 52.71.249.7:443
+* connecting to 52.71.107.147:443
+* connecting to 34.237.131.168:443
+* doing HTTP(s) request https://www.livescore.com/
+* doing HTTP(s) request https://www.espn.com/
+* doing HTTP(s) request https://www.strava.com/
+* connecting to 13.226.118.48:443
+* connecting to 13.226.118.47:443
+* connecting to 13.226.118.46:443
+* connecting to 13.226.118.111:443
+* doing HTTP(s) request https://www.premierleague.com/
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 432: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.livescore.com/
+-------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.flashscore.com/
+* doing DNS query for www.flashscore.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 135155: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 90722: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.strava.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.sports.yahoo.com/
+* doing DNS query for www.sports.yahoo.com
+
+Status
+------
+1 completed 50 remaining
+2.0% (ETA: 7s)
+* connecting to 212.82.100.151:443
+* connecting to 34.96.84.62:443
+* doing HTTP(s) request https://www.flashscore.com/
+* doing HTTP(s) request https://www.sports.yahoo.com/
+
+Status
+------
+2 completed 50 remaining
+4.0% (ETA: 13s)
+
+Result for https://www.espn.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.goal.com/
+* doing DNS query for www.goal.com
+
+Result for https://www.premierleague.com/
+-----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.nbcsports.com/
+* doing DNS query for www.nbcsports.com
+* connecting to 104.97.49.178:443
+* doing HTTP(s) request https://www.goal.com/
+* connecting to 82.148.119.159:443
+* connecting to 82.148.119.182:443
+* doing HTTP(s) request https://www.nbcsports.com/
+
+Status
+------
+3 completed 50 remaining
+6.0% (ETA: 17s)
+
+Status
+------
+4 completed 50 remaining
+8.0% (ETA: 22s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 105880: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 36975: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.nbcsports.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.bleacherreport.com/
+* doing DNS query for www.bleacherreport.com
+* connecting to 151.101.193.5:443
+* connecting to 151.101.65.5:443
+* connecting to 151.101.1.5:443
+* connecting to 151.101.129.5:443
+
+Result for https://www.flashscore.com/
+--------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.skysports.com/
+* doing DNS query for www.skysports.com
+* doing HTTP(s) request https://www.bleacherreport.com/
+
+Status
+------
+5 completed 50 remaining
+10.0% (ETA: 22s)
+
+Status
+------
+6 completed 50 remaining
+12.0% (ETA: 25s)
+* connecting to 104.122.131.162:443
+* doing HTTP(s) request https://www.skysports.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd8 in position 10032: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 6410: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 271050: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 124153: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.skysports.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.formula1.com/
+* doing DNS query for www.formula1.com
+
+Result for https://www.bleacherreport.com/
+------------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.rei.com/
+* doing DNS query for www.rei.com
+* connecting to 184.29.69.241:443
+* doing HTTP(s) request https://www.rei.com/
+
+Result for https://www.sports.yahoo.com/
+----------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.cbssports.com/
+* doing DNS query for www.cbssports.com
+* connecting to 64.185.167.101:443
+
+Status
+------
+7 completed 50 remaining
+14.0% (ETA: 19s)
+* doing HTTP(s) request https://www.formula1.com/
+* connecting to 151.101.209.188:443
+* doing HTTP(s) request https://www.cbssports.com/
+
+Status
+------
+8 completed 50 remaining
+16.0% (ETA: 21s)
+
+Status
+------
+9 completed 50 remaining
+18.0% (ETA: 23s)
+
+Result for https://www.goal.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.espncricinfo.com/
+* doing DNS query for www.espncricinfo.com
+* connecting to 82.148.119.238:443
+* connecting to 82.148.119.230:443
+* doing HTTP(s) request https://www.espncricinfo.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 105112: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+10 completed 50 remaining
+20.0% (ETA: 23s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 28642: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 614: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.espncricinfo.com/
+----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.nba.com/
+* doing DNS query for www.nba.com
+* connecting to 2.23.245.125:443
+* doing HTTP(s) request https://www.nba.com/
+
+Status
+------
+11 completed 50 remaining
+22.0% (ETA: 22s)
+
+Result for https://www.cbssports.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.cricbuzz.com/
+* doing DNS query for www.cricbuzz.com
+
+Result for https://www.formula1.com/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.nfl.com/
+* doing DNS query for www.nfl.com
+* connecting to 82.148.119.244:443
+* connecting to 82.148.119.229:443
+* doing HTTP(s) request https://www.cricbuzz.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 22942: ordinal not in range(128)
+* performing control request with backend
+* connecting to 151.101.209.153:443
+
+Status
+------
+12 completed 50 remaining
+24.0% (ETA: 22s)
+* doing HTTP(s) request https://www.nfl.com/
+
+Status
+------
+13 completed 50 remaining
+26.0% (ETA: 23s)
+
+Result for https://www.cricbuzz.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.filgoal.com/
+* doing DNS query for www.filgoal.com
+* connecting to 104.20.31.157:443
+* connecting to 104.20.32.157:443
+* doing HTTP(s) request https://www.filgoal.com/
+
+Status
+------
+14 completed 50 remaining
+28.0% (ETA: 22s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 96638: ordinal not in range(128)
+* performing control request with backend
+Error performing HTTP request: https://www.nba.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd9 in position 218: ordinal not in range(128)
+* performing control request with backend
+Error performing HTTP request: https://www.nba.com/
+Error performing HTTP request: https://www.nba.com/
+Failed to perform HTTP request unknown_failure Invalid URI 'https://www.beinsports.com/ar/\\xd8\\xa7\\xd9\\x84\\xd8\\xaf\\xd9\\x88\\xd8\\xb1\\xd9\\x8a-\\xd8\\xa7\\xd9\\x84\\xd8\\xa3\\xd9\\x85\\xd9\\x8a\\xd8\\xb1\\xd9\\x83\\xd9\\x8a-\\xd9\\x84\\xd9\\x84\\xd9\\x85\\xd8\\xad\\xd8\\xaa\\xd8\\xb1\\xd9\\x81\\xd9\\x8a\\xd9\\x86/?gr=www'
+* performing control request with backend
+
+Result for https://www.nfl.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.soccerway.com/
+* doing DNS query for www.soccerway.com
+* connecting to 104.122.133.10:443
+* doing HTTP(s) request https://www.soccerway.com/
+
+Status
+------
+15 completed 50 remaining
+30.0% (ETA: 19s)
+
+Result for https://www.filgoal.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.sbnation.com/
+* doing DNS query for www.sbnation.com
+
+Result for https://www.nba.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.motorsport.com/
+* doing DNS query for www.motorsport.com
+* connecting to 151.101.209.52:443
+* connecting to 34.226.100.97:443
+* connecting to 18.233.252.26:443
+* doing HTTP(s) request https://www.sbnation.com/
+* doing HTTP(s) request https://www.motorsport.com/
+
+Status
+------
+16 completed 50 remaining
+32.0% (ETA: 19s)
+
+Status
+------
+17 completed 50 remaining
+34.0% (ETA: 20s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 32039: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 64889: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.soccerway.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.pgatour.com/
+* doing DNS query for www.pgatour.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 153118: ordinal not in range(128)
+* performing control request with backend
+* connecting to 104.97.59.112:443
+
+Result for https://www.motorsport.com/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.nhl.com/
+* doing DNS query for www.nhl.com
+* doing HTTP(s) request https://www.pgatour.com/
+
+Status
+------
+18 completed 50 remaining
+36.0% (ETA: 18s)
+
+Result for https://www.sbnation.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.rivals.com/
+* doing DNS query for www.rivals.com
+* connecting to 2.23.249.36:443
+
+Status
+------
+19 completed 50 remaining
+38.0% (ETA: 18s)
+* doing HTTP(s) request https://www.nhl.com/
+* connecting to 152.199.16.86:443
+* doing HTTP(s) request https://www.rivals.com/
+
+Status
+------
+20 completed 50 remaining
+40.0% (ETA: 18s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe4 in position 49797: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.pgatour.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.foxsports.com/
+* doing DNS query for www.foxsports.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 29464: ordinal not in range(128)
+* performing control request with backend
+* connecting to 2.23.235.56:443
+* doing HTTP(s) request https://www.foxsports.com/
+
+Status
+------
+21 completed 50 remaining
+42.0% (ETA: 17s)
+
+Result for https://www.nhl.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.si.com/
+* doing DNS query for www.si.com
+* connecting to 151.101.2.98:443
+* connecting to 151.101.66.98:443
+* connecting to 151.101.130.98:443
+* connecting to 151.101.194.98:443
+* doing HTTP(s) request https://www.si.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 65118: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 51034: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+22 completed 50 remaining
+44.0% (ETA: 16s)
+
+Result for https://www.rivals.com/
+----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.surfline.com/
+* doing DNS query for www.surfline.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 153253: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.foxsports.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.hkjc.com/
+* doing DNS query for www.hkjc.com
+* connecting to 104.22.22.108:443
+* connecting to 104.22.23.108:443
+* connecting to 172.67.22.34:443
+* doing HTTP(s) request https://www.surfline.com/
+
+Status
+------
+23 completed 50 remaining
+46.0% (ETA: 15s)
+
+Status
+------
+24 completed 50 remaining
+48.0% (ETA: 15s)
+
+Result for https://www.si.com/
+------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.baseball-reference.com/
+* doing DNS query for www.baseball-reference.com
+* connecting to 101.78.207.166:443
+* doing HTTP(s) request https://www.hkjc.com/
+* connecting to 13.226.118.110:443
+* connecting to 13.226.118.42:443
+* connecting to 13.226.118.11:443
+* connecting to 13.226.118.47:443
+* doing HTTP(s) request https://www.baseball-reference.com/
+
+Status
+------
+25 completed 50 remaining
+50.0% (ETA: 15s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 4677: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 26830: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.surfline.com/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.basketball-reference.com/
+* doing DNS query for www.basketball-reference.com
+* connecting to 13.226.118.21:443
+* connecting to 13.226.118.7:443
+* connecting to 13.226.118.127:443
+* connecting to 13.226.118.76:443
+
+Result for https://www.baseball-reference.com/
+----------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.whoscored.com/
+* doing DNS query for www.whoscored.com
+* doing HTTP(s) request https://www.basketball-reference.com/
+
+Status
+------
+26 completed 50 remaining
+52.0% (ETA: 13s)
+* connecting to 45.60.58.60:443
+* doing HTTP(s) request https://www.whoscored.com/
+
+Status
+------
+27 completed 50 remaining
+54.0% (ETA: 13s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 26831: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.basketball-reference.com/
+------------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.pinkbike.com/
+* doing DNS query for www.pinkbike.com
+
+Result for https://www.whoscored.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.hattrick.org/
+* doing DNS query for www.hattrick.org
+* connecting to 193.34.189.80:443
+* connecting to 193.34.189.81:443
+* connecting to 198.90.5.100:443
+* doing HTTP(s) request https://www.hattrick.org/
+* doing HTTP(s) request https://www.pinkbike.com/
+
+Status
+------
+28 completed 50 remaining
+56.0% (ETA: 12s)
+
+Status
+------
+29 completed 50 remaining
+58.0% (ETA: 12s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 39132: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.pinkbike.com/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.wwe.com/
+* doing DNS query for www.wwe.com
+
+Status
+------
+30 completed 50 remaining
+60.0% (ETA: 11s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 429: ordinal not in range(128)
+* performing control request with backend
+* connecting to 199.232.38.133:443
+* doing HTTP(s) request https://www.wwe.com/
+
+Result for https://www.hattrick.org/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.ufc.com/
+* doing DNS query for www.ufc.com
+
+Status
+------
+31 completed 50 remaining
+62.0% (ETA: 10s)
+* connecting to 23.185.0.4:443
+* doing HTTP(s) request https://www.ufc.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 57385: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.wwe.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.active.com/
+* doing DNS query for www.active.com
+* connecting to 104.97.49.170:443
+* doing HTTP(s) request https://www.active.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xef in position 45654: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+32 completed 50 remaining
+64.0% (ETA: 9s)
+
+Result for https://www.ufc.com/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.rotoworld.com/
+* doing DNS query for www.rotoworld.com
+* connecting to 82.148.111.179:443
+* connecting to 82.148.119.167:443
+* doing HTTP(s) request https://www.rotoworld.com/
+
+Status
+------
+33 completed 50 remaining
+66.0% (ETA: 9s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 21031: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 142539: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.active.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.uefa.com/
+* doing DNS query for www.uefa.com
+
+Result for https://www.rotoworld.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.sherdog.com/
+* doing DNS query for www.sherdog.com
+* connecting to 104.17.100.66:443
+* connecting to 104.17.99.66:443
+* doing HTTP(s) request https://www.sherdog.com/
+* connecting to 104.97.59.194:443
+
+Status
+------
+34 completed 50 remaining
+68.0% (ETA: 8s)
+* doing HTTP(s) request https://www.uefa.com/
+
+Status
+------
+35 completed 50 remaining
+70.0% (ETA: 8s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 30193: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 671: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.uefa.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.ronaldo7.net/
+* doing DNS query for www.ronaldo7.net
+
+Result for https://www.sherdog.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.profootballtalk.nbcsports.com/
+* doing DNS query for www.profootballtalk.nbcsports.com
+* connecting to 104.27.200.92:443
+* connecting to 104.27.201.92:443
+* doing HTTP(s) request https://www.profootballtalk.nbcsports.com/
+Error performing HTTP request: https://www.profootballtalk.nbcsports.com/
+* doing HTTP(s) request https://www.ronaldo7.net/
+Error performing HTTP request: https://www.profootballtalk.nbcsports.com/
+Error performing HTTP request: https://www.profootballtalk.nbcsports.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+
+Status
+------
+36 completed 50 remaining
+72.0% (ETA: 7s)
+
+Status
+------
+37 completed 50 remaining
+74.0% (ETA: 6s)
+
+Result for https://www.profootballtalk.nbcsports.com/
+-----------------------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.realmadrid.com/
+* doing DNS query for www.realmadrid.com
+* connecting to 104.122.135.167:443
+* doing HTTP(s) request https://www.realmadrid.com/
+
+Status
+------
+38 completed 50 remaining
+76.0% (ETA: 6s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xef in position 0: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.ronaldo7.net/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.runnersworld.com/
+* doing DNS query for www.runnersworld.com
+* connecting to 151.101.208.155:443
+* doing HTTP(s) request https://www.runnersworld.com/
+
+Status
+------
+39 completed 50 remaining
+78.0% (ETA: 5s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 95966: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 90256: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.realmadrid.com/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.pro-football-reference.com/
+* doing DNS query for www.pro-football-reference.com
+* connecting to 13.226.118.127:443
+* connecting to 13.226.118.118:443
+* connecting to 13.226.118.23:443
+* connecting to 13.226.118.47:443
+* doing HTTP(s) request https://www.pro-football-reference.com/
+
+Status
+------
+40 completed 50 remaining
+80.0% (ETA: 5s)
+
+Result for https://www.runnersworld.com/
+----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.nrl.com/
+* doing DNS query for www.nrl.com
+* connecting to 151.101.210.133:443
+* doing HTTP(s) request https://www.nrl.com/
+
+Status
+------
+41 completed 50 remaining
+82.0% (ETA: 4s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 26831: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.pro-football-reference.com/
+--------------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.baseball.fantasysports.yahoo.com/
+* doing DNS query for www.baseball.fantasysports.yahoo.com
+* doing HTTP(s) request https://www.baseball.fantasysports.yahoo.com/
+Error performing HTTP request: https://www.baseball.fantasysports.yahoo.com/
+Error performing HTTP request: https://www.baseball.fantasysports.yahoo.com/
+Error performing HTTP request: https://www.baseball.fantasysports.yahoo.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 16075: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+42 completed 50 remaining
+84.0% (ETA: 4s)
+
+Result for https://www.baseball.fantasysports.yahoo.com/
+--------------------------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.racingpost.com/
+* doing DNS query for www.racingpost.com
+* connecting to 151.101.209.181:443
+* doing HTTP(s) request https://www.racingpost.com/
+
+Status
+------
+43 completed 50 remaining
+86.0% (ETA: 3s)
+
+Result for https://www.nrl.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.sportingnews.com/
+* doing DNS query for www.sportingnews.com
+* connecting to 104.97.49.178:443
+* doing HTTP(s) request https://www.sportingnews.com/
+
+Status
+------
+44 completed 50 remaining
+88.0% (ETA: 3s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 151254: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.racingpost.com/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.afl.com.au/
+* doing DNS query for www.afl.com.au
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 111375: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+45 completed 50 remaining
+90.0% (ETA: 2s)
+* connecting to 82.148.119.182:443
+* connecting to 82.148.111.177:443
+* doing HTTP(s) request https://www.afl.com.au/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 108520: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.sportingnews.com/
+----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.sport360.com/
+* doing DNS query for www.sport360.com
+
+Result for https://www.afl.com.au/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+* connecting to 104.20.218.24:443
+* connecting to 172.67.0.103:443
+* connecting to 104.20.219.24:443
+* doing HTTP(s) request https://www.sport360.com/
+
+Status
+------
+46 completed 50 remaining
+92.0% (ETA: 2s)
+
+Status
+------
+47 completed 50 remaining
+94.0% (ETA: 1s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd8 in position 9365: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.sport360.com/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Status
+------
+48 completed 50 remaining
+96.0% (ETA: 0s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe9 in position 2703: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.hkjc.com/
+--------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Status
+------
+49 completed 50 remaining
+98.0% (ETA: 0s)
+
+Starting test for https://www.rei.com/
+* doing DNS query for www.rei.com
+* connecting to 184.29.69.241:443
+* doing HTTP(s) request https://www.rei.com/
+
+Status
+------
+50 completed 50 remaining
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Not accessible URLS
+-------------------
+* https://www.livescore.com/
+* https://www.strava.com/
+* https://www.espn.com/
+* https://www.premierleague.com/
+* https://www.nbcsports.com/
+* https://www.flashscore.com/
+* https://www.skysports.com/
+* https://www.bleacherreport.com/
+* https://www.sports.yahoo.com/
+* https://www.goal.com/
+* https://www.espncricinfo.com/
+* https://www.cbssports.com/
+* https://www.formula1.com/
+* https://www.cricbuzz.com/
+* https://www.nfl.com/
+* https://www.filgoal.com/
+* https://www.nba.com/
+* https://www.soccerway.com/
+* https://www.motorsport.com/
+* https://www.sbnation.com/
+* https://www.pgatour.com/
+* https://www.nhl.com/
+* https://www.rivals.com/
+* https://www.foxsports.com/
+* https://www.si.com/
+* https://www.surfline.com/
+* https://www.baseball-reference.com/
+* https://www.basketball-reference.com/
+* https://www.whoscored.com/
+* https://www.pinkbike.com/
+* https://www.hattrick.org/
+* https://www.wwe.com/
+* https://www.ufc.com/
+* https://www.active.com/
+* https://www.rotoworld.com/
+* https://www.uefa.com/
+* https://www.sherdog.com/
+* https://www.profootballtalk.nbcsports.com/
+* https://www.ronaldo7.net/
+* https://www.realmadrid.com/
+* https://www.runnersworld.com/
+* https://www.pro-football-reference.com/
+* https://www.baseball.fantasysports.yahoo.com/
+* https://www.nrl.com/
+* https://www.racingpost.com/
+* https://www.sportingnews.com/
+* https://www.afl.com.au/
+* https://www.sport360.com/
+* https://www.hkjc.com/
+* https://www.rei.com/
+
+URLS possibly blocked due to http-failure
+-----------------------------------------
+* https://www.livescore.com/
+* https://www.flashscore.com/
+* https://www.bleacherreport.com/
+* https://www.sports.yahoo.com/
+* https://www.formula1.com/
+* https://www.filgoal.com/
+* https://www.rivals.com/
+* https://www.si.com/
+* https://www.surfline.com/
+* https://www.pinkbike.com/
+* https://www.hattrick.org/
+* https://www.ufc.com/
+* https://www.sherdog.com/
+* https://www.ronaldo7.net/
+* https://www.sport360.com/
+* https://www.hkjc.com/
+
+URLS possibly blocked due to dns
+--------------------------------
+* https://www.strava.com/
+* https://www.espn.com/
+* https://www.premierleague.com/
+* https://www.nbcsports.com/
+* https://www.skysports.com/
+* https://www.goal.com/
+* https://www.espncricinfo.com/
+* https://www.cbssports.com/
+* https://www.cricbuzz.com/
+* https://www.nfl.com/
+* https://www.nba.com/
+* https://www.soccerway.com/
+* https://www.motorsport.com/
+* https://www.sbnation.com/
+* https://www.pgatour.com/
+* https://www.nhl.com/
+* https://www.foxsports.com/
+* https://www.baseball-reference.com/
+* https://www.basketball-reference.com/
+* https://www.whoscored.com/
+* https://www.wwe.com/
+* https://www.active.com/
+* https://www.rotoworld.com/
+* https://www.uefa.com/
+* https://www.realmadrid.com/
+* https://www.runnersworld.com/
+* https://www.pro-football-reference.com/
+* https://www.nrl.com/
+* https://www.racingpost.com/
+* https://www.sportingnews.com/
+* https://www.afl.com.au/
+Report ID: 20200726T155119Z_AS29384_RlbJAyGPBRPT4LPcMttXg23JkvSBDK7scuPqXVTM4rTniPaIcU
+Error performing HTTP request: https://www.rei.com/
+Error performing HTTP request: https://www.rei.com/
+551.562257051

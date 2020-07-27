@@ -1,0 +1,1949 @@
+Starting Tor
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+58%: Loading relay descriptors
+62%: Loading relay descriptors
+67%: Loading relay descriptors
+73%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for http://www.scribd.com/
+* doing DNS query for www.scribd.com
+
+Starting test for https://www.scribd.com/
+* doing DNS query for www.scribd.com
+
+Starting test for http://www.last.fm/
+* doing DNS query for www.last.fm
+
+Starting test for https://www.last.fm/
+* doing DNS query for www.last.fm
+* connecting to 199.232.66.152:443
+* connecting to 199.232.66.152:80
+* connecting to 199.232.65.188:443
+* connecting to 199.232.65.188:80
+* doing HTTP(s) request http://www.scribd.com/
+* doing HTTP(s) request https://www.scribd.com/
+* doing HTTP(s) request https://www.last.fm/
+* doing HTTP(s) request http://www.last.fm/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.scribd.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.cbsnews.com/
+* doing DNS query for www.cbsnews.com
+* connecting to 199.232.65.188:80
+
+Result for http://www.scribd.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.cbsnews.com/
+* doing DNS query for www.cbsnews.com
+* doing HTTP(s) request http://www.cbsnews.com/
+* connecting to 199.232.65.188:443
+* doing HTTP(s) request https://www.cbsnews.com/
+
+Result for https://www.last.fm/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.rottentomatoes.com/
+* doing DNS query for www.rottentomatoes.com
+* connecting to 23.51.172.241:80
+* doing HTTP(s) request http://www.rottentomatoes.com/
+
+Result for http://www.last.fm/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.rottentomatoes.com/
+* doing DNS query for www.rottentomatoes.com
+* performing control request with backend
+* connecting to 23.51.172.241:443
+* doing HTTP(s) request https://www.rottentomatoes.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+1/100 completed
+1.0% (ETA: 20s)
+* performing control request with backend
+
+Status
+------
+2/100 completed
+2.0% (ETA: 36s)
+
+Result for http://www.cbsnews.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.foxnews.com/
+* doing DNS query for www.foxnews.com
+
+Result for https://www.cbsnews.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.foxnews.com/
+* doing DNS query for www.foxnews.com
+* connecting to 23.78.201.231:443
+* connecting to 23.78.201.231:80
+
+Result for http://www.rottentomatoes.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.foodnetwork.com/
+* doing DNS query for www.foodnetwork.com
+* doing HTTP(s) request https://www.foxnews.com/
+* doing HTTP(s) request http://www.foxnews.com/
+* connecting to 23.221.201.39:80
+
+Status
+------
+3/100 completed
+3.0% (ETA: 46s)
+* doing HTTP(s) request http://www.foodnetwork.com/
+
+Result for https://www.rottentomatoes.com/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.foodnetwork.com/
+* doing DNS query for www.foodnetwork.com
+* connecting to 23.221.201.39:443
+* doing HTTP(s) request https://www.foodnetwork.com/
+* performing control request with backend
+
+Status
+------
+4/100 completed
+4.0% (ETA: 52s)
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.foxnews.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.grammarly.com/
+* doing DNS query for www.grammarly.com
+* connecting to 52.200.190.23:80
+* connecting to 52.70.5.31:80
+* connecting to 52.4.101.9:80
+* doing HTTP(s) request http://www.grammarly.com/
+
+Result for http://www.foxnews.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.grammarly.com/
+* doing DNS query for www.grammarly.com
+* connecting to 52.200.190.23:443
+* connecting to 52.70.5.31:443
+* connecting to 52.4.101.9:443
+
+Status
+------
+5/100 completed
+5.0% (ETA: 50s)
+
+Result for https://www.foodnetwork.com/
+---------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for http://www.abcnews.go.com/
+* doing DNS query for www.abcnews.go.com
+* doing HTTP(s) request https://www.grammarly.com/
+* connecting to 34.216.127.34:80
+* connecting to 54.244.12.90:80
+* connecting to 54.70.181.249:80
+
+Result for http://www.foodnetwork.com/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.abcnews.go.com/
+* doing DNS query for www.abcnews.go.com
+* connecting to 54.244.12.90:443
+* connecting to 54.70.181.249:443
+* connecting to 34.216.127.34:443
+* doing HTTP(s) request http://www.abcnews.go.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+6/100 completed
+6.0% (ETA: 51s)
+* performing control request with backend
+
+Result for http://www.grammarly.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.deviantart.com/
+* doing DNS query for www.deviantart.com
+
+Result for https://www.grammarly.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+* connecting to 99.84.237.62:80
+* connecting to 99.84.237.65:80
+* connecting to 99.84.237.60:80
+* connecting to 99.84.237.64:80
+* doing HTTP(s) request http://www.deviantart.com/
+
+Status
+------
+7/100 completed
+7.0% (ETA: 49s)
+
+Starting test for https://www.deviantart.com/
+* doing DNS query for www.deviantart.com
+* connecting to 99.84.237.64:443
+* connecting to 99.84.237.62:443
+* connecting to 99.84.237.65:443
+* connecting to 99.84.237.60:443
+
+Result for http://www.abcnews.go.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+* doing HTTP(s) request https://www.deviantart.com/
+
+Status
+------
+8/100 completed
+8.0% (ETA: 52s)
+
+Starting test for http://www.theatlantic.com/
+* doing DNS query for www.theatlantic.com
+* connecting to 151.101.202.133:80
+
+Status
+------
+9/100 completed
+9.0% (ETA: 57s)
+* performing control request with backend
+* doing HTTP(s) request http://www.theatlantic.com/
+
+Status
+------
+10/100 completed
+10.0% (ETA: 61s)
+* performing control request with backend
+
+Status
+------
+11/100 completed
+11.0% (ETA: 64s)
+
+Status
+------
+12/100 completed
+12.0% (ETA: 68s)
+
+Status
+------
+13/100 completed
+13.0% (ETA: 73s)
+
+Status
+------
+14/100 completed
+14.0% (ETA: 77s)
+* performing control request with backend
+
+Result for http://www.deviantart.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.theatlantic.com/
+* doing DNS query for www.theatlantic.com
+* connecting to 151.101.202.133:443
+
+Status
+------
+15/100 completed
+15.0% (ETA: 78s)
+* doing HTTP(s) request https://www.theatlantic.com/
+
+Result for https://www.deviantart.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.npr.org/
+* doing DNS query for www.npr.org
+* connecting to 23.0.149.228:80
+* doing HTTP(s) request http://www.npr.org/
+
+Result for http://www.theatlantic.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.npr.org/
+* doing DNS query for www.npr.org
+* performing control request with backend
+* connecting to 23.0.149.228:443
+* doing HTTP(s) request https://www.npr.org/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.theatlantic.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.cnn.com/
+* doing DNS query for www.cnn.com
+* connecting to 151.101.249.67:80
+* doing HTTP(s) request http://www.cnn.com/
+
+Status
+------
+16/100 completed
+16.0% (ETA: 69s)
+
+Status
+------
+17/100 completed
+17.0% (ETA: 71s)
+
+Result for http://www.npr.org/
+------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.cnn.com/
+* doing DNS query for www.cnn.com
+* connecting to 151.101.249.67:443
+* doing HTTP(s) request https://www.cnn.com/
+
+Result for https://www.npr.org/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for http://www.archiveofourown.org/
+* doing DNS query for www.archiveofourown.org
+* performing control request with backend
+* connecting to 104.153.64.122:80
+* doing HTTP(s) request http://www.archiveofourown.org/
+* performing control request with backend
+
+Status
+------
+18/100 completed
+18.0% (ETA: 67s)
+
+Result for http://www.cnn.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.archiveofourown.org/
+* doing DNS query for www.archiveofourown.org
+
+Status
+------
+19/100 completed
+19.0% (ETA: 69s)
+* connecting to 104.153.64.122:443
+* doing HTTP(s) request https://www.archiveofourown.org/
+* performing control request with backend
+
+Status
+------
+20/100 completed
+20.0% (ETA: 69s)
+
+Result for https://www.cnn.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.livejournal.com/
+* doing DNS query for www.livejournal.com
+
+Status
+------
+21/100 completed
+21.0% (ETA: 71s)
+* performing control request with backend
+* connecting to 13.88.179.33:80
+* doing HTTP(s) request http://www.livejournal.com/
+
+Result for http://www.archiveofourown.org/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.livejournal.com/
+* doing DNS query for www.livejournal.com
+* connecting to 13.88.179.33:443
+* doing HTTP(s) request https://www.livejournal.com/
+
+Result for https://www.archiveofourown.org/
+-------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.abc.net.au/
+* doing DNS query for www.abc.net.au
+* connecting to 23.40.28.126:80
+* doing HTTP(s) request http://www.abc.net.au/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+22/100 completed
+22.0% (ETA: 63s)
+
+Result for https://www.livejournal.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.abc.net.au/
+* doing DNS query for www.abc.net.au
+
+Status
+------
+23/100 completed
+23.0% (ETA: 63s)
+* connecting to 23.40.28.126:443
+
+Result for http://www.livejournal.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.cnbc.com/
+* doing DNS query for www.cnbc.com
+* doing HTTP(s) request https://www.abc.net.au/
+
+Result for http://www.abc.net.au/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.cnbc.com/
+* doing DNS query for www.cnbc.com
+* connecting to 23.47.146.154:443
+* connecting to 23.47.146.154:80
+* doing HTTP(s) request https://www.cnbc.com/
+* doing HTTP(s) request http://www.cnbc.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+24/100 completed
+24.0% (ETA: 62s)
+* performing control request with backend
+
+Status
+------
+25/100 completed
+25.0% (ETA: 63s)
+* doing HTTP(s) request https://www.abcnews.go.com/
+
+Result for https://www.abc.net.au/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ksl.com/
+* doing DNS query for www.ksl.com
+* connecting to 64.147.131.201:80
+* doing HTTP(s) request http://www.ksl.com/
+
+Status
+------
+26/100 completed
+26.0% (ETA: 62s)
+
+Status
+------
+27/100 completed
+27.0% (ETA: 63s)
+
+Status
+------
+28/100 completed
+28.0% (ETA: 63s)
+
+Status
+------
+29/100 completed
+29.0% (ETA: 64s)
+* performing control request with backend
+
+Result for http://www.cnbc.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ksl.com/
+* doing DNS query for www.ksl.com
+
+Result for https://www.cnbc.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.urbandictionary.com/
+* doing DNS query for www.urbandictionary.com
+* connecting to 64.147.131.201:443
+* connecting to 151.101.200.207:80
+* doing HTTP(s) request http://www.urbandictionary.com/
+* doing HTTP(s) request https://www.ksl.com/
+
+Result for http://www.ksl.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.urbandictionary.com/
+* doing DNS query for www.urbandictionary.com
+* performing control request with backend
+* performing control request with backend
+* connecting to 151.101.200.207:443
+* doing HTTP(s) request https://www.urbandictionary.com/
+* performing control request with backend
+
+Result for http://www.urbandictionary.com/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.sky.com/
+* doing DNS query for www.sky.com
+* connecting to 104.93.65.197:80
+* doing HTTP(s) request http://www.sky.com/
+
+Result for https://www.ksl.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.sky.com/
+* doing DNS query for www.sky.com
+* connecting to 104.93.65.197:443
+* doing HTTP(s) request https://www.sky.com/
+
+Result for https://www.urbandictionary.com/
+-------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ultimate-guitar.com/
+* doing DNS query for www.ultimate-guitar.com
+* connecting to 205.185.216.42:80
+* connecting to 205.185.216.10:80
+* doing HTTP(s) request http://www.ultimate-guitar.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+30/100 completed
+30.0% (ETA: 54s)
+
+Result for https://www.sky.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ultimate-guitar.com/
+* doing DNS query for www.ultimate-guitar.com
+
+Result for http://www.sky.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nbcnews.com/
+* doing DNS query for www.nbcnews.com
+* connecting to 205.185.216.10:443
+* connecting to 205.185.216.42:443
+
+Status
+------
+31/100 completed
+31.0% (ETA: 55s)
+* connecting to 23.51.167.43:80
+* doing HTTP(s) request https://www.ultimate-guitar.com/
+* doing HTTP(s) request http://www.nbcnews.com/
+* performing control request with backend
+
+Status
+------
+32/100 completed
+32.0% (ETA: 55s)
+
+Status
+------
+33/100 completed
+33.0% (ETA: 55s)
+* performing control request with backend
+
+Status
+------
+34/100 completed
+34.0% (ETA: 55s)
+
+Status
+------
+35/100 completed
+35.0% (ETA: 56s)
+
+Status
+------
+36/100 completed
+36.0% (ETA: 56s)
+* performing control request with backend
+
+Result for http://www.ultimate-guitar.com/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nbcnews.com/
+* doing DNS query for www.nbcnews.com
+* connecting to 23.51.167.43:443
+* doing HTTP(s) request https://www.nbcnews.com/
+
+Status
+------
+37/100 completed
+37.0% (ETA: 56s)
+
+Result for https://www.ultimate-guitar.com/
+-------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.cbc.ca/
+* doing DNS query for www.cbc.ca
+* connecting to 23.47.146.225:80
+
+Result for http://www.nbcnews.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.cbc.ca/
+* doing DNS query for www.cbc.ca
+* doing HTTP(s) request http://www.cbc.ca/
+* connecting to 23.47.146.225:443
+* doing HTTP(s) request https://www.cbc.ca/
+* performing control request with backend
+
+Status
+------
+38/100 completed
+38.0% (ETA: 55s)
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.nbcnews.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.today.com/
+* doing DNS query for www.today.com
+* connecting to 23.39.73.67:80
+* doing HTTP(s) request http://www.today.com/
+
+Status
+------
+39/100 completed
+39.0% (ETA: 54s)
+
+Result for https://www.cbc.ca/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.today.com/
+* doing DNS query for www.today.com
+* connecting to 23.39.73.67:443
+
+Result for http://www.cbc.ca/
+-----------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ndtv.com/
+* doing DNS query for www.ndtv.com
+* doing HTTP(s) request https://www.today.com/
+* connecting to 23.47.147.149:80
+* doing HTTP(s) request http://www.ndtv.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+40/100 completed
+40.0% (ETA: 50s)
+
+Result for http://www.ndtv.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ndtv.com/
+* doing DNS query for www.ndtv.com
+
+Result for http://www.today.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.bbc.co.uk/
+* doing DNS query for www.bbc.co.uk
+* connecting to 23.47.147.149:443
+
+Result for https://www.today.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.bbc.co.uk/
+* doing DNS query for www.bbc.co.uk
+* doing HTTP(s) request https://www.ndtv.com/
+* connecting to 212.58.237.254:443
+* connecting to 212.58.233.254:443
+* connecting to 212.58.237.254:80
+* connecting to 212.58.233.254:80
+* doing HTTP(s) request https://www.bbc.co.uk/
+* doing HTTP(s) request http://www.bbc.co.uk/
+
+Status
+------
+41/100 completed
+41.0% (ETA: 49s)
+
+Status
+------
+42/100 completed
+42.0% (ETA: 49s)
+* performing control request with backend
+
+Status
+------
+43/100 completed
+43.0% (ETA: 49s)
+* performing control request with backend
+Error performing HTTP request: https://www.abcnews.go.com/
+* performing control request with backend
+
+Result for https://www.ndtv.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.cox.com/
+* doing DNS query for www.cox.com
+* connecting to 52.84.16.5:80
+* connecting to 52.84.16.98:80
+* connecting to 52.84.16.121:80
+* connecting to 52.84.16.17:80
+* doing HTTP(s) request http://www.cox.com/
+
+Status
+------
+44/100 completed
+44.0% (ETA: 48s)
+
+Result for https://www.bbc.co.uk/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.cox.com/
+* doing DNS query for www.cox.com
+* connecting to 52.84.16.121:443
+* connecting to 52.84.16.17:443
+* connecting to 52.84.16.5:443
+* connecting to 52.84.16.98:443
+* doing HTTP(s) request https://www.cox.com/
+
+Result for http://www.bbc.co.uk/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.deezer.com/
+* doing DNS query for www.deezer.com
+* connecting to 23.43.57.203:80
+* connecting to 23.43.57.179:80
+* doing HTTP(s) request http://www.deezer.com/
+* performing control request with backend
+
+Status
+------
+45/100 completed
+45.0% (ETA: 46s)
+* performing control request with backend
+
+Status
+------
+46/100 completed
+46.0% (ETA: 46s)
+* performing control request with backend
+
+Status
+------
+47/100 completed
+47.0% (ETA: 45s)
+
+Status
+------
+48/100 completed
+48.0% (ETA: 45s)
+
+Status
+------
+49/100 completed
+49.0% (ETA: 45s)
+
+Result for http://www.deezer.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.deezer.com/
+* doing DNS query for www.deezer.com
+* connecting to 23.43.57.203:443
+* connecting to 23.43.57.179:443
+
+Result for http://www.cox.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.pbs.org/
+* doing DNS query for www.pbs.org
+* doing HTTP(s) request https://www.deezer.com/
+* connecting to 52.84.16.68:80
+* connecting to 52.84.16.101:80
+* connecting to 52.84.16.91:80
+* connecting to 52.84.16.32:80
+
+Result for https://www.cox.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.pbs.org/
+* doing DNS query for www.pbs.org
+* doing HTTP(s) request http://www.pbs.org/
+* connecting to 52.84.16.101:443
+* connecting to 52.84.16.91:443
+* connecting to 52.84.16.32:443
+* connecting to 52.84.16.68:443
+* doing HTTP(s) request https://www.pbs.org/
+
+Status
+------
+50/100 completed
+50.0% (ETA: 44s)
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+51/100 completed
+51.0% (ETA: 43s)
+
+Status
+------
+52/100 completed
+52.0% (ETA: 43s)
+
+Result for https://www.pbs.org/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.variety.com/
+* doing DNS query for www.variety.com
+
+Result for https://www.deezer.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.variety.com/
+* doing DNS query for www.variety.com
+* connecting to 192.0.79.32:443
+* connecting to 192.0.79.33:443
+* connecting to 192.0.79.32:80
+* connecting to 192.0.79.33:80
+* doing HTTP(s) request http://www.variety.com/
+* doing HTTP(s) request https://www.variety.com/
+
+Result for http://www.pbs.org/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ieee.org/
+* doing DNS query for www.ieee.org
+* connecting to 23.54.182.19:80
+* doing HTTP(s) request http://www.ieee.org/
+* performing control request with backend
+
+Status
+------
+53/100 completed
+53.0% (ETA: 41s)
+
+Status
+------
+54/100 completed
+54.0% (ETA: 41s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+55/100 completed
+55.0% (ETA: 40s)
+
+Result for http://www.ieee.org/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ieee.org/
+* doing DNS query for www.ieee.org
+* connecting to 23.54.182.19:443
+* doing HTTP(s) request https://www.ieee.org/
+
+Result for https://www.variety.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.xfinity.com/
+* doing DNS query for www.xfinity.com
+* connecting to 23.51.168.248:80
+* doing HTTP(s) request http://www.xfinity.com/
+
+Result for http://www.variety.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.xfinity.com/
+* doing DNS query for www.xfinity.com
+* connecting to 23.51.168.248:443
+* doing HTTP(s) request https://www.xfinity.com/
+* performing control request with backend
+
+Status
+------
+56/100 completed
+56.0% (ETA: 38s)
+* performing control request with backend
+
+Result for https://www.ieee.org/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.pandora.com/
+* doing DNS query for www.pandora.com
+* performing control request with backend
+* connecting to 208.85.40.20:80
+* doing HTTP(s) request http://www.pandora.com/
+* performing control request with backend
+
+Result for http://www.xfinity.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.pandora.com/
+* doing DNS query for www.pandora.com
+* connecting to 208.85.40.20:443
+* doing HTTP(s) request https://www.pandora.com/
+
+Status
+------
+57/100 completed
+57.0% (ETA: 36s)
+
+Result for https://www.xfinity.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.fanfiction.net/
+* doing DNS query for www.fanfiction.net
+* connecting to 173.205.184.7:80
+* connecting to 173.205.184.6:80
+* doing HTTP(s) request http://www.fanfiction.net/
+* performing control request with backend
+
+Result for http://www.pandora.com/
+----------------------------------
+* BLOCKING DETECTED due to http-diff
+* Is NOT accessible
+
+
+Starting test for https://www.fanfiction.net/
+* doing DNS query for www.fanfiction.net
+* connecting to 173.205.184.7:443
+* connecting to 173.205.184.6:443
+* doing HTTP(s) request https://www.fanfiction.net/
+
+Status
+------
+58/100 completed
+58.0% (ETA: 35s)
+
+Status
+------
+59/100 completed
+59.0% (ETA: 34s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+60/100 completed
+60.0% (ETA: 34s)
+
+Status
+------
+61/100 completed
+61.0% (ETA: 33s)
+
+Status
+------
+62/100 completed
+62.0% (ETA: 33s)
+
+Result for https://www.pandora.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-diff
+* Is NOT accessible
+
+
+Starting test for http://www.ign.com/
+* doing DNS query for www.ign.com
+Error performing HTTP request: https://www.abcnews.go.com/
+* connecting to 151.101.201.135:80
+* doing HTTP(s) request http://www.ign.com/
+
+Result for https://www.fanfiction.net/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ign.com/
+* doing DNS query for www.ign.com
+* connecting to 151.101.201.135:443
+* doing HTTP(s) request https://www.ign.com/
+
+Result for http://www.fanfiction.net/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.youtube.com/
+* doing DNS query for www.youtube.com
+* connecting to 142.250.64.78:80
+* connecting to 142.250.64.110:80
+* connecting to 172.217.11.14:80
+* connecting to 172.217.11.46:80
+* connecting to 172.217.12.174:80
+* connecting to 172.217.12.206:80
+* connecting to 172.217.7.14:80
+* connecting to 172.217.10.238:80
+* connecting to 172.217.165.142:80
+* connecting to 172.217.9.238:80
+* connecting to 172.217.10.14:80
+* connecting to 172.217.10.46:80
+* connecting to 172.217.3.110:80
+* connecting to 172.217.12.142:80
+* doing HTTP(s) request http://www.youtube.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+63/100 completed
+63.0% (ETA: 32s)
+* performing control request with backend
+
+Status
+------
+64/100 completed
+64.0% (ETA: 31s)
+
+Result for https://www.ign.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.youtube.com/
+* doing DNS query for www.youtube.com
+
+Result for http://www.ign.com/
+------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for http://www.tmz.com/
+* doing DNS query for www.tmz.com
+* connecting to 172.217.12.174:443
+* connecting to 172.217.12.206:443
+* connecting to 172.217.7.14:443
+* connecting to 172.217.10.238:443
+* connecting to 172.217.165.142:443
+* connecting to 172.217.9.238:443
+* connecting to 172.217.10.14:443
+* connecting to 172.217.10.46:443
+* connecting to 172.217.3.110:443
+* connecting to 172.217.12.142:443
+* connecting to 142.250.64.78:443
+* connecting to 142.250.64.110:443
+* connecting to 172.217.11.14:443
+* connecting to 172.217.11.46:443
+* connecting to 52.84.53.107:80
+* connecting to 52.84.53.91:80
+* connecting to 52.84.53.17:80
+* connecting to 52.84.53.21:80
+* doing HTTP(s) request https://www.youtube.com/
+* doing HTTP(s) request http://www.tmz.com/
+
+Status
+------
+65/100 completed
+65.0% (ETA: 30s)
+
+Result for http://www.youtube.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.tmz.com/
+* doing DNS query for www.tmz.com
+* performing control request with backend
+* connecting to 52.84.53.21:443
+* connecting to 52.84.53.107:443
+* connecting to 52.84.53.91:443
+* connecting to 52.84.53.17:443
+* doing HTTP(s) request https://www.tmz.com/
+* performing control request with backend
+
+Result for https://www.youtube.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.imdb.com/
+* doing DNS query for www.imdb.com
+* performing control request with backend
+* connecting to 52.84.123.99:80
+* doing HTTP(s) request http://www.imdb.com/
+
+Status
+------
+66/100 completed
+66.0% (ETA: 28s)
+
+Result for http://www.tmz.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.imdb.com/
+* doing DNS query for www.imdb.com
+* connecting to 52.84.123.99:443
+* doing HTTP(s) request https://www.imdb.com/
+
+Status
+------
+67/100 completed
+67.0% (ETA: 28s)
+
+Result for https://www.tmz.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.britishcouncil.org/
+* doing DNS query for www.britishcouncil.org
+* connecting to 23.40.22.197:80
+* doing HTTP(s) request http://www.britishcouncil.org/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+68/100 completed
+68.0% (ETA: 26s)
+
+Result for http://www.imdb.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.britishcouncil.org/
+* doing DNS query for www.britishcouncil.org
+* connecting to 23.40.22.197:443
+* doing HTTP(s) request https://www.britishcouncil.org/
+
+Result for http://www.britishcouncil.org/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.espn.com/
+* doing DNS query for www.espn.com
+* connecting to 52.84.53.90:80
+* connecting to 52.84.53.53:80
+* connecting to 52.84.53.66:80
+* connecting to 52.84.53.3:80
+* doing HTTP(s) request http://www.espn.com/
+
+Result for https://www.imdb.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.espn.com/
+* doing DNS query for www.espn.com
+* performing control request with backend
+* connecting to 52.84.53.66:443
+* connecting to 52.84.53.3:443
+* connecting to 52.84.53.90:443
+* connecting to 52.84.53.53:443
+* doing HTTP(s) request https://www.espn.com/
+
+Result for https://www.britishcouncil.org/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.spotify.com/
+* doing DNS query for www.spotify.com
+* connecting to 35.186.224.25:80
+* performing control request with backend
+* performing control request with backend
+* doing HTTP(s) request http://www.spotify.com/
+
+Result for https://www.espn.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+69/100 completed
+69.0% (ETA: 25s)
+
+Starting test for https://www.spotify.com/
+* doing DNS query for www.spotify.com
+* performing control request with backend
+
+Result for http://www.espn.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+* connecting to 35.186.224.25:443
+* doing HTTP(s) request https://www.spotify.com/
+
+Status
+------
+70/100 completed
+70.0% (ETA: 24s)
+
+Starting test for http://www.vectorstock.com/
+* doing DNS query for www.vectorstock.com
+* connecting to 52.84.126.126:80
+* connecting to 52.84.126.123:80
+* connecting to 52.84.126.52:80
+* connecting to 52.84.126.15:80
+* doing HTTP(s) request http://www.vectorstock.com/
+
+Result for http://www.spotify.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+* performing control request with backend
+
+Status
+------
+71/100 completed
+71.0% (ETA: 23s)
+
+Starting test for https://www.vectorstock.com/
+* doing DNS query for www.vectorstock.com
+* connecting to 52.84.126.15:443
+* connecting to 52.84.126.126:443
+* connecting to 52.84.126.123:443
+* connecting to 52.84.126.52:443
+* performing control request with backend
+* doing HTTP(s) request https://www.vectorstock.com/
+* performing control request with backend
+
+Result for https://www.spotify.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for http://www.vectorstock.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for https://www.vectorstock.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+72/100 completed
+72.0% (ETA: 22s)
+
+Starting test for http://www.eonline.com/
+* doing DNS query for www.eonline.com
+
+Status
+------
+73/100 completed
+73.0% (ETA: 21s)
+
+Starting test for https://www.eonline.com/
+* doing DNS query for www.eonline.com
+* connecting to 23.51.161.114:443
+* connecting to 23.51.161.114:80
+* doing HTTP(s) request https://www.eonline.com/
+* doing HTTP(s) request http://www.eonline.com/
+
+Status
+------
+74/100 completed
+74.0% (ETA: 21s)
+
+Starting test for http://www.metacritic.com/
+* doing DNS query for www.metacritic.com
+* connecting to 151.101.201.188:80
+* doing HTTP(s) request http://www.metacritic.com/
+
+Status
+------
+75/100 completed
+75.0% (ETA: 20s)
+Error performing HTTP request: https://www.abcnews.go.com/
+Failed to perform HTTP request generic_timeout_error
+* performing control request with backend
+
+Status
+------
+76/100 completed
+76.0% (ETA: 19s)
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+77/100 completed
+77.0% (ETA: 18s)
+
+Result for https://www.eonline.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.metacritic.com/
+* doing DNS query for www.metacritic.com
+
+Status
+------
+78/100 completed
+78.0% (ETA: 18s)
+* connecting to 151.101.201.188:443
+
+Status
+------
+79/100 completed
+79.0% (ETA: 17s)
+
+Result for http://www.metacritic.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.screenrant.com/
+* doing DNS query for www.screenrant.com
+* doing HTTP(s) request https://www.metacritic.com/
+
+Result for http://www.eonline.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.screenrant.com/
+* doing DNS query for www.screenrant.com
+* connecting to 34.202.200.131:443
+* connecting to 34.202.200.131:80
+* doing HTTP(s) request https://www.screenrant.com/
+* doing HTTP(s) request http://www.screenrant.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.metacritic.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.netflix.com/
+* doing DNS query for www.netflix.com
+* connecting to 35.168.223.51:80
+* connecting to 54.164.250.181:80
+* connecting to 54.86.127.46:80
+* connecting to 34.194.141.126:80
+* connecting to 23.23.65.228:80
+* connecting to 107.23.44.65:80
+* connecting to 34.194.63.6:80
+* connecting to 52.70.220.220:80
+* doing HTTP(s) request http://www.netflix.com/
+
+Result for https://www.screenrant.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.netflix.com/
+* doing DNS query for www.netflix.com
+* connecting to 34.194.141.126:443
+* connecting to 23.23.65.228:443
+* connecting to 107.23.44.65:443
+* connecting to 34.194.63.6:443
+* connecting to 52.70.220.220:443
+* connecting to 35.168.223.51:443
+* connecting to 54.164.250.181:443
+* connecting to 54.86.127.46:443
+* doing HTTP(s) request https://www.netflix.com/
+* performing control request with backend
+
+Result for http://www.screenrant.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+* performing control request with backend
+
+Status
+------
+80/100 completed
+80.0% (ETA: 16s)
+
+Starting test for http://www.wired.com/
+* doing DNS query for www.wired.com
+* connecting to 199.232.66.194:80
+* doing HTTP(s) request http://www.wired.com/
+
+Result for http://www.netflix.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+81/100 completed
+81.0% (ETA: 15s)
+
+Starting test for https://www.wired.com/
+* doing DNS query for www.wired.com
+* connecting to 199.232.66.194:443
+* doing HTTP(s) request https://www.wired.com/
+
+Result for https://www.netflix.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+* performing control request with backend
+
+Status
+------
+82/100 completed
+82.0% (ETA: 14s)
+
+Starting test for http://www.hulu.com/
+* doing DNS query for www.hulu.com
+* connecting to 23.51.169.143:80
+
+Status
+------
+83/100 completed
+83.0% (ETA: 13s)
+* doing HTTP(s) request http://www.hulu.com/
+
+Status
+------
+84/100 completed
+84.0% (ETA: 13s)
+
+Status
+------
+85/100 completed
+85.0% (ETA: 12s)
+
+Status
+------
+86/100 completed
+86.0% (ETA: 11s)
+* performing control request with backend
+
+Status
+------
+87/100 completed
+87.0% (ETA: 10s)
+* performing control request with backend
+
+Status
+------
+88/100 completed
+88.0% (ETA: 10s)
+
+Status
+------
+89/100 completed
+89.0% (ETA: 9s)
+
+Result for http://www.wired.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.hulu.com/
+* doing DNS query for www.hulu.com
+* connecting to 23.51.169.143:443
+* doing HTTP(s) request https://www.hulu.com/
+
+Result for https://www.wired.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.discogs.com/
+* doing DNS query for www.discogs.com
+* connecting to 216.151.17.150:80
+* doing HTTP(s) request http://www.discogs.com/
+
+Result for http://www.hulu.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.discogs.com/
+* doing DNS query for www.discogs.com
+* connecting to 216.151.17.150:443
+* performing control request with backend
+* doing HTTP(s) request https://www.discogs.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.discogs.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.rollingstone.com/
+* doing DNS query for www.rollingstone.com
+* connecting to 151.101.200.69:80
+* doing HTTP(s) request http://www.rollingstone.com/
+
+Result for https://www.discogs.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.rollingstone.com/
+* doing DNS query for www.rollingstone.com
+* connecting to 151.101.200.69:443
+* doing HTTP(s) request https://www.rollingstone.com/
+
+Result for https://www.hulu.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.vice.com/
+* doing DNS query for www.vice.com
+* connecting to 199.232.65.132:80
+* doing HTTP(s) request http://www.vice.com/
+* performing control request with backend
+
+Status
+------
+90/100 completed
+90.0% (ETA: 8s)
+* performing control request with backend
+
+Status
+------
+91/100 completed
+91.0% (ETA: 7s)
+
+Status
+------
+92/100 completed
+92.0% (ETA: 6s)
+
+Status
+------
+93/100 completed
+93.0% (ETA: 5s)
+
+Status
+------
+94/100 completed
+94.0% (ETA: 4s)
+* performing control request with backend
+
+Result for http://www.rollingstone.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.vice.com/
+* doing DNS query for www.vice.com
+
+Result for https://www.rollingstone.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+* connecting to 199.232.65.132:443
+* doing HTTP(s) request https://www.vice.com/
+
+Status
+------
+95/100 completed
+95.0% (ETA: 4s)
+
+Result for http://www.vice.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+* performing control request with backend
+
+Result for https://www.vice.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+96/100 completed
+96.0% (ETA: 3s)
+
+Status
+------
+97/100 completed
+97.0% (ETA: 2s)
+
+Status
+------
+98/100 completed
+98.0% (ETA: 1s)
+
+Status
+------
+99/100 completed
+99.0% (ETA: 0s)
+
+Result for https://www.abcnews.go.com/
+--------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Status
+------
+100/100 completed
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Accessible URLS
+---------------
+* https://www.scribd.com/
+* http://www.scribd.com/
+* https://www.last.fm/
+* http://www.last.fm/
+* http://www.cbsnews.com/
+* https://www.cbsnews.com/
+* http://www.rottentomatoes.com/
+* https://www.rottentomatoes.com/
+* https://www.foxnews.com/
+* http://www.foxnews.com/
+* http://www.grammarly.com/
+* https://www.grammarly.com/
+* http://www.abcnews.go.com/
+* http://www.deviantart.com/
+* https://www.deviantart.com/
+* http://www.theatlantic.com/
+* https://www.theatlantic.com/
+* http://www.cnn.com/
+* https://www.cnn.com/
+* http://www.archiveofourown.org/
+* https://www.archiveofourown.org/
+* https://www.livejournal.com/
+* http://www.livejournal.com/
+* http://www.abc.net.au/
+* https://www.abc.net.au/
+* http://www.cnbc.com/
+* https://www.cnbc.com/
+* http://www.ksl.com/
+* http://www.urbandictionary.com/
+* https://www.ksl.com/
+* https://www.urbandictionary.com/
+* https://www.sky.com/
+* http://www.sky.com/
+* http://www.ultimate-guitar.com/
+* https://www.ultimate-guitar.com/
+* http://www.nbcnews.com/
+* https://www.nbcnews.com/
+* https://www.cbc.ca/
+* http://www.cbc.ca/
+* http://www.ndtv.com/
+* http://www.today.com/
+* https://www.today.com/
+* https://www.ndtv.com/
+* https://www.bbc.co.uk/
+* http://www.bbc.co.uk/
+* http://www.deezer.com/
+* http://www.cox.com/
+* https://www.cox.com/
+* https://www.pbs.org/
+* https://www.deezer.com/
+* http://www.pbs.org/
+* http://www.ieee.org/
+* https://www.variety.com/
+* http://www.variety.com/
+* https://www.ieee.org/
+* http://www.xfinity.com/
+* https://www.xfinity.com/
+* https://www.fanfiction.net/
+* http://www.fanfiction.net/
+* http://www.youtube.com/
+* https://www.youtube.com/
+* http://www.tmz.com/
+* https://www.tmz.com/
+* http://www.imdb.com/
+* http://www.britishcouncil.org/
+* https://www.imdb.com/
+* https://www.britishcouncil.org/
+* https://www.espn.com/
+* http://www.espn.com/
+* http://www.spotify.com/
+* https://www.spotify.com/
+* http://www.vectorstock.com/
+* https://www.vectorstock.com/
+* https://www.eonline.com/
+* http://www.metacritic.com/
+* http://www.eonline.com/
+* https://www.metacritic.com/
+* https://www.screenrant.com/
+* http://www.screenrant.com/
+* http://www.netflix.com/
+* https://www.netflix.com/
+* http://www.wired.com/
+* https://www.wired.com/
+* http://www.hulu.com/
+* http://www.discogs.com/
+* https://www.discogs.com/
+* https://www.hulu.com/
+* http://www.rollingstone.com/
+* https://www.rollingstone.com/
+* http://www.vice.com/
+* https://www.vice.com/
+
+Not accessible URLS
+-------------------
+* https://www.foodnetwork.com/
+* http://www.foodnetwork.com/
+* http://www.npr.org/
+* https://www.npr.org/
+* http://www.pandora.com/
+* https://www.pandora.com/
+* https://www.ign.com/
+* http://www.ign.com/
+* https://www.abcnews.go.com/
+
+URLS possibly blocked due to http-diff
+--------------------------------------
+* http://www.pandora.com/
+* https://www.pandora.com/
+
+URLS possibly blocked due to dns
+--------------------------------
+* https://www.foodnetwork.com/
+* http://www.foodnetwork.com/
+* http://www.npr.org/
+* https://www.npr.org/
+* https://www.ign.com/
+* http://www.ign.com/
+Report ID: 20200727T004835Z_AS9_7R2898qTiBPARSzymAFsSYq6pAsyMsUGTITUpdLvg9tRd4uW4Y
+308.347998857

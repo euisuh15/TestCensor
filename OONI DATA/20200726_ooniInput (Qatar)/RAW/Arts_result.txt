@@ -1,0 +1,1097 @@
+[!] Error processing dns_spoof.py
+[!] Error processing traceroute.py
+Starting Tor
+5%: Connecting to directory server
+5%: Connecting to directory server
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+56%: Loading relay descriptors
+60%: Loading relay descriptors
+65%: Loading relay descriptors
+71%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for https://www.youtube.com/
+* doing DNS query for www.youtube.com
+
+Starting test for https://www.netflix.com/
+* doing DNS query for www.netflix.com
+
+Starting test for https://www.imdb.com/
+* doing DNS query for www.imdb.com
+
+Starting test for https://www.cnn.com/
+* doing DNS query for www.cnn.com
+* connecting to 52.30.59.81:443
+* connecting to 52.16.255.155:443
+* connecting to 54.154.81.103:443
+* connecting to 52.17.89.42:443
+* connecting to 34.251.239.113:443
+* connecting to 52.214.178.75:443
+* connecting to 52.214.223.236:443
+* connecting to 52.17.27.129:443
+* connecting to 142.250.64.78:443
+* connecting to 172.217.6.206:443
+* connecting to 172.217.12.142:443
+* connecting to 172.217.3.110:443
+* connecting to 172.217.10.142:443
+* connecting to 172.217.10.78:443
+* connecting to 172.217.10.46:443
+* connecting to 172.217.10.14:443
+* connecting to 172.217.165.142:443
+* connecting to 172.217.12.206:443
+* connecting to 172.217.12.174:443
+* connecting to 172.217.11.46:443
+* connecting to 172.217.11.14:443
+* connecting to 142.250.64.110:443
+* doing HTTP(s) request https://www.netflix.com/
+* connecting to 13.227.1.36:443
+* connecting to 151.101.209.67:443
+* doing HTTP(s) request https://www.youtube.com/
+* doing HTTP(s) request https://www.cnn.com/
+* doing HTTP(s) request https://www.imdb.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 98291: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.youtube.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.spotify.com/
+* doing DNS query for www.spotify.com
+* connecting to 35.186.224.25:443
+* doing HTTP(s) request https://www.spotify.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 242787: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+1 completed 50 remaining
+2.0% (ETA: 9s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 1089: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.imdb.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.bbc.co.uk/
+* doing DNS query for www.bbc.co.uk
+* connecting to 212.58.233.254:443
+* connecting to 212.58.237.254:443
+
+Result for https://www.cnn.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.espn.com/
+* doing DNS query for www.espn.com
+* doing HTTP(s) request https://www.bbc.co.uk/
+* connecting to 13.226.118.59:443
+* connecting to 13.226.118.87:443
+* connecting to 13.226.118.103:443
+* connecting to 13.226.118.71:443
+* doing HTTP(s) request https://www.espn.com/
+
+Status
+------
+2 completed 50 remaining
+4.0% (ETA: 13s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 2119: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+3 completed 50 remaining
+6.0% (ETA: 18s)
+
+Result for https://www.spotify.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.grammarly.com/
+* doing DNS query for www.grammarly.com
+* connecting to 52.4.101.9:443
+* connecting to 52.200.190.23:443
+* connecting to 52.70.5.31:443
+* doing HTTP(s) request https://www.grammarly.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 37802: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+4 completed 50 remaining
+8.0% (ETA: 19s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 108124: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.netflix.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.hulu.com/
+* doing DNS query for www.hulu.com
+* connecting to 104.122.139.42:443
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 661: ordinal not in range(128)
+* performing control request with backend
+* doing HTTP(s) request https://www.hulu.com/
+
+Result for https://www.bbc.co.uk/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.foxnews.com/
+* doing DNS query for www.foxnews.com
+* connecting to 2.23.229.2:443
+* doing HTTP(s) request https://www.foxnews.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 138606: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+5 completed 50 remaining
+10.0% (ETA: 19s)
+
+Status
+------
+6 completed 50 remaining
+12.0% (ETA: 22s)
+
+Result for https://www.grammarly.com/
+-------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.cnbc.com/
+* doing DNS query for www.cnbc.com
+* connecting to 104.122.129.68:443
+* doing HTTP(s) request https://www.cnbc.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 41165: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.espn.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.xfinity.com/
+* doing DNS query for www.xfinity.com
+* connecting to 104.122.128.65:443
+
+Status
+------
+7 completed 50 remaining
+14.0% (ETA: 22s)
+* doing HTTP(s) request https://www.xfinity.com/
+
+Result for https://www.foxnews.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.scribd.com/
+* doing DNS query for www.scribd.com
+* connecting to 151.101.210.152:443
+* doing HTTP(s) request https://www.scribd.com/
+
+Status
+------
+8 completed 50 remaining
+16.0% (ETA: 22s)
+
+Status
+------
+9 completed 50 remaining
+18.0% (ETA: 24s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 202545: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 41364: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 129338: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.scribd.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.ndtv.com/
+* doing DNS query for www.ndtv.com
+* connecting to 23.15.43.30:443
+* doing HTTP(s) request https://www.ndtv.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 24220: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.hulu.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.deviantart.com/
+* doing DNS query for www.deviantart.com
+* connecting to 99.84.237.65:443
+* connecting to 99.84.237.60:443
+* connecting to 99.84.237.64:443
+* connecting to 99.84.237.62:443
+
+Result for https://www.cnbc.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.livejournal.com/
+* doing DNS query for www.livejournal.com
+* doing HTTP(s) request https://www.deviantart.com/
+* connecting to 81.19.74.2:443
+
+Status
+------
+10 completed 50 remaining
+20.0% (ETA: 21s)
+
+Status
+------
+11 completed 50 remaining
+22.0% (ETA: 22s)
+* doing HTTP(s) request https://www.livejournal.com/
+
+Status
+------
+12 completed 50 remaining
+24.0% (ETA: 23s)
+
+Result for https://www.xfinity.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.npr.org/
+* doing DNS query for www.npr.org
+* connecting to 104.97.51.185:443
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 497: ordinal not in range(128)
+* performing control request with backend
+* doing HTTP(s) request https://www.npr.org/
+
+Status
+------
+13 completed 50 remaining
+26.0% (ETA: 22s)
+
+Result for https://www.ndtv.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.ultimate-guitar.com/
+* doing DNS query for www.ultimate-guitar.com
+* connecting to 205.185.216.10:443
+* connecting to 205.185.216.42:443
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 64652: ordinal not in range(128)
+* performing control request with backend
+* doing HTTP(s) request https://www.ultimate-guitar.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 26163: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+14 completed 50 remaining
+28.0% (ETA: 22s)
+
+Result for https://www.deviantart.com/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.ign.com/
+* doing DNS query for www.ign.com
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.npr.org/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.nbcnews.com/
+* doing DNS query for www.nbcnews.com
+* connecting to 23.15.46.79:443
+* connecting to 199.232.37.135:443
+* doing HTTP(s) request https://www.nbcnews.com/
+* doing HTTP(s) request https://www.ign.com/
+
+Status
+------
+15 completed 50 remaining
+30.0% (ETA: 20s)
+
+Result for https://www.ultimate-guitar.com/
+-------------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.rottentomatoes.com/
+* doing DNS query for www.rottentomatoes.com
+* connecting to 104.122.135.126:443
+* doing HTTP(s) request https://www.rottentomatoes.com/
+
+Status
+------
+16 completed 50 remaining
+32.0% (ETA: 21s)
+
+Status
+------
+17 completed 50 remaining
+34.0% (ETA: 21s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 68815: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xef in position 10013: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.nbcnews.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.pandora.com/
+* doing DNS query for www.pandora.com
+* connecting to 208.85.40.20:443
+* doing HTTP(s) request https://www.pandora.com/
+
+Result for https://www.rottentomatoes.com/
+------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.urbandictionary.com/
+* doing DNS query for www.urbandictionary.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd0 in position 110063: ordinal not in range(128)
+* performing control request with backend
+* connecting to 151.101.208.207:443
+* doing HTTP(s) request https://www.urbandictionary.com/
+
+Status
+------
+18 completed 50 remaining
+36.0% (ETA: 19s)
+
+Status
+------
+19 completed 50 remaining
+38.0% (ETA: 19s)
+
+Result for https://www.livejournal.com/
+---------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.discogs.com/
+* doing DNS query for www.discogs.com
+* connecting to 216.151.17.150:443
+* doing HTTP(s) request https://www.discogs.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xf0 in position 39076: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+20 completed 50 remaining
+40.0% (ETA: 19s)
+
+Result for https://www.urbandictionary.com/
+-------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.abcnews.go.com/
+* doing DNS query for www.abcnews.go.com
+* connecting to 54.244.12.90:443
+* connecting to 34.216.127.34:443
+* connecting to 54.70.181.249:443
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 22248: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+21 completed 50 remaining
+42.0% (ETA: 18s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd8 in position 100: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.discogs.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.abc.net.au/
+* doing DNS query for www.abc.net.au
+
+Result for https://www.ign.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.tmz.com/
+* doing DNS query for www.tmz.com
+* connecting to 184.29.68.170:443
+* connecting to 13.226.118.31:443
+* connecting to 13.226.118.48:443
+* connecting to 13.226.118.72:443
+* connecting to 13.226.118.88:443
+* doing HTTP(s) request https://www.abc.net.au/
+* doing HTTP(s) request https://www.tmz.com/
+
+Result for https://www.pandora.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.vectorstock.com/
+* doing DNS query for www.vectorstock.com
+* connecting to 13.226.118.24:443
+* connecting to 13.226.118.96:443
+* connecting to 13.226.118.30:443
+* connecting to 13.226.118.85:443
+* doing HTTP(s) request https://www.vectorstock.com/
+
+Status
+------
+22 completed 50 remaining
+44.0% (ETA: 17s)
+
+Status
+------
+23 completed 50 remaining
+46.0% (ETA: 17s)
+
+Status
+------
+24 completed 50 remaining
+48.0% (ETA: 17s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 21813: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 11220: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.vectorstock.com/
+---------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.cbc.ca/
+* doing DNS query for www.cbc.ca
+* connecting to 104.97.56.238:443
+* doing HTTP(s) request https://www.cbc.ca/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 50799: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.abc.net.au/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.cbsnews.com/
+* doing DNS query for www.cbsnews.com
+* connecting to 151.101.209.188:443
+
+Status
+------
+25 completed 50 remaining
+50.0% (ETA: 15s)
+* doing HTTP(s) request https://www.cbsnews.com/
+
+Result for https://www.tmz.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.archiveofourown.org/
+* doing DNS query for www.archiveofourown.org
+
+Status
+------
+26 completed 50 remaining
+52.0% (ETA: 15s)
+* connecting to 104.153.64.122:443
+* doing HTTP(s) request https://www.archiveofourown.org/
+
+Status
+------
+27 completed 50 remaining
+54.0% (ETA: 14s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 14186: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.cbc.ca/
+------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.deezer.com/
+* doing DNS query for www.deezer.com
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+* connecting to 82.148.119.228:443
+* connecting to 82.148.119.223:443
+* doing HTTP(s) request https://www.deezer.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 37290: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+28 completed 50 remaining
+56.0% (ETA: 14s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.cbsnews.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.ieee.org/
+* doing DNS query for www.ieee.org
+* connecting to 23.15.44.136:443
+* doing HTTP(s) request https://www.ieee.org/
+
+Result for https://www.archiveofourown.org/
+-------------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.wired.com/
+* doing DNS query for www.wired.com
+* connecting to 199.232.38.194:443
+* doing HTTP(s) request https://www.wired.com/
+
+Result for https://www.deezer.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.vice.com/
+* doing DNS query for www.vice.com
+* connecting to 151.101.209.132:443
+
+Status
+------
+29 completed 50 remaining
+58.0% (ETA: 13s)
+* doing HTTP(s) request https://www.vice.com/
+
+Status
+------
+30 completed 50 remaining
+60.0% (ETA: 13s)
+
+Status
+------
+31 completed 50 remaining
+62.0% (ETA: 12s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 15986: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 22883: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.wired.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.theatlantic.com/
+* doing DNS query for www.theatlantic.com
+* connecting to 151.101.210.133:443
+* doing HTTP(s) request https://www.theatlantic.com/
+
+Result for https://www.ieee.org/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.ksl.com/
+* doing DNS query for www.ksl.com
+* connecting to 64.147.131.201:443
+* doing HTTP(s) request https://www.ksl.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 54784: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+32 completed 50 remaining
+64.0% (ETA: 11s)
+
+Status
+------
+33 completed 50 remaining
+66.0% (ETA: 11s)
+
+Result for https://www.vice.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.foodnetwork.com/
+* doing DNS query for www.foodnetwork.com
+* connecting to 23.15.45.252:443
+* doing HTTP(s) request https://www.foodnetwork.com/
+
+Status
+------
+34 completed 50 remaining
+68.0% (ETA: 10s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+* doing HTTP(s) request https://www.abcnews.go.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 175816: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.ksl.com/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.sky.com/
+* doing DNS query for www.sky.com
+* connecting to 95.101.157.201:443
+* doing HTTP(s) request https://www.sky.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xee in position 7467: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.theatlantic.com/
+---------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.screenrant.com/
+* doing DNS query for www.screenrant.com
+* connecting to 34.202.200.131:443
+* doing HTTP(s) request https://www.screenrant.com/
+
+Status
+------
+35 completed 50 remaining
+70.0% (ETA: 9s)
+
+Status
+------
+36 completed 50 remaining
+72.0% (ETA: 9s)
+
+Result for https://www.foodnetwork.com/
+---------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.britishcouncil.org/
+* doing DNS query for www.britishcouncil.org
+* connecting to 104.122.137.4:443
+* doing HTTP(s) request https://www.britishcouncil.org/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 29867: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+37 completed 50 remaining
+74.0% (ETA: 8s)
+
+Result for https://www.sky.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.last.fm/
+* doing DNS query for www.last.fm
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 1654: ordinal not in range(128)
+* performing control request with backend
+* connecting to 199.232.37.188:443
+* doing HTTP(s) request https://www.last.fm/
+
+Status
+------
+38 completed 50 remaining
+76.0% (ETA: 7s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 37526: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.britishcouncil.org/
+------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.today.com/
+* doing DNS query for www.today.com
+* connecting to 104.122.140.234:443
+* doing HTTP(s) request https://www.today.com/
+
+Status
+------
+39 completed 50 remaining
+78.0% (ETA: 7s)
+
+Result for https://www.screenrant.com/
+--------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.metacritic.com/
+* doing DNS query for www.metacritic.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 28684: ordinal not in range(128)
+* performing control request with backend
+* connecting to 199.232.37.188:443
+* doing HTTP(s) request https://www.metacritic.com/
+
+Status
+------
+40 completed 50 remaining
+80.0% (ETA: 6s)
+
+Result for https://www.last.fm/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.pbs.org/
+* doing DNS query for www.pbs.org
+* connecting to 13.33.60.84:443
+* connecting to 13.33.60.127:443
+* connecting to 13.33.60.4:443
+* connecting to 13.33.60.94:443
+* doing HTTP(s) request https://www.pbs.org/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 42804: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Status
+------
+41 completed 50 remaining
+82.0% (ETA: 5s)
+
+Result for https://www.metacritic.com/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.cox.com/
+* doing DNS query for www.cox.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 156527: ordinal not in range(128)
+* performing control request with backend
+* connecting to 99.84.41.11:443
+* connecting to 99.84.41.115:443
+* connecting to 99.84.41.12:443
+* connecting to 99.84.41.93:443
+
+Result for https://www.today.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.rollingstone.com/
+* doing DNS query for www.rollingstone.com
+* doing HTTP(s) request https://www.cox.com/
+* connecting to 151.101.208.69:443
+* doing HTTP(s) request https://www.rollingstone.com/
+
+Status
+------
+42 completed 50 remaining
+84.0% (ETA: 5s)
+
+Result for https://www.pbs.org/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.variety.com/
+* doing DNS query for www.variety.com
+
+Status
+------
+43 completed 50 remaining
+86.0% (ETA: 4s)
+* connecting to 192.0.79.32:443
+* connecting to 192.0.79.33:443
+* doing HTTP(s) request https://www.variety.com/
+
+Status
+------
+44 completed 50 remaining
+88.0% (ETA: 4s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 4336: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.rollingstone.com/
+----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.hollywoodreporter.com/
+* doing DNS query for www.hollywoodreporter.com
+* connecting to 104.17.240.25:443
+* connecting to 104.17.238.25:443
+* connecting to 104.17.237.25:443
+* connecting to 104.17.239.25:443
+* connecting to 104.17.241.25:443
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 33265: ordinal not in range(128)
+* performing control request with backend
+* doing HTTP(s) request https://www.hollywoodreporter.com/
+
+Status
+------
+45 completed 50 remaining
+90.0% (ETA: 3s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 16383: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 54233: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.cox.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.eonline.com/
+* doing DNS query for www.eonline.com
+* connecting to 23.15.45.226:443
+* doing HTTP(s) request https://www.eonline.com/
+
+Result for https://www.hollywoodreporter.com/
+---------------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Result for https://www.variety.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Status
+------
+46 completed 50 remaining
+92.0% (ETA: 2s)
+
+Status
+------
+47 completed 50 remaining
+94.0% (ETA: 1s)
+
+Status
+------
+48 completed 50 remaining
+96.0% (ETA: 1s)
+Error performing HTTP request: https://www.abcnews.go.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 33162: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.eonline.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Status
+------
+49 completed 50 remaining
+98.0% (ETA: 0s)
+Error performing HTTP request: https://www.abcnews.go.com/
+Error performing HTTP request: https://www.abcnews.go.com/
+Failed to perform HTTP request generic_timeout_error
+* performing control request with backend
+
+Result for https://www.abcnews.go.com/
+--------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Status
+------
+50 completed 50 remaining
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Not accessible URLS
+-------------------
+* https://www.youtube.com/
+* https://www.imdb.com/
+* https://www.cnn.com/
+* https://www.spotify.com/
+* https://www.netflix.com/
+* https://www.bbc.co.uk/
+* https://www.grammarly.com/
+* https://www.espn.com/
+* https://www.foxnews.com/
+* https://www.scribd.com/
+* https://www.hulu.com/
+* https://www.cnbc.com/
+* https://www.xfinity.com/
+* https://www.ndtv.com/
+* https://www.deviantart.com/
+* https://www.npr.org/
+* https://www.ultimate-guitar.com/
+* https://www.nbcnews.com/
+* https://www.rottentomatoes.com/
+* https://www.livejournal.com/
+* https://www.urbandictionary.com/
+* https://www.discogs.com/
+* https://www.ign.com/
+* https://www.pandora.com/
+* https://www.vectorstock.com/
+* https://www.abc.net.au/
+* https://www.tmz.com/
+* https://www.cbc.ca/
+* https://www.cbsnews.com/
+* https://www.archiveofourown.org/
+* https://www.deezer.com/
+* https://www.wired.com/
+* https://www.ieee.org/
+* https://www.vice.com/
+* https://www.ksl.com/
+* https://www.theatlantic.com/
+* https://www.foodnetwork.com/
+* https://www.sky.com/
+* https://www.britishcouncil.org/
+* https://www.screenrant.com/
+* https://www.last.fm/
+* https://www.metacritic.com/
+* https://www.today.com/
+* https://www.pbs.org/
+* https://www.rollingstone.com/
+* https://www.cox.com/
+* https://www.hollywoodreporter.com/
+* https://www.variety.com/
+* https://www.eonline.com/
+* https://www.abcnews.go.com/
+
+URLS possibly blocked due to http-failure
+-----------------------------------------
+* https://www.spotify.com/
+* https://www.grammarly.com/
+* https://www.ultimate-guitar.com/
+* https://www.discogs.com/
+* https://www.pandora.com/
+* https://www.archiveofourown.org/
+* https://www.ksl.com/
+* https://www.screenrant.com/
+* https://www.hollywoodreporter.com/
+* https://www.variety.com/
+
+URLS possibly blocked due to dns
+--------------------------------
+* https://www.youtube.com/
+* https://www.imdb.com/
+* https://www.cnn.com/
+* https://www.netflix.com/
+* https://www.bbc.co.uk/
+* https://www.espn.com/
+* https://www.foxnews.com/
+* https://www.scribd.com/
+* https://www.hulu.com/
+* https://www.cnbc.com/
+* https://www.xfinity.com/
+* https://www.ndtv.com/
+* https://www.deviantart.com/
+* https://www.npr.org/
+* https://www.nbcnews.com/
+* https://www.rottentomatoes.com/
+* https://www.livejournal.com/
+* https://www.urbandictionary.com/
+* https://www.ign.com/
+* https://www.vectorstock.com/
+* https://www.abc.net.au/
+* https://www.tmz.com/
+* https://www.cbc.ca/
+* https://www.cbsnews.com/
+* https://www.deezer.com/
+* https://www.wired.com/
+* https://www.ieee.org/
+* https://www.vice.com/
+* https://www.theatlantic.com/
+* https://www.foodnetwork.com/
+* https://www.sky.com/
+* https://www.britishcouncil.org/
+* https://www.last.fm/
+* https://www.metacritic.com/
+* https://www.today.com/
+* https://www.pbs.org/
+* https://www.rollingstone.com/
+* https://www.cox.com/
+* https://www.eonline.com/
+Report ID: 20200726T134814Z_AS29384_d7dWQYrFpl3BD7mYm3PluzXNg16f2uQ8ePxtDo4Q6g9BcfktX4
+335.935400963

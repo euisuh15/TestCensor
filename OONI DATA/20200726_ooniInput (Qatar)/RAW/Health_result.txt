@@ -1,0 +1,1088 @@
+[!] Error processing dns_spoof.py
+[!] Error processing traceroute.py
+Starting Tor
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+56%: Loading relay descriptors
+60%: Loading relay descriptors
+65%: Loading relay descriptors
+71%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for https://www.nih.gov/
+* doing DNS query for www.nih.gov
+
+Starting test for https://www.webmd.com/
+* doing DNS query for www.webmd.com
+
+Starting test for https://www.cdc.gov/
+* doing DNS query for www.cdc.gov
+
+Starting test for https://www.who.int/
+* doing DNS query for www.who.int
+* connecting to 104.122.130.75:443
+* doing HTTP(s) request https://www.cdc.gov/
+* connecting to 143.204.148.30:443
+* connecting to 143.204.148.55:443
+* connecting to 143.204.148.119:443
+* connecting to 143.204.148.95:443
+* connecting to 104.18.16.210:443
+* connecting to 104.18.17.210:443
+* doing HTTP(s) request https://www.who.int/
+* doing HTTP(s) request https://www.webmd.com/
+* connecting to 35.169.209.222:443
+* connecting to 52.72.169.229:443
+* doing HTTP(s) request https://www.nih.gov/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 2137: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 41627: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd8 in position 26259: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 14933: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.webmd.com/
+---------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.mayoclinic.org/
+* doing DNS query for www.mayoclinic.org
+
+Result for https://www.who.int/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.myfitnesspal.com/
+* doing DNS query for www.myfitnesspal.com
+
+Result for https://www.cdc.gov/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.psychologytoday.com/
+* doing DNS query for www.psychologytoday.com
+* connecting to 13.226.117.48:443
+* doing HTTP(s) request https://www.myfitnesspal.com/
+* connecting to 52.215.121.180:443
+* connecting to 52.211.6.157:443
+* doing HTTP(s) request https://www.psychologytoday.com/
+* connecting to 23.62.126.243:443
+* doing HTTP(s) request https://www.mayoclinic.org/
+
+Status
+------
+1 completed 50 remaining
+2.0% (ETA: 8s)
+
+Result for https://www.nih.gov/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.kaiserpermanente.org/
+* doing DNS query for www.kaiserpermanente.org
+
+Status
+------
+2 completed 50 remaining
+4.0% (ETA: 16s)
+
+Status
+------
+3 completed 50 remaining
+6.0% (ETA: 22s)
+* connecting to 2.23.224.140:443
+* doing HTTP(s) request https://www.kaiserpermanente.org/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 7915: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+4 completed 50 remaining
+8.0% (ETA: 24s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 66122: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.mayoclinic.org/
+--------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.fda.gov/
+* doing DNS query for www.fda.gov
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 30981: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.myfitnesspal.com/
+----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.medlineplus.gov/
+* doing DNS query for www.medlineplus.gov
+* connecting to 104.122.136.85:443
+* doing HTTP(s) request https://www.fda.gov/
+* connecting to 143.204.148.67:443
+* connecting to 143.204.148.56:443
+* connecting to 143.204.148.72:443
+* connecting to 143.204.148.3:443
+* doing HTTP(s) request https://www.medlineplus.gov/
+
+Result for https://www.psychologytoday.com/
+-------------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.www.nhs.uk/
+* doing DNS query for www.www.nhs.uk
+
+Status
+------
+5 completed 50 remaining
+10.0% (ETA: 20s)
+* doing HTTP(s) request https://www.www.nhs.uk/
+Error performing HTTP request: https://www.www.nhs.uk/
+Error performing HTTP request: https://www.www.nhs.uk/
+Error performing HTTP request: https://www.www.nhs.uk/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 5682: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+6 completed 50 remaining
+12.0% (ETA: 23s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 9232: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.fda.gov/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.medscape.com/
+* doing DNS query for www.medscape.com
+
+Status
+------
+7 completed 50 remaining
+14.0% (ETA: 24s)
+
+Result for https://www.www.nhs.uk/
+----------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.drugs.com/
+* doing DNS query for www.drugs.com
+* connecting to 104.18.21.148:443
+* connecting to 104.18.20.148:443
+* doing HTTP(s) request https://www.medscape.com/
+* connecting to 104.97.51.211:443
+* doing HTTP(s) request https://www.drugs.com/
+
+Status
+------
+8 completed 50 remaining
+16.0% (ETA: 24s)
+
+Result for https://www.medlineplus.gov/
+---------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.menshealth.com/
+* doing DNS query for www.menshealth.com
+
+Status
+------
+9 completed 50 remaining
+18.0% (ETA: 25s)
+* connecting to 151.101.208.155:443
+* doing HTTP(s) request https://www.menshealth.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 36105: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xef in position 11350: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.drugs.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.niams.nih.gov/
+* doing DNS query for www.niams.nih.gov
+
+Status
+------
+10 completed 50 remaining
+20.0% (ETA: 24s)
+* connecting to 50.16.223.196:443
+* connecting to 3.228.34.237:443
+* connecting to 52.71.54.212:443
+
+Result for https://www.medscape.com/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.medicinenet.com/
+* doing DNS query for www.medicinenet.com
+* doing HTTP(s) request https://www.niams.nih.gov/
+* connecting to 104.18.7.68:443
+* connecting to 104.18.6.68:443
+* doing HTTP(s) request https://www.medicinenet.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 189044: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+11 completed 50 remaining
+22.0% (ETA: 23s)
+
+Result for https://www.menshealth.com/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.verywellmind.com/
+* doing DNS query for www.verywellmind.com
+
+Status
+------
+12 completed 50 remaining
+24.0% (ETA: 24s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 17076: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+* connecting to 151.101.210.137:443
+* doing HTTP(s) request https://www.verywellmind.com/
+
+Status
+------
+13 completed 50 remaining
+26.0% (ETA: 23s)
+
+Result for https://www.medicinenet.com/
+---------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.weightwatchers.com/
+* doing DNS query for www.weightwatchers.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 57288: ordinal not in range(128)
+* performing control request with backend
+* connecting to 151.101.210.99:443
+* doing HTTP(s) request https://www.weightwatchers.com/
+
+Result for https://www.niams.nih.gov/
+-------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.niddk.nih.gov/
+* doing DNS query for www.niddk.nih.gov
+
+Result for https://www.verywellmind.com/
+----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.labcorp.com/
+* doing DNS query for www.labcorp.com
+* connecting to 23.211.129.198:443
+
+Status
+------
+14 completed 50 remaining
+28.0% (ETA: 22s)
+* doing HTTP(s) request https://www.niddk.nih.gov/
+* connecting to 104.16.160.134:443
+* connecting to 104.16.161.134:443
+* doing HTTP(s) request https://www.labcorp.com/
+
+Status
+------
+15 completed 50 remaining
+30.0% (ETA: 22s)
+
+Status
+------
+16 completed 50 remaining
+32.0% (ETA: 22s)
+Error performing HTTP request: https://www.kaiserpermanente.org/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 4725: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 8382: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 87658: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.labcorp.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.apa.org/
+* doing DNS query for www.apa.org
+
+Result for https://www.weightwatchers.com/
+------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.healthgrades.com/
+* doing DNS query for www.healthgrades.com
+* connecting to 13.226.118.11:443
+* connecting to 13.226.118.55:443
+* connecting to 13.226.118.116:443
+* connecting to 13.226.118.120:443
+* connecting to 192.225.220.51:443
+* doing HTTP(s) request https://www.healthgrades.com/
+* doing HTTP(s) request https://www.apa.org/
+
+Status
+------
+17 completed 50 remaining
+34.0% (ETA: 19s)
+
+Result for https://www.niddk.nih.gov/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.nichd.nih.gov/
+* doing DNS query for www.nichd.nih.gov
+* connecting to 107.162.144.93:443
+
+Status
+------
+18 completed 50 remaining
+36.0% (ETA: 20s)
+* doing HTTP(s) request https://www.nichd.nih.gov/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 112024: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+19 completed 50 remaining
+38.0% (ETA: 19s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 5973: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 21899: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.healthgrades.com/
+----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.nimh.nih.gov/
+* doing DNS query for www.nimh.nih.gov
+* connecting to 128.231.17.16:443
+* doing HTTP(s) request https://www.nimh.nih.gov/
+
+Result for https://www.apa.org/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.clevelandclinic.org/
+* doing DNS query for www.clevelandclinic.org
+
+Result for https://www.nichd.nih.gov/
+-------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.health.com/
+* doing DNS query for www.health.com
+* connecting to 192.35.79.223:443
+
+Status
+------
+20 completed 50 remaining
+40.0% (ETA: 17s)
+* doing HTTP(s) request https://www.clevelandclinic.org/
+* connecting to 99.84.41.80:443
+* connecting to 99.84.41.8:443
+* connecting to 99.84.41.66:443
+* connecting to 99.84.41.9:443
+* doing HTTP(s) request https://www.health.com/
+
+Status
+------
+21 completed 50 remaining
+42.0% (ETA: 17s)
+
+Status
+------
+22 completed 50 remaining
+44.0% (ETA: 17s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 219: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 109050: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.health.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.verywellhealth.com/
+* doing DNS query for www.verywellhealth.com
+* connecting to 151.101.210.137:443
+* doing HTTP(s) request https://www.verywellhealth.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 23598: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+23 completed 50 remaining
+46.0% (ETA: 15s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 59145: ordinal not in range(128)
+* performing control request with backend
+Error performing HTTP request: https://www.kaiserpermanente.org/
+
+Result for https://www.nimh.nih.gov/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.hopkinsmedicine.org/
+* doing DNS query for www.hopkinsmedicine.org
+
+Result for https://www.verywellhealth.com/
+------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.self.com/
+* doing DNS query for www.self.com
+* connecting to 128.220.192.230:443
+* connecting to 151.101.208.239:443
+* doing HTTP(s) request https://www.hopkinsmedicine.org/
+* doing HTTP(s) request https://www.self.com/
+
+Result for https://www.clevelandclinic.org/
+-------------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.verywellfit.com/
+* doing DNS query for www.verywellfit.com
+
+Status
+------
+24 completed 50 remaining
+48.0% (ETA: 14s)
+* connecting to 151.101.210.137:443
+* doing HTTP(s) request https://www.verywellfit.com/
+
+Status
+------
+25 completed 50 remaining
+50.0% (ETA: 14s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 28141: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 57853: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+26 completed 50 remaining
+52.0% (ETA: 13s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 419: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.verywellfit.com/
+---------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.bmj.com/
+* doing DNS query for www.bmj.com
+
+Result for https://www.self.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.kidshealth.org/
+* doing DNS query for www.kidshealth.org
+
+Result for https://www.hopkinsmedicine.org/
+-------------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.niaaa.nih.gov/
+* doing DNS query for www.niaaa.nih.gov
+* connecting to 104.18.10.218:443
+* connecting to 104.18.11.218:443
+* connecting to 54.83.207.167:443
+* doing HTTP(s) request https://www.bmj.com/
+* doing HTTP(s) request https://www.niaaa.nih.gov/
+* connecting to 192.234.249.117:443
+* doing HTTP(s) request https://www.kidshealth.org/
+
+Status
+------
+27 completed 50 remaining
+54.0% (ETA: 12s)
+
+Status
+------
+28 completed 50 remaining
+56.0% (ETA: 12s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 23046: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+29 completed 50 remaining
+58.0% (ETA: 12s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 786: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.bmj.com/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.fragrantica.com/
+* doing DNS query for www.fragrantica.com
+* connecting to 104.17.2.6:443
+* connecting to 104.17.3.6:443
+* doing HTTP(s) request https://www.fragrantica.com/
+
+Result for https://www.niaaa.nih.gov/
+-------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.rxlist.com/
+* doing DNS query for www.rxlist.com
+* connecting to 104.18.25.195:443
+* connecting to 104.18.24.195:443
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 8799: ordinal not in range(128)
+* performing control request with backend
+* doing HTTP(s) request https://www.rxlist.com/
+
+Status
+------
+30 completed 50 remaining
+60.0% (ETA: 11s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 16532: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+31 completed 50 remaining
+62.0% (ETA: 11s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.kidshealth.org/
+--------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.clinicaltrials.gov/
+* doing DNS query for www.clinicaltrials.gov
+* connecting to 165.112.7.20:443
+* connecting to 130.14.29.113:443
+* doing HTTP(s) request https://www.clinicaltrials.gov/
+
+Result for https://www.rxlist.com/
+----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.mercola.com/
+* doing DNS query for www.mercola.com
+* connecting to 104.18.12.238:443
+* connecting to 104.18.13.238:443
+
+Result for https://www.fragrantica.com/
+---------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.heart.org/
+* doing DNS query for www.heart.org
+* doing HTTP(s) request https://www.mercola.com/
+
+Status
+------
+32 completed 50 remaining
+64.0% (ETA: 10s)
+* connecting to 13.226.118.103:443
+* connecting to 13.226.118.6:443
+* connecting to 13.226.118.43:443
+* connecting to 13.226.118.19:443
+* doing HTTP(s) request https://www.heart.org/
+Error performing HTTP request: https://www.kaiserpermanente.org/
+Failed to perform HTTP request unknown_failure cannot concatenate 'str' and 'URI' objects
+* performing control request with backend
+
+Status
+------
+33 completed 50 remaining
+66.0% (ETA: 9s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 22446: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Status
+------
+34 completed 50 remaining
+68.0% (ETA: 9s)
+
+Result for https://www.mercola.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.zocdoc.com/
+* doing DNS query for www.zocdoc.com
+
+Result for https://www.clinicaltrials.gov/
+------------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.emedicine.medscape.com/
+* doing DNS query for www.emedicine.medscape.com
+* connecting to 45.60.33.63:443
+* doing HTTP(s) request https://www.zocdoc.com/
+* connecting to 207.231.204.56:443
+* doing HTTP(s) request https://www.emedicine.medscape.com/
+Error performing HTTP request: https://www.emedicine.medscape.com/
+
+Status
+------
+35 completed 50 remaining
+70.0% (ETA: 8s)
+Error performing HTTP request: https://www.emedicine.medscape.com/
+
+Status
+------
+36 completed 50 remaining
+72.0% (ETA: 8s)
+Error performing HTTP request: https://www.emedicine.medscape.com/
+Failed to perform HTTP request response_never_received
+* performing control request with backend
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.zocdoc.com/
+----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.thelancet.com/
+* doing DNS query for www.thelancet.com
+* connecting to 104.18.123.114:443
+* connecting to 104.18.124.114:443
+
+Result for https://www.emedicine.medscape.com/
+----------------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.cancer.org/
+* doing DNS query for www.cancer.org
+* doing HTTP(s) request https://www.thelancet.com/
+
+Status
+------
+37 completed 50 remaining
+74.0% (ETA: 7s)
+* connecting to 13.226.118.66:443
+* connecting to 13.226.118.28:443
+* connecting to 13.226.118.30:443
+* connecting to 13.226.118.23:443
+* doing HTTP(s) request https://www.cancer.org/
+
+Status
+------
+38 completed 50 remaining
+76.0% (ETA: 7s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 74474: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 11528: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.cancer.org/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.tonyrobbins.com/
+* doing DNS query for www.tonyrobbins.com
+* connecting to 216.240.171.40:443
+* doing HTTP(s) request https://www.tonyrobbins.com/
+
+Result for https://www.heart.org/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.nejm.org/
+* doing DNS query for www.nejm.org
+* connecting to 104.18.204.32:443
+* connecting to 104.18.205.32:443
+* doing HTTP(s) request https://www.nejm.org/
+
+Status
+------
+39 completed 50 remaining
+78.0% (ETA: 6s)
+
+Status
+------
+40 completed 50 remaining
+80.0% (ETA: 5s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 20799: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.kaiserpermanente.org/
+--------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.nia.nih.gov/
+* doing DNS query for www.nia.nih.gov
+
+Result for https://www.tonyrobbins.com/
+---------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.goodrx.com/
+* doing DNS query for www.goodrx.com
+* connecting to 13.226.118.92:443
+* connecting to 13.226.118.47:443
+* connecting to 13.226.118.77:443
+* connecting to 13.226.118.119:443
+* doing HTTP(s) request https://www.nia.nih.gov/
+* connecting to 199.232.38.49:443
+* doing HTTP(s) request https://www.goodrx.com/
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Status
+------
+41 completed 50 remaining
+82.0% (ETA: 4s)
+
+Status
+------
+42 completed 50 remaining
+84.0% (ETA: 4s)
+
+Result for https://www.nejm.org/
+--------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.doctor.webmd.com/
+* doing DNS query for www.doctor.webmd.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 16480: ordinal not in range(128)
+* performing control request with backend
+* doing HTTP(s) request https://www.doctor.webmd.com/
+Error performing HTTP request: https://www.doctor.webmd.com/
+Error performing HTTP request: https://www.doctor.webmd.com/
+Error performing HTTP request: https://www.doctor.webmd.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 116300: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.doctor.webmd.com/
+----------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.aamc.org/
+* doing DNS query for www.aamc.org
+
+Status
+------
+43 completed 50 remaining
+86.0% (ETA: 3s)
+* connecting to 151.101.210.133:443
+
+Result for https://www.nia.nih.gov/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.sutterhealth.org/
+* doing DNS query for www.sutterhealth.org
+
+Result for https://www.goodrx.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.sdsu.edu/
+* doing DNS query for www.sdsu.edu
+* doing HTTP(s) request https://www.aamc.org/
+* connecting to 198.217.73.3:443
+* connecting to 104.25.90.16:443
+* connecting to 104.25.91.16:443
+* doing HTTP(s) request https://www.sdsu.edu/
+* doing HTTP(s) request https://www.sutterhealth.org/
+
+Status
+------
+44 completed 50 remaining
+88.0% (ETA: 3s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 44515: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+45 completed 50 remaining
+90.0% (ETA: 2s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 110882: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+46 completed 50 remaining
+92.0% (ETA: 2s)
+
+Result for https://www.aamc.org/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 17381: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.sdsu.edu/
+--------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Result for https://www.sutterhealth.org/
+----------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Status
+------
+47 completed 50 remaining
+94.0% (ETA: 1s)
+
+Status
+------
+48 completed 50 remaining
+96.0% (ETA: 1s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Status
+------
+49 completed 50 remaining
+98.0% (ETA: 0s)
+
+Result for https://www.thelancet.com/
+-------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Status
+------
+50 completed 50 remaining
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Not accessible URLS
+-------------------
+* https://www.webmd.com/
+* https://www.who.int/
+* https://www.cdc.gov/
+* https://www.nih.gov/
+* https://www.mayoclinic.org/
+* https://www.myfitnesspal.com/
+* https://www.psychologytoday.com/
+* https://www.fda.gov/
+* https://www.www.nhs.uk/
+* https://www.medlineplus.gov/
+* https://www.drugs.com/
+* https://www.medscape.com/
+* https://www.menshealth.com/
+* https://www.medicinenet.com/
+* https://www.niams.nih.gov/
+* https://www.verywellmind.com/
+* https://www.labcorp.com/
+* https://www.weightwatchers.com/
+* https://www.niddk.nih.gov/
+* https://www.healthgrades.com/
+* https://www.apa.org/
+* https://www.nichd.nih.gov/
+* https://www.health.com/
+* https://www.nimh.nih.gov/
+* https://www.verywellhealth.com/
+* https://www.clevelandclinic.org/
+* https://www.verywellfit.com/
+* https://www.self.com/
+* https://www.hopkinsmedicine.org/
+* https://www.bmj.com/
+* https://www.niaaa.nih.gov/
+* https://www.kidshealth.org/
+* https://www.rxlist.com/
+* https://www.fragrantica.com/
+* https://www.mercola.com/
+* https://www.clinicaltrials.gov/
+* https://www.zocdoc.com/
+* https://www.emedicine.medscape.com/
+* https://www.cancer.org/
+* https://www.heart.org/
+* https://www.kaiserpermanente.org/
+* https://www.tonyrobbins.com/
+* https://www.nejm.org/
+* https://www.doctor.webmd.com/
+* https://www.nia.nih.gov/
+* https://www.goodrx.com/
+* https://www.aamc.org/
+* https://www.sdsu.edu/
+* https://www.sutterhealth.org/
+* https://www.thelancet.com/
+
+URLS possibly blocked due to http-failure
+-----------------------------------------
+* https://www.webmd.com/
+* https://www.nih.gov/
+* https://www.mayoclinic.org/
+* https://www.psychologytoday.com/
+* https://www.medscape.com/
+* https://www.medicinenet.com/
+* https://www.niams.nih.gov/
+* https://www.labcorp.com/
+* https://www.nichd.nih.gov/
+* https://www.nimh.nih.gov/
+* https://www.clevelandclinic.org/
+* https://www.hopkinsmedicine.org/
+* https://www.bmj.com/
+* https://www.niaaa.nih.gov/
+* https://www.kidshealth.org/
+* https://www.rxlist.com/
+* https://www.fragrantica.com/
+* https://www.mercola.com/
+* https://www.clinicaltrials.gov/
+* https://www.zocdoc.com/
+* https://www.tonyrobbins.com/
+* https://www.nejm.org/
+* https://www.sdsu.edu/
+* https://www.sutterhealth.org/
+* https://www.thelancet.com/
+
+URLS possibly blocked due to dns
+--------------------------------
+* https://www.who.int/
+* https://www.cdc.gov/
+* https://www.myfitnesspal.com/
+* https://www.fda.gov/
+* https://www.medlineplus.gov/
+* https://www.drugs.com/
+* https://www.menshealth.com/
+* https://www.verywellmind.com/
+* https://www.weightwatchers.com/
+* https://www.niddk.nih.gov/
+* https://www.healthgrades.com/
+* https://www.apa.org/
+* https://www.health.com/
+* https://www.verywellhealth.com/
+* https://www.verywellfit.com/
+* https://www.self.com/
+* https://www.cancer.org/
+* https://www.heart.org/
+* https://www.kaiserpermanente.org/
+* https://www.nia.nih.gov/
+* https://www.goodrx.com/
+* https://www.aamc.org/
+Report ID: 20200726T141040Z_AS29384_FBNFbs3g8tk0ArqPLqcAjrmr83Uhhb8bnDBaMhZ1hNlRUJ5SoC
+177.548547983

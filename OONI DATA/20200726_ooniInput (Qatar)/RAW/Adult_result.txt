@@ -1,0 +1,1113 @@
+[!] Error processing dns_spoof.py
+[!] Error processing traceroute.py
+Starting Tor
+5%: Connecting to directory server
+5%: Connecting to directory server
+5%: Connecting to directory server
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+57%: Loading relay descriptors
+60%: Loading relay descriptors
+65%: Loading relay descriptors
+71%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for https://www.xvideos.com/
+* doing DNS query for www.xvideos.com
+
+Starting test for https://www.xnxx.com/
+* doing DNS query for www.xnxx.com
+
+Starting test for https://www.chaturbate.com/
+* doing DNS query for www.chaturbate.com
+
+Starting test for https://www.youporn.com/
+* doing DNS query for www.youporn.com
+* connecting to 66.254.114.79:443
+* doing HTTP(s) request https://www.youporn.com/
+* connecting to 104.18.100.40:443
+* connecting to 104.18.101.40:443
+* connecting to 185.88.181.9:443
+* connecting to 185.88.181.8:443
+* connecting to 185.88.181.7:443
+* connecting to 185.88.181.6:443
+* connecting to 185.88.181.5:443
+* connecting to 185.88.181.4:443
+* connecting to 185.88.181.3:443
+* connecting to 185.88.181.2:443
+* connecting to 185.88.181.11:443
+* connecting to 185.88.181.10:443
+* doing HTTP(s) request https://www.chaturbate.com/
+* connecting to 185.88.181.55:443
+* connecting to 185.88.181.54:443
+* connecting to 185.88.181.53:443
+* connecting to 185.88.181.60:443
+* connecting to 185.88.181.59:443
+* connecting to 185.88.181.58:443
+* connecting to 185.88.181.57:443
+* connecting to 185.88.181.56:443
+* doing HTTP(s) request https://www.xvideos.com/
+* doing HTTP(s) request https://www.xnxx.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 124352: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd8 in position 12309: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd8 in position 42146: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 30418: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.youporn.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.livejasmin.com/
+* doing DNS query for www.livejasmin.com
+* connecting to 109.71.161.200:443
+* doing HTTP(s) request https://www.livejasmin.com/
+
+Result for https://www.xvideos.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.4chan.org/
+* doing DNS query for www.4chan.org
+
+Result for https://www.xnxx.com/
+--------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.nhentai.net/
+* doing DNS query for www.nhentai.net
+* connecting to 104.17.136.89:443
+* connecting to 104.16.168.99:443
+* connecting to 104.27.195.88:443
+* connecting to 104.27.194.88:443
+* doing HTTP(s) request https://www.4chan.org/
+* doing HTTP(s) request https://www.nhentai.net/
+
+Result for https://www.chaturbate.com/
+--------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.bongacams.com/
+* doing DNS query for www.bongacams.com
+* connecting to 185.75.254.28:443
+* connecting to 94.199.249.25:443
+
+Status
+------
+1 completed 50 remaining
+2.0% (ETA: 8s)
+* doing HTTP(s) request https://www.bongacams.com/
+
+Status
+------
+2 completed 50 remaining
+4.0% (ETA: 16s)
+
+Status
+------
+3 completed 50 remaining
+6.0% (ETA: 23s)
+
+Status
+------
+4 completed 50 remaining
+8.0% (ETA: 28s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 2524: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.4chan.org/
+---------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.cam4.com/
+* doing DNS query for www.cam4.com
+* connecting to 217.22.17.248:443
+* connecting to 217.22.17.249:443
+* doing HTTP(s) request https://www.cam4.com/
+
+Status
+------
+5 completed 50 remaining
+10.0% (ETA: 25s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 4221: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 403305: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.nhentai.net/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.fetlife.com/
+* doing DNS query for www.fetlife.com
+
+Result for https://www.livejasmin.com/
+--------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.adultfriendfinder.com/
+* doing DNS query for www.adultfriendfinder.com
+* connecting to 199.232.36.64:443
+* doing HTTP(s) request https://www.fetlife.com/
+* connecting to 69.165.107.69:443
+* doing HTTP(s) request https://www.adultfriendfinder.com/
+
+Status
+------
+6 completed 50 remaining
+12.0% (ETA: 22s)
+
+Status
+------
+7 completed 50 remaining
+14.0% (ETA: 25s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 38045: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.cam4.com/
+--------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.spankwire.com/
+* doing DNS query for www.spankwire.com
+* connecting to 66.254.114.180:443
+* doing HTTP(s) request https://www.spankwire.com/
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Status
+------
+8 completed 50 remaining
+16.0% (ETA: 22s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd9 in position 283: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.fetlife.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.nudevista.com/
+* doing DNS query for www.nudevista.com
+* connecting to 74.117.179.67:443
+* doing HTTP(s) request https://www.nudevista.com/
+
+Result for https://www.bongacams.com/
+-------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.furaffinity.net/
+* doing DNS query for www.furaffinity.net
+* connecting to 172.67.40.182:443
+* connecting to 104.22.46.79:443
+* connecting to 104.22.47.79:443
+* doing HTTP(s) request https://www.furaffinity.net/
+
+Status
+------
+9 completed 50 remaining
+18.0% (ETA: 22s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xef in position 14179: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+10 completed 50 remaining
+20.0% (ETA: 23s)
+
+Result for https://www.spankwire.com/
+-------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.liveleak.com/
+* doing DNS query for www.liveleak.com
+* connecting to 199.80.59.186:443
+* connecting to 199.80.59.132:443
+* doing HTTP(s) request https://www.liveleak.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 32661: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+11 completed 50 remaining
+22.0% (ETA: 23s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 23194: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 66049: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.furaffinity.net/
+---------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.ebaumsworld.com/
+* doing DNS query for www.ebaumsworld.com
+* connecting to 67.214.157.20:443
+* doing HTTP(s) request https://www.ebaumsworld.com/
+
+Status
+------
+12 completed 50 remaining
+24.0% (ETA: 22s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.nudevista.com/
+-------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.literotica.com/
+* doing DNS query for www.literotica.com
+* connecting to 216.150.65.190:443
+* connecting to 216.150.65.200:443
+* doing HTTP(s) request https://www.literotica.com/
+
+Result for https://www.adultfriendfinder.com/
+---------------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.planetsuzy.org/
+* doing DNS query for www.planetsuzy.org
+* connecting to 46.166.136.4:443
+* connecting to 46.166.136.5:443
+* doing HTTP(s) request https://www.planetsuzy.org/
+
+Status
+------
+13 completed 50 remaining
+26.0% (ETA: 22s)
+
+Result for https://www.liveleak.com/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.clips4sale.com/
+* doing DNS query for www.clips4sale.com
+* connecting to 54.208.182.233:443
+* connecting to 34.236.118.22:443
+
+Status
+------
+14 completed 50 remaining
+28.0% (ETA: 23s)
+* doing HTTP(s) request https://www.clips4sale.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0x93 in position 26197: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+15 completed 50 remaining
+30.0% (ETA: 23s)
+
+Result for https://www.literotica.com/
+--------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.iafd.com/
+* doing DNS query for www.iafd.com
+* connecting to 216.118.89.130:443
+* doing HTTP(s) request https://www.iafd.com/
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+Error performing HTTP request: https://www.iafd.com/
+Error performing HTTP request: https://www.iafd.com/
+Error performing HTTP request: https://www.iafd.com/
+Failed to perform HTTP request response_never_received
+* performing control request with backend
+
+Status
+------
+16 completed 50 remaining
+32.0% (ETA: 22s)
+
+Result for https://www.clips4sale.com/
+--------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.adam4adam.com/
+* doing DNS query for www.adam4adam.com
+* connecting to 169.46.163.20:443
+* doing HTTP(s) request https://www.adam4adam.com/
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 55068: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+17 completed 50 remaining
+34.0% (ETA: 22s)
+
+Result for https://www.iafd.com/
+--------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.porn.com/
+* doing DNS query for www.porn.com
+* connecting to 67.22.49.255:443
+* doing HTTP(s) request https://www.porn.com/
+
+Result for https://www.planetsuzy.org/
+--------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.luscious.net/
+* doing DNS query for www.luscious.net
+
+Result for https://www.ebaumsworld.com/
+---------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.gfy.com/
+* doing DNS query for www.gfy.com
+* connecting to 172.67.20.206:443
+* connecting to 104.22.6.52:443
+* connecting to 104.22.7.52:443
+* connecting to 185.172.149.128:443
+* doing HTTP(s) request https://www.gfy.com/
+* doing HTTP(s) request https://www.luscious.net/
+
+Status
+------
+18 completed 50 remaining
+36.0% (ETA: 21s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Status
+------
+19 completed 50 remaining
+38.0% (ETA: 21s)
+
+Status
+------
+20 completed 50 remaining
+40.0% (ETA: 22s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xf0 in position 790: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.adam4adam.com/
+-------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.oglaf.com/
+* doing DNS query for www.oglaf.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xa9 in position 47615: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.porn.com/
+--------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.fling.com/
+* doing DNS query for www.fling.com
+
+Status
+------
+21 completed 50 remaining
+42.0% (ETA: 21s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe5 in position 9017: ordinal not in range(128)
+* performing control request with backend
+* connecting to 89.187.190.167:443
+* connecting to 64.210.151.36:443
+* doing HTTP(s) request https://www.oglaf.com/
+* doing HTTP(s) request https://www.fling.com/
+
+Status
+------
+22 completed 50 remaining
+44.0% (ETA: 20s)
+
+Result for https://www.luscious.net/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.mrporngeek.com/
+* doing DNS query for www.mrporngeek.com
+* connecting to 104.26.1.225:443
+* connecting to 172.67.72.114:443
+* connecting to 104.26.0.225:443
+* doing HTTP(s) request https://www.mrporngeek.com/
+
+Result for https://www.gfy.com/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.gayboystube.com/
+* doing DNS query for www.gayboystube.com
+* connecting to 205.204.90.162:443
+* doing HTTP(s) request https://www.gayboystube.com/
+
+Status
+------
+23 completed 50 remaining
+46.0% (ETA: 20s)
+
+Status
+------
+24 completed 50 remaining
+48.0% (ETA: 20s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 11920: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc4 in position 8241: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.oglaf.com/
+---------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.hentai2read.com/
+* doing DNS query for www.hentai2read.com
+* connecting to 104.20.61.168:443
+* connecting to 172.67.1.206:443
+* connecting to 104.20.62.168:443
+* doing HTTP(s) request https://www.hentai2read.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xef in position 0: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.mrporngeek.com/
+--------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.hentai-foundry.com/
+* doing DNS query for www.hentai-foundry.com
+* connecting to 142.44.146.192:443
+
+Result for https://www.fling.com/
+---------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.vintage-erotica-forum.com/
+* doing DNS query for www.vintage-erotica-forum.com
+* doing HTTP(s) request https://www.hentai-foundry.com/
+
+Status
+------
+25 completed 50 remaining
+50.0% (ETA: 18s)
+* connecting to 46.166.136.5:443
+* connecting to 46.166.136.4:443
+* doing HTTP(s) request https://www.vintage-erotica-forum.com/
+
+Status
+------
+26 completed 50 remaining
+52.0% (ETA: 18s)
+
+Status
+------
+27 completed 50 remaining
+54.0% (ETA: 18s)
+
+Result for https://www.gayboystube.com/
+---------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.freeones.com/
+* doing DNS query for www.freeones.com
+* connecting to 45.32.2.93:443
+* connecting to 45.32.2.91:443
+* connecting to 45.32.2.92:443
+* connecting to 45.32.2.94:443
+* doing HTTP(s) request https://www.freeones.com/
+
+Status
+------
+28 completed 50 remaining
+56.0% (ETA: 17s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 72605: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.hentai-foundry.com/
+------------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.flirt4free.com/
+* doing DNS query for www.flirt4free.com
+* connecting to 204.8.234.144:443
+* doing HTTP(s) request https://www.flirt4free.com/
+
+Result for https://www.hentai2read.com/
+---------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.sofurry.com/
+* doing DNS query for www.sofurry.com
+* connecting to 104.26.8.135:443
+* connecting to 172.67.72.51:443
+* connecting to 104.26.9.135:443
+
+Status
+------
+29 completed 50 remaining
+58.0% (ETA: 16s)
+* doing HTTP(s) request https://www.sofurry.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 7199: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+30 completed 50 remaining
+60.0% (ETA: 15s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.freeones.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.f-list.net/
+* doing DNS query for www.f-list.net
+* connecting to 172.67.71.180:443
+* connecting to 104.26.5.237:443
+* connecting to 104.26.4.237:443
+* doing HTTP(s) request https://www.f-list.net/
+
+Result for https://www.vintage-erotica-forum.com/
+-------------------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.cams.com/
+* doing DNS query for www.cams.com
+* connecting to 69.165.105.13:443
+* doing HTTP(s) request https://www.cams.com/
+
+Status
+------
+31 completed 50 remaining
+62.0% (ETA: 14s)
+
+Status
+------
+32 completed 50 remaining
+64.0% (ETA: 13s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 5637: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 8305: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.sofurry.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.squirt.org/
+* doing DNS query for www.squirt.org
+* connecting to 158.106.84.60:443
+* doing HTTP(s) request https://www.squirt.org/
+
+Result for https://www.f-list.net/
+----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.adultdvdempire.com/
+* doing DNS query for www.adultdvdempire.com
+* connecting to 199.182.184.122:443
+* doing HTTP(s) request https://www.adultdvdempire.com/
+
+Status
+------
+33 completed 50 remaining
+66.0% (ETA: 12s)
+
+Status
+------
+34 completed 50 remaining
+68.0% (ETA: 12s)
+
+Result for https://www.flirt4free.com/
+--------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.adultdvdtalk.com/
+* doing DNS query for www.adultdvdtalk.com
+* connecting to 66.186.172.138:443
+* doing HTTP(s) request https://www.adultdvdtalk.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 10353: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+35 completed 50 remaining
+70.0% (ETA: 11s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 11821: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xef in position 0: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.squirt.org/
+----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.benaughty.com/
+* doing DNS query for www.benaughty.com
+* connecting to 82.148.119.230:443
+* connecting to 82.148.119.244:443
+* doing HTTP(s) request https://www.benaughty.com/
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.adultdvdtalk.com/
+----------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.adameve.com/
+* doing DNS query for www.adameve.com
+
+Result for https://www.adultdvdempire.com/
+------------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.nifty.org/
+* doing DNS query for www.nifty.org
+* connecting to 104.120.93.81:443
+* connecting to 84.17.59.4:443
+
+Status
+------
+36 completed 50 remaining
+72.0% (ETA: 10s)
+* doing HTTP(s) request https://www.adameve.com/
+* doing HTTP(s) request https://www.nifty.org/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 29595: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+37 completed 50 remaining
+74.0% (ETA: 9s)
+
+Status
+------
+38 completed 50 remaining
+76.0% (ETA: 9s)
+
+Result for https://www.cams.com/
+--------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.streamate.com/
+* doing DNS query for www.streamate.com
+
+Result for https://www.benaughty.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.eros.com/
+* doing DNS query for www.eros.com
+* connecting to 207.246.147.191:443
+* connecting to 207.246.147.180:443
+* connecting to 207.246.147.179:443
+* connecting to 207.246.147.250:443
+* connecting to 207.246.147.249:443
+* connecting to 207.246.147.192:443
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+* doing HTTP(s) request https://www.streamate.com/
+* connecting to 107.154.141.161:443
+* doing HTTP(s) request https://www.eros.com/
+
+Status
+------
+39 completed 50 remaining
+78.0% (ETA: 8s)
+
+Status
+------
+40 completed 50 remaining
+80.0% (ETA: 7s)
+
+Result for https://www.nifty.org/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.fabswingers.com/
+* doing DNS query for www.fabswingers.com
+* connecting to 92.63.131.211:443
+* doing HTTP(s) request https://www.fabswingers.com/
+
+Status
+------
+41 completed 50 remaining
+82.0% (ETA: 7s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 7177: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.eros.com/
+--------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.mrskin.com/
+* doing DNS query for www.mrskin.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 34108: ordinal not in range(128)
+* performing control request with backend
+* connecting to 151.139.128.11:443
+* doing HTTP(s) request https://www.mrskin.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 2477: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+42 completed 50 remaining
+84.0% (ETA: 6s)
+
+Result for https://www.fabswingers.com/
+---------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.escort-ireland.com/
+* doing DNS query for www.escort-ireland.com
+* connecting to 69.172.201.15:443
+* doing HTTP(s) request https://www.escort-ireland.com/
+
+Result for https://www.adameve.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.avn.com/
+* doing DNS query for www.avn.com
+* connecting to 172.67.16.164:443
+* connecting to 104.20.158.42:443
+* connecting to 104.20.159.42:443
+* doing HTTP(s) request https://www.avn.com/
+
+Result for https://www.streamate.com/
+-------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.imlive.com/
+* doing DNS query for www.imlive.com
+* connecting to 50.31.132.120:443
+* doing HTTP(s) request https://www.imlive.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 36377: ordinal not in range(128)
+* performing control request with backend
+Error performing HTTP request: https://www.imlive.com/
+Error performing HTTP request: https://www.imlive.com/
+Error performing HTTP request: https://www.imlive.com/
+Failed to perform HTTP request unknown_failure Invalid URI 'https://validate.perfdrive.com/captcha?ssa=b10daaee-8898-4aad-b3b7-35f1860c94ec&ssb=l5zi3efe2f0g3ipkchiz5dl2a&ssc=https%3A%2F%2Fwww.imlive.com%2F&ssd=739005118511566&sse=jnbfkfokpbfdjld&ssf=384336a0ca6001336943840a135ca45daf43578b&ssg=6d8ec29f-4d8e-48a8-a20f-e60f90f563b9&ssh=9f056e49-e126-4933-a4d5-58036d6d8e9b&ssi=09cd3cef-ba0f-4a02-86b0-adc5ab508c09&ssj=d244efa6-fcda-472b-95f2-dd13ff813c35&ssk=support@shieldsquare.com&ssl=524162199519&ssm=26362222418534865106275292522401&ssn=f33abe82f70a6b7462ae1e178a181f08f8c44366d373-bcfe-4736-a21cd7&sso=0fe2353f-6e5131bf704f254a9cb1ad598e36f63dc15c3cc342937c7b&ssp=23102568361595763814159576421566992&ssq=22400557124285700489871242759760589107542&ssr=ODYuMzYuMzcuMTk4&sss=Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)&sst=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36&ssu=Mozilla/4.0 (Windows NT 5.1) AppleWebKit/535.7 (KHTML,like zeco) Chrome/33.0.1750.154 Safari/536.7&ssv=q4rr3@snt3rp@93&ssw=&ssx=630274579455628&ssy=e@fcm@@jcdchhfmoeec@eafnbghadjgmon@fmeep&ssz=6f41df3e315b802'
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 382915: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.mrskin.com/
+----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.manhunt.net/
+* doing DNS query for www.manhunt.net
+* connecting to 99.84.112.31:443
+* connecting to 99.84.112.5:443
+* connecting to 99.84.112.6:443
+* connecting to 99.84.112.22:443
+* doing HTTP(s) request https://www.manhunt.net/
+
+Status
+------
+43 completed 50 remaining
+86.0% (ETA: 5s)
+
+Status
+------
+44 completed 50 remaining
+88.0% (ETA: 4s)
+
+Status
+------
+45 completed 50 remaining
+90.0% (ETA: 3s)
+
+Result for https://www.escort-ireland.com/
+------------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Result for https://www.imlive.com/
+----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Status
+------
+46 completed 50 remaining
+92.0% (ETA: 3s)
+
+Status
+------
+47 completed 50 remaining
+94.0% (ETA: 2s)
+
+Status
+------
+48 completed 50 remaining
+96.0% (ETA: 1s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 690: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 35611: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.manhunt.net/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Status
+------
+49 completed 50 remaining
+98.0% (ETA: 0s)
+
+Result for https://www.avn.com/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Status
+------
+50 completed 50 remaining
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Not accessible URLS
+-------------------
+* https://www.youporn.com/
+* https://www.xvideos.com/
+* https://www.xnxx.com/
+* https://www.chaturbate.com/
+* https://www.4chan.org/
+* https://www.nhentai.net/
+* https://www.livejasmin.com/
+* https://www.cam4.com/
+* https://www.fetlife.com/
+* https://www.bongacams.com/
+* https://www.spankwire.com/
+* https://www.furaffinity.net/
+* https://www.nudevista.com/
+* https://www.adultfriendfinder.com/
+* https://www.liveleak.com/
+* https://www.literotica.com/
+* https://www.clips4sale.com/
+* https://www.iafd.com/
+* https://www.planetsuzy.org/
+* https://www.ebaumsworld.com/
+* https://www.adam4adam.com/
+* https://www.porn.com/
+* https://www.luscious.net/
+* https://www.gfy.com/
+* https://www.oglaf.com/
+* https://www.mrporngeek.com/
+* https://www.fling.com/
+* https://www.gayboystube.com/
+* https://www.hentai-foundry.com/
+* https://www.hentai2read.com/
+* https://www.freeones.com/
+* https://www.vintage-erotica-forum.com/
+* https://www.sofurry.com/
+* https://www.f-list.net/
+* https://www.flirt4free.com/
+* https://www.squirt.org/
+* https://www.adultdvdtalk.com/
+* https://www.adultdvdempire.com/
+* https://www.cams.com/
+* https://www.benaughty.com/
+* https://www.nifty.org/
+* https://www.eros.com/
+* https://www.fabswingers.com/
+* https://www.adameve.com/
+* https://www.streamate.com/
+* https://www.mrskin.com/
+* https://www.escort-ireland.com/
+* https://www.imlive.com/
+* https://www.manhunt.net/
+* https://www.avn.com/
+
+URLS possibly blocked due to http-failure
+-----------------------------------------
+* https://www.youporn.com/
+* https://www.xvideos.com/
+* https://www.xnxx.com/
+* https://www.chaturbate.com/
+* https://www.4chan.org/
+* https://www.nhentai.net/
+* https://www.livejasmin.com/
+* https://www.cam4.com/
+* https://www.bongacams.com/
+* https://www.spankwire.com/
+* https://www.furaffinity.net/
+* https://www.nudevista.com/
+* https://www.adultfriendfinder.com/
+* https://www.liveleak.com/
+* https://www.literotica.com/
+* https://www.clips4sale.com/
+* https://www.planetsuzy.org/
+* https://www.ebaumsworld.com/
+* https://www.adam4adam.com/
+* https://www.porn.com/
+* https://www.luscious.net/
+* https://www.gfy.com/
+* https://www.oglaf.com/
+* https://www.mrporngeek.com/
+* https://www.fling.com/
+* https://www.gayboystube.com/
+* https://www.hentai-foundry.com/
+* https://www.hentai2read.com/
+* https://www.vintage-erotica-forum.com/
+* https://www.sofurry.com/
+* https://www.f-list.net/
+* https://www.flirt4free.com/
+* https://www.squirt.org/
+* https://www.adultdvdtalk.com/
+* https://www.adultdvdempire.com/
+* https://www.cams.com/
+* https://www.eros.com/
+* https://www.fabswingers.com/
+* https://www.streamate.com/
+* https://www.mrskin.com/
+* https://www.escort-ireland.com/
+* https://www.imlive.com/
+* https://www.avn.com/
+
+URLS possibly blocked due to dns
+--------------------------------
+* https://www.fetlife.com/
+* https://www.freeones.com/
+* https://www.benaughty.com/
+* https://www.nifty.org/
+* https://www.adameve.com/
+* https://www.manhunt.net/
+Report ID: 20200726T134555Z_AS29384_wfGp8HijQgUmatmx60NDZ5NwCiBykEgS9wxz15uUg37zodsVUm
+132.203722

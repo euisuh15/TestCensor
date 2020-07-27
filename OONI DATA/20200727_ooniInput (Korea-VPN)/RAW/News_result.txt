@@ -1,0 +1,1917 @@
+Starting Tor
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+50%: Loading relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+57%: Loading relay descriptors
+61%: Loading relay descriptors
+66%: Loading relay descriptors
+70%: Loading relay descriptors
+77%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for http://www.irna.ir/
+* doing DNS query for www.irna.ir
+
+Starting test for https://www.irna.ir/
+* doing DNS query for www.irna.ir
+
+Starting test for http://www.drudgereport.com/
+* doing DNS query for www.drudgereport.com
+
+Starting test for https://www.drudgereport.com/
+* doing DNS query for www.drudgereport.com
+* connecting to 104.22.5.207:443
+* connecting to 172.67.12.140:443
+* connecting to 104.22.4.207:443
+* connecting to 104.22.5.207:80
+* connecting to 172.67.12.140:80
+* connecting to 104.22.4.207:80
+* doing HTTP(s) request http://www.drudgereport.com/
+* doing HTTP(s) request https://www.drudgereport.com/
+* connecting to 185.143.233.5:443
+* connecting to 185.143.234.5:443
+* connecting to 185.143.233.5:80
+* connecting to 185.143.234.5:80
+* doing HTTP(s) request http://www.irna.ir/
+* doing HTTP(s) request https://www.irna.ir/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.drudgereport.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.indianexpress.com/
+* doing DNS query for www.indianexpress.com
+* connecting to 13.126.221.44:80
+
+Result for https://www.drudgereport.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.indianexpress.com/
+* doing DNS query for www.indianexpress.com
+* connecting to 13.126.221.44:443
+* performing control request with backend
+* doing HTTP(s) request http://www.indianexpress.com/
+* doing HTTP(s) request https://www.indianexpress.com/
+
+Status
+------
+1/100 completed
+1.0% (ETA: 28s)
+* performing control request with backend
+
+Status
+------
+2/100 completed
+2.0% (ETA: 53s)
+* performing control request with backend
+
+Result for https://www.irna.ir/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.newsweek.com/
+* doing DNS query for www.newsweek.com
+* connecting to 99.83.219.100:80
+* connecting to 75.2.53.74:80
+* doing HTTP(s) request http://www.newsweek.com/
+* performing control request with backend
+
+Result for http://www.indianexpress.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.newsweek.com/
+* doing DNS query for www.newsweek.com
+* connecting to 75.2.53.74:443
+* connecting to 99.83.219.100:443
+* doing HTTP(s) request https://www.newsweek.com/
+
+Result for http://www.irna.ir/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.thehindu.com/
+* doing DNS query for www.thehindu.com
+* connecting to 104.18.12.153:80
+* connecting to 104.18.13.153:80
+* performing control request with backend
+* doing HTTP(s) request http://www.thehindu.com/
+
+Status
+------
+3/100 completed
+3.0% (ETA: 45s)
+
+Result for https://www.indianexpress.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.thehindu.com/
+* doing DNS query for www.thehindu.com
+* performing control request with backend
+* connecting to 104.18.12.153:443
+* connecting to 104.18.13.153:443
+* doing HTTP(s) request https://www.thehindu.com/
+
+Status
+------
+4/100 completed
+4.0% (ETA: 52s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+5/100 completed
+5.0% (ETA: 59s)
+
+Result for http://www.newsweek.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.thehill.com/
+* doing DNS query for www.thehill.com
+* connecting to 151.101.130.217:80
+* connecting to 151.101.194.217:80
+* connecting to 151.101.66.217:80
+* connecting to 151.101.2.217:80
+* doing HTTP(s) request http://www.thehill.com/
+
+Status
+------
+6/100 completed
+6.0% (ETA: 65s)
+
+Result for https://www.newsweek.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.thehill.com/
+* doing DNS query for www.thehill.com
+* connecting to 151.101.66.217:443
+* connecting to 151.101.2.217:443
+* connecting to 151.101.130.217:443
+* connecting to 151.101.194.217:443
+* doing HTTP(s) request https://www.thehill.com/
+
+Result for http://www.thehindu.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.time.com/
+* doing DNS query for www.time.com
+* connecting to 13.226.101.106:80
+* connecting to 13.226.101.88:80
+* connecting to 13.226.101.119:80
+* connecting to 13.226.101.116:80
+* doing HTTP(s) request http://www.time.com/
+
+Result for https://www.thehindu.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.time.com/
+* doing DNS query for www.time.com
+* performing control request with backend
+
+Status
+------
+7/100 completed
+7.0% (ETA: 64s)
+* connecting to 13.226.101.116:443
+* connecting to 13.226.101.106:443
+* connecting to 13.226.101.88:443
+* connecting to 13.226.101.119:443
+* doing HTTP(s) request https://www.time.com/
+* performing control request with backend
+
+Status
+------
+8/100 completed
+8.0% (ETA: 66s)
+
+Status
+------
+9/100 completed
+9.0% (ETA: 73s)
+* performing control request with backend
+
+Result for http://www.thehill.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.euronews.com/
+* doing DNS query for www.euronews.com
+* connecting to 8.252.10.250:80
+* connecting to 8.252.2.122:80
+* connecting to 8.240.198.250:80
+* performing control request with backend
+* doing HTTP(s) request http://www.euronews.com/
+
+Status
+------
+10/100 completed
+10.0% (ETA: 74s)
+
+Result for https://www.thehill.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.euronews.com/
+* doing DNS query for www.euronews.com
+* connecting to 8.252.10.250:443
+* connecting to 8.252.2.122:443
+* connecting to 8.240.198.250:443
+* doing HTTP(s) request https://www.euronews.com/
+
+Status
+------
+11/100 completed
+11.0% (ETA: 75s)
+* performing control request with backend
+
+Result for http://www.time.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.livemint.com/
+* doing DNS query for www.livemint.com
+
+Result for https://www.time.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.livemint.com/
+* doing DNS query for www.livemint.com
+* connecting to 23.78.206.129:443
+* connecting to 23.78.206.129:80
+* performing control request with backend
+* doing HTTP(s) request https://www.livemint.com/
+* doing HTTP(s) request http://www.livemint.com/
+
+Status
+------
+12/100 completed
+12.0% (ETA: 74s)
+
+Status
+------
+13/100 completed
+13.0% (ETA: 76s)
+
+Result for http://www.euronews.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.weather.gov/
+* doing DNS query for www.weather.gov
+* performing control request with backend
+
+Result for https://www.euronews.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.weather.gov/
+* doing DNS query for www.weather.gov
+* connecting to 23.221.200.63:443
+* connecting to 23.221.200.63:80
+* doing HTTP(s) request https://www.weather.gov/
+* doing HTTP(s) request http://www.weather.gov/
+* performing control request with backend
+
+Status
+------
+14/100 completed
+14.0% (ETA: 74s)
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.livemint.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.cbsnews.com/
+* doing DNS query for www.cbsnews.com
+
+Result for http://www.livemint.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.cbsnews.com/
+* doing DNS query for www.cbsnews.com
+* connecting to 151.101.249.188:443
+* connecting to 151.101.249.188:80
+* doing HTTP(s) request https://www.cbsnews.com/
+* doing HTTP(s) request http://www.cbsnews.com/
+
+Status
+------
+15/100 completed
+15.0% (ETA: 73s)
+
+Result for https://www.weather.gov/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.cnn.com/
+* doing DNS query for www.cnn.com
+* connecting to 199.232.65.67:80
+
+Status
+------
+16/100 completed
+16.0% (ETA: 75s)
+* doing HTTP(s) request http://www.cnn.com/
+
+Result for http://www.weather.gov/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.cnn.com/
+* doing DNS query for www.cnn.com
+* connecting to 199.232.65.67:443
+* doing HTTP(s) request https://www.cnn.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+17/100 completed
+17.0% (ETA: 73s)
+
+Status
+------
+18/100 completed
+18.0% (ETA: 76s)
+
+Status
+------
+19/100 completed
+19.0% (ETA: 79s)
+* performing control request with backend
+
+Status
+------
+20/100 completed
+20.0% (ETA: 81s)
+
+Result for https://www.cbsnews.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.bloomberg.com/
+* doing DNS query for www.bloomberg.com
+* performing control request with backend
+* connecting to 199.232.65.73:80
+* doing HTTP(s) request http://www.bloomberg.com/
+
+Result for http://www.cbsnews.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.bloomberg.com/
+* doing DNS query for www.bloomberg.com
+* connecting to 199.232.65.73:443
+* doing HTTP(s) request https://www.bloomberg.com/
+
+Result for https://www.cnn.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.indiatimes.com/
+* doing DNS query for www.indiatimes.com
+* connecting to 23.51.161.244:80
+* doing HTTP(s) request http://www.indiatimes.com/
+
+Status
+------
+21/100 completed
+21.0% (ETA: 76s)
+
+Result for http://www.cnn.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.indiatimes.com/
+* doing DNS query for www.indiatimes.com
+* connecting to 23.51.161.244:443
+* doing HTTP(s) request https://www.indiatimes.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+22/100 completed
+22.0% (ETA: 76s)
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.bloomberg.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.foxnews.com/
+* doing DNS query for www.foxnews.com
+* connecting to 23.78.201.231:80
+
+Result for https://www.bloomberg.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.foxnews.com/
+* doing DNS query for www.foxnews.com
+* doing HTTP(s) request http://www.foxnews.com/
+* connecting to 23.78.201.231:443
+* doing HTTP(s) request https://www.foxnews.com/
+
+Result for http://www.indiatimes.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.theguardian.com/
+* doing DNS query for www.theguardian.com
+* connecting to 199.232.65.111:80
+* doing HTTP(s) request http://www.theguardian.com/
+* performing control request with backend
+
+Result for https://www.indiatimes.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.theguardian.com/
+* doing DNS query for www.theguardian.com
+* connecting to 199.232.65.111:443
+
+Status
+------
+23/100 completed
+23.0% (ETA: 71s)
+* performing control request with backend
+* doing HTTP(s) request https://www.theguardian.com/
+
+Status
+------
+24/100 completed
+24.0% (ETA: 72s)
+
+Status
+------
+25/100 completed
+25.0% (ETA: 74s)
+
+Status
+------
+26/100 completed
+26.0% (ETA: 74s)
+
+Result for https://www.foxnews.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nypost.com/
+* doing DNS query for www.nypost.com
+* connecting to 192.0.66.32:80
+
+Result for http://www.foxnews.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nypost.com/
+* doing DNS query for www.nypost.com
+* doing HTTP(s) request http://www.nypost.com/
+* connecting to 192.0.66.32:443
+* doing HTTP(s) request https://www.nypost.com/
+
+Status
+------
+27/100 completed
+27.0% (ETA: 73s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+28/100 completed
+28.0% (ETA: 73s)
+
+Status
+------
+29/100 completed
+29.0% (ETA: 73s)
+* performing control request with backend
+
+Result for https://www.theguardian.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.dw.com/
+* doing DNS query for www.dw.com
+* performing control request with backend
+
+Status
+------
+30/100 completed
+30.0% (ETA: 73s)
+
+Result for http://www.theguardian.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.dw.com/
+* doing DNS query for www.dw.com
+* connecting to 23.217.253.120:443
+* connecting to 23.217.253.120:80
+* doing HTTP(s) request https://www.dw.com/
+* doing HTTP(s) request http://www.dw.com/
+
+Result for https://www.nypost.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.chron.com/
+* doing DNS query for www.chron.com
+* connecting to 199.232.64.200:80
+* doing HTTP(s) request http://www.chron.com/
+
+Result for http://www.nypost.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.chron.com/
+* doing DNS query for www.chron.com
+* connecting to 199.232.64.200:443
+* doing HTTP(s) request https://www.chron.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+31/100 completed
+31.0% (ETA: 67s)
+
+Status
+------
+32/100 completed
+32.0% (ETA: 67s)
+
+Status
+------
+33/100 completed
+33.0% (ETA: 68s)
+
+Result for https://www.dw.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.news.com.au/
+* doing DNS query for www.news.com.au
+* connecting to 23.40.28.150:80
+
+Status
+------
+34/100 completed
+34.0% (ETA: 68s)
+* doing HTTP(s) request http://www.news.com.au/
+
+Result for https://www.chron.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.news.com.au/
+* doing DNS query for www.news.com.au
+
+Result for http://www.chron.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.forbes.com/
+* doing DNS query for www.forbes.com
+* connecting to 23.40.28.150:443
+* connecting to 151.101.202.49:80
+
+Result for http://www.dw.com/
+-----------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.forbes.com/
+* doing DNS query for www.forbes.com
+* doing HTTP(s) request https://www.news.com.au/
+* doing HTTP(s) request http://www.forbes.com/
+* connecting to 151.101.202.49:443
+* doing HTTP(s) request https://www.forbes.com/
+
+Status
+------
+35/100 completed
+35.0% (ETA: 67s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+36/100 completed
+36.0% (ETA: 66s)
+
+Status
+------
+37/100 completed
+37.0% (ETA: 66s)
+
+Status
+------
+38/100 completed
+38.0% (ETA: 67s)
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.forbes.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.alarabiya.net/
+* doing DNS query for www.alarabiya.net
+* connecting to 69.172.201.244:80
+* doing HTTP(s) request http://www.alarabiya.net/
+
+Result for http://www.forbes.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.alarabiya.net/
+* doing DNS query for www.alarabiya.net
+* connecting to 69.172.201.244:443
+* doing HTTP(s) request https://www.alarabiya.net/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+39/100 completed
+39.0% (ETA: 63s)
+
+Status
+------
+40/100 completed
+40.0% (ETA: 63s)
+
+Result for https://www.news.com.au/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.bankrate.com/
+* doing DNS query for www.bankrate.com
+* connecting to 199.232.65.132:80
+
+Result for http://www.news.com.au/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.bankrate.com/
+* doing DNS query for www.bankrate.com
+* doing HTTP(s) request http://www.bankrate.com/
+* connecting to 199.232.65.132:443
+* doing HTTP(s) request https://www.bankrate.com/
+
+Result for https://www.alarabiya.net/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.accuweather.com/
+* doing DNS query for www.accuweather.com
+* connecting to 23.47.146.84:80
+
+Result for http://www.alarabiya.net/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.accuweather.com/
+* doing DNS query for www.accuweather.com
+* doing HTTP(s) request http://www.accuweather.com/
+* connecting to 23.47.146.84:443
+
+Status
+------
+41/100 completed
+41.0% (ETA: 61s)
+* doing HTTP(s) request https://www.accuweather.com/
+* performing control request with backend
+
+Status
+------
+42/100 completed
+42.0% (ETA: 61s)
+* performing control request with backend
+
+Status
+------
+43/100 completed
+43.0% (ETA: 59s)
+
+Status
+------
+44/100 completed
+44.0% (ETA: 59s)
+
+Result for http://www.bankrate.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.timesofindia.indiatimes.com/
+* doing DNS query for www.timesofindia.indiatimes.com
+* connecting to 23.51.172.11:80
+
+Result for https://www.bankrate.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.timesofindia.indiatimes.com/
+* doing DNS query for www.timesofindia.indiatimes.com
+* doing HTTP(s) request http://www.timesofindia.indiatimes.com/
+* connecting to 23.51.172.11:443
+* doing HTTP(s) request https://www.timesofindia.indiatimes.com/
+
+Status
+------
+45/100 completed
+45.0% (ETA: 56s)
+
+Status
+------
+46/100 completed
+46.0% (ETA: 56s)
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.timesofindia.indiatimes.com/
+---------------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nytimes.com/
+* doing DNS query for www.nytimes.com
+* connecting to 199.232.65.164:80
+* doing HTTP(s) request http://www.nytimes.com/
+
+Result for http://www.timesofindia.indiatimes.com/
+--------------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nytimes.com/
+* doing DNS query for www.nytimes.com
+* connecting to 199.232.65.164:443
+* doing HTTP(s) request https://www.nytimes.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+47/100 completed
+47.0% (ETA: 50s)
+
+Status
+------
+48/100 completed
+48.0% (ETA: 50s)
+
+Result for https://www.nytimes.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.weather.com/
+* doing DNS query for www.weather.com
+* connecting to 23.48.216.53:80
+
+Result for http://www.nytimes.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.weather.com/
+* doing DNS query for www.weather.com
+* doing HTTP(s) request http://www.weather.com/
+* connecting to 23.48.216.53:443
+* doing HTTP(s) request https://www.weather.com/
+* performing control request with backend
+
+Status
+------
+49/100 completed
+49.0% (ETA: 44s)
+
+Status
+------
+50/100 completed
+50.0% (ETA: 44s)
+* performing control request with backend
+
+Result for http://www.weather.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.abcnews.go.com/
+* doing DNS query for www.abcnews.go.com
+* connecting to 34.216.127.34:80
+* connecting to 54.244.12.90:80
+* connecting to 54.70.181.249:80
+* doing HTTP(s) request http://www.abcnews.go.com/
+
+Result for https://www.weather.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.abcnews.go.com/
+* doing DNS query for www.abcnews.go.com
+* connecting to 54.70.181.249:443
+* connecting to 34.216.127.34:443
+* connecting to 54.244.12.90:443
+* performing control request with backend
+
+Result for http://www.abcnews.go.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.washingtonpost.com/
+* doing DNS query for www.washingtonpost.com
+
+Status
+------
+51/100 completed
+51.0% (ETA: 31s)
+* connecting to 23.51.183.2:80
+* doing HTTP(s) request http://www.washingtonpost.com/
+
+Status
+------
+52/100 completed
+52.0% (ETA: 31s)
+
+Status
+------
+53/100 completed
+53.0% (ETA: 30s)
+* performing control request with backend
+* doing HTTP(s) request https://www.abcnews.go.com/
+
+Result for http://www.washingtonpost.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.washingtonpost.com/
+* doing DNS query for www.washingtonpost.com
+* connecting to 23.51.183.2:443
+* doing HTTP(s) request https://www.washingtonpost.com/
+
+Status
+------
+54/100 completed
+54.0% (ETA: 21s)
+Error performing HTTP request: https://www.abcnews.go.com/
+* performing control request with backend
+
+Result for https://www.washingtonpost.com/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.theatlantic.com/
+* doing DNS query for www.theatlantic.com
+* connecting to 151.101.202.133:80
+* doing HTTP(s) request http://www.theatlantic.com/
+* performing control request with backend
+Error performing HTTP request: https://www.abcnews.go.com/
+
+Result for http://www.theatlantic.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.theatlantic.com/
+* doing DNS query for www.theatlantic.com
+* connecting to 151.101.202.133:443
+* doing HTTP(s) request https://www.theatlantic.com/
+* performing control request with backend
+
+Status
+------
+55/100 completed
+55.0% (ETA: 17s)
+
+Status
+------
+56/100 completed
+56.0% (ETA: 17s)
+
+Result for https://www.theatlantic.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.hindustantimes.com/
+* doing DNS query for www.hindustantimes.com
+* connecting to 23.78.206.129:80
+* doing HTTP(s) request http://www.hindustantimes.com/
+* performing control request with backend
+
+Status
+------
+57/100 completed
+57.0% (ETA: 16s)
+
+Result for http://www.hindustantimes.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.hindustantimes.com/
+* doing DNS query for www.hindustantimes.com
+* connecting to 23.78.206.129:443
+* doing HTTP(s) request https://www.hindustantimes.com/
+* performing control request with backend
+
+Status
+------
+58/100 completed
+58.0% (ETA: 16s)
+
+Result for https://www.hindustantimes.com/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.wunderground.com/
+* doing DNS query for www.wunderground.com
+* connecting to 23.36.196.53:80
+* doing HTTP(s) request http://www.wunderground.com/
+* performing control request with backend
+
+Status
+------
+59/100 completed
+59.0% (ETA: 15s)
+
+Result for http://www.wunderground.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.wunderground.com/
+* doing DNS query for www.wunderground.com
+* connecting to 23.36.196.53:443
+* doing HTTP(s) request https://www.wunderground.com/
+* performing control request with backend
+
+Status
+------
+60/100 completed
+60.0% (ETA: 15s)
+
+Result for https://www.wunderground.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.reuters.com/
+* doing DNS query for www.reuters.com
+* connecting to 13.226.15.16:80
+* connecting to 13.226.15.110:80
+* connecting to 13.226.15.50:80
+* connecting to 13.226.15.121:80
+* doing HTTP(s) request http://www.reuters.com/
+
+Status
+------
+61/100 completed
+61.0% (ETA: 15s)
+* performing control request with backend
+Error performing HTTP request: https://www.abcnews.go.com/
+Failed to perform HTTP request generic_timeout_error
+* performing control request with backend
+
+Result for http://www.reuters.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.reuters.com/
+* doing DNS query for www.reuters.com
+* connecting to 13.226.15.121:443
+* connecting to 13.226.15.16:443
+* connecting to 13.226.15.110:443
+* connecting to 13.226.15.50:443
+* doing HTTP(s) request https://www.reuters.com/
+* performing control request with backend
+
+Status
+------
+62/100 completed
+62.0% (ETA: 14s)
+
+Result for https://www.reuters.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.patch.com/
+* doing DNS query for www.patch.com
+* connecting to 23.185.0.2:80
+* doing HTTP(s) request http://www.patch.com/
+
+Status
+------
+63/100 completed
+63.0% (ETA: 14s)
+* performing control request with backend
+
+Result for http://www.patch.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.patch.com/
+* doing DNS query for www.patch.com
+* connecting to 23.185.0.2:443
+* doing HTTP(s) request https://www.patch.com/
+* performing control request with backend
+
+Status
+------
+64/100 completed
+64.0% (ETA: 13s)
+
+Result for https://www.patch.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nbcnews.com/
+* doing DNS query for www.nbcnews.com
+* connecting to 23.51.167.43:80
+* doing HTTP(s) request http://www.nbcnews.com/
+* performing control request with backend
+
+Status
+------
+65/100 completed
+65.0% (ETA: 13s)
+
+Result for http://www.nbcnews.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nbcnews.com/
+* doing DNS query for www.nbcnews.com
+* connecting to 23.51.167.43:443
+* doing HTTP(s) request https://www.nbcnews.com/
+* performing control request with backend
+
+Result for https://www.nbcnews.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.chinadaily.com.cn/
+* doing DNS query for www.chinadaily.com.cn
+* connecting to 157.185.144.20:80
+* doing HTTP(s) request http://www.chinadaily.com.cn/
+
+Status
+------
+66/100 completed
+66.0% (ETA: 12s)
+* performing control request with backend
+
+Status
+------
+67/100 completed
+67.0% (ETA: 12s)
+
+Result for http://www.chinadaily.com.cn/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.chinadaily.com.cn/
+* doing DNS query for www.chinadaily.com.cn
+* connecting to 157.185.144.20:443
+* doing HTTP(s) request https://www.chinadaily.com.cn/
+
+Status
+------
+68/100 completed
+68.0% (ETA: 11s)
+* performing control request with backend
+
+Result for https://www.chinadaily.com.cn/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.latimes.com/
+* doing DNS query for www.latimes.com
+* connecting to 13.249.135.49:80
+* connecting to 13.249.135.72:80
+* connecting to 13.249.135.105:80
+* connecting to 13.249.135.30:80
+* doing HTTP(s) request http://www.latimes.com/
+
+Status
+------
+69/100 completed
+69.0% (ETA: 11s)
+* performing control request with backend
+
+Result for http://www.latimes.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.latimes.com/
+* doing DNS query for www.latimes.com
+* connecting to 13.249.135.30:443
+* connecting to 13.249.135.49:443
+* connecting to 13.249.135.72:443
+* connecting to 13.249.135.105:443
+* doing HTTP(s) request https://www.latimes.com/
+* performing control request with backend
+
+Status
+------
+70/100 completed
+70.0% (ETA: 10s)
+
+Result for https://www.latimes.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.aljazeera.com/
+* doing DNS query for www.aljazeera.com
+* connecting to 23.60.215.128:80
+* doing HTTP(s) request http://www.aljazeera.com/
+* performing control request with backend
+
+Status
+------
+71/100 completed
+71.0% (ETA: 10s)
+
+Result for http://www.aljazeera.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.aljazeera.com/
+* doing DNS query for www.aljazeera.com
+* connecting to 23.60.215.128:443
+* doing HTTP(s) request https://www.aljazeera.com/
+* performing control request with backend
+
+Status
+------
+72/100 completed
+72.0% (ETA: 10s)
+
+Result for https://www.aljazeera.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.economictimes.indiatimes.com/
+* doing DNS query for www.economictimes.indiatimes.com
+* connecting to 23.51.172.11:80
+* doing HTTP(s) request http://www.economictimes.indiatimes.com/
+
+Status
+------
+73/100 completed
+73.0% (ETA: 9s)
+* performing control request with backend
+
+Result for http://www.economictimes.indiatimes.com/
+---------------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.economictimes.indiatimes.com/
+* doing DNS query for www.economictimes.indiatimes.com
+* connecting to 23.51.172.11:443
+* doing HTTP(s) request https://www.economictimes.indiatimes.com/
+
+Starting test for http://www.accuweather.com/
+* doing DNS query for www.accuweather.com
+* connecting to 104.110.156.22:80
+
+Starting test for https://www.accuweather.com/
+* doing DNS query for www.accuweather.com
+* doing HTTP(s) request http://www.accuweather.com/
+* connecting to 104.110.156.22:443
+* doing HTTP(s) request https://www.accuweather.com/
+
+Status
+------
+74/100 completed
+74.0% (ETA: 9s)
+* performing control request with backend
+
+Result for https://www.economictimes.indiatimes.com/
+----------------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.usatoday.com/
+* doing DNS query for www.usatoday.com
+* connecting to 151.101.250.62:80
+* doing HTTP(s) request http://www.usatoday.com/
+* performing control request with backend
+
+Status
+------
+75/100 completed
+75.0% (ETA: 8s)
+
+Result for http://www.usatoday.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.usatoday.com/
+* doing DNS query for www.usatoday.com
+* connecting to 151.101.250.62:443
+* doing HTTP(s) request https://www.usatoday.com/
+* performing control request with backend
+
+Status
+------
+76/100 completed
+76.0% (ETA: 8s)
+
+Result for https://www.usatoday.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.thedailybeast.com/
+* doing DNS query for www.thedailybeast.com
+* connecting to 104.18.202.58:80
+* connecting to 104.17.86.49:80
+* doing HTTP(s) request http://www.thedailybeast.com/
+
+Status
+------
+77/100 completed
+77.0% (ETA: 8s)
+* performing control request with backend
+
+Result for http://www.thedailybeast.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.thedailybeast.com/
+* doing DNS query for www.thedailybeast.com
+* connecting to 104.17.86.49:443
+* connecting to 104.18.202.58:443
+* doing HTTP(s) request https://www.thedailybeast.com/
+* performing control request with backend
+
+Status
+------
+78/100 completed
+78.0% (ETA: 7s)
+
+Result for https://www.thedailybeast.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.shutterstock.com/
+* doing DNS query for www.shutterstock.com
+* connecting to 23.40.29.187:80
+* doing HTTP(s) request http://www.shutterstock.com/
+
+Status
+------
+79/100 completed
+79.0% (ETA: 7s)
+* performing control request with backend
+
+Result for http://www.shutterstock.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.shutterstock.com/
+* doing DNS query for www.shutterstock.com
+* connecting to 23.40.29.187:443
+* doing HTTP(s) request https://www.shutterstock.com/
+* performing control request with backend
+
+Starting test for https://www.abcnews.go.com/
+* doing DNS query for www.abcnews.go.com
+[!] Lookup http://y3zq5fwelrzkkv3s.onion/ failed. Retrying.
+[!] Lookup http://hcn5nqahdkds6cjv.onion/report/20200727T013531Z_AS9_WHWyVJjqUYOhHsVLhcdUv8s6uAcYfxNMsASWx8INsQDaGvaSLo failed. Retrying.
+[!] Lookup http://y3zq5fwelrzkkv3s.onion/ failed. Retrying.
+* connecting to 54.70.181.249:443
+* connecting to 34.216.127.34:443
+* connecting to 54.244.12.90:443
+
+Result for https://www.abcnews.go.com/
+--------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Result for https://www.shutterstock.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.news.yahoo.com/
+* doing DNS query for www.news.yahoo.com
+* connecting to 212.82.100.151:80
+* doing HTTP(s) request http://www.news.yahoo.com/
+
+Status
+------
+80/100 completed
+80.0% (ETA: 6s)
+
+Status
+------
+81/100 completed
+81.0% (ETA: 6s)
+* performing control request with backend
+
+Result for http://www.news.yahoo.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.news.yahoo.com/
+* doing DNS query for www.news.yahoo.com
+* connecting to 212.82.100.151:443
+* doing HTTP(s) request https://www.news.yahoo.com/
+* performing control request with backend
+
+Status
+------
+82/100 completed
+82.0% (ETA: 5s)
+
+Result for https://www.news.yahoo.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.reddit.com/
+* doing DNS query for www.reddit.com
+* connecting to 199.232.65.140:80
+* doing HTTP(s) request http://www.reddit.com/
+
+Status
+------
+83/100 completed
+83.0% (ETA: 5s)
+* performing control request with backend
+* doing HTTP(s) request https://www.abcnews.go.com/
+
+Result for http://www.reddit.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.reddit.com/
+* doing DNS query for www.reddit.com
+* connecting to 199.232.65.140:443
+* doing HTTP(s) request https://www.reddit.com/
+* performing control request with backend
+
+Result for https://www.reddit.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.news.google.com/
+* doing DNS query for www.news.google.com
+* connecting to 172.217.10.78:80
+* doing HTTP(s) request http://www.news.google.com/
+
+Status
+------
+84/100 completed
+84.0% (ETA: 4s)
+* performing control request with backend
+
+Status
+------
+85/100 completed
+85.0% (ETA: 4s)
+
+Result for http://www.news.google.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.news.google.com/
+* doing DNS query for www.news.google.com
+* connecting to 172.217.10.78:443
+* doing HTTP(s) request https://www.news.google.com/
+* performing control request with backend
+
+Result for https://www.news.google.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.usnews.com/
+* doing DNS query for www.usnews.com
+* connecting to 23.51.186.246:80
+
+Status
+------
+86/100 completed
+86.0% (ETA: 4s)
+* doing HTTP(s) request http://www.usnews.com/
+Error performing HTTP request: https://www.abcnews.go.com/
+
+Status
+------
+87/100 completed
+87.0% (ETA: 3s)
+Error performing HTTP request: https://www.abcnews.go.com/
+Error performing HTTP request: https://www.abcnews.go.com/
+Failed to perform HTTP request generic_timeout_error
+* performing control request with backend
+
+Result for https://www.abcnews.go.com/
+--------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.usnews.com/
+* doing DNS query for www.usnews.com
+* connecting to 23.51.186.246:443
+* doing HTTP(s) request https://www.usnews.com/
+
+Status
+------
+88/100 completed
+88.0% (ETA: 3s)
+
+Starting test for http://www.cnbc.com/
+* doing DNS query for www.cnbc.com
+* connecting to 23.47.146.154:80
+
+Starting test for https://www.cnbc.com/
+* doing DNS query for www.cnbc.com
+* doing HTTP(s) request http://www.cnbc.com/
+* connecting to 23.47.146.154:443
+* doing HTTP(s) request https://www.cnbc.com/
+
+Status
+------
+89/100 completed
+89.0% (ETA: 2s)
+
+Status
+------
+90/100 completed
+90.0% (ETA: 2s)
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.cnbc.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.yr.no/
+* doing DNS query for www.yr.no
+* connecting to 38.87.49.169:80
+* connecting to 38.87.49.170:80
+* doing HTTP(s) request http://www.yr.no/
+
+Result for http://www.cnbc.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.yr.no/
+* doing DNS query for www.yr.no
+* connecting to 38.87.49.169:443
+* connecting to 38.87.49.170:443
+* doing HTTP(s) request https://www.yr.no/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.yr.no/
+----------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.wsj.com/
+* doing DNS query for www.wsj.com
+* connecting to 52.84.53.44:80
+* connecting to 52.84.53.101:80
+* connecting to 52.84.53.87:80
+* connecting to 52.84.53.14:80
+* doing HTTP(s) request http://www.wsj.com/
+
+Result for https://www.yr.no/
+-----------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.wsj.com/
+* doing DNS query for www.wsj.com
+* connecting to 52.84.53.87:443
+* connecting to 52.84.53.14:443
+* connecting to 52.84.53.44:443
+* connecting to 52.84.53.101:443
+* doing HTTP(s) request https://www.wsj.com/
+
+Status
+------
+91/100 completed
+91.0% (ETA: 2s)
+
+Status
+------
+92/100 completed
+92.0% (ETA: 1s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+93/100 completed
+93.0% (ETA: 1s)
+
+Status
+------
+94/100 completed
+94.0% (ETA: 1s)
+
+Result for http://www.wsj.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.sfgate.com/
+* doing DNS query for www.sfgate.com
+* connecting to 199.232.64.200:80
+* doing HTTP(s) request http://www.sfgate.com/
+
+Result for https://www.wsj.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.sfgate.com/
+* doing DNS query for www.sfgate.com
+* connecting to 199.232.64.200:443
+* doing HTTP(s) request https://www.sfgate.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.sfgate.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for http://www.sfgate.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+95/100 completed
+95.0% (ETA: 1s)
+
+Status
+------
+96/100 completed
+96.0% (ETA: 0s)
+
+Status
+------
+97/100 completed
+97.0% (ETA: 0s)
+
+Status
+------
+98/100 completed
+98.0% (ETA: 0s)
+
+Starting test for http://www.usnews.com/
+* doing DNS query for www.usnews.com
+* connecting to 23.51.186.246:80
+* doing HTTP(s) request http://www.usnews.com/
+
+Starting test for https://www.usnews.com/
+* doing DNS query for www.usnews.com
+* connecting to 23.51.186.246:443
+* doing HTTP(s) request https://www.usnews.com/
+
+Status
+------
+99/100 completed
+99.0% (ETA: 0s)
+
+Status
+------
+100/100 completed
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Accessible URLS
+---------------
+* http://www.drudgereport.com/
+* https://www.drudgereport.com/
+* https://www.irna.ir/
+* http://www.indianexpress.com/
+* http://www.irna.ir/
+* https://www.indianexpress.com/
+* http://www.newsweek.com/
+* https://www.newsweek.com/
+* http://www.thehindu.com/
+* https://www.thehindu.com/
+* http://www.thehill.com/
+* https://www.thehill.com/
+* http://www.time.com/
+* https://www.time.com/
+* http://www.euronews.com/
+* https://www.euronews.com/
+* https://www.livemint.com/
+* http://www.livemint.com/
+* https://www.weather.gov/
+* http://www.weather.gov/
+* https://www.cbsnews.com/
+* http://www.cbsnews.com/
+* https://www.cnn.com/
+* http://www.cnn.com/
+* http://www.bloomberg.com/
+* https://www.bloomberg.com/
+* http://www.indiatimes.com/
+* https://www.indiatimes.com/
+* https://www.foxnews.com/
+* http://www.foxnews.com/
+* https://www.theguardian.com/
+* http://www.theguardian.com/
+* https://www.nypost.com/
+* http://www.nypost.com/
+* https://www.dw.com/
+* https://www.chron.com/
+* http://www.chron.com/
+* http://www.dw.com/
+* https://www.forbes.com/
+* http://www.forbes.com/
+* https://www.news.com.au/
+* http://www.news.com.au/
+* https://www.alarabiya.net/
+* http://www.alarabiya.net/
+* http://www.bankrate.com/
+* https://www.bankrate.com/
+* https://www.timesofindia.indiatimes.com/
+* http://www.timesofindia.indiatimes.com/
+* https://www.nytimes.com/
+* http://www.nytimes.com/
+* http://www.weather.com/
+* https://www.weather.com/
+* http://www.abcnews.go.com/
+* http://www.washingtonpost.com/
+* https://www.washingtonpost.com/
+* http://www.theatlantic.com/
+* https://www.theatlantic.com/
+* http://www.hindustantimes.com/
+* https://www.hindustantimes.com/
+* http://www.wunderground.com/
+* https://www.wunderground.com/
+* http://www.reuters.com/
+* https://www.reuters.com/
+* http://www.patch.com/
+* https://www.patch.com/
+* http://www.nbcnews.com/
+* https://www.nbcnews.com/
+* http://www.chinadaily.com.cn/
+* https://www.chinadaily.com.cn/
+* http://www.latimes.com/
+* https://www.latimes.com/
+* http://www.aljazeera.com/
+* https://www.aljazeera.com/
+* http://www.economictimes.indiatimes.com/
+* https://www.economictimes.indiatimes.com/
+* http://www.usatoday.com/
+* https://www.usatoday.com/
+* http://www.thedailybeast.com/
+* https://www.thedailybeast.com/
+* http://www.shutterstock.com/
+* https://www.shutterstock.com/
+* http://www.news.yahoo.com/
+* https://www.news.yahoo.com/
+* http://www.reddit.com/
+* https://www.reddit.com/
+* http://www.news.google.com/
+* https://www.news.google.com/
+* https://www.cnbc.com/
+* http://www.cnbc.com/
+* http://www.yr.no/
+* https://www.yr.no/
+* http://www.wsj.com/
+* https://www.wsj.com/
+* https://www.sfgate.com/
+* http://www.sfgate.com/
+
+Not accessible URLS
+-------------------
+* https://www.abcnews.go.com/
+* http://www.accuweather.com/
+* https://www.accuweather.com/
+* http://www.usnews.com/
+* https://www.usnews.com/
+Report ID: 20200727T013531Z_AS9_WHWyVJjqUYOhHsVLhcdUv8s6uAcYfxNMsASWx8INsQDaGvaSLo
+Error performing HTTP request: http://www.accuweather.com/
+Error performing HTTP request: http://www.usnews.com/
+Error performing HTTP request: https://www.usnews.com/
+Error performing HTTP request: http://www.accuweather.com/
+Error performing HTTP request: https://www.accuweather.com/
+Error performing HTTP request: https://www.usnews.com/
+Error performing HTTP request: http://www.usnews.com/
+Error performing HTTP request: https://www.accuweather.com/
+1192.90198088

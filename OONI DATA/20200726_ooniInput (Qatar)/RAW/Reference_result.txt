@@ -1,0 +1,1106 @@
+[!] Error processing dns_spoof.py
+[!] Error processing traceroute.py
+Starting Tor
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+57%: Loading relay descriptors
+61%: Loading relay descriptors
+66%: Loading relay descriptors
+71%: Loading relay descriptors
+78%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for https://www.stackoverflow.com/
+* doing DNS query for www.stackoverflow.com
+
+Starting test for https://www.udemy.com/
+* doing DNS query for www.udemy.com
+
+Starting test for https://www.archive.org/
+* doing DNS query for www.archive.org
+
+Starting test for https://www.coursera.org/
+* doing DNS query for www.coursera.org
+* connecting to 104.16.91.52:443
+* connecting to 104.16.92.52:443
+* connecting to 151.101.129.69:443
+* connecting to 151.101.65.69:443
+* connecting to 151.101.193.69:443
+* connecting to 151.101.1.69:443
+* connecting to 13.226.118.108:443
+* connecting to 13.226.118.129:443
+* connecting to 13.226.118.106:443
+* connecting to 13.226.118.19:443
+* doing HTTP(s) request https://www.udemy.com/
+* doing HTTP(s) request https://www.stackoverflow.com/
+* doing HTTP(s) request https://www.coursera.org/
+* connecting to 207.241.224.2:443
+* doing HTTP(s) request https://www.archive.org/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 53233: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 30795: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 37675: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.coursera.org/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.nlm.nih.gov/
+* doing DNS query for www.nlm.nih.gov
+
+Result for https://www.udemy.com/
+---------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.goodreads.com/
+* doing DNS query for www.goodreads.com
+* connecting to 52.94.237.126:443
+* doing HTTP(s) request https://www.goodreads.com/
+
+Result for https://www.stackoverflow.com/
+-----------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.thesaurus.com/
+* doing DNS query for www.thesaurus.com
+* connecting to 99.84.41.72:443
+* connecting to 99.84.41.28:443
+* connecting to 99.84.41.53:443
+* connecting to 99.84.41.82:443
+* doing HTTP(s) request https://www.nlm.nih.gov/
+
+Status
+------
+1 completed 50 remaining
+2.0% (ETA: 7s)
+* connecting to 151.101.210.133:443
+* doing HTTP(s) request https://www.thesaurus.com/
+
+Status
+------
+2 completed 50 remaining
+4.0% (ETA: 14s)
+
+Status
+------
+3 completed 50 remaining
+6.0% (ETA: 19s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 54361: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 20852: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 149: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 258: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.thesaurus.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.cambridge.org/
+* doing DNS query for www.cambridge.org
+
+Result for https://www.nlm.nih.gov/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.blackboard.com/
+* doing DNS query for www.blackboard.com
+* connecting to 104.16.56.52:443
+* connecting to 104.16.55.52:443
+
+Result for https://www.goodreads.com/
+-------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.dictionary.cambridge.org/
+* doing DNS query for www.dictionary.cambridge.org
+* doing HTTP(s) request https://www.cambridge.org/
+
+Result for https://www.archive.org/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.investopedia.com/
+* doing DNS query for www.investopedia.com
+* connecting to 104.17.96.235:443
+* connecting to 104.17.95.235:443
+* doing HTTP(s) request https://www.blackboard.com/
+* connecting to 199.232.38.137:443
+
+Status
+------
+4 completed 50 remaining
+8.0% (ETA: 17s)
+* doing HTTP(s) request https://www.investopedia.com/
+* connecting to 54.72.24.212:443
+* doing HTTP(s) request https://www.dictionary.cambridge.org/
+
+Status
+------
+5 completed 50 remaining
+10.0% (ETA: 20s)
+
+Status
+------
+6 completed 50 remaining
+12.0% (ETA: 23s)
+
+Status
+------
+7 completed 50 remaining
+14.0% (ETA: 26s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 37997: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 71246: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 15468: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.investopedia.com/
+----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.mit.edu/
+* doing DNS query for www.mit.edu
+* connecting to 104.122.128.32:443
+
+Result for https://www.blackboard.com/
+--------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.wordreference.com/
+* doing DNS query for www.wordreference.com
+* doing HTTP(s) request https://www.mit.edu/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 73970: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.cambridge.org/
+-------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.elsevier.com/
+* doing DNS query for www.elsevier.com
+* connecting to 195.201.57.207:443
+
+Status
+------
+8 completed 50 remaining
+16.0% (ETA: 21s)
+* doing HTTP(s) request https://www.wordreference.com/
+* connecting to 185.64.253.1:443
+* doing HTTP(s) request https://www.elsevier.com/
+
+Status
+------
+9 completed 50 remaining
+18.0% (ETA: 22s)
+
+Status
+------
+10 completed 50 remaining
+20.0% (ETA: 24s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 4200: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.dictionary.cambridge.org/
+------------------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.harvard.edu/
+* doing DNS query for www.harvard.edu
+* connecting to 23.185.0.1:443
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 11728: ordinal not in range(128)
+* performing control request with backend
+* doing HTTP(s) request https://www.harvard.edu/
+
+Status
+------
+11 completed 50 remaining
+22.0% (ETA: 23s)
+
+Result for https://www.mit.edu/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.edx.org/
+* doing DNS query for www.edx.org
+* connecting to 104.16.179.84:443
+* connecting to 104.16.181.84:443
+* connecting to 104.16.178.84:443
+* connecting to 104.16.180.84:443
+* connecting to 104.16.177.84:443
+* doing HTTP(s) request https://www.edx.org/
+
+Result for https://www.wordreference.com/
+-----------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.merriam-webster.com/
+* doing DNS query for www.merriam-webster.com
+* connecting to 13.226.118.43:443
+* connecting to 13.226.118.119:443
+* connecting to 13.226.118.57:443
+* connecting to 13.226.118.128:443
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 21469: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+12 completed 50 remaining
+24.0% (ETA: 23s)
+* doing HTTP(s) request https://www.merriam-webster.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 222459: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Status
+------
+13 completed 50 remaining
+26.0% (ETA: 22s)
+
+Result for https://www.harvard.edu/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.thefreedictionary.com/
+* doing DNS query for www.thefreedictionary.com
+
+Result for https://www.edx.org/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.wiktionary.org/
+* doing DNS query for www.wiktionary.org
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 31910: ordinal not in range(128)
+* performing control request with backend
+* connecting to 85.195.124.227:443
+* connecting to 91.198.174.192:443
+* doing HTTP(s) request https://www.thefreedictionary.com/
+* doing HTTP(s) request https://www.wiktionary.org/
+
+Result for https://www.elsevier.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.urbandictionary.com/
+* doing DNS query for www.urbandictionary.com
+
+Status
+------
+14 completed 50 remaining
+28.0% (ETA: 22s)
+* connecting to 151.101.208.207:443
+
+Status
+------
+15 completed 50 remaining
+30.0% (ETA: 22s)
+* doing HTTP(s) request https://www.urbandictionary.com/
+
+Result for https://www.merriam-webster.com/
+-------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.jhu.edu/
+* doing DNS query for www.jhu.edu
+
+Status
+------
+16 completed 50 remaining
+32.0% (ETA: 23s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 3929: ordinal not in range(128)
+* performing control request with backend
+* connecting to 104.122.134.119:443
+
+Status
+------
+17 completed 50 remaining
+34.0% (ETA: 22s)
+* doing HTTP(s) request https://www.jhu.edu/
+
+Result for https://www.wiktionary.org/
+--------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.britannica.com/
+* doing DNS query for www.britannica.com
+* connecting to 18.136.24.163:443
+* connecting to 52.220.58.211:443
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xf0 in position 39076: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 13300: ordinal not in range(128)
+* performing control request with backend
+* doing HTTP(s) request https://www.britannica.com/
+
+Status
+------
+18 completed 50 remaining
+36.0% (ETA: 22s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 48716: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.urbandictionary.com/
+-------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.jnu.edu.cn/
+* doing DNS query for www.jnu.edu.cn
+
+Result for https://www.thefreedictionary.com/
+---------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.ed.gov/
+* doing DNS query for www.ed.gov
+
+Status
+------
+19 completed 50 remaining
+38.0% (ETA: 20s)
+* connecting to 165.224.131.183:443
+* connecting to 2.23.224.143:443
+* doing HTTP(s) request https://www.ed.gov/
+* doing HTTP(s) request https://www.jnu.edu.cn/
+
+Status
+------
+20 completed 50 remaining
+40.0% (ETA: 20s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 14889: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 6623: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.jhu.edu/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.yourdictionary.com/
+* doing DNS query for www.yourdictionary.com
+
+Result for https://www.britannica.com/
+--------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.linguee.com/
+* doing DNS query for www.linguee.com
+* connecting to 13.226.118.76:443
+* connecting to 13.226.118.81:443
+* connecting to 13.226.118.87:443
+* connecting to 13.226.118.44:443
+* doing HTTP(s) request https://www.yourdictionary.com/
+* connecting to 78.138.112.35:443
+* doing HTTP(s) request https://www.linguee.com/
+
+Status
+------
+21 completed 50 remaining
+42.0% (ETA: 18s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe4 in position 305: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+22 completed 50 remaining
+44.0% (ETA: 18s)
+
+Result for https://www.ed.gov/
+------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.stanford.edu/
+* doing DNS query for www.stanford.edu
+* connecting to 104.18.168.96:443
+* connecting to 104.18.167.96:443
+* connecting to 104.18.166.96:443
+* connecting to 104.18.165.96:443
+* connecting to 104.18.164.96:443
+* doing HTTP(s) request https://www.stanford.edu/
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Status
+------
+23 completed 50 remaining
+46.0% (ETA: 18s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe4 in position 21703: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.yourdictionary.com/
+------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.szu.edu.cn/
+* doing DNS query for www.szu.edu.cn
+
+Result for https://www.linguee.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.oup.com/
+* doing DNS query for www.oup.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xef in position 13408: ordinal not in range(128)
+* performing control request with backend
+* connecting to 75.2.119.185:443
+* doing HTTP(s) request https://www.oup.com/
+* connecting to 210.39.12.247:443
+* doing HTTP(s) request https://www.szu.edu.cn/
+
+Status
+------
+24 completed 50 remaining
+48.0% (ETA: 17s)
+
+Status
+------
+25 completed 50 remaining
+50.0% (ETA: 16s)
+
+Result for https://www.jnu.edu.cn/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.whitepages.com/
+* doing DNS query for www.whitepages.com
+* connecting to 34.213.83.208:443
+* connecting to 50.112.73.129:443
+* connecting to 52.10.170.204:443
+* doing HTTP(s) request https://www.whitepages.com/
+
+Status
+------
+26 completed 50 remaining
+52.0% (ETA: 16s)
+
+Result for https://www.stanford.edu/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.turnitin.com/
+* doing DNS query for www.turnitin.com
+* connecting to 151.101.210.133:443
+* doing HTTP(s) request https://www.turnitin.com/
+
+Status
+------
+27 completed 50 remaining
+54.0% (ETA: 15s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 114752: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xef in position 0: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.whitepages.com/
+--------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.udacity.com/
+* doing DNS query for www.udacity.com
+* connecting to 104.16.103.31:443
+* connecting to 104.16.104.31:443
+* doing HTTP(s) request https://www.udacity.com/
+
+Result for https://www.turnitin.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.answers.yahoo.com/
+* doing DNS query for www.answers.yahoo.com
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Status
+------
+28 completed 50 remaining
+56.0% (ETA: 14s)
+* connecting to 76.13.32.153:443
+* doing HTTP(s) request https://www.answers.yahoo.com/
+
+Status
+------
+29 completed 50 remaining
+58.0% (ETA: 13s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 36309: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.oup.com/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.collegeboard.org/
+* doing DNS query for www.collegeboard.org
+* connecting to 2.23.241.193:443
+
+Status
+------
+30 completed 50 remaining
+60.0% (ETA: 13s)
+* doing HTTP(s) request https://www.collegeboard.org/
+
+Result for https://www.udacity.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.mapquest.com/
+* doing DNS query for www.mapquest.com
+* connecting to 52.1.17.55:443
+* connecting to 52.73.152.163:443
+* connecting to 34.227.182.120:443
+* doing HTTP(s) request https://www.mapquest.com/
+
+Result for https://www.szu.edu.cn/
+----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.du.ac.in/
+* doing DNS query for www.du.ac.in
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 13139: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+31 completed 50 remaining
+62.0% (ETA: 12s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 538: ordinal not in range(128)
+* performing control request with backend
+* connecting to 14.139.45.149:443
+* doing HTTP(s) request https://www.du.ac.in/
+
+Status
+------
+32 completed 50 remaining
+64.0% (ETA: 12s)
+
+Result for https://www.collegeboard.org/
+----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.faradars.org/
+* doing DNS query for www.faradars.org
+
+Result for https://www.answers.yahoo.com/
+-----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.sjtu.edu.cn/
+* doing DNS query for www.sjtu.edu.cn
+* connecting to 185.51.201.38:443
+* connecting to 185.51.201.18:443
+* connecting to 202.120.2.119:443
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 16419: ordinal not in range(128)
+* performing control request with backend
+* doing HTTP(s) request https://www.faradars.org/
+* doing HTTP(s) request https://www.sjtu.edu.cn/
+
+Status
+------
+33 completed 50 remaining
+66.0% (ETA: 11s)
+Error performing HTTP request: https://www.faradars.org/
+
+Status
+------
+34 completed 50 remaining
+68.0% (ETA: 10s)
+
+Result for https://www.mapquest.com/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.howstuffworks.com/
+* doing DNS query for www.howstuffworks.com
+Error performing HTTP request: https://www.faradars.org/
+* connecting to 13.226.118.74:443
+* connecting to 13.226.118.78:443
+* connecting to 13.226.118.101:443
+* connecting to 13.226.118.61:443
+* doing HTTP(s) request https://www.howstuffworks.com/
+
+Status
+------
+35 completed 50 remaining
+70.0% (ETA: 10s)
+Error performing HTTP request: https://www.faradars.org/
+Failed to perform HTTP request response_never_received
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 10795: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 56813: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe4 in position 509: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.faradars.org/
+------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.tableau.com/
+* doing DNS query for www.tableau.com
+* connecting to 104.97.60.124:443
+* doing HTTP(s) request https://www.tableau.com/
+
+Result for https://www.howstuffworks.com/
+-----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.berkeley.edu/
+* doing DNS query for www.berkeley.edu
+
+Status
+------
+36 completed 50 remaining
+72.0% (ETA: 9s)
+
+Result for https://www.du.ac.in/
+--------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.ecollege.com/
+* doing DNS query for www.ecollege.com
+* connecting to 35.160.53.243:443
+* connecting to 52.88.197.125:443
+* doing HTTP(s) request https://www.berkeley.edu/
+* connecting to 54.209.16.180:443
+* connecting to 54.175.49.62:443
+* connecting to 52.4.47.53:443
+
+Status
+------
+37 completed 50 remaining
+74.0% (ETA: 8s)
+* doing HTTP(s) request https://www.ecollege.com/
+
+Result for https://www.sjtu.edu.cn/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.en.wiktionary.org/
+* doing DNS query for www.en.wiktionary.org
+* doing HTTP(s) request https://www.en.wiktionary.org/
+Error performing HTTP request: https://www.en.wiktionary.org/
+Error performing HTTP request: https://www.en.wiktionary.org/
+Error performing HTTP request: https://www.en.wiktionary.org/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+
+Status
+------
+38 completed 50 remaining
+76.0% (ETA: 8s)
+Error performing HTTP request: https://www.ecollege.com/
+Error performing HTTP request: https://www.ecollege.com/
+
+Status
+------
+39 completed 50 remaining
+78.0% (ETA: 7s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 80298: ordinal not in range(128)
+* performing control request with backend
+Error performing HTTP request: https://www.ecollege.com/
+Failed to perform HTTP request response_never_received
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 10680: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.en.wiktionary.org/
+-----------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.spanishdict.com/
+* doing DNS query for www.spanishdict.com
+* connecting to 34.195.26.88:443
+* connecting to 3.93.202.74:443
+* connecting to 3.218.161.142:443
+
+Result for https://www.tableau.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.mindmeister.com/
+* doing DNS query for www.mindmeister.com
+* doing HTTP(s) request https://www.spanishdict.com/
+* connecting to 104.20.6.160:443
+* connecting to 104.20.7.160:443
+* doing HTTP(s) request https://www.mindmeister.com/
+
+Status
+------
+40 completed 50 remaining
+80.0% (ETA: 6s)
+
+Result for https://www.berkeley.edu/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.psu.edu/
+* doing DNS query for www.psu.edu
+
+Status
+------
+41 completed 50 remaining
+82.0% (ETA: 6s)
+* connecting to 146.186.157.6:443
+* doing HTTP(s) request https://www.psu.edu/
+
+Result for https://www.ecollege.com/
+------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.yellowpages.com/
+* doing DNS query for www.yellowpages.com
+* connecting to 208.93.105.173:443
+
+Status
+------
+42 completed 50 remaining
+84.0% (ETA: 5s)
+* doing HTTP(s) request https://www.yellowpages.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 13030: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xf0 in position 1615: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+43 completed 50 remaining
+86.0% (ETA: 4s)
+
+Result for https://www.mindmeister.com/
+---------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.tureng.com/
+* doing DNS query for www.tureng.com
+
+Result for https://www.spanishdict.com/
+---------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.cornell.edu/
+* doing DNS query for www.cornell.edu
+* connecting to 172.67.203.7:443
+* connecting to 104.27.179.91:443
+* connecting to 104.27.178.91:443
+* doing HTTP(s) request https://www.tureng.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 23636: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+44 completed 50 remaining
+88.0% (ETA: 4s)
+* connecting to 20.42.25.107:443
+* doing HTTP(s) request https://www.cornell.edu/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 206: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+45 completed 50 remaining
+90.0% (ETA: 3s)
+
+Result for https://www.psu.edu/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.lynda.com/
+* doing DNS query for www.lynda.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 34641: ordinal not in range(128)
+* performing control request with backend
+* connecting to 8.39.42.106:443
+* doing HTTP(s) request https://www.lynda.com/
+
+Status
+------
+46 completed 50 remaining
+92.0% (ETA: 2s)
+
+Result for https://www.cornell.edu/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Status
+------
+47 completed 50 remaining
+94.0% (ETA: 2s)
+
+Result for https://www.yellowpages.com/
+---------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 8584: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+48 completed 50 remaining
+96.0% (ETA: 1s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 139976: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.tureng.com/
+----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Result for https://www.lynda.com/
+---------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Status
+------
+49 completed 50 remaining
+98.0% (ETA: 0s)
+
+Status
+------
+50 completed 50 remaining
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Not accessible URLS
+-------------------
+* https://www.coursera.org/
+* https://www.udemy.com/
+* https://www.stackoverflow.com/
+* https://www.thesaurus.com/
+* https://www.nlm.nih.gov/
+* https://www.goodreads.com/
+* https://www.archive.org/
+* https://www.investopedia.com/
+* https://www.blackboard.com/
+* https://www.cambridge.org/
+* https://www.dictionary.cambridge.org/
+* https://www.mit.edu/
+* https://www.wordreference.com/
+* https://www.harvard.edu/
+* https://www.edx.org/
+* https://www.elsevier.com/
+* https://www.merriam-webster.com/
+* https://www.wiktionary.org/
+* https://www.urbandictionary.com/
+* https://www.thefreedictionary.com/
+* https://www.jhu.edu/
+* https://www.britannica.com/
+* https://www.ed.gov/
+* https://www.yourdictionary.com/
+* https://www.linguee.com/
+* https://www.jnu.edu.cn/
+* https://www.stanford.edu/
+* https://www.whitepages.com/
+* https://www.turnitin.com/
+* https://www.oup.com/
+* https://www.udacity.com/
+* https://www.szu.edu.cn/
+* https://www.collegeboard.org/
+* https://www.answers.yahoo.com/
+* https://www.mapquest.com/
+* https://www.faradars.org/
+* https://www.howstuffworks.com/
+* https://www.du.ac.in/
+* https://www.sjtu.edu.cn/
+* https://www.en.wiktionary.org/
+* https://www.tableau.com/
+* https://www.berkeley.edu/
+* https://www.ecollege.com/
+* https://www.mindmeister.com/
+* https://www.spanishdict.com/
+* https://www.psu.edu/
+* https://www.cornell.edu/
+* https://www.yellowpages.com/
+* https://www.tureng.com/
+* https://www.lynda.com/
+
+URLS possibly blocked due to http-failure
+-----------------------------------------
+* https://www.udemy.com/
+* https://www.stackoverflow.com/
+* https://www.goodreads.com/
+* https://www.archive.org/
+* https://www.blackboard.com/
+* https://www.cambridge.org/
+* https://www.dictionary.cambridge.org/
+* https://www.wordreference.com/
+* https://www.harvard.edu/
+* https://www.edx.org/
+* https://www.wiktionary.org/
+* https://www.britannica.com/
+* https://www.ed.gov/
+* https://www.linguee.com/
+* https://www.stanford.edu/
+* https://www.whitepages.com/
+* https://www.oup.com/
+* https://www.udacity.com/
+* https://www.szu.edu.cn/
+* https://www.mapquest.com/
+* https://www.du.ac.in/
+* https://www.sjtu.edu.cn/
+* https://www.berkeley.edu/
+* https://www.mindmeister.com/
+* https://www.spanishdict.com/
+* https://www.psu.edu/
+* https://www.cornell.edu/
+* https://www.yellowpages.com/
+* https://www.tureng.com/
+* https://www.lynda.com/
+
+URLS possibly blocked due to dns
+--------------------------------
+* https://www.coursera.org/
+* https://www.thesaurus.com/
+* https://www.nlm.nih.gov/
+* https://www.investopedia.com/
+* https://www.mit.edu/
+* https://www.elsevier.com/
+* https://www.merriam-webster.com/
+* https://www.urbandictionary.com/
+* https://www.thefreedictionary.com/
+* https://www.jhu.edu/
+* https://www.yourdictionary.com/
+* https://www.jnu.edu.cn/
+* https://www.turnitin.com/
+* https://www.collegeboard.org/
+* https://www.answers.yahoo.com/
+* https://www.howstuffworks.com/
+* https://www.tableau.com/
+Report ID: 20200726T150306Z_AS29384_eNqBPRmWFq2FVEqJjOFTeS3U9Q9OjSUuYtrCPIT8IBS0JPC1BK
+145.366620064

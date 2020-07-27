@@ -1,0 +1,1074 @@
+[!] Error processing dns_spoof.py
+[!] Error processing traceroute.py
+Starting Tor
+5%: Connecting to directory server
+5%: Connecting to directory server
+5%: Connecting to directory server
+5%: Connecting to directory server
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+57%: Loading relay descriptors
+60%: Loading relay descriptors
+65%: Loading relay descriptors
+71%: Loading relay descriptors
+78%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for https://www.google.com/
+* doing DNS query for www.google.com
+
+Starting test for https://www.yahoo.com/
+* doing DNS query for www.yahoo.com
+
+Starting test for https://www.amazon.com/
+* doing DNS query for www.amazon.com
+
+Starting test for https://www.microsoft.com/
+* doing DNS query for www.microsoft.com
+* connecting to 172.217.9.228:443
+* doing HTTP(s) request https://www.google.com/
+* connecting to 23.195.4.176:443
+* connecting to 98.138.219.232:443
+* connecting to 98.138.219.231:443
+* connecting to 72.30.35.10:443
+* connecting to 72.30.35.9:443
+* connecting to 13.227.1.211:443
+* doing HTTP(s) request https://www.microsoft.com/
+* doing HTTP(s) request https://www.yahoo.com/
+* doing HTTP(s) request https://www.amazon.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd8 in position 19613: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.google.com/
+----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.amazon.co.jp/
+* doing DNS query for www.amazon.co.jp
+
+Status
+------
+1 completed 50 remaining
+2.0% (ETA: 10s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 93217: ordinal not in range(128)
+* performing control request with backend
+* connecting to 104.122.142.96:443
+* doing HTTP(s) request https://www.amazon.co.jp/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 247415: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.microsoft.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.google.co.in/
+* doing DNS query for www.google.co.in
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd8 in position 1000: ordinal not in range(128)
+* performing control request with backend
+* connecting to 172.217.10.67:443
+* doing HTTP(s) request https://www.google.co.in/
+
+Result for https://www.amazon.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.adobe.com/
+* doing DNS query for www.adobe.com
+* connecting to 2.23.237.191:443
+* doing HTTP(s) request https://www.adobe.com/
+
+Status
+------
+2 completed 50 remaining
+4.0% (ETA: 13s)
+
+Result for https://www.yahoo.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.apple.com/
+* doing DNS query for www.apple.com
+* connecting to 184.29.69.111:443
+* doing HTTP(s) request https://www.apple.com/
+
+Status
+------
+3 completed 50 remaining
+6.0% (ETA: 17s)
+
+Status
+------
+4 completed 50 remaining
+8.0% (ETA: 21s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd8 in position 19614: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 22632: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 94576: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.google.co.in/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.chase.com/
+* doing DNS query for www.chase.com
+
+Result for https://www.apple.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.amazon.co.uk/
+* doing DNS query for www.amazon.co.uk
+* connecting to 159.53.113.168:443
+
+Result for https://www.adobe.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.nytimes.com/
+* doing DNS query for www.nytimes.com
+* doing HTTP(s) request https://www.chase.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe6 in position 48059: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+5 completed 50 remaining
+10.0% (ETA: 21s)
+* connecting to 151.101.209.164:443
+* doing HTTP(s) request https://www.nytimes.com/
+
+Status
+------
+6 completed 50 remaining
+12.0% (ETA: 24s)
+* connecting to 104.122.142.123:443
+
+Status
+------
+7 completed 50 remaining
+14.0% (ETA: 27s)
+* doing HTTP(s) request https://www.amazon.co.uk/
+
+Result for https://www.amazon.co.jp/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.flipkart.com/
+* doing DNS query for www.flipkart.com
+* connecting to 163.53.78.128:443
+* doing HTTP(s) request https://www.flipkart.com/
+
+Status
+------
+8 completed 50 remaining
+16.0% (ETA: 26s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 10490: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 4482: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.nytimes.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.walmart.com/
+* doing DNS query for www.walmart.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 117289: ordinal not in range(128)
+* performing control request with backend
+* connecting to 104.122.128.161:443
+* doing HTTP(s) request https://www.walmart.com/
+
+Status
+------
+9 completed 50 remaining
+18.0% (ETA: 23s)
+
+Result for https://www.amazon.co.uk/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.zillow.com/
+* doing DNS query for www.zillow.com
+* connecting to 13.226.118.5:443
+* connecting to 13.226.118.109:443
+* connecting to 13.226.118.110:443
+* connecting to 13.226.118.101:443
+
+Result for https://www.chase.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.alibaba.com/
+* doing DNS query for www.alibaba.com
+* doing HTTP(s) request https://www.zillow.com/
+* connecting to 104.122.133.238:443
+* doing HTTP(s) request https://www.alibaba.com/
+
+Status
+------
+10 completed 50 remaining
+20.0% (ETA: 23s)
+
+Status
+------
+11 completed 50 remaining
+22.0% (ETA: 25s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 18475: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 13768: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.flipkart.com/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.indiatimes.com/
+* doing DNS query for www.indiatimes.com
+* connecting to 23.15.43.213:443
+* doing HTTP(s) request https://www.indiatimes.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 28251: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.alibaba.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.nih.gov/
+* doing DNS query for www.nih.gov
+
+Status
+------
+12 completed 50 remaining
+24.0% (ETA: 23s)
+* connecting to 52.72.169.229:443
+* connecting to 35.169.209.222:443
+* doing HTTP(s) request https://www.nih.gov/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 607: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+13 completed 50 remaining
+26.0% (ETA: 23s)
+
+Result for https://www.walmart.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.bbc.co.uk/
+* doing DNS query for www.bbc.co.uk
+* connecting to 212.58.237.252:443
+* connecting to 212.58.233.252:443
+
+Result for https://www.zillow.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.google.co.uk/
+* doing DNS query for www.google.co.uk
+* doing HTTP(s) request https://www.bbc.co.uk/
+
+Status
+------
+14 completed 50 remaining
+28.0% (ETA: 23s)
+* connecting to 172.217.165.131:443
+* doing HTTP(s) request https://www.google.co.uk/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 14933: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 178467: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+15 completed 50 remaining
+30.0% (ETA: 23s)
+
+Result for https://www.indiatimes.com/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.theguardian.com/
+* doing DNS query for www.theguardian.com
+* connecting to 199.232.37.111:443
+
+Result for https://www.nih.gov/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.wellsfargo.com/
+* doing DNS query for www.wellsfargo.com
+* doing HTTP(s) request https://www.theguardian.com/
+* connecting to 159.45.2.145:443
+* doing HTTP(s) request https://www.wellsfargo.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd8 in position 19615: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+16 completed 50 remaining
+32.0% (ETA: 21s)
+
+Status
+------
+17 completed 50 remaining
+34.0% (ETA: 22s)
+
+Result for https://www.google.co.uk/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.amazon.ca/
+* doing DNS query for www.amazon.ca
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 108157: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+18 completed 50 remaining
+36.0% (ETA: 22s)
+
+Result for https://www.bbc.co.uk/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.bestbuy.com/
+* doing DNS query for www.bestbuy.com
+* connecting to 104.97.57.169:443
+* doing HTTP(s) request https://www.bestbuy.com/
+* connecting to 104.122.142.117:443
+* doing HTTP(s) request https://www.amazon.ca/
+
+Status
+------
+19 completed 50 remaining
+38.0% (ETA: 21s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 391: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 494861: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.wellsfargo.com/
+--------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.usps.com/
+* doing DNS query for www.usps.com
+* connecting to 184.29.69.123:443
+* doing HTTP(s) request https://www.usps.com/
+
+Result for https://www.theguardian.com/
+---------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.ups.com/
+* doing DNS query for www.ups.com
+
+Status
+------
+20 completed 50 remaining
+40.0% (ETA: 20s)
+* connecting to 23.195.4.171:443
+* doing HTTP(s) request https://www.ups.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 49187: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+21 completed 50 remaining
+42.0% (ETA: 19s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.amazon.ca/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.homedepot.com/
+* doing DNS query for www.homedepot.com
+
+Result for https://www.usps.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.ikea.com/
+* doing DNS query for www.ikea.com
+* connecting to 104.122.136.30:443
+* connecting to 104.122.137.168:443
+* doing HTTP(s) request https://www.homedepot.com/
+* doing HTTP(s) request https://www.ikea.com/
+
+Status
+------
+22 completed 50 remaining
+44.0% (ETA: 18s)
+
+Status
+------
+23 completed 50 remaining
+46.0% (ETA: 18s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 43: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.ikea.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.ca.gov/
+* doing DNS query for www.ca.gov
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 136785: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+24 completed 50 remaining
+48.0% (ETA: 17s)
+* connecting to 93.184.219.201:443
+* doing HTTP(s) request https://www.ca.gov/
+
+Result for https://www.homedepot.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.nlm.nih.gov/
+* doing DNS query for www.nlm.nih.gov
+* connecting to 99.84.41.28:443
+* connecting to 99.84.41.53:443
+* connecting to 99.84.41.72:443
+* connecting to 99.84.41.82:443
+* doing HTTP(s) request https://www.nlm.nih.gov/
+
+Status
+------
+25 completed 50 remaining
+50.0% (ETA: 16s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 189828: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xef in position 0: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 20852: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.ups.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.target.com/
+* doing DNS query for www.target.com
+
+Result for https://www.ca.gov/
+------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.webex.com/
+* doing DNS query for www.webex.com
+* connecting to 151.101.210.187:443
+* connecting to 2.23.239.245:443
+* doing HTTP(s) request https://www.target.com/
+* doing HTTP(s) request https://www.webex.com/
+
+Result for https://www.nlm.nih.gov/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.fedex.com/
+* doing DNS query for www.fedex.com
+
+Status
+------
+26 completed 50 remaining
+52.0% (ETA: 15s)
+
+Status
+------
+27 completed 50 remaining
+54.0% (ETA: 15s)
+* connecting to 184.29.69.173:443
+* doing HTTP(s) request https://www.fedex.com/
+
+Status
+------
+28 completed 50 remaining
+56.0% (ETA: 14s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 200805: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 103153: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.webex.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.ebay.co.uk/
+* doing DNS query for www.ebay.co.uk
+* connecting to 23.15.46.195:443
+* doing HTTP(s) request https://www.ebay.co.uk/
+
+Status
+------
+29 completed 50 remaining
+58.0% (ETA: 13s)
+
+Result for https://www.target.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.bet365.com/
+* doing DNS query for www.bet365.com
+* connecting to 5.226.176.16:443
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 6955: ordinal not in range(128)
+* performing control request with backend
+* doing HTTP(s) request https://www.bet365.com/
+
+Status
+------
+30 completed 50 remaining
+60.0% (ETA: 13s)
+
+Result for https://www.fedex.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.dailymail.co.uk/
+* doing DNS query for www.dailymail.co.uk
+* connecting to 104.97.52.126:443
+* doing HTTP(s) request https://www.dailymail.co.uk/
+
+Status
+------
+31 completed 50 remaining
+62.0% (ETA: 12s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 131450: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.bet365.com/
+----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.weather.com/
+* doing DNS query for www.weather.com
+* connecting to 104.97.57.212:443
+* doing HTTP(s) request https://www.weather.com/
+
+Status
+------
+32 completed 50 remaining
+64.0% (ETA: 11s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 29999: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.ebay.co.uk/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.icicibank.com/
+* doing DNS query for www.icicibank.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 110000: ordinal not in range(128)
+* performing control request with backend
+* connecting to 2.23.237.190:443
+* doing HTTP(s) request https://www.icicibank.com/
+
+Status
+------
+33 completed 50 remaining
+66.0% (ETA: 11s)
+
+Result for https://www.dailymail.co.uk/
+---------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.samsung.com/
+* doing DNS query for www.samsung.com
+* connecting to 104.97.60.90:443
+* doing HTTP(s) request https://www.samsung.com/
+
+Status
+------
+34 completed 50 remaining
+68.0% (ETA: 10s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 174352: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.icicibank.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.asos.com/
+* doing DNS query for www.asos.com
+* connecting to 82.148.119.229:443
+* connecting to 82.148.119.228:443
+* doing HTTP(s) request https://www.asos.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 69644: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+35 completed 50 remaining
+70.0% (ETA: 9s)
+
+Result for https://www.asos.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.economictimes.indiatimes.com/
+* doing DNS query for www.economictimes.indiatimes.com
+* connecting to 104.122.133.82:443
+* doing HTTP(s) request https://www.economictimes.indiatimes.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xed in position 4842: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+36 completed 50 remaining
+72.0% (ETA: 8s)
+
+Result for https://www.samsung.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.fidelity.com/
+* doing DNS query for www.fidelity.com
+* connecting to 104.122.128.140:443
+* doing HTTP(s) request https://www.fidelity.com/
+
+Status
+------
+37 completed 50 remaining
+74.0% (ETA: 8s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 27816: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.economictimes.indiatimes.com/
+----------------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.uk.search.yahoo.com/
+* doing DNS query for www.uk.search.yahoo.com
+* doing HTTP(s) request https://www.uk.search.yahoo.com/
+Error performing HTTP request: https://www.uk.search.yahoo.com/
+Error performing HTTP request: https://www.uk.search.yahoo.com/
+Error performing HTTP request: https://www.uk.search.yahoo.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 35226: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+38 completed 50 remaining
+76.0% (ETA: 7s)
+
+Result for https://www.uk.search.yahoo.com/
+-------------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.hp.com/
+* doing DNS query for www.hp.com
+* connecting to 15.73.4.79:443
+* connecting to 15.72.178.26:443
+
+Result for https://www.fidelity.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.irs.gov/
+* doing DNS query for www.irs.gov
+
+Status
+------
+39 completed 50 remaining
+78.0% (ETA: 6s)
+
+Status
+------
+40 completed 50 remaining
+80.0% (ETA: 6s)
+* connecting to 23.78.197.214:443
+* doing HTTP(s) request https://www.irs.gov/
+Error performing HTTP request: https://www.weather.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 17650: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.irs.gov/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.bankofamerica.com/
+* doing DNS query for www.bankofamerica.com
+* connecting to 171.161.203.100:443
+* doing HTTP(s) request https://www.bankofamerica.com/
+
+Status
+------
+41 completed 50 remaining
+82.0% (ETA: 5s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 19754: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.bankofamerica.com/
+-----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.aol.com/
+* doing DNS query for www.aol.com
+* connecting to 76.13.32.141:443
+* doing HTTP(s) request https://www.aol.com/
+
+Status
+------
+42 completed 50 remaining
+84.0% (ETA: 4s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 114038: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.aol.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.moneycontrol.com/
+* doing DNS query for www.moneycontrol.com
+* connecting to 2.23.248.42:443
+* doing HTTP(s) request https://www.moneycontrol.com/
+
+Status
+------
+43 completed 50 remaining
+86.0% (ETA: 3s)
+Error performing HTTP request: https://www.weather.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe0 in position 85297: ordinal not in range(128)
+* performing control request with backend
+* doing HTTP(s) request https://www.hp.com/
+
+Result for https://www.moneycontrol.com/
+----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.xfinity.com/
+* doing DNS query for www.xfinity.com
+* connecting to 104.122.128.65:443
+* doing HTTP(s) request https://www.xfinity.com/
+
+Status
+------
+44 completed 50 remaining
+88.0% (ETA: 3s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 23202: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.xfinity.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.rt.com/
+* doing DNS query for www.rt.com
+* connecting to 82.202.190.91:443
+* doing HTTP(s) request https://www.rt.com/
+
+Status
+------
+45 completed 50 remaining
+90.0% (ETA: 2s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd8 in position 41428: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.rt.com/
+------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.ndtv.com/
+* doing DNS query for www.ndtv.com
+* connecting to 23.15.43.30:443
+* doing HTTP(s) request https://www.ndtv.com/
+
+Status
+------
+46 completed 50 remaining
+92.0% (ETA: 1s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 497: ordinal not in range(128)
+* performing control request with backend
+Error performing HTTP request: https://www.weather.com/
+Failed to perform HTTP request unknown_failure cannot concatenate 'str' and 'URI' objects
+* performing control request with backend
+
+Result for https://www.ndtv.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Status
+------
+47 completed 50 remaining
+94.0% (ETA: 1s)
+
+Result for https://www.weather.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Status
+------
+48 completed 50 remaining
+96.0% (ETA: 0s)
+Error performing HTTP request: https://www.hp.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 1411: ordinal not in range(128)
+* performing control request with backend
+
+Starting test for https://www.bestbuy.com/
+* doing DNS query for www.bestbuy.com
+* connecting to 104.97.57.169:443
+* doing HTTP(s) request https://www.bestbuy.com/
+
+Result for https://www.hp.com/
+------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Status
+------
+49 completed 50 remaining
+98.0% (ETA: 0s)
+
+Status
+------
+50 completed 50 remaining
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Not accessible URLS
+-------------------
+* https://www.google.com/
+* https://www.microsoft.com/
+* https://www.amazon.com/
+* https://www.yahoo.com/
+* https://www.google.co.in/
+* https://www.apple.com/
+* https://www.adobe.com/
+* https://www.amazon.co.jp/
+* https://www.nytimes.com/
+* https://www.amazon.co.uk/
+* https://www.chase.com/
+* https://www.flipkart.com/
+* https://www.alibaba.com/
+* https://www.walmart.com/
+* https://www.zillow.com/
+* https://www.indiatimes.com/
+* https://www.nih.gov/
+* https://www.google.co.uk/
+* https://www.bbc.co.uk/
+* https://www.wellsfargo.com/
+* https://www.theguardian.com/
+* https://www.amazon.ca/
+* https://www.usps.com/
+* https://www.ikea.com/
+* https://www.homedepot.com/
+* https://www.ups.com/
+* https://www.ca.gov/
+* https://www.nlm.nih.gov/
+* https://www.webex.com/
+* https://www.target.com/
+* https://www.fedex.com/
+* https://www.bet365.com/
+* https://www.ebay.co.uk/
+* https://www.dailymail.co.uk/
+* https://www.icicibank.com/
+* https://www.asos.com/
+* https://www.samsung.com/
+* https://www.economictimes.indiatimes.com/
+* https://www.uk.search.yahoo.com/
+* https://www.fidelity.com/
+* https://www.irs.gov/
+* https://www.bankofamerica.com/
+* https://www.aol.com/
+* https://www.moneycontrol.com/
+* https://www.xfinity.com/
+* https://www.rt.com/
+* https://www.ndtv.com/
+* https://www.weather.com/
+* https://www.hp.com/
+* https://www.bestbuy.com/
+
+URLS possibly blocked due to http-failure
+-----------------------------------------
+* https://www.google.com/
+* https://www.google.co.in/
+* https://www.flipkart.com/
+* https://www.nih.gov/
+* https://www.google.co.uk/
+* https://www.wellsfargo.com/
+* https://www.ca.gov/
+* https://www.bet365.com/
+
+URLS possibly blocked due to dns
+--------------------------------
+* https://www.microsoft.com/
+* https://www.amazon.com/
+* https://www.yahoo.com/
+* https://www.apple.com/
+* https://www.adobe.com/
+* https://www.amazon.co.jp/
+* https://www.nytimes.com/
+* https://www.amazon.co.uk/
+* https://www.chase.com/
+* https://www.alibaba.com/
+* https://www.walmart.com/
+* https://www.zillow.com/
+* https://www.indiatimes.com/
+* https://www.bbc.co.uk/
+* https://www.theguardian.com/
+* https://www.amazon.ca/
+* https://www.usps.com/
+* https://www.ikea.com/
+* https://www.homedepot.com/
+* https://www.ups.com/
+* https://www.nlm.nih.gov/
+* https://www.webex.com/
+* https://www.target.com/
+* https://www.fedex.com/
+* https://www.ebay.co.uk/
+* https://www.dailymail.co.uk/
+* https://www.icicibank.com/
+* https://www.asos.com/
+* https://www.samsung.com/
+* https://www.economictimes.indiatimes.com/
+* https://www.fidelity.com/
+* https://www.irs.gov/
+* https://www.bankofamerica.com/
+* https://www.aol.com/
+* https://www.moneycontrol.com/
+* https://www.xfinity.com/
+* https://www.rt.com/
+* https://www.ndtv.com/
+* https://www.weather.com/
+* https://www.hp.com/
+Report ID: 20200726T150635Z_AS29384_fDmaENPSXciqBVdaz8BVaKDqr12GoqcJU4htkkJOQd2vix7Uvj
+Error performing HTTP request: https://www.bestbuy.com/
+Error performing HTTP request: https://www.bestbuy.com/
+635.447180986

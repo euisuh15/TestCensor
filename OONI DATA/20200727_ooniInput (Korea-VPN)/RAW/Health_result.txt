@@ -1,0 +1,1944 @@
+Starting Tor
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+57%: Loading relay descriptors
+62%: Loading relay descriptors
+66%: Loading relay descriptors
+72%: Loading relay descriptors
+78%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for http://www.rxlist.com/
+* doing DNS query for www.rxlist.com
+
+Starting test for https://www.rxlist.com/
+* doing DNS query for www.rxlist.com
+
+Starting test for http://www.drugs.com/
+* doing DNS query for www.drugs.com
+
+Starting test for https://www.drugs.com/
+* doing DNS query for www.drugs.com
+* connecting to 104.18.25.195:443
+* connecting to 104.18.24.195:443
+* connecting to 104.18.25.195:80
+* connecting to 104.18.24.195:80
+* connecting to 23.51.163.158:443
+* connecting to 23.51.163.158:80
+* doing HTTP(s) request http://www.rxlist.com/
+* doing HTTP(s) request https://www.rxlist.com/
+* doing HTTP(s) request http://www.drugs.com/
+* doing HTTP(s) request https://www.drugs.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.drugs.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.medscape.com/
+* doing DNS query for www.medscape.com
+* connecting to 104.18.21.148:80
+* connecting to 104.18.20.148:80
+
+Result for https://www.rxlist.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.medscape.com/
+* doing DNS query for www.medscape.com
+* doing HTTP(s) request http://www.medscape.com/
+* connecting to 104.18.20.148:443
+* connecting to 104.18.21.148:443
+* doing HTTP(s) request https://www.medscape.com/
+
+Result for http://www.drugs.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.kaiserpermanente.org/
+* doing DNS query for www.kaiserpermanente.org
+* connecting to 23.193.217.103:80
+
+Result for http://www.rxlist.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.kaiserpermanente.org/
+* doing DNS query for www.kaiserpermanente.org
+* doing HTTP(s) request http://www.kaiserpermanente.org/
+* connecting to 23.193.217.103:443
+* doing HTTP(s) request https://www.kaiserpermanente.org/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+1/100 completed
+1.0% (ETA: 21s)
+
+Status
+------
+2/100 completed
+2.0% (ETA: 41s)
+
+Result for https://www.medscape.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.myfitnesspal.com/
+* doing DNS query for www.myfitnesspal.com
+* connecting to 52.84.124.91:80
+
+Status
+------
+3/100 completed
+3.0% (ETA: 52s)
+* doing HTTP(s) request http://www.myfitnesspal.com/
+
+Status
+------
+4/100 completed
+4.0% (ETA: 61s)
+
+Result for http://www.medscape.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.myfitnesspal.com/
+* doing DNS query for www.myfitnesspal.com
+* connecting to 52.84.124.91:443
+* doing HTTP(s) request https://www.myfitnesspal.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+5/100 completed
+5.0% (ETA: 56s)
+
+Result for http://www.myfitnesspal.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.zocdoc.com/
+* doing DNS query for www.zocdoc.com
+* connecting to 45.60.31.63:80
+* doing HTTP(s) request http://www.zocdoc.com/
+
+Result for https://www.myfitnesspal.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.zocdoc.com/
+* doing DNS query for www.zocdoc.com
+* connecting to 45.60.31.63:443
+* doing HTTP(s) request https://www.zocdoc.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+6/100 completed
+6.0% (ETA: 55s)
+
+Result for http://www.zocdoc.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for http://www.sdsu.edu/
+* doing DNS query for www.sdsu.edu
+
+Result for https://www.zocdoc.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.sdsu.edu/
+* doing DNS query for www.sdsu.edu
+* connecting to 104.25.91.16:443
+* connecting to 104.25.90.16:443
+* connecting to 104.25.91.16:80
+* connecting to 104.25.90.16:80
+* doing HTTP(s) request https://www.sdsu.edu/
+* doing HTTP(s) request http://www.sdsu.edu/
+
+Status
+------
+7/100 completed
+7.0% (ETA: 55s)
+* performing control request with backend
+
+Status
+------
+8/100 completed
+8.0% (ETA: 60s)
+* performing control request with backend
+
+Status
+------
+9/100 completed
+9.0% (ETA: 60s)
+
+Status
+------
+10/100 completed
+10.0% (ETA: 65s)
+
+Result for https://www.sdsu.edu/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.clevelandclinic.org/
+* doing DNS query for www.clevelandclinic.org
+* connecting to 192.35.79.223:80
+* doing HTTP(s) request http://www.clevelandclinic.org/
+
+Result for http://www.sdsu.edu/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.clevelandclinic.org/
+* doing DNS query for www.clevelandclinic.org
+* connecting to 192.35.79.223:443
+* doing HTTP(s) request https://www.clevelandclinic.org/
+* performing control request with backend
+
+Status
+------
+11/100 completed
+11.0% (ETA: 59s)
+
+Status
+------
+12/100 completed
+12.0% (ETA: 61s)
+* performing control request with backend
+
+Result for http://www.clevelandclinic.org/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.cancer.org/
+* doing DNS query for www.cancer.org
+* connecting to 52.84.16.29:80
+* connecting to 52.84.16.20:80
+* connecting to 52.84.16.60:80
+* connecting to 52.84.16.2:80
+Error performing HTTP request: http://www.kaiserpermanente.org/
+* doing HTTP(s) request http://www.cancer.org/
+Error performing HTTP request: https://www.kaiserpermanente.org/
+
+Result for https://www.clevelandclinic.org/
+-------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.cancer.org/
+* doing DNS query for www.cancer.org
+* connecting to 52.84.16.2:443
+* connecting to 52.84.16.29:443
+* connecting to 52.84.16.20:443
+* connecting to 52.84.16.60:443
+* performing control request with backend
+* doing HTTP(s) request https://www.cancer.org/
+
+Status
+------
+13/100 completed
+13.0% (ETA: 53s)
+* performing control request with backend
+
+Result for http://www.cancer.org/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.verywellmind.com/
+* doing DNS query for www.verywellmind.com
+* connecting to 151.101.250.137:80
+* doing HTTP(s) request http://www.verywellmind.com/
+
+Result for https://www.cancer.org/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.verywellmind.com/
+* doing DNS query for www.verywellmind.com
+* connecting to 151.101.250.137:443
+* doing HTTP(s) request https://www.verywellmind.com/
+
+Status
+------
+14/100 completed
+14.0% (ETA: 51s)
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.verywellmind.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.sutterhealth.org/
+* doing DNS query for www.sutterhealth.org
+
+Status
+------
+15/100 completed
+15.0% (ETA: 51s)
+
+Result for http://www.verywellmind.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.sutterhealth.org/
+* doing DNS query for www.sutterhealth.org
+* connecting to 198.217.73.3:443
+* connecting to 198.217.73.3:80
+* doing HTTP(s) request https://www.sutterhealth.org/
+* doing HTTP(s) request http://www.sutterhealth.org/
+
+Status
+------
+16/100 completed
+16.0% (ETA: 52s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+17/100 completed
+17.0% (ETA: 51s)
+
+Status
+------
+18/100 completed
+18.0% (ETA: 53s)
+
+Result for https://www.sutterhealth.org/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.fda.gov/
+* doing DNS query for www.fda.gov
+* connecting to 23.208.52.61:80
+* doing HTTP(s) request http://www.fda.gov/
+
+Result for http://www.sutterhealth.org/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.fda.gov/
+* doing DNS query for www.fda.gov
+* connecting to 23.208.52.61:443
+* doing HTTP(s) request https://www.fda.gov/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+19/100 completed
+19.0% (ETA: 49s)
+
+Status
+------
+20/100 completed
+20.0% (ETA: 50s)
+
+Result for https://www.fda.gov/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.www.nhs.uk/
+* doing DNS query for www.www.nhs.uk
+Error performing HTTP request: http://www.kaiserpermanente.org/
+* doing HTTP(s) request http://www.www.nhs.uk/
+
+Result for http://www.fda.gov/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.www.nhs.uk/
+* doing DNS query for www.www.nhs.uk
+* doing HTTP(s) request https://www.www.nhs.uk/
+Error performing HTTP request: http://www.www.nhs.uk/
+Error performing HTTP request: https://www.www.nhs.uk/
+Error performing HTTP request: http://www.www.nhs.uk/
+Error performing HTTP request: https://www.kaiserpermanente.org/
+Error performing HTTP request: https://www.www.nhs.uk/
+Error performing HTTP request: http://www.www.nhs.uk/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+Error performing HTTP request: https://www.www.nhs.uk/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+
+Status
+------
+21/100 completed
+21.0% (ETA: 43s)
+
+Status
+------
+22/100 completed
+22.0% (ETA: 44s)
+
+Result for http://www.www.nhs.uk/
+---------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for http://www.who.int/
+* doing DNS query for www.who.int
+
+Result for https://www.www.nhs.uk/
+----------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.who.int/
+* doing DNS query for www.who.int
+* connecting to 52.84.126.62:443
+* connecting to 52.84.126.15:443
+* connecting to 52.84.126.63:443
+* connecting to 52.84.126.19:443
+* connecting to 52.84.126.62:80
+* connecting to 52.84.126.15:80
+* connecting to 52.84.126.63:80
+* connecting to 52.84.126.19:80
+* doing HTTP(s) request https://www.who.int/
+* doing HTTP(s) request http://www.who.int/
+* performing control request with backend
+
+Status
+------
+23/100 completed
+23.0% (ETA: 43s)
+* performing control request with backend
+
+Status
+------
+24/100 completed
+24.0% (ETA: 44s)
+
+Result for https://www.who.int/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.medicinenet.com/
+* doing DNS query for www.medicinenet.com
+* connecting to 104.18.6.68:80
+* connecting to 104.18.7.68:80
+
+Result for http://www.who.int/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.medicinenet.com/
+* doing DNS query for www.medicinenet.com
+* doing HTTP(s) request http://www.medicinenet.com/
+* connecting to 104.18.7.68:443
+* connecting to 104.18.6.68:443
+* doing HTTP(s) request https://www.medicinenet.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.medicinenet.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.psychologytoday.com/
+* doing DNS query for www.psychologytoday.com
+* connecting to 52.3.237.209:80
+* connecting to 54.204.89.74:80
+
+Result for http://www.medicinenet.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.psychologytoday.com/
+* doing DNS query for www.psychologytoday.com
+* doing HTTP(s) request http://www.psychologytoday.com/
+* connecting to 54.204.89.74:443
+* connecting to 52.3.237.209:443
+
+Status
+------
+25/100 completed
+25.0% (ETA: 41s)
+* doing HTTP(s) request https://www.psychologytoday.com/
+
+Status
+------
+26/100 completed
+26.0% (ETA: 42s)
+* performing control request with backend
+
+Status
+------
+27/100 completed
+27.0% (ETA: 42s)
+* performing control request with backend
+
+Status
+------
+28/100 completed
+28.0% (ETA: 43s)
+
+Result for https://www.psychologytoday.com/
+-------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.medlineplus.gov/
+* doing DNS query for www.medlineplus.gov
+
+Result for http://www.psychologytoday.com/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.medlineplus.gov/
+* doing DNS query for www.medlineplus.gov
+* connecting to 52.84.126.2:443
+* connecting to 52.84.126.121:443
+* connecting to 52.84.126.125:443
+* connecting to 52.84.126.11:443
+* connecting to 52.84.126.2:80
+* connecting to 52.84.126.121:80
+* connecting to 52.84.126.125:80
+* connecting to 52.84.126.11:80
+* doing HTTP(s) request https://www.medlineplus.gov/
+* doing HTTP(s) request http://www.medlineplus.gov/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.medlineplus.gov/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.emedicine.medscape.com/
+* doing DNS query for www.emedicine.medscape.com
+
+Result for http://www.medlineplus.gov/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.emedicine.medscape.com/
+* doing DNS query for www.emedicine.medscape.com
+
+Status
+------
+29/100 completed
+29.0% (ETA: 40s)
+* connecting to 207.231.204.56:443
+* connecting to 207.231.204.56:80
+
+Status
+------
+30/100 completed
+30.0% (ETA: 41s)
+* doing HTTP(s) request https://www.emedicine.medscape.com/
+* doing HTTP(s) request http://www.emedicine.medscape.com/
+Error performing HTTP request: http://www.kaiserpermanente.org/
+Failed to perform HTTP request unknown_failure cannot concatenate 'str' and 'URI' objects
+* performing control request with backend
+Error performing HTTP request: https://www.emedicine.medscape.com/
+Error performing HTTP request: https://www.emedicine.medscape.com/
+Error performing HTTP request: https://www.kaiserpermanente.org/
+Failed to perform HTTP request unknown_failure cannot concatenate 'str' and 'URI' objects
+* performing control request with backend
+Error performing HTTP request: https://www.emedicine.medscape.com/
+Failed to perform HTTP request response_never_received
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+31/100 completed
+31.0% (ETA: 40s)
+
+Status
+------
+32/100 completed
+32.0% (ETA: 40s)
+
+Result for http://www.emedicine.medscape.com/
+---------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.cdc.gov/
+* doing DNS query for www.cdc.gov
+* connecting to 23.208.47.122:80
+* doing HTTP(s) request http://www.cdc.gov/
+
+Result for https://www.emedicine.medscape.com/
+----------------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.cdc.gov/
+* doing DNS query for www.cdc.gov
+* connecting to 23.208.47.122:443
+* doing HTTP(s) request https://www.cdc.gov/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.cdc.gov/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.niaaa.nih.gov/
+* doing DNS query for www.niaaa.nih.gov
+* connecting to 54.83.207.167:80
+
+Status
+------
+33/100 completed
+33.0% (ETA: 38s)
+* doing HTTP(s) request http://www.niaaa.nih.gov/
+
+Status
+------
+34/100 completed
+34.0% (ETA: 38s)
+
+Result for http://www.cdc.gov/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.niaaa.nih.gov/
+* doing DNS query for www.niaaa.nih.gov
+* connecting to 54.83.207.167:443
+* doing HTTP(s) request https://www.niaaa.nih.gov/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+35/100 completed
+35.0% (ETA: 37s)
+
+Status
+------
+36/100 completed
+36.0% (ETA: 37s)
+
+Result for https://www.niaaa.nih.gov/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.verywellfit.com/
+* doing DNS query for www.verywellfit.com
+* connecting to 151.101.250.137:80
+* doing HTTP(s) request http://www.verywellfit.com/
+
+Result for http://www.niaaa.nih.gov/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.verywellfit.com/
+* doing DNS query for www.verywellfit.com
+* connecting to 151.101.250.137:443
+* doing HTTP(s) request https://www.verywellfit.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+37/100 completed
+37.0% (ETA: 35s)
+
+Result for https://www.verywellfit.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.niams.nih.gov/
+* doing DNS query for www.niams.nih.gov
+
+Result for http://www.verywellfit.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.niams.nih.gov/
+* doing DNS query for www.niams.nih.gov
+* connecting to 50.16.223.196:443
+* connecting to 52.71.54.212:443
+* connecting to 3.228.34.237:443
+* connecting to 50.16.223.196:80
+* connecting to 52.71.54.212:80
+* connecting to 3.228.34.237:80
+* doing HTTP(s) request https://www.niams.nih.gov/
+* doing HTTP(s) request http://www.niams.nih.gov/
+
+Status
+------
+38/100 completed
+38.0% (ETA: 34s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+39/100 completed
+39.0% (ETA: 34s)
+
+Status
+------
+40/100 completed
+40.0% (ETA: 34s)
+
+Result for https://www.niams.nih.gov/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.self.com/
+* doing DNS query for www.self.com
+* connecting to 199.232.64.239:80
+* doing HTTP(s) request http://www.self.com/
+* performing control request with backend
+
+Result for http://www.niams.nih.gov/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.self.com/
+* doing DNS query for www.self.com
+* connecting to 199.232.64.239:443
+
+Status
+------
+41/100 completed
+41.0% (ETA: 33s)
+* doing HTTP(s) request https://www.self.com/
+
+Result for http://www.self.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.health.com/
+* doing DNS query for www.health.com
+* connecting to 52.84.16.85:80
+* connecting to 52.84.16.95:80
+* connecting to 52.84.16.41:80
+* connecting to 52.84.16.120:80
+* performing control request with backend
+* doing HTTP(s) request http://www.health.com/
+
+Result for http://www.kaiserpermanente.org/
+-------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.health.com/
+* doing DNS query for www.health.com
+* connecting to 52.84.16.41:443
+* connecting to 52.84.16.120:443
+* connecting to 52.84.16.85:443
+* connecting to 52.84.16.95:443
+* doing HTTP(s) request https://www.health.com/
+* performing control request with backend
+
+Result for https://www.self.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.kidshealth.org/
+* doing DNS query for www.kidshealth.org
+
+Status
+------
+42/100 completed
+42.0% (ETA: 32s)
+* performing control request with backend
+* connecting to 192.234.249.117:80
+
+Result for https://www.kaiserpermanente.org/
+--------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.kidshealth.org/
+* doing DNS query for www.kidshealth.org
+* doing HTTP(s) request http://www.kidshealth.org/
+* connecting to 192.234.249.117:443
+* doing HTTP(s) request https://www.kidshealth.org/
+
+Result for https://www.health.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nimh.nih.gov/
+* doing DNS query for www.nimh.nih.gov
+* connecting to 128.231.17.16:80
+
+Result for http://www.health.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nimh.nih.gov/
+* doing DNS query for www.nimh.nih.gov
+* doing HTTP(s) request http://www.nimh.nih.gov/
+* connecting to 128.231.17.16:443
+* doing HTTP(s) request https://www.nimh.nih.gov/
+* performing control request with backend
+
+Status
+------
+43/100 completed
+43.0% (ETA: 31s)
+* performing control request with backend
+
+Status
+------
+44/100 completed
+44.0% (ETA: 31s)
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.kidshealth.org/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.thelancet.com/
+* doing DNS query for www.thelancet.com
+
+Status
+------
+45/100 completed
+45.0% (ETA: 31s)
+* connecting to 104.18.124.114:80
+* connecting to 104.18.123.114:80
+* doing HTTP(s) request http://www.thelancet.com/
+
+Result for https://www.kidshealth.org/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.thelancet.com/
+* doing DNS query for www.thelancet.com
+* connecting to 104.18.124.114:443
+* connecting to 104.18.123.114:443
+* doing HTTP(s) request https://www.thelancet.com/
+
+Status
+------
+46/100 completed
+46.0% (ETA: 30s)
+
+Result for http://www.nimh.nih.gov/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.niddk.nih.gov/
+* doing DNS query for www.niddk.nih.gov
+
+Status
+------
+47/100 completed
+47.0% (ETA: 30s)
+* connecting to 184.24.172.152:80
+* doing HTTP(s) request http://www.niddk.nih.gov/
+
+Status
+------
+48/100 completed
+48.0% (ETA: 30s)
+
+Result for https://www.nimh.nih.gov/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.niddk.nih.gov/
+* doing DNS query for www.niddk.nih.gov
+* connecting to 184.24.172.152:443
+* doing HTTP(s) request https://www.niddk.nih.gov/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+49/100 completed
+49.0% (ETA: 29s)
+
+Status
+------
+50/100 completed
+50.0% (ETA: 29s)
+
+Status
+------
+51/100 completed
+51.0% (ETA: 29s)
+
+Status
+------
+52/100 completed
+52.0% (ETA: 29s)
+
+Result for https://www.niddk.nih.gov/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.doctor.webmd.com/
+* doing DNS query for www.doctor.webmd.com
+* doing HTTP(s) request http://www.doctor.webmd.com/
+
+Result for http://www.niddk.nih.gov/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.doctor.webmd.com/
+* doing DNS query for www.doctor.webmd.com
+* doing HTTP(s) request https://www.doctor.webmd.com/
+Error performing HTTP request: http://www.doctor.webmd.com/
+Error performing HTTP request: https://www.doctor.webmd.com/
+Error performing HTTP request: http://www.doctor.webmd.com/
+Error performing HTTP request: https://www.doctor.webmd.com/
+Error performing HTTP request: http://www.doctor.webmd.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+Error performing HTTP request: https://www.doctor.webmd.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+53/100 completed
+53.0% (ETA: 27s)
+
+Result for http://www.doctor.webmd.com/
+---------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for http://www.menshealth.com/
+* doing DNS query for www.menshealth.com
+
+Status
+------
+54/100 completed
+54.0% (ETA: 27s)
+
+Result for https://www.doctor.webmd.com/
+----------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.menshealth.com/
+* doing DNS query for www.menshealth.com
+* connecting to 151.101.200.155:443
+* connecting to 151.101.200.155:80
+* performing control request with backend
+* doing HTTP(s) request https://www.menshealth.com/
+* doing HTTP(s) request http://www.menshealth.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+55/100 completed
+55.0% (ETA: 26s)
+
+Status
+------
+56/100 completed
+56.0% (ETA: 26s)
+
+Result for https://www.menshealth.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.goodrx.com/
+* doing DNS query for www.goodrx.com
+* connecting to 199.232.66.49:80
+
+Result for http://www.menshealth.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.goodrx.com/
+* doing DNS query for www.goodrx.com
+* doing HTTP(s) request http://www.goodrx.com/
+* connecting to 199.232.66.49:443
+* doing HTTP(s) request https://www.goodrx.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.thelancet.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nih.gov/
+* doing DNS query for www.nih.gov
+* connecting to 35.169.209.222:80
+* connecting to 52.72.169.229:80
+* doing HTTP(s) request http://www.nih.gov/
+
+Result for https://www.thelancet.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nih.gov/
+* doing DNS query for www.nih.gov
+* connecting to 35.169.209.222:443
+* connecting to 52.72.169.229:443
+* doing HTTP(s) request https://www.nih.gov/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.goodrx.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.heart.org/
+* doing DNS query for www.heart.org
+* connecting to 52.84.126.72:80
+* connecting to 52.84.126.47:80
+* connecting to 52.84.126.108:80
+* connecting to 52.84.126.68:80
+* doing HTTP(s) request http://www.heart.org/
+
+Result for http://www.goodrx.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.heart.org/
+* doing DNS query for www.heart.org
+
+Status
+------
+57/100 completed
+57.0% (ETA: 25s)
+* connecting to 52.84.126.108:443
+* connecting to 52.84.126.68:443
+* connecting to 52.84.126.72:443
+* connecting to 52.84.126.47:443
+
+Status
+------
+58/100 completed
+58.0% (ETA: 25s)
+
+Status
+------
+59/100 completed
+59.0% (ETA: 24s)
+* doing HTTP(s) request https://www.heart.org/
+
+Status
+------
+60/100 completed
+60.0% (ETA: 24s)
+
+Result for https://www.nih.gov/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nejm.org/
+* doing DNS query for www.nejm.org
+* connecting to 104.18.205.32:80
+* connecting to 104.18.204.32:80
+* doing HTTP(s) request http://www.nejm.org/
+
+Result for http://www.nih.gov/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nejm.org/
+* doing DNS query for www.nejm.org
+* connecting to 104.18.204.32:443
+* connecting to 104.18.205.32:443
+* doing HTTP(s) request https://www.nejm.org/
+
+Status
+------
+61/100 completed
+61.0% (ETA: 23s)
+* performing control request with backend
+
+Status
+------
+62/100 completed
+62.0% (ETA: 23s)
+* performing control request with backend
+
+Status
+------
+63/100 completed
+63.0% (ETA: 23s)
+
+Status
+------
+64/100 completed
+64.0% (ETA: 22s)
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.nejm.org/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.tonyrobbins.com/
+* doing DNS query for www.tonyrobbins.com
+
+Result for http://www.heart.org/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.tonyrobbins.com/
+* doing DNS query for www.tonyrobbins.com
+* connecting to 216.240.171.40:443
+* connecting to 216.240.171.40:80
+
+Result for https://www.nejm.org/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.aamc.org/
+* doing DNS query for www.aamc.org
+* doing HTTP(s) request http://www.tonyrobbins.com/
+* doing HTTP(s) request https://www.tonyrobbins.com/
+* connecting to 151.101.250.133:80
+
+Result for https://www.heart.org/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.aamc.org/
+* doing DNS query for www.aamc.org
+* doing HTTP(s) request http://www.aamc.org/
+* connecting to 151.101.250.133:443
+* doing HTTP(s) request https://www.aamc.org/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.aamc.org/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.verywellhealth.com/
+* doing DNS query for www.verywellhealth.com
+
+Status
+------
+65/100 completed
+65.0% (ETA: 21s)
+* connecting to 151.101.250.137:80
+* doing HTTP(s) request http://www.verywellhealth.com/
+
+Status
+------
+66/100 completed
+66.0% (ETA: 21s)
+
+Status
+------
+67/100 completed
+67.0% (ETA: 20s)
+
+Result for http://www.aamc.org/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.verywellhealth.com/
+* doing DNS query for www.verywellhealth.com
+
+Status
+------
+68/100 completed
+68.0% (ETA: 20s)
+* connecting to 151.101.250.137:443
+
+Result for https://www.tonyrobbins.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.webmd.com/
+* doing DNS query for www.webmd.com
+* doing HTTP(s) request https://www.verywellhealth.com/
+* connecting to 104.18.17.210:80
+* connecting to 104.18.16.210:80
+* doing HTTP(s) request http://www.webmd.com/
+* performing control request with backend
+
+Result for http://www.tonyrobbins.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.webmd.com/
+* doing DNS query for www.webmd.com
+* performing control request with backend
+* connecting to 104.18.16.210:443
+* connecting to 104.18.17.210:443
+* doing HTTP(s) request https://www.webmd.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+69/100 completed
+69.0% (ETA: 19s)
+
+Result for https://www.verywellhealth.com/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.hopkinsmedicine.org/
+* doing DNS query for www.hopkinsmedicine.org
+
+Result for http://www.verywellhealth.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.hopkinsmedicine.org/
+* doing DNS query for www.hopkinsmedicine.org
+* connecting to 128.220.192.230:443
+* connecting to 128.220.192.230:80
+
+Status
+------
+70/100 completed
+70.0% (ETA: 19s)
+* doing HTTP(s) request https://www.hopkinsmedicine.org/
+* doing HTTP(s) request http://www.hopkinsmedicine.org/
+
+Result for http://www.webmd.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.healthgrades.com/
+* doing DNS query for www.healthgrades.com
+
+Result for https://www.webmd.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.healthgrades.com/
+* doing DNS query for www.healthgrades.com
+* connecting to 52.84.53.64:443
+* connecting to 52.84.53.8:443
+* connecting to 52.84.53.20:443
+* connecting to 52.84.53.76:443
+* connecting to 52.84.53.64:80
+* connecting to 52.84.53.8:80
+* connecting to 52.84.53.20:80
+* connecting to 52.84.53.76:80
+
+Status
+------
+71/100 completed
+71.0% (ETA: 18s)
+* doing HTTP(s) request https://www.healthgrades.com/
+* doing HTTP(s) request http://www.healthgrades.com/
+
+Status
+------
+72/100 completed
+72.0% (ETA: 18s)
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+73/100 completed
+73.0% (ETA: 17s)
+
+Status
+------
+74/100 completed
+74.0% (ETA: 17s)
+* performing control request with backend
+
+Status
+------
+75/100 completed
+75.0% (ETA: 16s)
+
+Status
+------
+76/100 completed
+76.0% (ETA: 16s)
+
+Result for https://www.healthgrades.com/
+----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for http://www.fragrantica.com/
+* doing DNS query for www.fragrantica.com
+* connecting to 104.17.3.6:80
+* connecting to 104.17.2.6:80
+
+Result for https://www.hopkinsmedicine.org/
+-------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.fragrantica.com/
+* doing DNS query for www.fragrantica.com
+* doing HTTP(s) request http://www.fragrantica.com/
+* connecting to 104.17.2.6:443
+* connecting to 104.17.3.6:443
+
+Result for http://www.healthgrades.com/
+---------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for http://www.nia.nih.gov/
+* doing DNS query for www.nia.nih.gov
+* doing HTTP(s) request https://www.fragrantica.com/
+* connecting to 52.84.126.73:80
+* connecting to 52.84.126.19:80
+* connecting to 52.84.126.106:80
+* connecting to 52.84.126.11:80
+* doing HTTP(s) request http://www.nia.nih.gov/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.hopkinsmedicine.org/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nia.nih.gov/
+* doing DNS query for www.nia.nih.gov
+* connecting to 52.84.126.11:443
+* connecting to 52.84.126.73:443
+* connecting to 52.84.126.19:443
+* connecting to 52.84.126.106:443
+* doing HTTP(s) request https://www.nia.nih.gov/
+* performing control request with backend
+
+Status
+------
+77/100 completed
+77.0% (ETA: 15s)
+* performing control request with backend
+
+Result for https://www.fragrantica.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.labcorp.com/
+* doing DNS query for www.labcorp.com
+
+Result for http://www.fragrantica.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.labcorp.com/
+* doing DNS query for www.labcorp.com
+* connecting to 104.16.160.134:443
+* connecting to 104.16.161.134:443
+* connecting to 104.16.160.134:80
+* connecting to 104.16.161.134:80
+* doing HTTP(s) request https://www.labcorp.com/
+* doing HTTP(s) request http://www.labcorp.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+78/100 completed
+78.0% (ETA: 14s)
+
+Result for https://www.nia.nih.gov/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nichd.nih.gov/
+* doing DNS query for www.nichd.nih.gov
+
+Result for https://www.labcorp.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nichd.nih.gov/
+* doing DNS query for www.nichd.nih.gov
+* connecting to 107.162.144.93:443
+* connecting to 107.162.144.93:80
+* doing HTTP(s) request http://www.nichd.nih.gov/
+* doing HTTP(s) request https://www.nichd.nih.gov/
+
+Status
+------
+79/100 completed
+79.0% (ETA: 14s)
+
+Result for http://www.labcorp.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.weightwatchers.com/
+* doing DNS query for www.weightwatchers.com
+
+Result for http://www.nia.nih.gov/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.weightwatchers.com/
+* doing DNS query for www.weightwatchers.com
+
+Status
+------
+80/100 completed
+80.0% (ETA: 13s)
+* connecting to 199.232.66.99:443
+* connecting to 199.232.66.99:80
+* doing HTTP(s) request https://www.weightwatchers.com/
+* doing HTTP(s) request http://www.weightwatchers.com/
+* performing control request with backend
+
+Status
+------
+81/100 completed
+81.0% (ETA: 12s)
+
+Status
+------
+82/100 completed
+82.0% (ETA: 12s)
+* performing control request with backend
+
+Status
+------
+83/100 completed
+83.0% (ETA: 11s)
+
+Status
+------
+84/100 completed
+84.0% (ETA: 11s)
+* performing control request with backend
+
+Status
+------
+85/100 completed
+85.0% (ETA: 10s)
+* performing control request with backend
+
+Status
+------
+86/100 completed
+86.0% (ETA: 9s)
+
+Result for https://www.nichd.nih.gov/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.clinicaltrials.gov/
+* doing DNS query for www.clinicaltrials.gov
+
+Result for http://www.nichd.nih.gov/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.clinicaltrials.gov/
+* doing DNS query for www.clinicaltrials.gov
+* connecting to 165.112.7.20:443
+* connecting to 130.14.29.113:443
+* connecting to 165.112.7.20:80
+* connecting to 130.14.29.113:80
+
+Result for https://www.weightwatchers.com/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.mercola.com/
+* doing DNS query for www.mercola.com
+* doing HTTP(s) request https://www.clinicaltrials.gov/
+* doing HTTP(s) request http://www.clinicaltrials.gov/
+* connecting to 104.18.12.238:80
+* connecting to 104.18.13.238:80
+* doing HTTP(s) request http://www.mercola.com/
+
+Result for http://www.weightwatchers.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.mercola.com/
+* doing DNS query for www.mercola.com
+* connecting to 104.18.12.238:443
+* connecting to 104.18.13.238:443
+* doing HTTP(s) request https://www.mercola.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.clinicaltrials.gov/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.bmj.com/
+* doing DNS query for www.bmj.com
+
+Result for https://www.mercola.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.bmj.com/
+* doing DNS query for www.bmj.com
+
+Result for http://www.mercola.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.apa.org/
+* doing DNS query for www.apa.org
+* connecting to 104.18.10.218:443
+* connecting to 104.18.11.218:443
+* connecting to 104.18.10.218:80
+* connecting to 104.18.11.218:80
+* connecting to 192.225.221.51:80
+* doing HTTP(s) request https://www.bmj.com/
+* doing HTTP(s) request http://www.bmj.com/
+* doing HTTP(s) request http://www.apa.org/
+* performing control request with backend
+
+Result for http://www.clinicaltrials.gov/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+87/100 completed
+87.0% (ETA: 8s)
+
+Starting test for https://www.apa.org/
+* doing DNS query for www.apa.org
+* performing control request with backend
+
+Status
+------
+88/100 completed
+88.0% (ETA: 8s)
+* connecting to 192.225.221.51:443
+* doing HTTP(s) request https://www.apa.org/
+
+Result for https://www.bmj.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.mayoclinic.org/
+* doing DNS query for www.mayoclinic.org
+* connecting to 104.110.120.216:80
+* performing control request with backend
+* doing HTTP(s) request http://www.mayoclinic.org/
+
+Status
+------
+89/100 completed
+89.0% (ETA: 7s)
+
+Result for http://www.bmj.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.mayoclinic.org/
+* doing DNS query for www.mayoclinic.org
+
+Status
+------
+90/100 completed
+90.0% (ETA: 7s)
+* connecting to 104.110.120.216:443
+* performing control request with backend
+
+Status
+------
+91/100 completed
+91.0% (ETA: 6s)
+* doing HTTP(s) request https://www.mayoclinic.org/
+
+Status
+------
+92/100 completed
+92.0% (ETA: 5s)
+
+Status
+------
+93/100 completed
+93.0% (ETA: 5s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+94/100 completed
+94.0% (ETA: 4s)
+
+Status
+------
+95/100 completed
+95.0% (ETA: 3s)
+
+Status
+------
+96/100 completed
+96.0% (ETA: 2s)
+
+Result for https://www.apa.org/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for http://www.apa.org/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for http://www.mayoclinic.org/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for https://www.mayoclinic.org/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+97/100 completed
+97.0% (ETA: 2s)
+
+Status
+------
+98/100 completed
+98.0% (ETA: 1s)
+
+Status
+------
+99/100 completed
+99.0% (ETA: 0s)
+
+Status
+------
+100/100 completed
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Accessible URLS
+---------------
+* https://www.drugs.com/
+* https://www.rxlist.com/
+* http://www.drugs.com/
+* http://www.rxlist.com/
+* https://www.medscape.com/
+* http://www.medscape.com/
+* http://www.myfitnesspal.com/
+* https://www.myfitnesspal.com/
+* https://www.sdsu.edu/
+* http://www.sdsu.edu/
+* http://www.clevelandclinic.org/
+* https://www.clevelandclinic.org/
+* http://www.cancer.org/
+* https://www.cancer.org/
+* https://www.verywellmind.com/
+* http://www.verywellmind.com/
+* https://www.sutterhealth.org/
+* http://www.sutterhealth.org/
+* https://www.fda.gov/
+* http://www.fda.gov/
+* https://www.who.int/
+* http://www.who.int/
+* https://www.medicinenet.com/
+* http://www.medicinenet.com/
+* https://www.psychologytoday.com/
+* http://www.psychologytoday.com/
+* https://www.medlineplus.gov/
+* http://www.medlineplus.gov/
+* http://www.emedicine.medscape.com/
+* https://www.cdc.gov/
+* http://www.cdc.gov/
+* https://www.niaaa.nih.gov/
+* http://www.niaaa.nih.gov/
+* https://www.verywellfit.com/
+* http://www.verywellfit.com/
+* https://www.niams.nih.gov/
+* http://www.niams.nih.gov/
+* http://www.self.com/
+* https://www.self.com/
+* https://www.health.com/
+* http://www.health.com/
+* http://www.kidshealth.org/
+* https://www.kidshealth.org/
+* http://www.nimh.nih.gov/
+* https://www.nimh.nih.gov/
+* https://www.niddk.nih.gov/
+* http://www.niddk.nih.gov/
+* https://www.menshealth.com/
+* http://www.menshealth.com/
+* http://www.thelancet.com/
+* https://www.thelancet.com/
+* https://www.goodrx.com/
+* http://www.goodrx.com/
+* https://www.nih.gov/
+* http://www.nih.gov/
+* http://www.nejm.org/
+* http://www.heart.org/
+* https://www.nejm.org/
+* https://www.heart.org/
+* https://www.aamc.org/
+* http://www.aamc.org/
+* https://www.tonyrobbins.com/
+* http://www.tonyrobbins.com/
+* https://www.verywellhealth.com/
+* http://www.verywellhealth.com/
+* http://www.webmd.com/
+* https://www.webmd.com/
+* https://www.hopkinsmedicine.org/
+* http://www.hopkinsmedicine.org/
+* https://www.fragrantica.com/
+* http://www.fragrantica.com/
+* https://www.nia.nih.gov/
+* https://www.labcorp.com/
+* http://www.labcorp.com/
+* http://www.nia.nih.gov/
+* https://www.nichd.nih.gov/
+* http://www.nichd.nih.gov/
+* https://www.weightwatchers.com/
+* http://www.weightwatchers.com/
+* https://www.clinicaltrials.gov/
+* https://www.mercola.com/
+* http://www.mercola.com/
+* http://www.clinicaltrials.gov/
+* https://www.bmj.com/
+* http://www.bmj.com/
+* https://www.apa.org/
+* http://www.apa.org/
+* http://www.mayoclinic.org/
+* https://www.mayoclinic.org/
+
+Not accessible URLS
+-------------------
+* http://www.zocdoc.com/
+* https://www.zocdoc.com/
+* http://www.www.nhs.uk/
+* https://www.www.nhs.uk/
+* https://www.emedicine.medscape.com/
+* http://www.kaiserpermanente.org/
+* https://www.kaiserpermanente.org/
+* http://www.doctor.webmd.com/
+* https://www.doctor.webmd.com/
+* https://www.healthgrades.com/
+* http://www.healthgrades.com/
+
+URLS possibly blocked due to dns
+--------------------------------
+* http://www.zocdoc.com/
+* https://www.zocdoc.com/
+* http://www.kaiserpermanente.org/
+* https://www.kaiserpermanente.org/
+* https://www.healthgrades.com/
+* http://www.healthgrades.com/
+Report ID: 20200727T011541Z_AS9_umZ5zHI5dQZgdSWnt745dtYEG9va6ATnFfoFjEwgveIVesLwt8
+347.403624058

@@ -1,0 +1,1094 @@
+[!] Error processing dns_spoof.py
+[!] Error processing traceroute.py
+Starting Tor
+5%: Connecting to directory server
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+57%: Loading relay descriptors
+61%: Loading relay descriptors
+66%: Loading relay descriptors
+71%: Loading relay descriptors
+78%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for https://www.booking.com/
+* doing DNS query for www.booking.com
+
+Starting test for https://www.9gag.com/
+* doing DNS query for www.9gag.com
+
+Starting test for https://www.tripadvisor.com/
+* doing DNS query for www.tripadvisor.com
+
+Starting test for https://www.xe.com/
+* doing DNS query for www.xe.com
+* connecting to 104.16.107.144:443
+* connecting to 104.16.103.144:443
+* connecting to 104.16.105.144:443
+* connecting to 104.16.104.144:443
+* connecting to 104.16.106.144:443
+* doing HTTP(s) request https://www.9gag.com/
+* connecting to 13.33.60.129:443
+* connecting to 13.33.60.30:443
+* connecting to 13.33.60.15:443
+* connecting to 13.33.60.62:443
+* connecting to 5.57.17.220:443
+* doing HTTP(s) request https://www.xe.com/
+* doing HTTP(s) request https://www.booking.com/
+* connecting to 23.195.4.66:443
+* doing HTTP(s) request https://www.tripadvisor.com/
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 56830: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.xe.com/
+------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.uber.com/
+* doing DNS query for www.uber.com
+* connecting to 104.36.196.226:443
+* connecting to 104.36.196.231:443
+* connecting to 104.36.196.235:443
+* connecting to 104.36.196.233:443
+* connecting to 104.36.196.223:443
+* doing HTTP(s) request https://www.uber.com/
+
+Status
+------
+1 completed 50 remaining
+2.0% (ETA: 9s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xf0 in position 9023: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 9047: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.tripadvisor.com/
+---------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.vrbo.com/
+* doing DNS query for www.vrbo.com
+* connecting to 199.232.37.90:443
+* doing HTTP(s) request https://www.vrbo.com/
+
+Status
+------
+2 completed 50 remaining
+4.0% (ETA: 14s)
+
+Result for https://www.9gag.com/
+--------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.hotels.com/
+* doing DNS query for www.hotels.com
+* connecting to 104.97.59.212:443
+* doing HTTP(s) request https://www.hotels.com/
+
+Result for https://www.booking.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.expedia.com/
+* doing DNS query for www.expedia.com
+* connecting to 104.122.132.198:443
+
+Status
+------
+3 completed 50 remaining
+6.0% (ETA: 17s)
+* doing HTTP(s) request https://www.expedia.com/
+
+Status
+------
+4 completed 50 remaining
+8.0% (ETA: 21s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 409: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd8 in position 38965: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.vrbo.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.marriott.com/
+* doing DNS query for www.marriott.com
+* connecting to 23.15.44.212:443
+* doing HTTP(s) request https://www.marriott.com/
+
+Status
+------
+5 completed 50 remaining
+10.0% (ETA: 18s)
+
+Result for https://www.expedia.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.agoda.com/
+* doing DNS query for www.agoda.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 55810: ordinal not in range(128)
+* performing control request with backend
+* connecting to 104.97.58.59:443
+* doing HTTP(s) request https://www.agoda.com/
+
+Status
+------
+6 completed 50 remaining
+12.0% (ETA: 19s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 16251: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.uber.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.grubhub.com/
+* doing DNS query for www.grubhub.com
+* connecting to 151.101.209.160:443
+* doing HTTP(s) request https://www.grubhub.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 4618: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+7 completed 50 remaining
+14.0% (ETA: 17s)
+
+Result for https://www.agoda.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.aa.com/
+* doing DNS query for www.aa.com
+* connecting to 23.15.44.68:443
+* doing HTTP(s) request https://www.aa.com/
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Status
+------
+8 completed 50 remaining
+16.0% (ETA: 18s)
+
+Result for https://www.marriott.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.ford.com/
+* doing DNS query for www.ford.com
+* connecting to 104.97.48.79:443
+* doing HTTP(s) request https://www.ford.com/
+
+Status
+------
+9 completed 50 remaining
+18.0% (ETA: 18s)
+
+Result for https://www.grubhub.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.flightradar24.com/
+* doing DNS query for www.flightradar24.com
+* connecting to 104.17.46.52:443
+* connecting to 104.17.43.52:443
+* connecting to 104.17.42.52:443
+* connecting to 104.17.45.52:443
+* connecting to 104.17.44.52:443
+* doing HTTP(s) request https://www.flightradar24.com/
+
+Status
+------
+10 completed 50 remaining
+20.0% (ETA: 18s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 293: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.flightradar24.com/
+-----------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.kayak.com/
+* doing DNS query for www.kayak.com
+* connecting to 151.101.209.29:443
+* doing HTTP(s) request https://www.kayak.com/
+
+Status
+------
+11 completed 50 remaining
+22.0% (ETA: 16s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 66283: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 78878: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.aa.com/
+------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.delta.com/
+* doing DNS query for www.delta.com
+* connecting to 104.122.140.59:443
+
+Status
+------
+12 completed 50 remaining
+24.0% (ETA: 13s)
+* doing HTTP(s) request https://www.delta.com/
+
+Result for https://www.kayak.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.southwest.com/
+* doing DNS query for www.southwest.com
+* connecting to 2.23.234.132:443
+* doing HTTP(s) request https://www.southwest.com/
+
+Status
+------
+13 completed 50 remaining
+26.0% (ETA: 13s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.southwest.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.zomato.com/
+* doing DNS query for www.zomato.com
+* connecting to 104.97.58.12:443
+* doing HTTP(s) request https://www.zomato.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 14910: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+14 completed 50 remaining
+28.0% (ETA: 12s)
+
+Result for https://www.delta.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.united.com/
+* doing DNS query for www.united.com
+* connecting to 104.122.143.220:443
+* doing HTTP(s) request https://www.united.com/
+
+Status
+------
+15 completed 50 remaining
+30.0% (ETA: 12s)
+
+Starting test for https://www.hotels.com/
+* doing DNS query for www.hotels.com
+* connecting to 104.97.59.212:443
+* doing HTTP(s) request https://www.hotels.com/
+
+Starting test for https://www.ford.com/
+* doing DNS query for www.ford.com
+* connecting to 104.97.48.79:443
+* doing HTTP(s) request https://www.ford.com/
+
+Starting test for https://www.zomato.com/
+* doing DNS query for www.zomato.com
+* connecting to 104.97.58.12:443
+* doing HTTP(s) request https://www.zomato.com/
+
+Starting test for https://www.united.com/
+* doing DNS query for www.united.com
+* connecting to 104.122.143.220:443
+* doing HTTP(s) request https://www.united.com/
+
+Starting test for https://www.ryanair.com/
+* doing DNS query for www.ryanair.com
+* connecting to 13.226.118.44:443
+* connecting to 13.226.118.90:443
+* connecting to 13.226.118.54:443
+* connecting to 13.226.118.61:443
+
+Status
+------
+16 completed 50 remaining
+32.0% (ETA: 1s)
+* doing HTTP(s) request https://www.ryanair.com/
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.ryanair.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.priceline.com/
+* doing DNS query for www.priceline.com
+* connecting to 151.101.130.186:443
+* connecting to 151.101.194.186:443
+* connecting to 151.101.2.186:443
+* connecting to 151.101.66.186:443
+* doing HTTP(s) request https://www.priceline.com/
+
+Status
+------
+17 completed 50 remaining
+34.0% (ETA: 1s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 143383: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.priceline.com/
+-------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.hilton.com/
+* doing DNS query for www.hilton.com
+
+Starting test for https://www.ana.co.jp/
+* doing DNS query for www.ana.co.jp
+* connecting to 23.15.45.2:443
+* doing HTTP(s) request https://www.hilton.com/
+
+Status
+------
+18 completed 50 remaining
+36.0% (ETA: 1s)
+
+Status
+------
+19 completed 50 remaining
+38.0% (ETA: 1s)
+* connecting to 104.122.131.184:443
+* doing HTTP(s) request https://www.ana.co.jp/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0x81 in position 5021: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.ana.co.jp/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.lego.com/
+* doing DNS query for www.lego.com
+* connecting to 82.148.119.230:443
+* connecting to 82.148.119.238:443
+* doing HTTP(s) request https://www.lego.com/
+
+Status
+------
+20 completed 50 remaining
+40.0% (ETA: 1s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 102: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.lego.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.travel.state.gov/
+* doing DNS query for www.travel.state.gov
+* connecting to 18.216.14.33:443
+* connecting to 13.58.170.124:443
+* connecting to 13.58.116.30:443
+* connecting to 52.14.234.144:443
+* connecting to 18.220.218.98:443
+* connecting to 18.220.190.158:443
+* connecting to 18.219.108.36:443
+* connecting to 18.219.92.14:443
+* connecting to 18.219.36.149:443
+* connecting to 18.219.22.127:443
+* connecting to 18.219.0.83:443
+* connecting to 18.218.199.172:443
+* connecting to 18.218.132.161:443
+* connecting to 18.217.102.85:443
+* connecting to 18.217.66.14:443
+* connecting to 18.217.38.127:443
+* connecting to 18.216.147.148:443
+* connecting to 18.216.81.98:443
+* doing HTTP(s) request https://www.travel.state.gov/
+
+Status
+------
+21 completed 50 remaining
+42.0% (ETA: 1s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Starting test for https://www.jal.co.jp/
+* doing DNS query for www.jal.co.jp
+* connecting to 2.23.252.158:443
+* doing HTTP(s) request https://www.jal.co.jp/
+
+Status
+------
+22 completed 50 remaining
+44.0% (ETA: 1s)
+
+Starting test for https://www.turkishairlines.com/
+* doing DNS query for www.turkishairlines.com
+* connecting to 2.23.248.149:443
+* doing HTTP(s) request https://www.turkishairlines.com/
+
+Status
+------
+23 completed 50 remaining
+46.0% (ETA: 1s)
+
+Result for https://www.travel.state.gov/
+----------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.cracked.com/
+* doing DNS query for www.cracked.com
+* connecting to 99.84.41.100:443
+* connecting to 99.84.41.112:443
+* connecting to 99.84.41.108:443
+* connecting to 99.84.41.49:443
+* doing HTTP(s) request https://www.cracked.com/
+
+Status
+------
+24 completed 50 remaining
+48.0% (ETA: 1s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 84520: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 239860: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.cracked.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.emirates.com/
+* doing DNS query for www.emirates.com
+* connecting to 23.15.43.244:443
+* doing HTTP(s) request https://www.emirates.com/
+
+Status
+------
+25 completed 50 remaining
+50.0% (ETA: 1s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 274: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.hilton.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.caranddriver.com/
+* doing DNS query for www.caranddriver.com
+
+Result for https://www.emirates.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.timeout.com/
+* doing DNS query for www.timeout.com
+* connecting to 151.101.208.155:443
+* doing HTTP(s) request https://www.caranddriver.com/
+* connecting to 13.226.118.78:443
+* connecting to 13.226.118.9:443
+* connecting to 13.226.118.76:443
+* connecting to 13.226.118.59:443
+
+Status
+------
+26 completed 50 remaining
+52.0% (ETA: 1s)
+* doing HTTP(s) request https://www.timeout.com/
+
+Status
+------
+27 completed 50 remaining
+54.0% (ETA: 1s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 266058: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 6821: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.caranddriver.com/
+----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.easyjet.com/
+* doing DNS query for www.easyjet.com
+* connecting to 104.97.55.36:443
+
+Result for https://www.timeout.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.porsche.com/
+* doing DNS query for www.porsche.com
+* doing HTTP(s) request https://www.easyjet.com/
+
+Status
+------
+28 completed 50 remaining
+56.0% (ETA: 1s)
+* connecting to 152.195.52.228:443
+
+Status
+------
+29 completed 50 remaining
+58.0% (ETA: 1s)
+* doing HTTP(s) request https://www.porsche.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xee in position 38444: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.porsche.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.qatarairways.com/
+* doing DNS query for www.qatarairways.com
+* connecting to 104.97.57.110:443
+* doing HTTP(s) request https://www.qatarairways.com/
+
+Status
+------
+30 completed 50 remaining
+60.0% (ETA: 1s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 1424: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.easyjet.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.autoblog.com/
+* doing DNS query for www.autoblog.com
+
+Result for https://www.qatarairways.com/
+----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.ebaumsworld.com/
+* doing DNS query for www.ebaumsworld.com
+* connecting to 76.13.32.141:443
+* connecting to 67.214.157.20:443
+* doing HTTP(s) request https://www.autoblog.com/
+
+Status
+------
+31 completed 50 remaining
+62.0% (ETA: 1s)
+* doing HTTP(s) request https://www.ebaumsworld.com/
+
+Status
+------
+32 completed 50 remaining
+64.0% (ETA: 1s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 71635: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.autoblog.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.loc.gov/
+* doing DNS query for www.loc.gov
+* connecting to 104.16.55.16:443
+* connecting to 104.16.54.16:443
+* doing HTTP(s) request https://www.loc.gov/
+
+Status
+------
+33 completed 50 remaining
+66.0% (ETA: 1s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.ebaumsworld.com/
+---------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.orbitz.com/
+* doing DNS query for www.orbitz.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 1499: ordinal not in range(128)
+* performing control request with backend
+* connecting to 104.122.133.122:443
+* doing HTTP(s) request https://www.orbitz.com/
+
+Status
+------
+34 completed 50 remaining
+68.0% (ETA: 1s)
+
+Result for https://www.loc.gov/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.petfinder.com/
+* doing DNS query for www.petfinder.com
+* connecting to 52.2.167.194:443
+* connecting to 3.220.215.139:443
+* connecting to 3.94.139.111:443
+* doing HTTP(s) request https://www.petfinder.com/
+[!] Lookup http://jehhrikjjqrlpufu.onion/report/20200726T143603Z_AS29384_N6dPdfoAoEKflKZHj9fBrAb81VJ3Qt6rL9rhbAKGrmK4m2EhtO failed. Retrying.
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 36853: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.orbitz.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.travelocity.com/
+* doing DNS query for www.travelocity.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 115697: ordinal not in range(128)
+* performing control request with backend
+* connecting to 104.97.61.137:443
+
+Status
+------
+35 completed 50 remaining
+70.0% (ETA: 1s)
+* doing HTTP(s) request https://www.travelocity.com/
+
+Status
+------
+36 completed 50 remaining
+72.0% (ETA: 1s)
+
+Result for https://www.petfinder.com/
+-------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.aeroflot.ru/
+* doing DNS query for www.aeroflot.ru
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 43665: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+37 completed 50 remaining
+74.0% (ETA: 1s)
+* connecting to 2.23.251.189:443
+* doing HTTP(s) request https://www.aeroflot.ru/
+
+Result for https://www.travelocity.com/
+---------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.opentable.com/
+* doing DNS query for www.opentable.com
+* connecting to 104.97.61.33:443
+* doing HTTP(s) request https://www.opentable.com/
+
+Status
+------
+38 completed 50 remaining
+76.0% (ETA: 1s)
+
+Starting test for https://www.jal.co.jp/
+* doing DNS query for www.jal.co.jp
+* connecting to 2.23.252.158:443
+* doing HTTP(s) request https://www.jal.co.jp/
+
+Starting test for https://www.turkishairlines.com/
+* doing DNS query for www.turkishairlines.com
+* connecting to 2.23.248.149:443
+* doing HTTP(s) request https://www.turkishairlines.com/
+
+Starting test for https://www.aeroflot.ru/
+* doing DNS query for www.aeroflot.ru
+* connecting to 2.23.251.189:443
+* doing HTTP(s) request https://www.aeroflot.ru/
+
+Starting test for https://www.opentable.com/
+* doing DNS query for www.opentable.com
+* connecting to 104.97.61.33:443
+* doing HTTP(s) request https://www.opentable.com/
+
+Starting test for https://www.honda.com/
+* doing DNS query for www.honda.com
+* connecting to 104.97.61.227:443
+* doing HTTP(s) request https://www.honda.com/
+
+Status
+------
+39 completed 50 remaining
+78.0% (ETA: 0s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 28294: ordinal not in range(128)
+* performing control request with backend
+
+Starting test for https://www.hyatt.com/
+* doing DNS query for www.hyatt.com
+* connecting to 104.97.57.250:443
+* doing HTTP(s) request https://www.hyatt.com/
+
+Status
+------
+40 completed 50 remaining
+80.0% (ETA: 0s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.honda.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.hotwire.com/
+* doing DNS query for www.hotwire.com
+* connecting to 104.97.51.216:443
+* doing HTTP(s) request https://www.hotwire.com/
+
+Result for https://www.hyatt.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.volvocars.com/
+* doing DNS query for www.volvocars.com
+
+Status
+------
+41 completed 50 remaining
+82.0% (ETA: 0s)
+* connecting to 104.97.55.232:443
+* doing HTTP(s) request https://www.volvocars.com/
+
+Status
+------
+42 completed 50 remaining
+84.0% (ETA: 0s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd8 in position 12798: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.volvocars.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.recreation.gov/
+* doing DNS query for www.recreation.gov
+* connecting to 143.204.148.4:443
+* connecting to 143.204.148.73:443
+* connecting to 143.204.148.32:443
+* connecting to 143.204.148.97:443
+
+Status
+------
+43 completed 50 remaining
+86.0% (ETA: 0s)
+* doing HTTP(s) request https://www.recreation.gov/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 1055: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.recreation.gov/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.travelandleisure.com/
+* doing DNS query for www.travelandleisure.com
+* connecting to 99.84.112.103:443
+* connecting to 99.84.112.116:443
+* connecting to 99.84.112.62:443
+* connecting to 99.84.112.26:443
+* doing HTTP(s) request https://www.travelandleisure.com/
+
+Status
+------
+44 completed 50 remaining
+88.0% (ETA: 0s)
+
+Result for https://www.hotwire.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.chevrolet.com/
+* doing DNS query for www.chevrolet.com
+* connecting to 2.23.243.219:443
+* doing HTTP(s) request https://www.chevrolet.com/
+
+Status
+------
+45 completed 50 remaining
+90.0% (ETA: 0s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 8239: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 71477: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.chevrolet.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.bmwusa.com/
+* doing DNS query for www.bmwusa.com
+* connecting to 104.97.51.189:443
+* doing HTTP(s) request https://www.bmwusa.com/
+
+Status
+------
+46 completed 50 remaining
+92.0% (ETA: 0s)
+
+Result for https://www.travelandleisure.com/
+--------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Status
+------
+47 completed 50 remaining
+94.0% (ETA: 0s)
+
+Status
+------
+48 completed 50 remaining
+96.0% (ETA: 0s)
+
+Status
+------
+49 completed 50 remaining
+98.0% (ETA: 0s)
+Error performing HTTP request: https://www.jal.co.jp/
+
+Starting test for https://www.bmwusa.com/
+* doing DNS query for www.bmwusa.com
+* connecting to 104.97.51.189:443
+* doing HTTP(s) request https://www.bmwusa.com/
+Error performing HTTP request: https://www.jal.co.jp/
+
+Status
+------
+50 completed 50 remaining
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Not accessible URLS
+-------------------
+* https://www.xe.com/
+* https://www.tripadvisor.com/
+* https://www.9gag.com/
+* https://www.booking.com/
+* https://www.vrbo.com/
+* https://www.expedia.com/
+* https://www.uber.com/
+* https://www.agoda.com/
+* https://www.marriott.com/
+* https://www.grubhub.com/
+* https://www.flightradar24.com/
+* https://www.aa.com/
+* https://www.kayak.com/
+* https://www.southwest.com/
+* https://www.delta.com/
+* https://www.hotels.com/
+* https://www.ryanair.com/
+* https://www.priceline.com/
+* https://www.ford.com/
+* https://www.ana.co.jp/
+* https://www.lego.com/
+* https://www.zomato.com/
+* https://www.united.com/
+* https://www.travel.state.gov/
+* https://www.cracked.com/
+* https://www.hilton.com/
+* https://www.emirates.com/
+* https://www.caranddriver.com/
+* https://www.timeout.com/
+* https://www.porsche.com/
+* https://www.easyjet.com/
+* https://www.qatarairways.com/
+* https://www.autoblog.com/
+* https://www.ebaumsworld.com/
+* https://www.loc.gov/
+* https://www.orbitz.com/
+* https://www.petfinder.com/
+* https://www.travelocity.com/
+* https://www.jal.co.jp/
+* https://www.turkishairlines.com/
+* https://www.honda.com/
+* https://www.hyatt.com/
+* https://www.volvocars.com/
+* https://www.recreation.gov/
+* https://www.hotwire.com/
+* https://www.chevrolet.com/
+* https://www.travelandleisure.com/
+* https://www.aeroflot.ru/
+* https://www.opentable.com/
+* https://www.bmwusa.com/
+
+URLS possibly blocked due to http-failure
+-----------------------------------------
+* https://www.9gag.com/
+* https://www.booking.com/
+* https://www.flightradar24.com/
+* https://www.priceline.com/
+* https://www.travel.state.gov/
+* https://www.porsche.com/
+* https://www.ebaumsworld.com/
+* https://www.loc.gov/
+* https://www.petfinder.com/
+
+URLS possibly blocked due to dns
+--------------------------------
+* https://www.xe.com/
+* https://www.tripadvisor.com/
+* https://www.vrbo.com/
+* https://www.expedia.com/
+* https://www.uber.com/
+* https://www.agoda.com/
+* https://www.marriott.com/
+* https://www.grubhub.com/
+* https://www.aa.com/
+* https://www.kayak.com/
+* https://www.southwest.com/
+* https://www.delta.com/
+* https://www.ryanair.com/
+* https://www.ana.co.jp/
+* https://www.lego.com/
+* https://www.cracked.com/
+* https://www.hilton.com/
+* https://www.emirates.com/
+* https://www.caranddriver.com/
+* https://www.timeout.com/
+* https://www.easyjet.com/
+* https://www.qatarairways.com/
+* https://www.autoblog.com/
+* https://www.orbitz.com/
+* https://www.travelocity.com/
+* https://www.honda.com/
+* https://www.hyatt.com/
+* https://www.volvocars.com/
+* https://www.recreation.gov/
+* https://www.hotwire.com/
+* https://www.chevrolet.com/
+* https://www.travelandleisure.com/
+Report ID: 20200726T143603Z_AS29384_N6dPdfoAoEKflKZHj9fBrAb81VJ3Qt6rL9rhbAKGrmK4m2EhtO
+Error performing HTTP request: https://www.turkishairlines.com/
+Error performing HTTP request: https://www.zomato.com/
+Error performing HTTP request: https://www.hotels.com/
+Error performing HTTP request: https://www.aeroflot.ru/
+Error performing HTTP request: https://www.opentable.com/
+Error performing HTTP request: https://www.ford.com/
+Error performing HTTP request: https://www.hotels.com/
+Error performing HTTP request: https://www.ford.com/
+Error performing HTTP request: https://www.jal.co.jp/
+Error performing HTTP request: https://www.zomato.com/
+Error performing HTTP request: https://www.opentable.com/
+Error performing HTTP request: https://www.bmwusa.com/
+Error performing HTTP request: https://www.aeroflot.ru/
+Error performing HTTP request: https://www.turkishairlines.com/
+Error performing HTTP request: https://www.united.com/
+Error performing HTTP request: https://www.jal.co.jp/
+Error performing HTTP request: https://www.bmwusa.com/
+Error performing HTTP request: https://www.united.com/
+1622.54695606

@@ -1,0 +1,1101 @@
+[!] Error processing dns_spoof.py
+[!] Error processing traceroute.py
+Starting Tor
+5%: Connecting to directory server
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+57%: Loading relay descriptors
+61%: Loading relay descriptors
+66%: Loading relay descriptors
+72%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for https://www.twitch.tv/
+* doing DNS query for www.twitch.tv
+
+Starting test for https://www.roblox.com/
+* doing DNS query for www.roblox.com
+
+Starting test for https://www.chess.com/
+* doing DNS query for www.chess.com
+
+Starting test for https://www.store.steampowered.com/
+* doing DNS query for www.store.steampowered.com
+* doing HTTP(s) request https://www.store.steampowered.com/
+Error performing HTTP request: https://www.store.steampowered.com/
+Error performing HTTP request: https://www.store.steampowered.com/
+Error performing HTTP request: https://www.store.steampowered.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+* connecting to 128.116.112.44:443
+* connecting to 104.17.239.85:443
+* connecting to 104.17.237.85:443
+* connecting to 104.17.238.85:443
+* connecting to 104.17.241.85:443
+* connecting to 104.17.240.85:443
+* doing HTTP(s) request https://www.roblox.com/
+* doing HTTP(s) request https://www.chess.com/
+* connecting to 151.101.210.167:443
+* doing HTTP(s) request https://www.twitch.tv/
+
+Result for https://www.store.steampowered.com/
+----------------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.epicgames.com/
+* doing DNS query for www.epicgames.com
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+* connecting to 54.211.247.4:443
+* connecting to 18.233.127.172:443
+* connecting to 54.88.3.65:443
+* connecting to 34.226.101.147:443
+* connecting to 52.206.124.243:443
+* connecting to 52.55.72.208:443
+* connecting to 54.209.235.205:443
+* connecting to 3.234.109.124:443
+* doing HTTP(s) request https://www.epicgames.com/
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Status
+------
+1 completed 50 remaining
+2.0% (ETA: 15s)
+
+Result for https://www.roblox.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.wowhead.com/
+* doing DNS query for www.wowhead.com
+* connecting to 104.18.31.49:443
+* connecting to 104.18.30.49:443
+* doing HTTP(s) request https://www.wowhead.com/
+
+Result for https://www.chess.com/
+---------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.playstation.com/
+* doing DNS query for www.playstation.com
+
+Result for https://www.twitch.tv/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.ubisoft.com/
+* doing DNS query for www.ubisoft.com
+* connecting to 23.15.43.101:443
+
+Status
+------
+2 completed 50 remaining
+4.0% (ETA: 19s)
+* doing HTTP(s) request https://www.playstation.com/
+* connecting to 54.227.167.169:443
+* connecting to 34.201.254.109:443
+* connecting to 52.20.55.160:443
+* connecting to 52.1.7.114:443
+* connecting to 34.233.67.123:443
+* connecting to 35.173.194.148:443
+* connecting to 34.225.54.49:443
+* connecting to 52.71.206.39:443
+* doing HTTP(s) request https://www.ubisoft.com/
+
+Status
+------
+3 completed 50 remaining
+6.0% (ETA: 26s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 8253: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+4 completed 50 remaining
+8.0% (ETA: 29s)
+
+Result for https://www.wowhead.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.ign.com/
+* doing DNS query for www.ign.com
+* connecting to 151.101.209.135:443
+* doing HTTP(s) request https://www.ign.com/
+
+Status
+------
+5 completed 50 remaining
+10.0% (ETA: 26s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd8 in position 27743: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 1157: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 26163: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.epicgames.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.gamespot.com/
+* doing DNS query for www.gamespot.com
+
+Result for https://www.playstation.com/
+---------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.nvidia.com/
+* doing DNS query for www.nvidia.com
+* connecting to 199.232.37.188:443
+* connecting to 2.23.231.130:443
+* doing HTTP(s) request https://www.gamespot.com/
+* doing HTTP(s) request https://www.nvidia.com/
+
+Status
+------
+6 completed 50 remaining
+12.0% (ETA: 19s)
+
+Status
+------
+7 completed 50 remaining
+14.0% (ETA: 22s)
+
+Result for https://www.ubisoft.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.ea.com/
+* doing DNS query for www.ea.com
+* connecting to 23.15.46.44:443
+* doing HTTP(s) request https://www.ea.com/
+
+Status
+------
+8 completed 50 remaining
+16.0% (ETA: 22s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 31509: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd8 in position 100: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 242010: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 18066: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.gamespot.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.leagueoflegends.com/
+* doing DNS query for www.leagueoflegends.com
+* connecting to 52.57.205.172:443
+* connecting to 52.58.61.9:443
+* doing HTTP(s) request https://www.leagueoflegends.com/
+
+Result for https://www.ign.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.minecraft.net/
+* doing DNS query for www.minecraft.net
+
+Status
+------
+9 completed 50 remaining
+18.0% (ETA: 20s)
+* connecting to 152.199.21.175:443
+* doing HTTP(s) request https://www.minecraft.net/
+
+Status
+------
+10 completed 50 remaining
+20.0% (ETA: 21s)
+
+Result for https://www.nvidia.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.battle.net/
+* doing DNS query for www.battle.net
+
+Result for https://www.ea.com/
+------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.xbox.com/
+* doing DNS query for www.xbox.com
+* connecting to 37.244.28.104:443
+* doing HTTP(s) request https://www.battle.net/
+* connecting to 184.29.68.114:443
+* doing HTTP(s) request https://www.xbox.com/
+
+Status
+------
+11 completed 50 remaining
+22.0% (ETA: 21s)
+
+Status
+------
+12 completed 50 remaining
+24.0% (ETA: 22s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 32087: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.minecraft.net/
+-------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.blizzard.com/
+* doing DNS query for www.blizzard.com
+* connecting to 34.254.47.243:443
+* connecting to 52.50.176.238:443
+* doing HTTP(s) request https://www.blizzard.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 342: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 193772: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 77635: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+13 completed 50 remaining
+26.0% (ETA: 18s)
+
+Result for https://www.xbox.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.nexusmods.com/
+* doing DNS query for www.nexusmods.com
+
+Result for https://www.leagueoflegends.com/
+-------------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.nintendo.com/
+* doing DNS query for www.nintendo.com
+
+Result for https://www.battle.net/
+----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.pcgamer.com/
+* doing DNS query for www.pcgamer.com
+* connecting to 104.22.3.55:443
+* connecting to 172.67.15.252:443
+* connecting to 104.22.2.55:443
+* doing HTTP(s) request https://www.nexusmods.com/
+* connecting to 2.20.165.112:443
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 77617: ordinal not in range(128)
+* performing control request with backend
+* doing HTTP(s) request https://www.nintendo.com/
+
+Status
+------
+14 completed 50 remaining
+28.0% (ETA: 17s)
+* connecting to 185.113.25.56:443
+
+Status
+------
+15 completed 50 remaining
+30.0% (ETA: 17s)
+* doing HTTP(s) request https://www.pcgamer.com/
+
+Status
+------
+16 completed 50 remaining
+32.0% (ETA: 18s)
+
+Result for https://www.blizzard.com/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.rockstargames.com/
+* doing DNS query for www.rockstargames.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 9843: ordinal not in range(128)
+* performing control request with backend
+* connecting to 104.97.55.248:443
+* doing HTTP(s) request https://www.rockstargames.com/
+
+Status
+------
+17 completed 50 remaining
+34.0% (ETA: 17s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 287370: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.nintendo.com/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.itch.io/
+* doing DNS query for www.itch.io
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.pcgamer.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.icy-veins.com/
+* doing DNS query for www.icy-veins.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 96127: ordinal not in range(128)
+* performing control request with backend
+* connecting to 172.67.69.99:443
+* connecting to 104.26.8.198:443
+* connecting to 104.26.9.198:443
+* doing HTTP(s) request https://www.itch.io/
+
+Status
+------
+18 completed 50 remaining
+36.0% (ETA: 16s)
+* connecting to 87.98.161.106:443
+* doing HTTP(s) request https://www.icy-veins.com/
+
+Status
+------
+19 completed 50 remaining
+38.0% (ETA: 16s)
+
+Result for https://www.rockstargames.com/
+-----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.gamesradar.com/
+* doing DNS query for www.gamesradar.com
+
+Result for https://www.nexusmods.com/
+-------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.pch.com/
+* doing DNS query for www.pch.com
+* connecting to 185.113.25.55:443
+* doing HTTP(s) request https://www.gamesradar.com/
+* connecting to 184.29.69.73:443
+* doing HTTP(s) request https://www.pch.com/
+
+Status
+------
+20 completed 50 remaining
+40.0% (ETA: 16s)
+
+Status
+------
+21 completed 50 remaining
+42.0% (ETA: 16s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 47032: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.icy-veins.com/
+-------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.kongregate.com/
+* doing DNS query for www.kongregate.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 21802: ordinal not in range(128)
+* performing control request with backend
+* connecting to 151.101.209.36:443
+* doing HTTP(s) request https://www.kongregate.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 136612: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+22 completed 50 remaining
+44.0% (ETA: 14s)
+
+Result for https://www.pch.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.runescape.com/
+* doing DNS query for www.runescape.com
+
+Result for https://www.gamesradar.com/
+--------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.unity3d.com/
+* doing DNS query for www.unity3d.com
+* connecting to 91.235.140.148:443
+* connecting to 184.29.68.93:443
+* doing HTTP(s) request https://www.runescape.com/
+* doing HTTP(s) request https://www.unity3d.com/
+
+Result for https://www.itch.io/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.eurogamer.net/
+* doing DNS query for www.eurogamer.net
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 61317: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+23 completed 50 remaining
+46.0% (ETA: 14s)
+* connecting to 52.31.169.144:443
+* connecting to 63.35.17.160:443
+
+Status
+------
+24 completed 50 remaining
+48.0% (ETA: 14s)
+* doing HTTP(s) request https://www.eurogamer.net/
+
+Status
+------
+25 completed 50 remaining
+50.0% (ETA: 14s)
+
+Result for https://www.kongregate.com/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.boardgamegeek.com/
+* doing DNS query for www.boardgamegeek.com
+* connecting to 130.211.47.221:443
+* doing HTTP(s) request https://www.boardgamegeek.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe9 in position 6594: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+26 completed 50 remaining
+52.0% (ETA: 13s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 11500: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.eurogamer.net/
+-------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.bulbagarden.net/
+* doing DNS query for www.bulbagarden.net
+* connecting to 172.64.138.38:443
+* connecting to 172.64.139.38:443
+* doing HTTP(s) request https://www.bulbagarden.net/
+
+Result for https://www.boardgamegeek.com/
+-----------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.sporcle.com/
+* doing DNS query for www.sporcle.com
+* connecting to 13.226.118.107:443
+* connecting to 13.226.118.122:443
+* connecting to 13.226.118.31:443
+* connecting to 13.226.118.80:443
+* doing HTTP(s) request https://www.sporcle.com/
+
+Status
+------
+27 completed 50 remaining
+54.0% (ETA: 12s)
+
+Result for https://www.runescape.com/
+-------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.mmo-champion.com/
+* doing DNS query for www.mmo-champion.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 235: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+28 completed 50 remaining
+56.0% (ETA: 12s)
+* connecting to 104.26.3.92:443
+* connecting to 172.67.69.150:443
+* connecting to 104.26.2.92:443
+* doing HTTP(s) request https://www.mmo-champion.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 33526: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+29 completed 50 remaining
+58.0% (ETA: 12s)
+
+Result for https://www.bulbagarden.net/
+---------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.wizards.com/
+* doing DNS query for www.wizards.com
+* connecting to 69.8.198.251:443
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 2775: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.unity3d.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.miniclip.com/
+* doing DNS query for www.miniclip.com
+* doing HTTP(s) request https://www.wizards.com/
+* connecting to 13.226.118.56:443
+* connecting to 13.226.118.52:443
+* connecting to 13.226.118.34:443
+* connecting to 13.226.118.58:443
+* doing HTTP(s) request https://www.miniclip.com/
+Error performing HTTP request: https://www.wizards.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 30811: ordinal not in range(128)
+* performing control request with backend
+Error performing HTTP request: https://www.wizards.com/
+
+Status
+------
+30 completed 50 remaining
+60.0% (ETA: 11s)
+Error performing HTTP request: https://www.wizards.com/
+Failed to perform HTTP request response_never_received
+* performing control request with backend
+
+Status
+------
+31 completed 50 remaining
+62.0% (ETA: 11s)
+
+Result for https://www.sporcle.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.callofduty.com/
+* doing DNS query for www.callofduty.com
+* connecting to 104.97.49.14:443
+* doing HTTP(s) request https://www.callofduty.com/
+
+Status
+------
+32 completed 50 remaining
+64.0% (ETA: 10s)
+
+Result for https://www.mmo-champion.com/
+----------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.pcgamesn.com/
+* doing DNS query for www.pcgamesn.com
+* connecting to 172.67.25.229:443
+* connecting to 104.22.68.154:443
+* connecting to 104.22.69.154:443
+* doing HTTP(s) request https://www.pcgamesn.com/
+
+Result for https://www.wizards.com/
+-----------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.vocabulary.com/
+* doing DNS query for www.vocabulary.com
+
+Status
+------
+33 completed 50 remaining
+66.0% (ETA: 10s)
+* connecting to 13.226.118.98:443
+* connecting to 13.226.118.105:443
+* connecting to 13.226.118.74:443
+* connecting to 13.226.118.16:443
+* doing HTTP(s) request https://www.vocabulary.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 111: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Status
+------
+34 completed 50 remaining
+68.0% (ETA: 9s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 130862: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.callofduty.com/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.thesimsresource.com/
+* doing DNS query for www.thesimsresource.com
+
+Result for https://www.pcgamesn.com/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.betfair.com/
+* doing DNS query for www.betfair.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 21238: ordinal not in range(128)
+* performing control request with backend
+* connecting to 13.33.60.30:443
+* connecting to 13.33.60.21:443
+* connecting to 13.33.60.69:443
+* connecting to 13.33.60.34:443
+* doing HTTP(s) request https://www.thesimsresource.com/
+
+Result for https://www.miniclip.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.activision.com/
+* doing DNS query for www.activision.com
+* connecting to 104.18.0.134:443
+* connecting to 104.18.1.134:443
+* doing HTTP(s) request https://www.betfair.com/
+
+Status
+------
+35 completed 50 remaining
+70.0% (ETA: 8s)
+* connecting to 104.97.49.14:443
+
+Status
+------
+36 completed 50 remaining
+72.0% (ETA: 8s)
+* doing HTTP(s) request https://www.activision.com/
+
+Result for https://www.vocabulary.com/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.bungie.net/
+* doing DNS query for www.bungie.net
+
+Status
+------
+37 completed 50 remaining
+74.0% (ETA: 7s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 139057: ordinal not in range(128)
+* performing control request with backend
+* connecting to 104.20.28.30:443
+* connecting to 104.20.29.30:443
+* doing HTTP(s) request https://www.bungie.net/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 23336: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+38 completed 50 remaining
+76.0% (ETA: 7s)
+
+Result for https://www.thesimsresource.com/
+-------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.easports.com/
+* doing DNS query for www.easports.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 360: ordinal not in range(128)
+* performing control request with backend
+* connecting to 23.15.46.44:443
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 34457: ordinal not in range(128)
+* performing control request with backend
+* doing HTTP(s) request https://www.easports.com/
+
+Result for https://www.activision.com/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.games-workshop.com/
+* doing DNS query for www.games-workshop.com
+
+Status
+------
+39 completed 50 remaining
+78.0% (ETA: 6s)
+* connecting to 104.16.44.72:443
+* connecting to 104.17.142.85:443
+* doing HTTP(s) request https://www.games-workshop.com/
+
+Status
+------
+40 completed 50 remaining
+80.0% (ETA: 6s)
+
+Result for https://www.betfair.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.planetminecraft.com/
+* doing DNS query for www.planetminecraft.com
+
+Result for https://www.bungie.net/
+----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.pogo.com/
+* doing DNS query for www.pogo.com
+* connecting to 104.22.1.111:443
+* connecting to 104.22.0.111:443
+* connecting to 172.67.38.113:443
+* doing HTTP(s) request https://www.planetminecraft.com/
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Status
+------
+41 completed 50 remaining
+82.0% (ETA: 5s)
+
+Status
+------
+42 completed 50 remaining
+84.0% (ETA: 5s)
+* connecting to 23.15.46.44:443
+* doing HTTP(s) request https://www.pogo.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 26643: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.games-workshop.com/
+------------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.finalfantasyxiv.com/
+* doing DNS query for www.finalfantasyxiv.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 18825: ordinal not in range(128)
+* performing control request with backend
+* connecting to 23.15.43.186:443
+* doing HTTP(s) request https://www.finalfantasyxiv.com/
+
+Status
+------
+43 completed 50 remaining
+86.0% (ETA: 4s)
+
+Result for https://www.planetminecraft.com/
+-------------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.pokemon.com/
+* doing DNS query for www.pokemon.com
+
+Result for https://www.easports.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.hattrick.org/
+* doing DNS query for www.hattrick.org
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 33578: ordinal not in range(128)
+* performing control request with backend
+* connecting to 13.226.118.123:443
+* connecting to 13.226.118.116:443
+* connecting to 13.226.118.77:443
+* connecting to 13.226.118.47:443
+* doing HTTP(s) request https://www.pokemon.com/
+
+Status
+------
+44 completed 50 remaining
+88.0% (ETA: 3s)
+* connecting to 193.34.189.81:443
+* connecting to 193.34.189.80:443
+* doing HTTP(s) request https://www.hattrick.org/
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Status
+------
+45 completed 50 remaining
+90.0% (ETA: 3s)
+
+Result for https://www.pogo.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.mtggoldfish.com/
+* doing DNS query for www.mtggoldfish.com
+* connecting to 52.72.167.252:443
+* connecting to 54.161.153.48:443
+* connecting to 54.144.213.223:443
+* doing HTTP(s) request https://www.mtggoldfish.com/
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Status
+------
+46 completed 50 remaining
+92.0% (ETA: 2s)
+
+Result for https://www.finalfantasyxiv.com/
+-------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Result for https://www.pokemon.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 13199: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+47 completed 50 remaining
+94.0% (ETA: 1s)
+
+Status
+------
+48 completed 50 remaining
+96.0% (ETA: 1s)
+
+Result for https://www.mtggoldfish.com/
+---------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 429: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+49 completed 50 remaining
+98.0% (ETA: 0s)
+
+Result for https://www.hattrick.org/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Status
+------
+50 completed 50 remaining
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Not accessible URLS
+-------------------
+* https://www.store.steampowered.com/
+* https://www.roblox.com/
+* https://www.chess.com/
+* https://www.twitch.tv/
+* https://www.wowhead.com/
+* https://www.epicgames.com/
+* https://www.playstation.com/
+* https://www.ubisoft.com/
+* https://www.gamespot.com/
+* https://www.ign.com/
+* https://www.nvidia.com/
+* https://www.ea.com/
+* https://www.minecraft.net/
+* https://www.xbox.com/
+* https://www.leagueoflegends.com/
+* https://www.battle.net/
+* https://www.blizzard.com/
+* https://www.nintendo.com/
+* https://www.pcgamer.com/
+* https://www.rockstargames.com/
+* https://www.nexusmods.com/
+* https://www.icy-veins.com/
+* https://www.pch.com/
+* https://www.gamesradar.com/
+* https://www.itch.io/
+* https://www.kongregate.com/
+* https://www.eurogamer.net/
+* https://www.boardgamegeek.com/
+* https://www.runescape.com/
+* https://www.bulbagarden.net/
+* https://www.unity3d.com/
+* https://www.sporcle.com/
+* https://www.mmo-champion.com/
+* https://www.wizards.com/
+* https://www.callofduty.com/
+* https://www.pcgamesn.com/
+* https://www.miniclip.com/
+* https://www.vocabulary.com/
+* https://www.thesimsresource.com/
+* https://www.activision.com/
+* https://www.betfair.com/
+* https://www.bungie.net/
+* https://www.games-workshop.com/
+* https://www.planetminecraft.com/
+* https://www.easports.com/
+* https://www.pogo.com/
+* https://www.finalfantasyxiv.com/
+* https://www.pokemon.com/
+* https://www.mtggoldfish.com/
+* https://www.hattrick.org/
+
+URLS possibly blocked due to http-failure
+-----------------------------------------
+* https://www.chess.com/
+* https://www.wowhead.com/
+* https://www.minecraft.net/
+* https://www.leagueoflegends.com/
+* https://www.battle.net/
+* https://www.blizzard.com/
+* https://www.nintendo.com/
+* https://www.pcgamer.com/
+* https://www.nexusmods.com/
+* https://www.icy-veins.com/
+* https://www.gamesradar.com/
+* https://www.itch.io/
+* https://www.eurogamer.net/
+* https://www.boardgamegeek.com/
+* https://www.runescape.com/
+* https://www.bulbagarden.net/
+* https://www.mmo-champion.com/
+* https://www.pcgamesn.com/
+* https://www.betfair.com/
+* https://www.bungie.net/
+* https://www.games-workshop.com/
+* https://www.planetminecraft.com/
+* https://www.mtggoldfish.com/
+* https://www.hattrick.org/
+
+URLS possibly blocked due to dns
+--------------------------------
+* https://www.roblox.com/
+* https://www.twitch.tv/
+* https://www.epicgames.com/
+* https://www.playstation.com/
+* https://www.ubisoft.com/
+* https://www.gamespot.com/
+* https://www.ign.com/
+* https://www.nvidia.com/
+* https://www.ea.com/
+* https://www.xbox.com/
+* https://www.rockstargames.com/
+* https://www.pch.com/
+* https://www.kongregate.com/
+* https://www.unity3d.com/
+* https://www.sporcle.com/
+* https://www.callofduty.com/
+* https://www.miniclip.com/
+* https://www.vocabulary.com/
+* https://www.thesimsresource.com/
+* https://www.activision.com/
+* https://www.easports.com/
+* https://www.pogo.com/
+* https://www.finalfantasyxiv.com/
+* https://www.pokemon.com/
+Report ID: 20200726T140758Z_AS29384_P5qH3rLWinVMuzZ4op1vh1bsnP8DE00JuPGYxajkiZ61WaR20N
+154.093745947

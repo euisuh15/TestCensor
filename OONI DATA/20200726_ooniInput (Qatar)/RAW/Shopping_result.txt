@@ -1,0 +1,1061 @@
+[!] Error processing dns_spoof.py
+[!] Error processing traceroute.py
+Starting Tor
+5%: Connecting to directory server
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+53%: Loading relay descriptors
+56%: Loading relay descriptors
+59%: Loading relay descriptors
+64%: Loading relay descriptors
+69%: Loading relay descriptors
+73%: Loading relay descriptors
+78%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for https://www.amazon.com/
+* doing DNS query for www.amazon.com
+
+Starting test for https://www.netflix.com/
+* doing DNS query for www.netflix.com
+
+Starting test for https://www.ebay.com/
+* doing DNS query for www.ebay.com
+
+Starting test for https://www.etsy.com/
+* doing DNS query for www.etsy.com
+* connecting to 54.154.81.103:443
+* connecting to 52.30.238.17:443
+* connecting to 34.248.165.48:443
+* connecting to 34.251.239.113:443
+* connecting to 34.250.61.125:443
+* connecting to 34.248.179.192:443
+* connecting to 52.214.223.236:443
+* connecting to 54.194.155.146:443
+* connecting to 184.29.69.217:443
+* doing HTTP(s) request https://www.netflix.com/
+* connecting to 151.101.209.224:443
+* doing HTTP(s) request https://www.ebay.com/
+* doing HTTP(s) request https://www.etsy.com/
+* connecting to 104.122.142.131:443
+* doing HTTP(s) request https://www.amazon.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 30128: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 2201: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.ebay.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.amazon.co.uk/
+* doing DNS query for www.amazon.co.uk
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 247736: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.etsy.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.walmart.com/
+* doing DNS query for www.walmart.com
+* connecting to 13.227.3.224:443
+* connecting to 104.122.128.161:443
+* doing HTTP(s) request https://www.amazon.co.uk/
+* doing HTTP(s) request https://www.walmart.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 37802: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.amazon.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.bestbuy.com/
+* doing DNS query for www.bestbuy.com
+* connecting to 104.97.57.169:443
+* doing HTTP(s) request https://www.bestbuy.com/
+
+Result for https://www.netflix.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.homedepot.com/
+* doing DNS query for www.homedepot.com
+* connecting to 104.122.136.30:443
+* doing HTTP(s) request https://www.homedepot.com/
+
+Status
+------
+1 completed 50 remaining
+2.0% (ETA: 5s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 28251: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+2 completed 50 remaining
+4.0% (ETA: 10s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 118567: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+3 completed 50 remaining
+6.0% (ETA: 13s)
+
+Result for https://www.walmart.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.ikea.com/
+* doing DNS query for www.ikea.com
+* connecting to 104.122.137.168:443
+
+Result for https://www.amazon.co.uk/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.target.com/
+* doing DNS query for www.target.com
+* doing HTTP(s) request https://www.ikea.com/
+* connecting to 199.232.38.187:443
+* doing HTTP(s) request https://www.target.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 136785: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.homedepot.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.wayfair.com/
+* doing DNS query for www.wayfair.com
+
+Status
+------
+4 completed 50 remaining
+8.0% (ETA: 15s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 43: ordinal not in range(128)
+* performing control request with backend
+* connecting to 184.29.69.96:443
+* doing HTTP(s) request https://www.wayfair.com/
+
+Result for https://www.ikea.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.store.steampowered.com/
+* doing DNS query for www.store.steampowered.com
+* doing HTTP(s) request https://www.store.steampowered.com/
+Error performing HTTP request: https://www.store.steampowered.com/
+Error performing HTTP request: https://www.store.steampowered.com/
+Error performing HTTP request: https://www.store.steampowered.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 103156: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.store.steampowered.com/
+----------------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.cambridge.org/
+* doing DNS query for www.cambridge.org
+* connecting to 104.16.55.52:443
+* connecting to 104.16.56.52:443
+
+Status
+------
+5 completed 50 remaining
+10.0% (ETA: 14s)
+* doing HTTP(s) request https://www.cambridge.org/
+
+Result for https://www.target.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.nike.com/
+* doing DNS query for www.nike.com
+* connecting to 23.15.44.22:443
+* doing HTTP(s) request https://www.nike.com/
+
+Status
+------
+6 completed 50 remaining
+12.0% (ETA: 15s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 15467: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Status
+------
+7 completed 50 remaining
+14.0% (ETA: 16s)
+
+Result for https://www.cambridge.org/
+-------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.lowes.com/
+* doing DNS query for www.lowes.com
+
+Status
+------
+8 completed 50 remaining
+16.0% (ETA: 17s)
+* connecting to 23.15.45.28:443
+* doing HTTP(s) request https://www.lowes.com/
+
+Result for https://www.nike.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.costco.com/
+* doing DNS query for www.costco.com
+* connecting to 2.23.250.145:443
+* doing HTTP(s) request https://www.costco.com/
+
+Result for https://www.wayfair.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.hm.com/
+* doing DNS query for www.hm.com
+
+Status
+------
+9 completed 50 remaining
+18.0% (ETA: 18s)
+* connecting to 104.120.90.76:443
+* doing HTTP(s) request https://www.hm.com/
+
+Status
+------
+10 completed 50 remaining
+20.0% (ETA: 19s)
+
+Status
+------
+11 completed 50 remaining
+22.0% (ETA: 18s)
+
+Status
+------
+12 completed 50 remaining
+24.0% (ETA: 19s)
+
+Status
+------
+13 completed 50 remaining
+26.0% (ETA: 19s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd9 in position 5428: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.hm.com/
+------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.newegg.com/
+* doing DNS query for www.newegg.com
+* connecting to 2.23.248.155:443
+* doing HTTP(s) request https://www.newegg.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 844: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.newegg.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.macys.com/
+* doing DNS query for www.macys.com
+* connecting to 184.29.69.56:443
+* doing HTTP(s) request https://www.macys.com/
+
+Status
+------
+14 completed 50 remaining
+28.0% (ETA: 15s)
+Error performing HTTP request: https://www.macys.com/
+Error performing HTTP request: https://www.macys.com/
+Error performing HTTP request: https://www.macys.com/
+Failed to perform HTTP request unknown_failure [<twisted.python.failure.Failure twisted.web.error.RedirectWithNoLocation: 302 No location header field to https://www.macys.com/>]
+* performing control request with backend
+
+Status
+------
+15 completed 50 remaining
+30.0% (ETA: 14s)
+
+Result for https://www.macys.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.bhphotovideo.com/
+* doing DNS query for www.bhphotovideo.com
+* connecting to 104.18.24.211:443
+* connecting to 104.18.25.211:443
+* doing HTTP(s) request https://www.bhphotovideo.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 19328: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Status
+------
+16 completed 50 remaining
+32.0% (ETA: 13s)
+
+Result for https://www.lowes.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.redbubble.com/
+* doing DNS query for www.redbubble.com
+* connecting to 104.16.85.27:443
+* connecting to 104.16.86.27:443
+* doing HTTP(s) request https://www.redbubble.com/
+
+Result for https://www.bhphotovideo.com/
+----------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.wiley.com/
+* doing DNS query for www.wiley.com
+* connecting to 13.226.118.81:443
+* connecting to 13.226.118.124:443
+* connecting to 13.226.118.11:443
+* connecting to 13.226.118.64:443
+* doing HTTP(s) request https://www.wiley.com/
+
+Status
+------
+17 completed 50 remaining
+34.0% (ETA: 12s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 360530: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+18 completed 50 remaining
+36.0% (ETA: 12s)
+
+Result for https://www.redbubble.com/
+-------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.gap.com/
+* doing DNS query for www.gap.com
+* connecting to 104.97.57.124:443
+* doing HTTP(s) request https://www.gap.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 32532: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+19 completed 50 remaining
+38.0% (ETA: 11s)
+
+Result for https://www.wiley.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.nordstrom.com/
+* doing DNS query for www.nordstrom.com
+* connecting to 104.122.136.239:443
+* doing HTTP(s) request https://www.nordstrom.com/
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Status
+------
+20 completed 50 remaining
+40.0% (ETA: 10s)
+
+Result for https://www.nordstrom.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.iherb.com/
+* doing DNS query for www.iherb.com
+* connecting to 104.16.109.36:443
+* connecting to 104.16.110.36:443
+* doing HTTP(s) request https://www.iherb.com/
+
+Status
+------
+21 completed 50 remaining
+42.0% (ETA: 9s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd8 in position 1396: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.iherb.com/
+---------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.kohls.com/
+* doing DNS query for www.kohls.com
+* connecting to 104.97.49.207:443
+* doing HTTP(s) request https://www.kohls.com/
+
+Status
+------
+22 completed 50 remaining
+44.0% (ETA: 8s)
+
+Starting test for https://www.bestbuy.com/
+* doing DNS query for www.bestbuy.com
+* connecting to 104.97.57.169:443
+* doing HTTP(s) request https://www.bestbuy.com/
+
+Starting test for https://www.costco.com/
+* doing DNS query for www.costco.com
+* connecting to 2.23.250.145:443
+* doing HTTP(s) request https://www.costco.com/
+
+Starting test for https://www.gap.com/
+* doing DNS query for www.gap.com
+* connecting to 104.97.57.124:443
+* doing HTTP(s) request https://www.gap.com/
+
+Starting test for https://www.kohls.com/
+* doing DNS query for www.kohls.com
+* connecting to 104.97.49.207:443
+* doing HTTP(s) request https://www.kohls.com/
+
+Starting test for https://www.overstock.com/
+* doing DNS query for www.overstock.com
+* connecting to 184.29.69.200:443
+* doing HTTP(s) request https://www.overstock.com/
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.overstock.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.rakuten.com/
+* doing DNS query for www.rakuten.com
+* connecting to 2.23.233.62:443
+* doing HTTP(s) request https://www.rakuten.com/
+
+Status
+------
+23 completed 50 remaining
+46.0% (ETA: 1s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 6475: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.rakuten.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.cargurus.com/
+* doing DNS query for www.cargurus.com
+* connecting to 151.101.210.55:443
+* doing HTTP(s) request https://www.cargurus.com/
+
+Status
+------
+24 completed 50 remaining
+48.0% (ETA: 1s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 137387: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.cargurus.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.cars.com/
+* doing DNS query for www.cars.com
+* connecting to 23.15.42.243:443
+* doing HTTP(s) request https://www.cars.com/
+
+Status
+------
+25 completed 50 remaining
+50.0% (ETA: 1s)
+
+Starting test for https://www.yoox.com/
+* doing DNS query for www.yoox.com
+* connecting to 2.23.225.28:443
+* doing HTTP(s) request https://www.yoox.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 1733: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.cars.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.autotrader.com/
+* doing DNS query for www.autotrader.com
+* connecting to 104.97.54.142:443
+* doing HTTP(s) request https://www.autotrader.com/
+
+Status
+------
+26 completed 50 remaining
+52.0% (ETA: 1s)
+
+Status
+------
+27 completed 50 remaining
+54.0% (ETA: 1s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.autotrader.com/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.groupon.com/
+* doing DNS query for www.groupon.com
+
+Status
+------
+28 completed 50 remaining
+56.0% (ETA: 1s)
+* connecting to 104.97.57.241:443
+* doing HTTP(s) request https://www.groupon.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 51470: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.yoox.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.staples.com/
+* doing DNS query for www.staples.com
+* connecting to 104.97.50.51:443
+* doing HTTP(s) request https://www.staples.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 6490: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+29 completed 50 remaining
+58.0% (ETA: 1s)
+
+Result for https://www.groupon.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.cvs.com/
+* doing DNS query for www.cvs.com
+* connecting to 104.122.132.205:443
+* doing HTTP(s) request https://www.cvs.com/
+
+Status
+------
+30 completed 50 remaining
+60.0% (ETA: 1s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Status
+------
+31 completed 50 remaining
+62.0% (ETA: 1s)
+
+Result for https://www.cvs.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.bedbathandbeyond.com/
+* doing DNS query for www.bedbathandbeyond.com
+* connecting to 23.195.4.22:443
+* doing HTTP(s) request https://www.bedbathandbeyond.com/
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.bedbathandbeyond.com/
+--------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.zappos.com/
+* doing DNS query for www.zappos.com
+* connecting to 104.122.128.160:443
+* doing HTTP(s) request https://www.zappos.com/
+
+Status
+------
+32 completed 50 remaining
+64.0% (ETA: 1s)
+
+Status
+------
+33 completed 50 remaining
+66.0% (ETA: 1s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 13574: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.zappos.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.samsclub.com/
+* doing DNS query for www.samsclub.com
+* connecting to 104.97.55.12:443
+
+Starting test for https://www.dickssportinggoods.com/
+* doing DNS query for www.dickssportinggoods.com
+* doing HTTP(s) request https://www.samsclub.com/
+* connecting to 104.97.57.173:443
+* doing HTTP(s) request https://www.dickssportinggoods.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 34268: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.samsclub.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.walgreens.com/
+* doing DNS query for www.walgreens.com
+
+Status
+------
+34 completed 50 remaining
+68.0% (ETA: 1s)
+* connecting to 82.148.119.243:443
+* connecting to 82.148.119.230:443
+* doing HTTP(s) request https://www.walgreens.com/
+
+Status
+------
+35 completed 50 remaining
+70.0% (ETA: 1s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 636045: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+36 completed 50 remaining
+72.0% (ETA: 1s)
+
+Result for https://www.walgreens.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.sony.com/
+* doing DNS query for www.sony.com
+* connecting to 104.122.136.229:443
+* doing HTTP(s) request https://www.sony.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 342: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.sony.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.rei.com/
+* doing DNS query for www.rei.com
+* connecting to 184.29.69.241:443
+* doing HTTP(s) request https://www.rei.com/
+
+Status
+------
+37 completed 50 remaining
+74.0% (ETA: 1s)
+
+Status
+------
+38 completed 50 remaining
+76.0% (ETA: 1s)
+
+Starting test for https://www.sephora.com/
+* doing DNS query for www.sephora.com
+* connecting to 23.15.45.4:443
+* doing HTTP(s) request https://www.sephora.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xf0 in position 63862: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.sephora.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.shutterfly.com/
+* doing DNS query for www.shutterfly.com
+
+Status
+------
+39 completed 50 remaining
+78.0% (ETA: 1s)
+* connecting to 136.179.238.151:443
+* doing HTTP(s) request https://www.shutterfly.com/
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Status
+------
+40 completed 50 remaining
+80.0% (ETA: 0s)
+[!] Lookup http://y3zq5fwelrzkkv3s.onion/ failed. Retrying.
+
+Result for https://www.shutterfly.com/
+--------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.humblebundle.com/
+* doing DNS query for www.humblebundle.com
+* connecting to 172.217.12.211:443
+* doing HTTP(s) request https://www.humblebundle.com/
+
+Status
+------
+41 completed 50 remaining
+82.0% (ETA: 0s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd0 in position 29894: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.humblebundle.com/
+----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.oup.com/
+* doing DNS query for www.oup.com
+* connecting to 75.2.119.185:443
+* doing HTTP(s) request https://www.oup.com/
+
+Status
+------
+42 completed 50 remaining
+84.0% (ETA: 0s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.oup.com/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.sky.com/
+* doing DNS query for www.sky.com
+* connecting to 95.101.157.201:443
+* doing HTTP(s) request https://www.sky.com/
+
+Status
+------
+43 completed 50 remaining
+86.0% (ETA: 0s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 29866: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.sky.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.barnesandnoble.com/
+* doing DNS query for www.barnesandnoble.com
+* connecting to 184.29.68.243:443
+* doing HTTP(s) request https://www.barnesandnoble.com/
+
+Status
+------
+44 completed 50 remaining
+88.0% (ETA: 0s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 612: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.barnesandnoble.com/
+------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.victoriassecret.com/
+* doing DNS query for www.victoriassecret.com
+* connecting to 98.158.54.66:443
+* connecting to 98.158.54.67:443
+* connecting to 98.158.54.68:443
+* connecting to 98.158.54.32:443
+* connecting to 98.158.54.33:443
+* connecting to 98.158.54.34:443
+* connecting to 98.158.54.35:443
+* connecting to 98.158.54.63:443
+* connecting to 98.158.54.64:443
+* connecting to 98.158.54.65:443
+* doing HTTP(s) request https://www.victoriassecret.com/
+
+Status
+------
+45 completed 50 remaining
+90.0% (ETA: 0s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.victoriassecret.com/
+-------------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.gamestop.com/
+* doing DNS query for www.gamestop.com
+* connecting to 23.15.45.76:443
+* doing HTTP(s) request https://www.gamestop.com/
+
+Status
+------
+46 completed 50 remaining
+92.0% (ETA: 0s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.gamestop.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Status
+------
+47 completed 50 remaining
+94.0% (ETA: 0s)
+
+Starting test for https://www.staples.com/
+* doing DNS query for www.staples.com
+* connecting to 104.97.50.51:443
+* doing HTTP(s) request https://www.staples.com/
+
+Starting test for https://www.dickssportinggoods.com/
+* doing DNS query for www.dickssportinggoods.com
+* connecting to 104.97.57.173:443
+* doing HTTP(s) request https://www.dickssportinggoods.com/
+
+Starting test for https://www.rei.com/
+* doing DNS query for www.rei.com
+* connecting to 184.29.69.241:443
+* doing HTTP(s) request https://www.rei.com/
+
+Status
+------
+48 completed 50 remaining
+96.0% (ETA: 0s)
+
+Status
+------
+49 completed 50 remaining
+98.0% (ETA: 0s)
+
+Status
+------
+50 completed 50 remaining
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Not accessible URLS
+-------------------
+* https://www.ebay.com/
+* https://www.etsy.com/
+* https://www.amazon.com/
+* https://www.netflix.com/
+* https://www.walmart.com/
+* https://www.amazon.co.uk/
+* https://www.homedepot.com/
+* https://www.ikea.com/
+* https://www.store.steampowered.com/
+* https://www.target.com/
+* https://www.cambridge.org/
+* https://www.nike.com/
+* https://www.wayfair.com/
+* https://www.hm.com/
+* https://www.newegg.com/
+* https://www.macys.com/
+* https://www.lowes.com/
+* https://www.bhphotovideo.com/
+* https://www.redbubble.com/
+* https://www.wiley.com/
+* https://www.nordstrom.com/
+* https://www.iherb.com/
+* https://www.bestbuy.com/
+* https://www.overstock.com/
+* https://www.rakuten.com/
+* https://www.cargurus.com/
+* https://www.costco.com/
+* https://www.cars.com/
+* https://www.autotrader.com/
+* https://www.yoox.com/
+* https://www.groupon.com/
+* https://www.cvs.com/
+* https://www.bedbathandbeyond.com/
+* https://www.zappos.com/
+* https://www.gap.com/
+* https://www.samsclub.com/
+* https://www.walgreens.com/
+* https://www.sony.com/
+* https://www.kohls.com/
+* https://www.sephora.com/
+* https://www.shutterfly.com/
+* https://www.humblebundle.com/
+* https://www.oup.com/
+* https://www.sky.com/
+* https://www.barnesandnoble.com/
+* https://www.victoriassecret.com/
+* https://www.gamestop.com/
+* https://www.staples.com/
+* https://www.dickssportinggoods.com/
+* https://www.rei.com/
+
+URLS possibly blocked due to http-failure
+-----------------------------------------
+* https://www.cambridge.org/
+* https://www.bhphotovideo.com/
+* https://www.redbubble.com/
+* https://www.iherb.com/
+* https://www.shutterfly.com/
+* https://www.oup.com/
+* https://www.victoriassecret.com/
+
+URLS possibly blocked due to dns
+--------------------------------
+* https://www.ebay.com/
+* https://www.etsy.com/
+* https://www.amazon.com/
+* https://www.netflix.com/
+* https://www.walmart.com/
+* https://www.amazon.co.uk/
+* https://www.homedepot.com/
+* https://www.ikea.com/
+* https://www.target.com/
+* https://www.nike.com/
+* https://www.wayfair.com/
+* https://www.hm.com/
+* https://www.newegg.com/
+* https://www.macys.com/
+* https://www.lowes.com/
+* https://www.wiley.com/
+* https://www.nordstrom.com/
+* https://www.overstock.com/
+* https://www.rakuten.com/
+* https://www.cargurus.com/
+* https://www.cars.com/
+* https://www.autotrader.com/
+* https://www.yoox.com/
+* https://www.groupon.com/
+* https://www.cvs.com/
+* https://www.bedbathandbeyond.com/
+* https://www.zappos.com/
+* https://www.samsclub.com/
+* https://www.walgreens.com/
+* https://www.sony.com/
+* https://www.sephora.com/
+* https://www.humblebundle.com/
+* https://www.sky.com/
+* https://www.barnesandnoble.com/
+* https://www.gamestop.com/
+Report ID: 20200726T152615Z_AS29384_zjvhFfCRUH8RVIqhzQiOnSKRFg57p9HbaCNLtBbBZziiLmlewg
+Error performing HTTP request: https://www.dickssportinggoods.com/
+Error performing HTTP request: https://www.gap.com/
+Error performing HTTP request: https://www.rei.com/
+Error performing HTTP request: https://www.costco.com/
+Error performing HTTP request: https://www.costco.com/
+Error performing HTTP request: https://www.staples.com/
+Error performing HTTP request: https://www.kohls.com/
+Error performing HTTP request: https://www.staples.com/
+Error performing HTTP request: https://www.kohls.com/
+Error performing HTTP request: https://www.gap.com/
+Error performing HTTP request: https://www.bestbuy.com/
+Error performing HTTP request: https://www.rei.com/
+Error performing HTTP request: https://www.dickssportinggoods.com/
+Error performing HTTP request: https://www.bestbuy.com/
+1133.00917602

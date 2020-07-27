@@ -1,0 +1,1067 @@
+[!] Error processing dns_spoof.py
+[!] Error processing traceroute.py
+Starting Tor
+5%: Connecting to directory server
+5%: Connecting to directory server
+5%: Connecting to directory server
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+10%: Finishing handshake with directory server
+10%: Finishing handshake with directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+57%: Loading relay descriptors
+61%: Loading relay descriptors
+65%: Loading relay descriptors
+71%: Loading relay descriptors
+78%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for https://www.office.com/
+* doing DNS query for www.office.com
+
+Starting test for https://www.chase.com/
+* doing DNS query for www.chase.com
+
+Starting test for https://www.paypal.com/
+* doing DNS query for www.paypal.com
+
+Starting test for https://www.indeed.com/
+* doing DNS query for www.indeed.com
+* connecting to 169.44.162.72:443
+* doing HTTP(s) request https://www.indeed.com/
+* connecting to 13.107.6.156:443
+* doing HTTP(s) request https://www.office.com/
+* connecting to 159.53.113.168:443
+* connecting to 104.97.49.6:443
+* doing HTTP(s) request https://www.chase.com/
+* doing HTTP(s) request https://www.paypal.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 6662: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.office.com/
+----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.zillow.com/
+* doing DNS query for www.zillow.com
+* connecting to 13.226.118.110:443
+* connecting to 13.226.118.101:443
+* connecting to 13.226.118.5:443
+* connecting to 13.226.118.109:443
+* doing HTTP(s) request https://www.zillow.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 34342: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 10490: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+1 completed 50 remaining
+2.0% (ETA: 10s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.paypal.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.alibaba.com/
+* doing DNS query for www.alibaba.com
+* connecting to 104.122.133.238:443
+* doing HTTP(s) request https://www.alibaba.com/
+
+Result for https://www.chase.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.finance.yahoo.com/
+* doing DNS query for www.finance.yahoo.com
+* connecting to 212.82.100.151:443
+
+Status
+------
+2 completed 50 remaining
+4.0% (ETA: 14s)
+* doing HTTP(s) request https://www.finance.yahoo.com/
+
+Status
+------
+3 completed 50 remaining
+6.0% (ETA: 18s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 607: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 13775: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.alibaba.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.espn.com/
+* doing DNS query for www.espn.com
+
+Result for https://www.zillow.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.shutterstock.com/
+* doing DNS query for www.shutterstock.com
+* connecting to 13.226.118.87:443
+* connecting to 13.226.118.59:443
+* connecting to 13.226.118.103:443
+* connecting to 13.226.118.71:443
+* doing HTTP(s) request https://www.espn.com/
+
+Result for https://www.indeed.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.wellsfargo.com/
+* doing DNS query for www.wellsfargo.com
+* connecting to 23.195.4.79:443
+* doing HTTP(s) request https://www.shutterstock.com/
+* connecting to 159.45.2.145:443
+* doing HTTP(s) request https://www.wellsfargo.com/
+
+Status
+------
+4 completed 50 remaining
+8.0% (ETA: 17s)
+
+Status
+------
+5 completed 50 remaining
+10.0% (ETA: 20s)
+
+Status
+------
+6 completed 50 remaining
+12.0% (ETA: 22s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 108061: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 391: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 138381: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd8 in position 94286: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.shutterstock.com/
+----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.investing.com/
+* doing DNS query for www.investing.com
+* connecting to 185.94.84.100:443
+* doing HTTP(s) request https://www.investing.com/
+
+Result for https://www.wellsfargo.com/
+--------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.ups.com/
+* doing DNS query for www.ups.com
+
+Result for https://www.espn.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.skype.com/
+* doing DNS query for www.skype.com
+* connecting to 23.195.4.171:443
+
+Result for https://www.finance.yahoo.com/
+-----------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.hdfcbank.com/
+* doing DNS query for www.hdfcbank.com
+* connecting to 104.16.108.25:443
+* connecting to 104.16.107.25:443
+* doing HTTP(s) request https://www.ups.com/
+* doing HTTP(s) request https://www.hdfcbank.com/
+* connecting to 52.113.194.133:443
+
+Status
+------
+7 completed 50 remaining
+14.0% (ETA: 18s)
+* doing HTTP(s) request https://www.skype.com/
+
+Status
+------
+8 completed 50 remaining
+16.0% (ETA: 20s)
+
+Status
+------
+9 completed 50 remaining
+18.0% (ETA: 21s)
+
+Status
+------
+10 completed 50 remaining
+20.0% (ETA: 22s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 481: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 8320: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.skype.com/
+---------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.forbes.com/
+* doing DNS query for www.forbes.com
+* connecting to 199.232.38.49:443
+* doing HTTP(s) request https://www.forbes.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 21912: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.hdfcbank.com/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.capitalone.com/
+* doing DNS query for www.capitalone.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 189828: ordinal not in range(128)
+* performing control request with backend
+* connecting to 104.122.131.29:443
+
+Result for https://www.investing.com/
+-------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.behance.net/
+* doing DNS query for www.behance.net
+* doing HTTP(s) request https://www.capitalone.com/
+* connecting to 151.101.129.197:443
+* connecting to 151.101.65.197:443
+* connecting to 151.101.1.197:443
+* connecting to 151.101.193.197:443
+
+Status
+------
+11 completed 50 remaining
+22.0% (ETA: 18s)
+* doing HTTP(s) request https://www.behance.net/
+
+Status
+------
+12 completed 50 remaining
+24.0% (ETA: 19s)
+
+Status
+------
+13 completed 50 remaining
+26.0% (ETA: 20s)
+
+Result for https://www.ups.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.businessinsider.com/
+* doing DNS query for www.businessinsider.com
+* connecting to 151.101.209.171:443
+* doing HTTP(s) request https://www.businessinsider.com/
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 141731: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.behance.net/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.target.com/
+* doing DNS query for www.target.com
+
+Status
+------
+14 completed 50 remaining
+28.0% (ETA: 19s)
+* connecting to 151.101.210.187:443
+* doing HTTP(s) request https://www.target.com/
+
+Status
+------
+15 completed 50 remaining
+30.0% (ETA: 19s)
+
+Result for https://www.capitalone.com/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.webex.com/
+* doing DNS query for www.webex.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 147887: ordinal not in range(128)
+* performing control request with backend
+* connecting to 2.23.239.245:443
+* doing HTTP(s) request https://www.webex.com/
+
+Result for https://www.businessinsider.com/
+-------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.fedex.com/
+* doing DNS query for www.fedex.com
+
+Status
+------
+16 completed 50 remaining
+32.0% (ETA: 19s)
+* connecting to 184.29.69.173:443
+* doing HTTP(s) request https://www.fedex.com/
+
+Status
+------
+17 completed 50 remaining
+34.0% (ETA: 19s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 103153: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 200805: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.target.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.icicibank.com/
+* doing DNS query for www.icicibank.com
+* connecting to 2.23.237.190:443
+* doing HTTP(s) request https://www.icicibank.com/
+
+Result for https://www.webex.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.samsung.com/
+* doing DNS query for www.samsung.com
+* connecting to 104.97.60.90:443
+* doing HTTP(s) request https://www.samsung.com/
+
+Status
+------
+18 completed 50 remaining
+36.0% (ETA: 17s)
+
+Status
+------
+19 completed 50 remaining
+38.0% (ETA: 18s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 6955: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.fedex.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.realtor.com/
+* doing DNS query for www.realtor.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 174342: ordinal not in range(128)
+* performing control request with backend
+* connecting to 13.226.118.47:443
+* connecting to 13.226.118.53:443
+* connecting to 13.226.118.19:443
+* connecting to 13.226.118.43:443
+* doing HTTP(s) request https://www.realtor.com/
+
+Status
+------
+20 completed 50 remaining
+40.0% (ETA: 17s)
+
+Result for https://www.icicibank.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.economictimes.indiatimes.com/
+* doing DNS query for www.economictimes.indiatimes.com
+* connecting to 104.122.133.82:443
+* doing HTTP(s) request https://www.economictimes.indiatimes.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xed in position 4842: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+21 completed 50 remaining
+42.0% (ETA: 16s)
+
+Result for https://www.samsung.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.fidelity.com/
+* doing DNS query for www.fidelity.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 114992: ordinal not in range(128)
+* performing control request with backend
+* connecting to 104.122.128.140:443
+* doing HTTP(s) request https://www.fidelity.com/
+
+Status
+------
+22 completed 50 remaining
+44.0% (ETA: 15s)
+
+Result for https://www.realtor.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.irs.gov/
+* doing DNS query for www.irs.gov
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 27816: ordinal not in range(128)
+* performing control request with backend
+* connecting to 23.14.150.146:443
+
+Status
+------
+23 completed 50 remaining
+46.0% (ETA: 15s)
+* doing HTTP(s) request https://www.irs.gov/
+
+Result for https://www.economictimes.indiatimes.com/
+----------------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.bankofamerica.com/
+* doing DNS query for www.bankofamerica.com
+* connecting to 171.161.207.100:443
+* doing HTTP(s) request https://www.bankofamerica.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 34213: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+24 completed 50 remaining
+48.0% (ETA: 14s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 17654: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.fidelity.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.scribd.com/
+* doing DNS query for www.scribd.com
+* connecting to 199.232.38.152:443
+* doing HTTP(s) request https://www.scribd.com/
+
+Status
+------
+25 completed 50 remaining
+50.0% (ETA: 13s)
+
+Result for https://www.irs.gov/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.bloomberg.com/
+* doing DNS query for www.bloomberg.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 41361: ordinal not in range(128)
+* performing control request with backend
+* connecting to 199.232.37.73:443
+* doing HTTP(s) request https://www.bloomberg.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 19754: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.scribd.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.marketwatch.com/
+* doing DNS query for www.marketwatch.com
+
+Status
+------
+26 completed 50 remaining
+52.0% (ETA: 13s)
+* connecting to 23.15.45.39:443
+* doing HTTP(s) request https://www.marketwatch.com/
+
+Status
+------
+27 completed 50 remaining
+54.0% (ETA: 13s)
+
+Result for https://www.bankofamerica.com/
+-----------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.reuters.com/
+* doing DNS query for www.reuters.com
+* connecting to 13.226.118.117:443
+* connecting to 13.226.118.11:443
+* connecting to 13.226.118.27:443
+* connecting to 13.226.118.29:443
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+* doing HTTP(s) request https://www.reuters.com/
+
+Status
+------
+28 completed 50 remaining
+56.0% (ETA: 12s)
+
+Result for https://www.bloomberg.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.adp.com/
+* doing DNS query for www.adp.com
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+* connecting to 93.184.219.157:443
+* doing HTTP(s) request https://www.adp.com/
+
+Status
+------
+29 completed 50 remaining
+58.0% (ETA: 11s)
+
+Result for https://www.marketwatch.com/
+---------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.costco.com/
+* doing DNS query for www.costco.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 29691: ordinal not in range(128)
+* performing control request with backend
+* connecting to 2.23.250.145:443
+* doing HTTP(s) request https://www.costco.com/
+
+Result for https://www.reuters.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.td.com/
+* doing DNS query for www.td.com
+
+Status
+------
+30 completed 50 remaining
+60.0% (ETA: 11s)
+* connecting to 192.229.182.193:443
+* doing HTTP(s) request https://www.td.com/
+
+Status
+------
+31 completed 50 remaining
+62.0% (ETA: 10s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xef in position 37399: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 155323: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.adp.com/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.wsj.com/
+* doing DNS query for www.wsj.com
+* connecting to 13.226.118.65:443
+* connecting to 13.226.118.129:443
+* connecting to 13.226.118.122:443
+* connecting to 13.226.118.90:443
+* doing HTTP(s) request https://www.wsj.com/
+
+Result for https://www.forbes.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.investopedia.com/
+* doing DNS query for www.investopedia.com
+* connecting to 151.101.210.137:443
+
+Status
+------
+32 completed 50 remaining
+64.0% (ETA: 10s)
+* doing HTTP(s) request https://www.investopedia.com/
+
+Status
+------
+33 completed 50 remaining
+66.0% (ETA: 9s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 71246: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 82: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.investopedia.com/
+----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.att.com/
+* doing DNS query for www.att.com
+
+Result for https://www.td.com/
+------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.hm.com/
+* doing DNS query for www.hm.com
+* connecting to 104.122.139.107:443
+* connecting to 104.103.237.164:443
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe3 in position 14987: ordinal not in range(128)
+* performing control request with backend
+* doing HTTP(s) request https://www.att.com/
+* doing HTTP(s) request https://www.hm.com/
+
+Status
+------
+34 completed 50 remaining
+68.0% (ETA: 8s)
+
+Status
+------
+35 completed 50 remaining
+70.0% (ETA: 8s)
+
+Result for https://www.wsj.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.verizon.com/
+* doing DNS query for www.verizon.com
+* connecting to 192.30.31.89:443
+* doing HTTP(s) request https://www.verizon.com/
+
+Status
+------
+36 completed 50 remaining
+72.0% (ETA: 7s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd9 in position 5427: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.hm.com/
+------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.zara.com/
+* doing DNS query for www.zara.com
+* connecting to 184.29.69.68:443
+* doing HTTP(s) request https://www.zara.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 334830: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+37 completed 50 remaining
+74.0% (ETA: 7s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 19002: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.att.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.nypost.com/
+* doing DNS query for www.nypost.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 56051: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.verizon.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.springer.com/
+* doing DNS query for www.springer.com
+* connecting to 192.0.66.32:443
+* doing HTTP(s) request https://www.nypost.com/
+* connecting to 151.101.208.250:443
+* doing HTTP(s) request https://www.springer.com/
+
+Result for https://www.zara.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.istockphoto.com/
+* doing DNS query for www.istockphoto.com
+* connecting to 13.226.118.123:443
+* connecting to 13.226.118.40:443
+* connecting to 13.226.118.58:443
+* connecting to 13.226.118.50:443
+* doing HTTP(s) request https://www.istockphoto.com/
+
+Status
+------
+38 completed 50 remaining
+76.0% (ETA: 6s)
+
+Status
+------
+39 completed 50 remaining
+78.0% (ETA: 6s)
+
+Status
+------
+40 completed 50 remaining
+80.0% (ETA: 5s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 50828: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.istockphoto.com/
+---------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.schwab.com/
+* doing DNS query for www.schwab.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 18109: ordinal not in range(128)
+* performing control request with backend
+* connecting to 104.122.133.80:443
+* doing HTTP(s) request https://www.schwab.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 139259: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+41 completed 50 remaining
+82.0% (ETA: 4s)
+
+Result for https://www.springer.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.americanexpress.com/
+* doing DNS query for www.americanexpress.com
+
+Result for https://www.nypost.com/
+----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.discover.com/
+* doing DNS query for www.discover.com
+* connecting to 104.122.136.91:443
+* doing HTTP(s) request https://www.americanexpress.com/
+* connecting to 104.122.134.36:443
+* doing HTTP(s) request https://www.discover.com/
+
+Status
+------
+42 completed 50 remaining
+84.0% (ETA: 4s)
+
+Status
+------
+43 completed 50 remaining
+86.0% (ETA: 3s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xee in position 13304: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 15887: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.americanexpress.com/
+-------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.dhl.com/
+* doing DNS query for www.dhl.com
+
+Result for https://www.discover.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.dreamstime.com/
+* doing DNS query for www.dreamstime.com
+* connecting to 2.23.234.46:443
+* doing HTTP(s) request https://www.dhl.com/
+* connecting to 169.62.154.242:443
+* doing HTTP(s) request https://www.dreamstime.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 8431: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+44 completed 50 remaining
+88.0% (ETA: 3s)
+
+Status
+------
+45 completed 50 remaining
+90.0% (ETA: 2s)
+
+Result for https://www.schwab.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.constantcontact.com/
+* doing DNS query for www.constantcontact.com
+* connecting to 104.18.122.84:443
+* connecting to 104.18.137.98:443
+* doing HTTP(s) request https://www.constantcontact.com/
+
+Status
+------
+46 completed 50 remaining
+92.0% (ETA: 2s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 3543: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 145335: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.dreamstime.com/
+--------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Result for https://www.constantcontact.com/
+-------------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Status
+------
+47 completed 50 remaining
+94.0% (ETA: 1s)
+
+Status
+------
+48 completed 50 remaining
+96.0% (ETA: 1s)
+
+Starting test for https://www.costco.com/
+* doing DNS query for www.costco.com
+* connecting to 2.23.250.145:443
+* doing HTTP(s) request https://www.costco.com/
+
+Starting test for https://www.dhl.com/
+* doing DNS query for www.dhl.com
+* connecting to 2.23.234.46:443
+* doing HTTP(s) request https://www.dhl.com/
+
+Status
+------
+49 completed 50 remaining
+98.0% (ETA: 0s)
+
+Status
+------
+50 completed 50 remaining
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Not accessible URLS
+-------------------
+* https://www.office.com/
+* https://www.paypal.com/
+* https://www.chase.com/
+* https://www.alibaba.com/
+* https://www.zillow.com/
+* https://www.indeed.com/
+* https://www.shutterstock.com/
+* https://www.wellsfargo.com/
+* https://www.espn.com/
+* https://www.finance.yahoo.com/
+* https://www.skype.com/
+* https://www.hdfcbank.com/
+* https://www.investing.com/
+* https://www.ups.com/
+* https://www.behance.net/
+* https://www.capitalone.com/
+* https://www.businessinsider.com/
+* https://www.target.com/
+* https://www.webex.com/
+* https://www.fedex.com/
+* https://www.icicibank.com/
+* https://www.samsung.com/
+* https://www.realtor.com/
+* https://www.economictimes.indiatimes.com/
+* https://www.fidelity.com/
+* https://www.irs.gov/
+* https://www.scribd.com/
+* https://www.bankofamerica.com/
+* https://www.bloomberg.com/
+* https://www.marketwatch.com/
+* https://www.reuters.com/
+* https://www.adp.com/
+* https://www.forbes.com/
+* https://www.investopedia.com/
+* https://www.td.com/
+* https://www.wsj.com/
+* https://www.hm.com/
+* https://www.att.com/
+* https://www.verizon.com/
+* https://www.zara.com/
+* https://www.istockphoto.com/
+* https://www.springer.com/
+* https://www.nypost.com/
+* https://www.americanexpress.com/
+* https://www.discover.com/
+* https://www.schwab.com/
+* https://www.dreamstime.com/
+* https://www.constantcontact.com/
+* https://www.costco.com/
+* https://www.dhl.com/
+
+URLS possibly blocked due to http-failure
+-----------------------------------------
+* https://www.office.com/
+* https://www.wellsfargo.com/
+* https://www.finance.yahoo.com/
+* https://www.skype.com/
+* https://www.hdfcbank.com/
+* https://www.investing.com/
+* https://www.behance.net/
+* https://www.bankofamerica.com/
+* https://www.adp.com/
+* https://www.td.com/
+* https://www.verizon.com/
+* https://www.nypost.com/
+* https://www.dreamstime.com/
+* https://www.constantcontact.com/
+
+URLS possibly blocked due to dns
+--------------------------------
+* https://www.paypal.com/
+* https://www.chase.com/
+* https://www.alibaba.com/
+* https://www.zillow.com/
+* https://www.indeed.com/
+* https://www.shutterstock.com/
+* https://www.espn.com/
+* https://www.ups.com/
+* https://www.capitalone.com/
+* https://www.businessinsider.com/
+* https://www.target.com/
+* https://www.webex.com/
+* https://www.fedex.com/
+* https://www.icicibank.com/
+* https://www.samsung.com/
+* https://www.realtor.com/
+* https://www.economictimes.indiatimes.com/
+* https://www.fidelity.com/
+* https://www.irs.gov/
+* https://www.scribd.com/
+* https://www.bloomberg.com/
+* https://www.marketwatch.com/
+* https://www.reuters.com/
+* https://www.forbes.com/
+* https://www.investopedia.com/
+* https://www.wsj.com/
+* https://www.hm.com/
+* https://www.att.com/
+* https://www.zara.com/
+* https://www.istockphoto.com/
+* https://www.springer.com/
+* https://www.americanexpress.com/
+* https://www.discover.com/
+* https://www.schwab.com/
+Report ID: 20200726T135436Z_AS29384_3It93SxO33gll6zPuNJVhtLjTV58RZVgmRlSaNsbt9sgCROyIZ
+Error performing HTTP request: https://www.costco.com/
+Error performing HTTP request: https://www.dhl.com/
+Error performing HTTP request: https://www.costco.com/
+Error performing HTTP request: https://www.dhl.com/
+699.95512414

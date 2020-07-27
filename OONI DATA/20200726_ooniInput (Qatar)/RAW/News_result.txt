@@ -1,0 +1,1085 @@
+[!] Error processing dns_spoof.py
+[!] Error processing traceroute.py
+Starting Tor
+5%: Connecting to directory server
+5%: Connecting to directory server
+5%: Connecting to directory server
+5%: Connecting to directory server
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+57%: Loading relay descriptors
+61%: Loading relay descriptors
+66%: Loading relay descriptors
+72%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+[!] Failed to lookup the resolver IP address
+
+Starting test for https://www.reddit.com/
+* doing DNS query for www.reddit.com
+
+Starting test for https://www.news.google.com/
+* doing DNS query for www.news.google.com
+
+Starting test for https://www.cnn.com/
+* doing DNS query for www.cnn.com
+
+Starting test for https://www.nytimes.com/
+* doing DNS query for www.nytimes.com
+* connecting to 151.101.209.140:443
+* connecting to 199.232.37.67:443
+* connecting to 172.217.12.206:443
+* doing HTTP(s) request https://www.cnn.com/
+* doing HTTP(s) request https://www.reddit.com/
+* doing HTTP(s) request https://www.news.google.com/
+* connecting to 151.101.209.164:443
+* doing HTTP(s) request https://www.nytimes.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 4482: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.nytimes.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.indiatimes.com/
+* doing DNS query for www.indiatimes.com
+* connecting to 23.15.43.213:443
+* doing HTTP(s) request https://www.indiatimes.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 1089: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+1 completed 50 remaining
+2.0% (ETA: 8s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 687585: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.cnn.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.theguardian.com/
+* doing DNS query for www.theguardian.com
+* connecting to 151.101.209.111:443
+* doing HTTP(s) request https://www.theguardian.com/
+
+Result for https://www.news.google.com/
+---------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.shutterstock.com/
+* doing DNS query for www.shutterstock.com
+* connecting to 23.195.4.79:443
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 85328: ordinal not in range(128)
+* performing control request with backend
+* doing HTTP(s) request https://www.shutterstock.com/
+
+Status
+------
+2 completed 50 remaining
+4.0% (ETA: 12s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 178467: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+3 completed 50 remaining
+6.0% (ETA: 16s)
+
+Result for https://www.indiatimes.com/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.washingtonpost.com/
+* doing DNS query for www.washingtonpost.com
+* connecting to 104.97.58.215:443
+* doing HTTP(s) request https://www.washingtonpost.com/
+
+Status
+------
+4 completed 50 remaining
+8.0% (ETA: 17s)
+
+Result for https://www.reddit.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.news.yahoo.com/
+* doing DNS query for www.news.yahoo.com
+* connecting to 212.82.100.151:443
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 108061: ordinal not in range(128)
+* performing control request with backend
+* doing HTTP(s) request https://www.news.yahoo.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 494861: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+5 completed 50 remaining
+10.0% (ETA: 19s)
+
+Result for https://www.shutterstock.com/
+----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.foxnews.com/
+* doing DNS query for www.foxnews.com
+
+Result for https://www.theguardian.com/
+---------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.forbes.com/
+* doing DNS query for www.forbes.com
+* connecting to 2.23.229.2:443
+* connecting to 151.101.210.49:443
+* doing HTTP(s) request https://www.foxnews.com/
+* doing HTTP(s) request https://www.forbes.com/
+
+Status
+------
+6 completed 50 remaining
+12.0% (ETA: 19s)
+
+Status
+------
+7 completed 50 remaining
+14.0% (ETA: 21s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 51120: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.foxnews.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.cnbc.com/
+* doing DNS query for www.cnbc.com
+* connecting to 104.122.129.68:443
+* doing HTTP(s) request https://www.cnbc.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 155323: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+8 completed 50 remaining
+16.0% (ETA: 20s)
+
+Result for https://www.forbes.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.timesofindia.indiatimes.com/
+* doing DNS query for www.timesofindia.indiatimes.com
+* connecting to 104.122.133.82:443
+* doing HTTP(s) request https://www.timesofindia.indiatimes.com/
+
+Status
+------
+9 completed 50 remaining
+18.0% (ETA: 20s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 70573: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.news.yahoo.com/
+--------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.weather.com/
+* doing DNS query for www.weather.com
+* connecting to 88.221.30.202:443
+* doing HTTP(s) request https://www.weather.com/
+
+Status
+------
+10 completed 50 remaining
+20.0% (ETA: 19s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 129338: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.cnbc.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.economictimes.indiatimes.com/
+* doing DNS query for www.economictimes.indiatimes.com
+* connecting to 104.122.133.82:443
+* doing HTTP(s) request https://www.economictimes.indiatimes.com/
+
+Status
+------
+11 completed 50 remaining
+22.0% (ETA: 19s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xcc in position 158024: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.timesofindia.indiatimes.com/
+---------------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.bloomberg.com/
+* doing DNS query for www.bloomberg.com
+* connecting to 199.232.37.73:443
+* doing HTTP(s) request https://www.bloomberg.com/
+
+Status
+------
+12 completed 50 remaining
+24.0% (ETA: 18s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 27816: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.economictimes.indiatimes.com/
+----------------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.reuters.com/
+* doing DNS query for www.reuters.com
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+* connecting to 13.226.118.27:443
+* connecting to 13.226.118.11:443
+* connecting to 13.226.118.117:443
+* connecting to 13.226.118.29:443
+* doing HTTP(s) request https://www.reuters.com/
+
+Status
+------
+13 completed 50 remaining
+26.0% (ETA: 16s)
+
+Result for https://www.bloomberg.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.wsj.com/
+* doing DNS query for www.wsj.com
+* connecting to 99.84.112.32:443
+* connecting to 99.84.112.106:443
+* connecting to 99.84.112.91:443
+* connecting to 99.84.112.54:443
+* doing HTTP(s) request https://www.wsj.com/
+
+Status
+------
+14 completed 50 remaining
+28.0% (ETA: 16s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 30089: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.reuters.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.usatoday.com/
+* doing DNS query for www.usatoday.com
+* connecting to 199.232.38.62:443
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 89458: ordinal not in range(128)
+* performing control request with backend
+* doing HTTP(s) request https://www.usatoday.com/
+
+Status
+------
+15 completed 50 remaining
+30.0% (ETA: 16s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe3 in position 14987: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.wsj.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.nypost.com/
+* doing DNS query for www.nypost.com
+* connecting to 192.0.66.32:443
+* doing HTTP(s) request https://www.nypost.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 179393: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+16 completed 50 remaining
+32.0% (ETA: 15s)
+
+Result for https://www.usatoday.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.indianexpress.com/
+* doing DNS query for www.indianexpress.com
+* connecting to 13.126.221.44:443
+* doing HTTP(s) request https://www.indianexpress.com/
+
+Status
+------
+17 completed 50 remaining
+34.0% (ETA: 15s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 145227: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.nypost.com/
+----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.hindustantimes.com/
+* doing DNS query for www.hindustantimes.com
+Error performing HTTP request: https://www.weather.com/
+* connecting to 2.23.231.220:443
+* doing HTTP(s) request https://www.hindustantimes.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 508: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+18 completed 50 remaining
+36.0% (ETA: 13s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 8471: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.indianexpress.com/
+-----------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.accuweather.com/
+* doing DNS query for www.accuweather.com
+* connecting to 23.15.47.194:443
+* doing HTTP(s) request https://www.accuweather.com/
+
+Result for https://www.hindustantimes.com/
+------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.chron.com/
+* doing DNS query for www.chron.com
+
+Status
+------
+19 completed 50 remaining
+38.0% (ETA: 13s)
+* connecting to 151.101.208.200:443
+* doing HTTP(s) request https://www.chron.com/
+
+Status
+------
+20 completed 50 remaining
+40.0% (ETA: 13s)
+
+Result for https://www.washingtonpost.com/
+------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.nbcnews.com/
+* doing DNS query for www.nbcnews.com
+* connecting to 23.15.46.79:443
+* doing HTTP(s) request https://www.nbcnews.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 91754: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+21 completed 50 remaining
+42.0% (ETA: 12s)
+
+Result for https://www.chron.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.dw.com/
+* doing DNS query for www.dw.com
+* connecting to 88.221.30.127:443
+
+Status
+------
+22 completed 50 remaining
+44.0% (ETA: 12s)
+* doing HTTP(s) request https://www.dw.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 95504: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.nbcnews.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.drudgereport.com/
+* doing DNS query for www.drudgereport.com
+* connecting to 104.22.5.207:443
+* connecting to 104.22.4.207:443
+* connecting to 172.67.12.140:443
+* doing HTTP(s) request https://www.drudgereport.com/
+
+Status
+------
+23 completed 50 remaining
+46.0% (ETA: 12s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.drudgereport.com/
+----------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.usnews.com/
+* doing DNS query for www.usnews.com
+* connecting to 104.120.59.106:443
+* doing HTTP(s) request https://www.usnews.com/
+
+Status
+------
+24 completed 50 remaining
+48.0% (ETA: 11s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 7975: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.dw.com/
+------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.news.com.au/
+* doing DNS query for www.news.com.au
+
+Status
+------
+25 completed 50 remaining
+50.0% (ETA: 10s)
+* connecting to 184.29.68.206:443
+* doing HTTP(s) request https://www.news.com.au/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 182: ordinal not in range(128)
+* performing control request with backend
+Error performing HTTP request: https://www.weather.com/
+
+Result for https://www.news.com.au/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.abcnews.go.com/
+* doing DNS query for www.abcnews.go.com
+* connecting to 54.244.12.90:443
+* connecting to 34.216.127.34:443
+* connecting to 54.70.181.249:443
+
+Status
+------
+26 completed 50 remaining
+52.0% (ETA: 9s)
+* doing HTTP(s) request https://www.abcnews.go.com/
+Error performing HTTP request: https://www.weather.com/
+Failed to perform HTTP request unknown_failure cannot concatenate 'str' and 'URI' objects
+* performing control request with backend
+
+Result for https://www.weather.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.thehindu.com/
+* doing DNS query for www.thehindu.com
+* connecting to 104.18.12.153:443
+* connecting to 104.18.13.153:443
+* doing HTTP(s) request https://www.thehindu.com/
+
+Status
+------
+27 completed 50 remaining
+54.0% (ETA: 6s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 90244: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.thehindu.com/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.thehill.com/
+* doing DNS query for www.thehill.com
+* connecting to 151.101.66.217:443
+* connecting to 151.101.130.217:443
+* connecting to 151.101.2.217:443
+* connecting to 151.101.194.217:443
+* doing HTTP(s) request https://www.thehill.com/
+
+Status
+------
+28 completed 50 remaining
+56.0% (ETA: 6s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 128133: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.thehill.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.sfgate.com/
+* doing DNS query for www.sfgate.com
+* connecting to 199.232.36.200:443
+* doing HTTP(s) request https://www.sfgate.com/
+
+Status
+------
+29 completed 50 remaining
+58.0% (ETA: 6s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 56946: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.sfgate.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.cbsnews.com/
+* doing DNS query for www.cbsnews.com
+Error performing HTTP request: https://www.abcnews.go.com/
+* connecting to 151.101.209.188:443
+* doing HTTP(s) request https://www.cbsnews.com/
+
+Status
+------
+30 completed 50 remaining
+60.0% (ETA: 5s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.cbsnews.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.weather.gov/
+* doing DNS query for www.weather.gov
+* connecting to 184.29.68.42:443
+* doing HTTP(s) request https://www.weather.gov/
+
+Status
+------
+31 completed 50 remaining
+62.0% (ETA: 5s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.weather.gov/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.wunderground.com/
+* doing DNS query for www.wunderground.com
+* connecting to 104.97.57.212:443
+* doing HTTP(s) request https://www.wunderground.com/
+
+Status
+------
+32 completed 50 remaining
+64.0% (ETA: 5s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 43537: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.wunderground.com/
+----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.time.com/
+* doing DNS query for www.time.com
+* connecting to 99.86.230.32:443
+* connecting to 99.86.230.46:443
+* connecting to 99.86.230.72:443
+* connecting to 99.86.230.24:443
+* doing HTTP(s) request https://www.time.com/
+
+Status
+------
+33 completed 50 remaining
+66.0% (ETA: 4s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 8706: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.time.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.livemint.com/
+* doing DNS query for www.livemint.com
+* connecting to 2.23.231.220:443
+* doing HTTP(s) request https://www.livemint.com/
+
+Status
+------
+34 completed 50 remaining
+68.0% (ETA: 4s)
+Error performing HTTP request: https://www.abcnews.go.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 151951: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.livemint.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.chinadaily.com.cn/
+* doing DNS query for www.chinadaily.com.cn
+
+Status
+------
+35 completed 50 remaining
+70.0% (ETA: 4s)
+* connecting to 163.171.128.153:443
+* doing HTTP(s) request https://www.chinadaily.com.cn/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe7 in position 2662: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.chinadaily.com.cn/
+-----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.aljazeera.com/
+* doing DNS query for www.aljazeera.com
+* connecting to 2.16.70.179:443
+* doing HTTP(s) request https://www.aljazeera.com/
+
+Status
+------
+36 completed 50 remaining
+72.0% (ETA: 3s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xef in position 0: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.aljazeera.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.thedailybeast.com/
+* doing DNS query for www.thedailybeast.com
+* connecting to 104.18.202.58:443
+* connecting to 104.17.86.49:443
+* doing HTTP(s) request https://www.thedailybeast.com/
+
+Status
+------
+37 completed 50 remaining
+74.0% (ETA: 3s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 139261: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.thedailybeast.com/
+-----------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.yr.no/
+* doing DNS query for www.yr.no
+* connecting to 82.148.111.171:443
+* connecting to 82.148.119.167:443
+* doing HTTP(s) request https://www.yr.no/
+
+Status
+------
+38 completed 50 remaining
+76.0% (ETA: 3s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 101: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.yr.no/
+-----------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.latimes.com/
+* doing DNS query for www.latimes.com
+* connecting to 13.226.118.47:443
+* connecting to 13.226.118.50:443
+* connecting to 13.226.118.73:443
+* connecting to 13.226.118.116:443
+* doing HTTP(s) request https://www.latimes.com/
+
+Status
+------
+39 completed 50 remaining
+78.0% (ETA: 2s)
+Error performing HTTP request: https://www.abcnews.go.com/
+Failed to perform HTTP request generic_timeout_error
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 67371: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.latimes.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.theatlantic.com/
+* doing DNS query for www.theatlantic.com
+* connecting to 151.101.210.133:443
+* doing HTTP(s) request https://www.theatlantic.com/
+
+Status
+------
+40 completed 50 remaining
+80.0% (ETA: 2s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 175854: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.theatlantic.com/
+---------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.patch.com/
+* doing DNS query for www.patch.com
+* connecting to 23.185.0.2:443
+
+Status
+------
+41 completed 50 remaining
+82.0% (ETA: 2s)
+* doing HTTP(s) request https://www.patch.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 21444: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.patch.com/
+---------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.irna.ir/
+* doing DNS query for www.irna.ir
+* connecting to 185.143.234.5:443
+* connecting to 185.143.233.5:443
+* doing HTTP(s) request https://www.irna.ir/
+
+Status
+------
+42 completed 50 remaining
+84.0% (ETA: 2s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd8 in position 101: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.irna.ir/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.bankrate.com/
+* doing DNS query for www.bankrate.com
+* connecting to 151.101.209.132:443
+* doing HTTP(s) request https://www.bankrate.com/
+
+Status
+------
+43 completed 50 remaining
+86.0% (ETA: 1s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 286359: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.bankrate.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.alarabiya.net/
+* doing DNS query for www.alarabiya.net
+* connecting to 69.172.201.244:443
+* doing HTTP(s) request https://www.alarabiya.net/
+
+Status
+------
+44 completed 50 remaining
+88.0% (ETA: 1s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd8 in position 121: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.alarabiya.net/
+-------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.euronews.com/
+* doing DNS query for www.euronews.com
+* connecting to 8.241.43.122:443
+* connecting to 8.241.43.250:443
+* connecting to 8.253.195.87:443
+* doing HTTP(s) request https://www.euronews.com/
+
+Status
+------
+45 completed 50 remaining
+90.0% (ETA: 1s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 40019: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.euronews.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.newsweek.com/
+* doing DNS query for www.newsweek.com
+* connecting to 75.2.53.74:443
+* connecting to 99.83.219.100:443
+* doing HTTP(s) request https://www.newsweek.com/
+
+Status
+------
+46 completed 50 remaining
+92.0% (ETA: 0s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 166113: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.newsweek.com/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Status
+------
+47 completed 50 remaining
+94.0% (ETA: 0s)
+
+Starting test for https://www.accuweather.com/
+* doing DNS query for www.accuweather.com
+* connecting to 23.15.47.194:443
+* doing HTTP(s) request https://www.accuweather.com/
+
+Starting test for https://www.usnews.com/
+* doing DNS query for www.usnews.com
+* connecting to 104.120.59.106:443
+* doing HTTP(s) request https://www.usnews.com/
+
+Result for https://www.abcnews.go.com/
+--------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Status
+------
+48 completed 50 remaining
+96.0% (ETA: 0s)
+
+Status
+------
+49 completed 50 remaining
+98.0% (ETA: 0s)
+
+Status
+------
+50 completed 50 remaining
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Not accessible URLS
+-------------------
+* https://www.nytimes.com/
+* https://www.cnn.com/
+* https://www.news.google.com/
+* https://www.indiatimes.com/
+* https://www.reddit.com/
+* https://www.shutterstock.com/
+* https://www.theguardian.com/
+* https://www.foxnews.com/
+* https://www.forbes.com/
+* https://www.news.yahoo.com/
+* https://www.cnbc.com/
+* https://www.timesofindia.indiatimes.com/
+* https://www.economictimes.indiatimes.com/
+* https://www.bloomberg.com/
+* https://www.reuters.com/
+* https://www.wsj.com/
+* https://www.usatoday.com/
+* https://www.nypost.com/
+* https://www.indianexpress.com/
+* https://www.hindustantimes.com/
+* https://www.washingtonpost.com/
+* https://www.chron.com/
+* https://www.nbcnews.com/
+* https://www.drudgereport.com/
+* https://www.dw.com/
+* https://www.news.com.au/
+* https://www.weather.com/
+* https://www.thehindu.com/
+* https://www.thehill.com/
+* https://www.sfgate.com/
+* https://www.cbsnews.com/
+* https://www.weather.gov/
+* https://www.wunderground.com/
+* https://www.time.com/
+* https://www.livemint.com/
+* https://www.chinadaily.com.cn/
+* https://www.aljazeera.com/
+* https://www.thedailybeast.com/
+* https://www.yr.no/
+* https://www.latimes.com/
+* https://www.theatlantic.com/
+* https://www.patch.com/
+* https://www.irna.ir/
+* https://www.bankrate.com/
+* https://www.alarabiya.net/
+* https://www.euronews.com/
+* https://www.newsweek.com/
+* https://www.abcnews.go.com/
+* https://www.accuweather.com/
+* https://www.usnews.com/
+
+URLS possibly blocked due to http-failure
+-----------------------------------------
+* https://www.news.yahoo.com/
+* https://www.nypost.com/
+* https://www.indianexpress.com/
+* https://www.drudgereport.com/
+* https://www.thehindu.com/
+* https://www.thehill.com/
+* https://www.thedailybeast.com/
+* https://www.patch.com/
+* https://www.irna.ir/
+* https://www.alarabiya.net/
+* https://www.newsweek.com/
+
+URLS possibly blocked due to dns
+--------------------------------
+* https://www.nytimes.com/
+* https://www.cnn.com/
+* https://www.news.google.com/
+* https://www.indiatimes.com/
+* https://www.reddit.com/
+* https://www.shutterstock.com/
+* https://www.theguardian.com/
+* https://www.foxnews.com/
+* https://www.forbes.com/
+* https://www.cnbc.com/
+* https://www.timesofindia.indiatimes.com/
+* https://www.economictimes.indiatimes.com/
+* https://www.bloomberg.com/
+* https://www.reuters.com/
+* https://www.wsj.com/
+* https://www.usatoday.com/
+* https://www.hindustantimes.com/
+* https://www.washingtonpost.com/
+* https://www.chron.com/
+* https://www.nbcnews.com/
+* https://www.dw.com/
+* https://www.news.com.au/
+* https://www.weather.com/
+* https://www.sfgate.com/
+* https://www.cbsnews.com/
+* https://www.weather.gov/
+* https://www.wunderground.com/
+* https://www.time.com/
+* https://www.livemint.com/
+* https://www.chinadaily.com.cn/
+* https://www.aljazeera.com/
+* https://www.yr.no/
+* https://www.latimes.com/
+* https://www.theatlantic.com/
+* https://www.bankrate.com/
+* https://www.euronews.com/
+Report ID: 20200726T142542Z_AS29384_NU9jJLEIlofHsnDNAf6eiYBNrMkYPtZPK6W55SNBzu5jcJHk9x
+Error performing HTTP request: https://www.accuweather.com/
+Error performing HTTP request: https://www.accuweather.com/
+Error performing HTTP request: https://www.usnews.com/
+Error performing HTTP request: https://www.usnews.com/
+623.051220894

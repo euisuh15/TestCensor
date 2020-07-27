@@ -1,0 +1,1114 @@
+[!] Error processing dns_spoof.py
+[!] Error processing traceroute.py
+Starting Tor
+5%: Connecting to directory server
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+50%: Loading relay descriptors
+50%: Loading relay descriptors
+50%: Loading relay descriptors
+50%: Loading relay descriptors
+50%: Loading relay descriptors
+50%: Loading relay descriptors
+50%: Loading relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+52%: Loading relay descriptors
+52%: Loading relay descriptors
+52%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+57%: Loading relay descriptors
+61%: Loading relay descriptors
+65%: Loading relay descriptors
+71%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for https://www.translate.google.com/
+* doing DNS query for www.translate.google.com
+
+Starting test for https://www.researchgate.net/
+* doing DNS query for www.researchgate.net
+
+Starting test for https://www.ncbi.nlm.nih.gov/
+* doing DNS query for www.ncbi.nlm.nih.gov
+
+Starting test for https://www.reverso.net/
+* doing DNS query for www.reverso.net
+* doing HTTP(s) request https://www.translate.google.com/
+* connecting to 104.17.32.105:443
+* connecting to 104.17.33.105:443
+Error performing HTTP request: https://www.translate.google.com/
+Error performing HTTP request: https://www.translate.google.com/
+Error performing HTTP request: https://www.translate.google.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+* doing HTTP(s) request https://www.researchgate.net/
+* connecting to 130.14.29.110:443
+* doing HTTP(s) request https://www.ncbi.nlm.nih.gov/
+* connecting to 54.36.69.215:443
+* doing HTTP(s) request https://www.reverso.net/
+
+Result for https://www.translate.google.com/
+--------------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.sciencedirect.com/
+* doing DNS query for www.sciencedirect.com
+* connecting to 162.159.129.81:443
+* connecting to 162.159.130.81:443
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 20433: ordinal not in range(128)
+* performing control request with backend
+* doing HTTP(s) request https://www.sciencedirect.com/
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Status
+------
+1 completed 50 remaining
+2.0% (ETA: 17s)
+
+Result for https://www.researchgate.net/
+----------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.duolingo.com/
+* doing DNS query for www.duolingo.com
+* connecting to 54.156.185.212:443
+* connecting to 54.209.183.192:443
+* connecting to 52.201.100.33:443
+* connecting to 52.73.158.170:443
+* connecting to 52.203.121.79:443
+* connecting to 54.89.23.229:443
+* connecting to 18.213.121.197:443
+* connecting to 54.81.215.168:443
+* doing HTTP(s) request https://www.duolingo.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 32406: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.ncbi.nlm.nih.gov/
+----------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.elsevier.com/
+* doing DNS query for www.elsevier.com
+* connecting to 185.64.253.1:443
+
+Status
+------
+2 completed 50 remaining
+4.0% (ETA: 21s)
+* doing HTTP(s) request https://www.elsevier.com/
+
+Result for https://www.sciencedirect.com/
+-----------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.autodesk.com/
+* doing DNS query for www.autodesk.com
+
+Status
+------
+3 completed 50 remaining
+6.0% (ETA: 27s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 10451: ordinal not in range(128)
+* performing control request with backend
+* connecting to 104.122.141.65:443
+* doing HTTP(s) request https://www.autodesk.com/
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Status
+------
+4 completed 50 remaining
+8.0% (ETA: 29s)
+
+Result for https://www.reverso.net/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.mayoclinic.org/
+* doing DNS query for www.mayoclinic.org
+* connecting to 23.50.176.226:443
+* doing HTTP(s) request https://www.mayoclinic.org/
+
+Result for https://www.duolingo.com/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.timeanddate.com/
+* doing DNS query for www.timeanddate.com
+* connecting to 151.101.209.176:443
+* doing HTTP(s) request https://www.timeanddate.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 117313: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+5 completed 50 remaining
+10.0% (ETA: 28s)
+
+Status
+------
+6 completed 50 remaining
+12.0% (ETA: 31s)
+
+Result for https://www.autodesk.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.urbandictionary.com/
+* doing DNS query for www.urbandictionary.com
+* connecting to 151.101.208.207:443
+* doing HTTP(s) request https://www.urbandictionary.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 11649: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 7915: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+7 completed 50 remaining
+14.0% (ETA: 28s)
+
+Result for https://www.timeanddate.com/
+---------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.coinmarketcap.com/
+* doing DNS query for www.coinmarketcap.com
+
+Result for https://www.elsevier.com/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.nature.com/
+* doing DNS query for www.nature.com
+* connecting to 104.17.141.178:443
+* connecting to 104.17.140.178:443
+* connecting to 104.17.138.178:443
+* connecting to 104.17.139.178:443
+* connecting to 104.17.137.178:443
+
+Result for https://www.mayoclinic.org/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.weather.gov/
+* doing DNS query for www.weather.gov
+* doing HTTP(s) request https://www.coinmarketcap.com/
+* connecting to 23.15.45.238:443
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xf0 in position 39076: ordinal not in range(128)
+* performing control request with backend
+* doing HTTP(s) request https://www.weather.gov/
+* connecting to 199.232.36.95:443
+* doing HTTP(s) request https://www.nature.com/
+
+Status
+------
+8 completed 50 remaining
+16.0% (ETA: 27s)
+
+Status
+------
+9 completed 50 remaining
+18.0% (ETA: 30s)
+
+Status
+------
+10 completed 50 remaining
+20.0% (ETA: 32s)
+
+Result for https://www.urbandictionary.com/
+-------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.ted.com/
+* doing DNS query for www.ted.com
+* connecting to 151.101.210.133:443
+* doing HTTP(s) request https://www.ted.com/
+
+Status
+------
+11 completed 50 remaining
+22.0% (ETA: 31s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 106547: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.weather.gov/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.ieee.org/
+* doing DNS query for www.ieee.org
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 81846: ordinal not in range(128)
+* performing control request with backend
+* connecting to 23.15.44.136:443
+* doing HTTP(s) request https://www.ieee.org/
+
+Result for https://www.coinmarketcap.com/
+-----------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.noaa.gov/
+* doing DNS query for www.noaa.gov
+
+Status
+------
+12 completed 50 remaining
+24.0% (ETA: 28s)
+* connecting to 13.226.118.119:443
+* connecting to 13.226.118.110:443
+* connecting to 13.226.118.24:443
+* connecting to 13.226.118.15:443
+* doing HTTP(s) request https://www.noaa.gov/
+
+Result for https://www.ted.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.jstor.org/
+* doing DNS query for www.jstor.org
+
+Status
+------
+13 completed 50 remaining
+26.0% (ETA: 28s)
+* connecting to 151.101.208.152:443
+* doing HTTP(s) request https://www.jstor.org/
+
+Status
+------
+14 completed 50 remaining
+28.0% (ETA: 28s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 16744: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 22883: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.noaa.gov/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.arxiv.org/
+* doing DNS query for www.arxiv.org
+* connecting to 128.84.21.199:443
+* doing HTTP(s) request https://www.arxiv.org/
+
+Result for https://www.ieee.org/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.mathworks.com/
+* doing DNS query for www.mathworks.com
+
+Status
+------
+15 completed 50 remaining
+30.0% (ETA: 24s)
+
+Result for https://www.jstor.org/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.howstuffworks.com/
+* doing DNS query for www.howstuffworks.com
+* connecting to 13.226.118.74:443
+* connecting to 13.226.118.61:443
+* connecting to 13.226.118.78:443
+* connecting to 13.226.118.101:443
+* connecting to 23.15.42.246:443
+* doing HTTP(s) request https://www.howstuffworks.com/
+* doing HTTP(s) request https://www.mathworks.com/
+
+Status
+------
+16 completed 50 remaining
+32.0% (ETA: 24s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 12321: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+17 completed 50 remaining
+34.0% (ETA: 25s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 56813: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 28883: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.nature.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.symbolab.com/
+* doing DNS query for www.symbolab.com
+* connecting to 172.67.69.209:443
+* connecting to 104.26.14.42:443
+* connecting to 104.26.15.42:443
+* doing HTTP(s) request https://www.symbolab.com/
+
+Result for https://www.howstuffworks.com/
+-----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.berkeley.edu/
+* doing DNS query for www.berkeley.edu
+
+Result for https://www.mathworks.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.economist.com/
+* doing DNS query for www.economist.com
+
+Status
+------
+18 completed 50 remaining
+36.0% (ETA: 22s)
+* connecting to 35.160.53.243:443
+* connecting to 52.88.197.125:443
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+* connecting to 45.60.54.108:443
+* doing HTTP(s) request https://www.berkeley.edu/
+* doing HTTP(s) request https://www.economist.com/
+
+Status
+------
+19 completed 50 remaining
+38.0% (ETA: 22s)
+
+Status
+------
+20 completed 50 remaining
+40.0% (ETA: 22s)
+
+Result for https://www.arxiv.org/
+---------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.acs.org/
+* doing DNS query for www.acs.org
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 10680: ordinal not in range(128)
+* performing control request with backend
+* connecting to 45.60.80.135:443
+* doing HTTP(s) request https://www.acs.org/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd8 in position 494: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+21 completed 50 remaining
+42.0% (ETA: 21s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 47935: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.berkeley.edu/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.nationalgeographic.com/
+* doing DNS query for www.nationalgeographic.com
+
+Result for https://www.symbolab.com/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.mdpi.com/
+* doing DNS query for www.mdpi.com
+* connecting to 104.18.25.151:443
+* connecting to 104.18.24.151:443
+
+Result for https://www.economist.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.fao.org/
+* doing DNS query for www.fao.org
+* connecting to 23.15.44.216:443
+* doing HTTP(s) request https://www.mdpi.com/
+* doing HTTP(s) request https://www.nationalgeographic.com/
+
+Status
+------
+22 completed 50 remaining
+44.0% (ETA: 19s)
+
+Status
+------
+23 completed 50 remaining
+46.0% (ETA: 19s)
+* connecting to 104.18.23.5:443
+* connecting to 104.18.22.5:443
+* doing HTTP(s) request https://www.fao.org/
+
+Status
+------
+24 completed 50 remaining
+48.0% (ETA: 19s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 15716: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 798: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.mdpi.com/
+--------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.usda.gov/
+* doing DNS query for www.usda.gov
+* connecting to 104.122.136.161:443
+* doing HTTP(s) request https://www.usda.gov/
+
+Result for https://www.acs.org/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.jma.go.jp/
+* doing DNS query for www.jma.go.jp
+
+Status
+------
+25 completed 50 remaining
+50.0% (ETA: 18s)
+
+Status
+------
+26 completed 50 remaining
+52.0% (ETA: 17s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd8 in position 14383: ordinal not in range(128)
+* performing control request with backend
+* connecting to 2.23.252.12:443
+* doing HTTP(s) request https://www.jma.go.jp/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 5128: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.fao.org/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.nps.gov/
+* doing DNS query for www.nps.gov
+
+Result for https://www.usda.gov/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.livescience.com/
+* doing DNS query for www.livescience.com
+* connecting to 104.97.61.146:443
+* doing HTTP(s) request https://www.nps.gov/
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Status
+------
+27 completed 50 remaining
+54.0% (ETA: 16s)
+* connecting to 185.113.25.56:443
+* doing HTTP(s) request https://www.livescience.com/
+
+Status
+------
+28 completed 50 remaining
+56.0% (ETA: 16s)
+
+Result for https://www.jma.go.jp/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.sciencemag.org/
+* doing DNS query for www.sciencemag.org
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 15586: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+29 completed 50 remaining
+58.0% (ETA: 14s)
+* connecting to 54.153.25.63:443
+* connecting to 52.8.62.193:443
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 119180: ordinal not in range(128)
+* performing control request with backend
+* doing HTTP(s) request https://www.sciencemag.org/
+
+Result for https://www.nps.gov/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.calculatorsoup.com/
+* doing DNS query for www.calculatorsoup.com
+* connecting to 216.92.14.11:443
+* doing HTTP(s) request https://www.calculatorsoup.com/
+
+Result for https://www.livescience.com/
+---------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.biomedcentral.com/
+* doing DNS query for www.biomedcentral.com
+
+Status
+------
+30 completed 50 remaining
+60.0% (ETA: 13s)
+* connecting to 199.232.36.95:443
+* doing HTTP(s) request https://www.biomedcentral.com/
+
+Status
+------
+31 completed 50 remaining
+62.0% (ETA: 13s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 67506: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 48851: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.sciencemag.org/
+--------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.frontiersin.org/
+* doing DNS query for www.frontiersin.org
+* connecting to 134.213.70.247:443
+* doing HTTP(s) request https://www.frontiersin.org/
+
+Result for https://www.biomedcentral.com/
+-----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.hindawi.com/
+* doing DNS query for www.hindawi.com
+* connecting to 13.226.118.119:443
+* connecting to 13.226.118.38:443
+* connecting to 13.226.118.96:443
+* connecting to 13.226.118.52:443
+
+Status
+------
+32 completed 50 remaining
+64.0% (ETA: 12s)
+* doing HTTP(s) request https://www.hindawi.com/
+
+Result for https://www.calculatorsoup.com/
+------------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.usgs.gov/
+* doing DNS query for www.usgs.gov
+
+Status
+------
+33 completed 50 remaining
+66.0% (ETA: 11s)
+* connecting to 13.226.118.48:443
+* connecting to 13.226.118.76:443
+* connecting to 13.226.118.93:443
+* connecting to 13.226.118.73:443
+* doing HTTP(s) request https://www.usgs.gov/
+
+Status
+------
+34 completed 50 remaining
+68.0% (ETA: 11s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 12088: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 73611: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.hindawi.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.cointelegraph.com/
+* doing DNS query for www.cointelegraph.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 38292: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.frontiersin.org/
+---------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.localbitcoins.com/
+* doing DNS query for www.localbitcoins.com
+* connecting to 104.20.40.71:443
+* connecting to 104.20.39.71:443
+* connecting to 172.67.18.64:443
+* doing HTTP(s) request https://www.cointelegraph.com/
+* connecting to 104.16.83.19:443
+* connecting to 104.18.201.62:443
+* doing HTTP(s) request https://www.localbitcoins.com/
+
+Status
+------
+35 completed 50 remaining
+70.0% (ETA: 10s)
+
+Status
+------
+36 completed 50 remaining
+72.0% (ETA: 9s)
+
+Result for https://www.usgs.gov/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.he.wikipedia.org/
+* doing DNS query for www.he.wikipedia.org
+* doing HTTP(s) request https://www.he.wikipedia.org/
+Error performing HTTP request: https://www.he.wikipedia.org/
+Error performing HTTP request: https://www.he.wikipedia.org/
+Error performing HTTP request: https://www.he.wikipedia.org/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+
+Status
+------
+37 completed 50 remaining
+74.0% (ETA: 9s)
+
+Result for https://www.he.wikipedia.org/
+----------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.desmos.com/
+* doing DNS query for www.desmos.com
+* connecting to 13.226.118.15:443
+* connecting to 13.226.118.7:443
+* connecting to 13.226.118.113:443
+* connecting to 13.226.118.47:443
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe3 in position 15673: ordinal not in range(128)
+* performing control request with backend
+* doing HTTP(s) request https://www.desmos.com/
+
+Status
+------
+38 completed 50 remaining
+76.0% (ETA: 8s)
+
+Result for https://www.cointelegraph.com/
+-----------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.kraken.com/
+* doing DNS query for www.kraken.com
+* connecting to 104.16.215.191:443
+* connecting to 104.16.211.191:443
+* connecting to 104.16.212.191:443
+* connecting to 104.16.214.191:443
+* connecting to 104.16.213.191:443
+* doing HTTP(s) request https://www.kraken.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 36619: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+39 completed 50 remaining
+78.0% (ETA: 7s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 8939: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.localbitcoins.com/
+-----------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.sciencedaily.com/
+* doing DNS query for www.sciencedaily.com
+* connecting to 13.226.118.8:443
+* connecting to 13.226.118.16:443
+* connecting to 13.226.118.70:443
+* connecting to 13.226.118.111:443
+* doing HTTP(s) request https://www.sciencedaily.com/
+
+Result for https://www.desmos.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.rsc.org/
+* doing DNS query for www.rsc.org
+* connecting to 78.25.196.148:443
+* doing HTTP(s) request https://www.rsc.org/
+
+Status
+------
+40 completed 50 remaining
+80.0% (ETA: 6s)
+
+Result for https://www.kraken.com/
+----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.apa.org/
+* doing DNS query for www.apa.org
+
+Status
+------
+41 completed 50 remaining
+82.0% (ETA: 6s)
+* connecting to 192.225.220.51:443
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+* doing HTTP(s) request https://www.apa.org/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 19052: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+42 completed 50 remaining
+84.0% (ETA: 5s)
+
+Result for https://www.sciencedaily.com/
+----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.italki.com/
+* doing DNS query for www.italki.com
+* connecting to 13.226.118.17:443
+* connecting to 13.226.118.88:443
+* connecting to 13.226.118.74:443
+* connecting to 13.226.118.41:443
+
+Result for https://www.rsc.org/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.scientificamerican.com/
+* doing DNS query for www.scientificamerican.com
+* doing HTTP(s) request https://www.italki.com/
+* connecting to 151.101.210.49:443
+* doing HTTP(s) request https://www.scientificamerican.com/
+
+Status
+------
+43 completed 50 remaining
+86.0% (ETA: 4s)
+
+Status
+------
+44 completed 50 remaining
+88.0% (ETA: 4s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 21871: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 24975: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.italki.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.bom.gov.au/
+* doing DNS query for www.bom.gov.au
+
+Result for https://www.apa.org/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.colorado.edu/
+* doing DNS query for www.colorado.edu
+
+Result for https://www.scientificamerican.com/
+----------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+* connecting to 184.29.69.235:443
+* doing HTTP(s) request https://www.bom.gov.au/
+
+Status
+------
+45 completed 50 remaining
+90.0% (ETA: 3s)
+
+Status
+------
+46 completed 50 remaining
+92.0% (ETA: 2s)
+* connecting to 128.138.129.52:443
+
+Status
+------
+47 completed 50 remaining
+94.0% (ETA: 2s)
+* doing HTTP(s) request https://www.colorado.edu/
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 37614: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.colorado.edu/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Result for https://www.bom.gov.au/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Status
+------
+48 completed 50 remaining
+96.0% (ETA: 1s)
+
+Status
+------
+49 completed 50 remaining
+98.0% (ETA: 0s)
+
+Starting test for https://www.nationalgeographic.com/
+* doing DNS query for www.nationalgeographic.com
+* connecting to 23.15.44.216:443
+* doing HTTP(s) request https://www.nationalgeographic.com/
+
+Status
+------
+50 completed 50 remaining
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Not accessible URLS
+-------------------
+* https://www.translate.google.com/
+* https://www.researchgate.net/
+* https://www.ncbi.nlm.nih.gov/
+* https://www.sciencedirect.com/
+* https://www.reverso.net/
+* https://www.duolingo.com/
+* https://www.autodesk.com/
+* https://www.timeanddate.com/
+* https://www.elsevier.com/
+* https://www.mayoclinic.org/
+* https://www.urbandictionary.com/
+* https://www.weather.gov/
+* https://www.coinmarketcap.com/
+* https://www.ted.com/
+* https://www.noaa.gov/
+* https://www.ieee.org/
+* https://www.jstor.org/
+* https://www.nature.com/
+* https://www.howstuffworks.com/
+* https://www.mathworks.com/
+* https://www.arxiv.org/
+* https://www.berkeley.edu/
+* https://www.symbolab.com/
+* https://www.economist.com/
+* https://www.mdpi.com/
+* https://www.acs.org/
+* https://www.fao.org/
+* https://www.usda.gov/
+* https://www.jma.go.jp/
+* https://www.nps.gov/
+* https://www.livescience.com/
+* https://www.sciencemag.org/
+* https://www.biomedcentral.com/
+* https://www.calculatorsoup.com/
+* https://www.hindawi.com/
+* https://www.frontiersin.org/
+* https://www.usgs.gov/
+* https://www.he.wikipedia.org/
+* https://www.cointelegraph.com/
+* https://www.localbitcoins.com/
+* https://www.desmos.com/
+* https://www.kraken.com/
+* https://www.sciencedaily.com/
+* https://www.rsc.org/
+* https://www.italki.com/
+* https://www.apa.org/
+* https://www.scientificamerican.com/
+* https://www.colorado.edu/
+* https://www.bom.gov.au/
+* https://www.nationalgeographic.com/
+
+URLS possibly blocked due to http-failure
+-----------------------------------------
+* https://www.researchgate.net/
+* https://www.ncbi.nlm.nih.gov/
+* https://www.sciencedirect.com/
+* https://www.reverso.net/
+* https://www.duolingo.com/
+* https://www.elsevier.com/
+* https://www.coinmarketcap.com/
+* https://www.arxiv.org/
+* https://www.berkeley.edu/
+* https://www.symbolab.com/
+* https://www.mdpi.com/
+* https://www.acs.org/
+* https://www.fao.org/
+* https://www.livescience.com/
+* https://www.sciencemag.org/
+* https://www.calculatorsoup.com/
+* https://www.frontiersin.org/
+* https://www.cointelegraph.com/
+* https://www.localbitcoins.com/
+* https://www.kraken.com/
+* https://www.rsc.org/
+* https://www.colorado.edu/
+
+URLS possibly blocked due to dns
+--------------------------------
+* https://www.autodesk.com/
+* https://www.timeanddate.com/
+* https://www.mayoclinic.org/
+* https://www.urbandictionary.com/
+* https://www.weather.gov/
+* https://www.ted.com/
+* https://www.noaa.gov/
+* https://www.ieee.org/
+* https://www.jstor.org/
+* https://www.nature.com/
+* https://www.howstuffworks.com/
+* https://www.mathworks.com/
+* https://www.economist.com/
+* https://www.usda.gov/
+* https://www.jma.go.jp/
+* https://www.nps.gov/
+* https://www.biomedcentral.com/
+* https://www.hindawi.com/
+* https://www.usgs.gov/
+* https://www.desmos.com/
+* https://www.sciencedaily.com/
+* https://www.italki.com/
+* https://www.apa.org/
+* https://www.scientificamerican.com/
+* https://www.bom.gov.au/
+Report ID: 20200726T151619Z_AS29384_6xSUOy3suMcbHWXWcV49BE25QsIqAk6P8wlSeMdgTCnyReJVIm
+Error performing HTTP request: https://www.nationalgeographic.com/
+Failed to perform HTTP request response_never_received
+* performing control request with backend
+Error performing HTTP request: https://www.nationalgeographic.com/
+585.708643198

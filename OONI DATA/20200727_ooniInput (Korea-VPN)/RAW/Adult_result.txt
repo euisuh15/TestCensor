@@ -1,0 +1,1958 @@
+Starting Tor
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+56%: Loading relay descriptors
+60%: Loading relay descriptors
+65%: Loading relay descriptors
+71%: Loading relay descriptors
+77%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Moving /home/proxon/.ooni/resources/citizenlab-test-lists/OPUTCH1TTpDEw6Vdus.csv to /home/proxon/.ooni/resources/citizenlab-test-lists/us.csv
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for http://www.chaturbate.com/
+* doing DNS query for www.chaturbate.com
+
+Starting test for https://www.chaturbate.com/
+* doing DNS query for www.chaturbate.com
+
+Starting test for http://www.xnxx.com/
+* doing DNS query for www.xnxx.com
+
+Starting test for https://www.xnxx.com/
+* doing DNS query for www.xnxx.com
+* connecting to 185.88.181.53:443
+* connecting to 185.88.181.54:443
+* connecting to 185.88.181.55:443
+* connecting to 185.88.181.56:443
+* connecting to 185.88.181.57:443
+* connecting to 185.88.181.58:443
+* connecting to 185.88.181.59:443
+* connecting to 185.88.181.60:443
+* connecting to 185.88.181.53:80
+* connecting to 185.88.181.54:80
+* connecting to 185.88.181.55:80
+* connecting to 185.88.181.56:80
+* connecting to 185.88.181.57:80
+* connecting to 185.88.181.58:80
+* connecting to 185.88.181.59:80
+* connecting to 185.88.181.60:80
+* connecting to 104.18.101.40:443
+* connecting to 104.18.100.40:443
+* connecting to 104.18.101.40:80
+* connecting to 104.18.100.40:80
+* doing HTTP(s) request https://www.chaturbate.com/
+* doing HTTP(s) request http://www.chaturbate.com/
+* doing HTTP(s) request https://www.xnxx.com/
+* doing HTTP(s) request http://www.xnxx.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.xnxx.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.hentai2read.com/
+* doing DNS query for www.hentai2read.com
+* connecting to 104.20.61.168:80
+* connecting to 104.20.62.168:80
+* connecting to 172.67.1.206:80
+* doing HTTP(s) request http://www.hentai2read.com/
+
+Result for http://www.chaturbate.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.hentai2read.com/
+* doing DNS query for www.hentai2read.com
+* connecting to 104.20.61.168:443
+* connecting to 104.20.62.168:443
+* connecting to 172.67.1.206:443
+
+Result for https://www.chaturbate.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.eros.com/
+* doing DNS query for www.eros.com
+* doing HTTP(s) request https://www.hentai2read.com/
+
+Result for https://www.xnxx.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.eros.com/
+* doing DNS query for www.eros.com
+* connecting to 107.154.138.161:443
+* connecting to 107.154.138.161:80
+* doing HTTP(s) request https://www.eros.com/
+* doing HTTP(s) request http://www.eros.com/
+* performing control request with backend
+
+Status
+------
+1/100 completed
+1.0% (ETA: 19s)
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+2/100 completed
+2.0% (ETA: 29s)
+
+Result for https://www.eros.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.avn.com/
+* doing DNS query for www.avn.com
+* connecting to 172.67.16.164:80
+* connecting to 104.20.159.42:80
+* connecting to 104.20.158.42:80
+* doing HTTP(s) request http://www.avn.com/
+
+Result for http://www.eros.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.avn.com/
+* doing DNS query for www.avn.com
+
+Status
+------
+3/100 completed
+3.0% (ETA: 40s)
+* connecting to 104.20.158.42:443
+* connecting to 172.67.16.164:443
+* connecting to 104.20.159.42:443
+* doing HTTP(s) request https://www.avn.com/
+
+Result for http://www.hentai2read.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.liveleak.com/
+* doing DNS query for www.liveleak.com
+
+Status
+------
+4/100 completed
+4.0% (ETA: 50s)
+* connecting to 199.80.59.186:80
+* connecting to 199.80.59.132:80
+
+Result for https://www.hentai2read.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.liveleak.com/
+* doing DNS query for www.liveleak.com
+* doing HTTP(s) request http://www.liveleak.com/
+* connecting to 199.80.59.132:443
+* connecting to 199.80.59.186:443
+* doing HTTP(s) request https://www.liveleak.com/
+
+Status
+------
+5/100 completed
+5.0% (ETA: 57s)
+
+Status
+------
+6/100 completed
+6.0% (ETA: 65s)
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+7/100 completed
+7.0% (ETA: 67s)
+* performing control request with backend
+
+Status
+------
+8/100 completed
+8.0% (ETA: 73s)
+
+Result for http://www.liveleak.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.oglaf.com/
+* doing DNS query for www.oglaf.com
+
+Result for https://www.liveleak.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.oglaf.com/
+* doing DNS query for www.oglaf.com
+* connecting to 185.93.1.242:443
+* connecting to 185.93.1.242:80
+* doing HTTP(s) request https://www.oglaf.com/
+* doing HTTP(s) request http://www.oglaf.com/
+
+Result for https://www.avn.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.adultdvdtalk.com/
+* doing DNS query for www.adultdvdtalk.com
+* connecting to 66.186.172.138:80
+* performing control request with backend
+* doing HTTP(s) request http://www.adultdvdtalk.com/
+
+Result for http://www.avn.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.adultdvdtalk.com/
+* doing DNS query for www.adultdvdtalk.com
+* performing control request with backend
+* connecting to 66.186.172.138:443
+* doing HTTP(s) request https://www.adultdvdtalk.com/
+
+Status
+------
+9/100 completed
+9.0% (ETA: 62s)
+
+Status
+------
+10/100 completed
+10.0% (ETA: 67s)
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.oglaf.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.literotica.com/
+* doing DNS query for www.literotica.com
+* connecting to 216.150.65.200:80
+* connecting to 216.150.65.190:80
+* doing HTTP(s) request http://www.literotica.com/
+
+Status
+------
+11/100 completed
+11.0% (ETA: 68s)
+
+Status
+------
+12/100 completed
+12.0% (ETA: 72s)
+
+Result for http://www.oglaf.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.literotica.com/
+* doing DNS query for www.literotica.com
+* connecting to 216.150.65.200:443
+* connecting to 216.150.65.190:443
+* performing control request with backend
+* doing HTTP(s) request https://www.literotica.com/
+
+Status
+------
+13/100 completed
+13.0% (ETA: 73s)
+* performing control request with backend
+
+Result for https://www.adultdvdtalk.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.spankwire.com/
+* doing DNS query for www.spankwire.com
+* connecting to 66.254.114.180:80
+
+Result for http://www.adultdvdtalk.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.spankwire.com/
+* doing DNS query for www.spankwire.com
+* doing HTTP(s) request http://www.spankwire.com/
+* connecting to 66.254.114.180:443
+* doing HTTP(s) request https://www.spankwire.com/
+
+Status
+------
+14/100 completed
+14.0% (ETA: 74s)
+
+Result for http://www.literotica.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.xvideos.com/
+* doing DNS query for www.xvideos.com
+* connecting to 185.88.181.11:80
+* connecting to 185.88.181.2:80
+* connecting to 185.88.181.3:80
+* connecting to 185.88.181.4:80
+* connecting to 185.88.181.5:80
+* connecting to 185.88.181.6:80
+* connecting to 185.88.181.7:80
+* connecting to 185.88.181.8:80
+* connecting to 185.88.181.9:80
+* connecting to 185.88.181.10:80
+* performing control request with backend
+* doing HTTP(s) request http://www.xvideos.com/
+* performing control request with backend
+
+Status
+------
+15/100 completed
+15.0% (ETA: 72s)
+
+Result for https://www.literotica.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.xvideos.com/
+* doing DNS query for www.xvideos.com
+* connecting to 185.88.181.3:443
+* connecting to 185.88.181.4:443
+* connecting to 185.88.181.5:443
+* connecting to 185.88.181.6:443
+* connecting to 185.88.181.7:443
+* connecting to 185.88.181.8:443
+* connecting to 185.88.181.9:443
+* connecting to 185.88.181.10:443
+* connecting to 185.88.181.11:443
+* connecting to 185.88.181.2:443
+
+Status
+------
+16/100 completed
+16.0% (ETA: 74s)
+* doing HTTP(s) request https://www.xvideos.com/
+* performing control request with backend
+
+Result for https://www.spankwire.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.cams.com/
+* doing DNS query for www.cams.com
+
+Status
+------
+17/100 completed
+17.0% (ETA: 75s)
+* connecting to 69.165.105.13:80
+
+Result for http://www.spankwire.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.cams.com/
+* doing DNS query for www.cams.com
+* doing HTTP(s) request http://www.cams.com/
+* connecting to 69.165.105.13:443
+* doing HTTP(s) request https://www.cams.com/
+
+Status
+------
+18/100 completed
+18.0% (ETA: 76s)
+* performing control request with backend
+
+Result for http://www.xvideos.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.sdc.com/
+* doing DNS query for www.sdc.com
+* connecting to 52.84.126.42:80
+* connecting to 52.84.126.66:80
+* connecting to 52.84.126.106:80
+* connecting to 52.84.126.125:80
+* doing HTTP(s) request http://www.sdc.com/
+* performing control request with backend
+
+Status
+------
+19/100 completed
+19.0% (ETA: 73s)
+
+Status
+------
+20/100 completed
+20.0% (ETA: 76s)
+* performing control request with backend
+
+Result for https://www.xvideos.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.sdc.com/
+* doing DNS query for www.sdc.com
+* connecting to 52.84.126.125:443
+* connecting to 52.84.126.42:443
+* connecting to 52.84.126.66:443
+* connecting to 52.84.126.106:443
+* performing control request with backend
+
+Status
+------
+21/100 completed
+21.0% (ETA: 75s)
+* doing HTTP(s) request https://www.sdc.com/
+* performing control request with backend
+
+Status
+------
+22/100 completed
+22.0% (ETA: 73s)
+
+Result for http://www.sdc.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.planetsuzy.org/
+* doing DNS query for www.planetsuzy.org
+* connecting to 46.166.136.5:80
+* connecting to 46.166.136.4:80
+
+Result for http://www.cams.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.planetsuzy.org/
+* doing DNS query for www.planetsuzy.org
+* connecting to 46.166.136.4:443
+* connecting to 46.166.136.5:443
+* doing HTTP(s) request http://www.planetsuzy.org/
+
+Result for https://www.cams.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.iafd.com/
+* doing DNS query for www.iafd.com
+* doing HTTP(s) request https://www.planetsuzy.org/
+* connecting to 216.118.89.130:80
+* doing HTTP(s) request http://www.iafd.com/
+
+Result for https://www.sdc.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.iafd.com/
+* doing DNS query for www.iafd.com
+* performing control request with backend
+* performing control request with backend
+* connecting to 216.118.89.130:443
+* doing HTTP(s) request https://www.iafd.com/
+
+Status
+------
+23/100 completed
+23.0% (ETA: 69s)
+Error performing HTTP request: https://www.iafd.com/
+* performing control request with backend
+Error performing HTTP request: https://www.iafd.com/
+
+Status
+------
+24/100 completed
+24.0% (ETA: 69s)
+
+Status
+------
+25/100 completed
+25.0% (ETA: 71s)
+Error performing HTTP request: https://www.iafd.com/
+Failed to perform HTTP request response_never_received
+* performing control request with backend
+
+Result for http://www.iafd.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.escort-ireland.com/
+* doing DNS query for www.escort-ireland.com
+* connecting to 69.172.201.15:80
+* doing HTTP(s) request http://www.escort-ireland.com/
+
+Result for http://www.planetsuzy.org/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.escort-ireland.com/
+* doing DNS query for www.escort-ireland.com
+* connecting to 69.172.201.15:443
+* doing HTTP(s) request https://www.escort-ireland.com/
+
+Status
+------
+26/100 completed
+26.0% (ETA: 68s)
+
+Result for https://www.planetsuzy.org/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.vintage-erotica-forum.com/
+* doing DNS query for www.vintage-erotica-forum.com
+* connecting to 46.166.136.5:80
+* connecting to 46.166.136.4:80
+* doing HTTP(s) request http://www.vintage-erotica-forum.com/
+
+Status
+------
+27/100 completed
+27.0% (ETA: 68s)
+* performing control request with backend
+
+Status
+------
+28/100 completed
+28.0% (ETA: 68s)
+* performing control request with backend
+
+Result for https://www.iafd.com/
+--------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.vintage-erotica-forum.com/
+* doing DNS query for www.vintage-erotica-forum.com
+* connecting to 46.166.136.5:443
+* connecting to 46.166.136.4:443
+* doing HTTP(s) request https://www.vintage-erotica-forum.com/
+* performing control request with backend
+
+Status
+------
+29/100 completed
+29.0% (ETA: 66s)
+
+Result for https://www.escort-ireland.com/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.porn.com/
+* doing DNS query for www.porn.com
+* connecting to 67.22.49.255:80
+
+Status
+------
+30/100 completed
+30.0% (ETA: 66s)
+* doing HTTP(s) request http://www.porn.com/
+
+Result for http://www.escort-ireland.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.porn.com/
+* doing DNS query for www.porn.com
+* connecting to 67.22.49.255:443
+* doing HTTP(s) request https://www.porn.com/
+* performing control request with backend
+
+Result for http://www.vintage-erotica-forum.com/
+------------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.hentai-foundry.com/
+* doing DNS query for www.hentai-foundry.com
+* connecting to 142.44.146.192:80
+* doing HTTP(s) request http://www.hentai-foundry.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+31/100 completed
+31.0% (ETA: 62s)
+
+Status
+------
+32/100 completed
+32.0% (ETA: 62s)
+
+Status
+------
+33/100 completed
+33.0% (ETA: 63s)
+
+Result for https://www.vintage-erotica-forum.com/
+-------------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.hentai-foundry.com/
+* doing DNS query for www.hentai-foundry.com
+* connecting to 142.44.146.192:443
+* doing HTTP(s) request https://www.hentai-foundry.com/
+
+Result for https://www.porn.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.livejasmin.com/
+* doing DNS query for www.livejasmin.com
+* connecting to 109.71.161.200:80
+
+Result for http://www.porn.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.livejasmin.com/
+* doing DNS query for www.livejasmin.com
+* connecting to 109.71.161.200:443
+* doing HTTP(s) request http://www.livejasmin.com/
+* doing HTTP(s) request https://www.livejasmin.com/
+* performing control request with backend
+
+Result for http://www.hentai-foundry.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.streamate.com/
+* doing DNS query for www.streamate.com
+
+Status
+------
+34/100 completed
+34.0% (ETA: 60s)
+* connecting to 207.246.147.249:80
+* connecting to 207.246.147.250:80
+* connecting to 207.246.147.179:80
+* connecting to 207.246.147.180:80
+* connecting to 207.246.147.191:80
+* connecting to 207.246.147.192:80
+* doing HTTP(s) request http://www.streamate.com/
+
+Status
+------
+35/100 completed
+35.0% (ETA: 60s)
+* performing control request with backend
+
+Status
+------
+36/100 completed
+36.0% (ETA: 60s)
+* performing control request with backend
+
+Status
+------
+37/100 completed
+37.0% (ETA: 60s)
+* performing control request with backend
+
+Result for http://www.livejasmin.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.streamate.com/
+* doing DNS query for www.streamate.com
+* connecting to 207.246.147.180:443
+* connecting to 207.246.147.191:443
+* connecting to 207.246.147.192:443
+* connecting to 207.246.147.249:443
+* connecting to 207.246.147.250:443
+* connecting to 207.246.147.179:443
+* doing HTTP(s) request https://www.streamate.com/
+
+Result for https://www.hentai-foundry.com/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.gayboystube.com/
+* doing DNS query for www.gayboystube.com
+* connecting to 205.204.90.162:80
+
+Result for https://www.livejasmin.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.gayboystube.com/
+* doing DNS query for www.gayboystube.com
+* connecting to 205.204.90.162:443
+* doing HTTP(s) request http://www.gayboystube.com/
+* doing HTTP(s) request https://www.gayboystube.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+38/100 completed
+38.0% (ETA: 56s)
+* performing control request with backend
+
+Result for http://www.streamate.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.youporn.com/
+* doing DNS query for www.youporn.com
+* connecting to 66.254.114.79:80
+* doing HTTP(s) request http://www.youporn.com/
+
+Status
+------
+39/100 completed
+39.0% (ETA: 55s)
+
+Status
+------
+40/100 completed
+40.0% (ETA: 55s)
+
+Result for https://www.gayboystube.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.youporn.com/
+* doing DNS query for www.youporn.com
+* connecting to 66.254.114.79:443
+
+Result for http://www.gayboystube.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nhentai.net/
+* doing DNS query for www.nhentai.net
+* doing HTTP(s) request https://www.youporn.com/
+* connecting to 104.27.194.88:80
+* connecting to 104.27.195.88:80
+
+Result for https://www.streamate.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nhentai.net/
+* doing DNS query for www.nhentai.net
+* doing HTTP(s) request http://www.nhentai.net/
+* connecting to 104.27.195.88:443
+* connecting to 104.27.194.88:443
+* performing control request with backend
+* doing HTTP(s) request https://www.nhentai.net/
+
+Status
+------
+41/100 completed
+41.0% (ETA: 54s)
+* performing control request with backend
+
+Status
+------
+42/100 completed
+42.0% (ETA: 53s)
+
+Status
+------
+43/100 completed
+43.0% (ETA: 53s)
+* performing control request with backend
+
+Result for http://www.youporn.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.adultdvdempire.com/
+* doing DNS query for www.adultdvdempire.com
+* connecting to 199.182.184.122:80
+* doing HTTP(s) request http://www.adultdvdempire.com/
+
+Status
+------
+44/100 completed
+44.0% (ETA: 52s)
+
+Result for https://www.youporn.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.adultdvdempire.com/
+* doing DNS query for www.adultdvdempire.com
+* connecting to 199.182.184.122:443
+
+Result for https://www.nhentai.net/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.fabswingers.com/
+* doing DNS query for www.fabswingers.com
+* doing HTTP(s) request https://www.adultdvdempire.com/
+* connecting to 92.63.131.211:80
+* performing control request with backend
+* doing HTTP(s) request http://www.fabswingers.com/
+* performing control request with backend
+
+Status
+------
+45/100 completed
+45.0% (ETA: 50s)
+* performing control request with backend
+
+Status
+------
+46/100 completed
+46.0% (ETA: 50s)
+
+Result for http://www.adultdvdempire.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.fabswingers.com/
+* doing DNS query for www.fabswingers.com
+
+Status
+------
+47/100 completed
+47.0% (ETA: 49s)
+* connecting to 92.63.131.211:443
+* doing HTTP(s) request https://www.fabswingers.com/
+
+Result for https://www.adultdvdempire.com/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.benaughty.com/
+* doing DNS query for www.benaughty.com
+* connecting to 23.43.57.138:80
+* connecting to 23.43.57.155:80
+* doing HTTP(s) request http://www.benaughty.com/
+
+Result for http://www.fabswingers.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.benaughty.com/
+* doing DNS query for www.benaughty.com
+* connecting to 23.43.57.138:443
+* connecting to 23.43.57.155:443
+* doing HTTP(s) request https://www.benaughty.com/
+* performing control request with backend
+
+Status
+------
+48/100 completed
+48.0% (ETA: 47s)
+* performing control request with backend
+
+Status
+------
+49/100 completed
+49.0% (ETA: 47s)
+* performing control request with backend
+
+Status
+------
+50/100 completed
+50.0% (ETA: 47s)
+
+Result for https://www.fabswingers.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.sofurry.com/
+* doing DNS query for www.sofurry.com
+* connecting to 172.67.72.51:80
+* connecting to 104.26.8.135:80
+* connecting to 104.26.9.135:80
+* doing HTTP(s) request http://www.sofurry.com/
+
+Result for https://www.benaughty.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.sofurry.com/
+* doing DNS query for www.sofurry.com
+* connecting to 104.26.9.135:443
+* connecting to 172.67.72.51:443
+* connecting to 104.26.8.135:443
+
+Result for http://www.benaughty.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nifty.org/
+* doing DNS query for www.nifty.org
+* doing HTTP(s) request https://www.sofurry.com/
+* connecting to 185.246.209.7:80
+* doing HTTP(s) request http://www.nifty.org/
+
+Status
+------
+51/100 completed
+51.0% (ETA: 45s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+52/100 completed
+52.0% (ETA: 44s)
+
+Status
+------
+53/100 completed
+53.0% (ETA: 44s)
+* performing control request with backend
+
+Result for http://www.nifty.org/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nifty.org/
+* doing DNS query for www.nifty.org
+* connecting to 185.93.1.26:443
+* doing HTTP(s) request https://www.nifty.org/
+* performing control request with backend
+
+Status
+------
+54/100 completed
+54.0% (ETA: 42s)
+
+Result for http://www.sofurry.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.mrporngeek.com/
+* doing DNS query for www.mrporngeek.com
+* connecting to 104.26.1.225:80
+* connecting to 104.26.0.225:80
+* connecting to 172.67.72.114:80
+* doing HTTP(s) request http://www.mrporngeek.com/
+
+Result for https://www.sofurry.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.mrporngeek.com/
+* doing DNS query for www.mrporngeek.com
+* connecting to 172.67.72.114:443
+* connecting to 104.26.1.225:443
+* connecting to 104.26.0.225:443
+* doing HTTP(s) request https://www.mrporngeek.com/
+
+Result for https://www.nifty.org/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.adultfriendfinder.com/
+* doing DNS query for www.adultfriendfinder.com
+* connecting to 69.165.107.69:80
+* doing HTTP(s) request http://www.adultfriendfinder.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+55/100 completed
+55.0% (ETA: 40s)
+
+Status
+------
+56/100 completed
+56.0% (ETA: 39s)
+
+Status
+------
+57/100 completed
+57.0% (ETA: 38s)
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.mrporngeek.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.adultfriendfinder.com/
+* doing DNS query for www.adultfriendfinder.com
+* connecting to 69.165.107.69:443
+* doing HTTP(s) request https://www.adultfriendfinder.com/
+
+Result for http://www.mrporngeek.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.furaffinity.net/
+* doing DNS query for www.furaffinity.net
+* connecting to 104.22.46.79:80
+* connecting to 172.67.40.182:80
+* connecting to 104.22.47.79:80
+* doing HTTP(s) request http://www.furaffinity.net/
+* performing control request with backend
+
+Status
+------
+58/100 completed
+58.0% (ETA: 35s)
+* performing control request with backend
+
+Result for http://www.adultfriendfinder.com/
+--------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.furaffinity.net/
+* doing DNS query for www.furaffinity.net
+* connecting to 104.22.47.79:443
+* connecting to 104.22.46.79:443
+* connecting to 172.67.40.182:443
+
+Result for http://www.furaffinity.net/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nudevista.com/
+* doing DNS query for www.nudevista.com
+* doing HTTP(s) request https://www.furaffinity.net/
+* connecting to 74.117.179.67:80
+* doing HTTP(s) request http://www.nudevista.com/
+
+Status
+------
+59/100 completed
+59.0% (ETA: 35s)
+
+Status
+------
+60/100 completed
+60.0% (ETA: 34s)
+
+Status
+------
+61/100 completed
+61.0% (ETA: 33s)
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.adultfriendfinder.com/
+---------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nudevista.com/
+* doing DNS query for www.nudevista.com
+* connecting to 74.117.179.67:443
+* doing HTTP(s) request https://www.nudevista.com/
+
+Result for https://www.furaffinity.net/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.bongacams.com/
+* doing DNS query for www.bongacams.com
+* connecting to 94.199.249.25:80
+* connecting to 185.75.254.28:80
+* doing HTTP(s) request http://www.bongacams.com/
+* performing control request with backend
+
+Status
+------
+62/100 completed
+62.0% (ETA: 32s)
+
+Result for http://www.nudevista.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.bongacams.com/
+* doing DNS query for www.bongacams.com
+* connecting to 94.199.249.25:443
+* connecting to 185.75.254.28:443
+* doing HTTP(s) request https://www.bongacams.com/
+
+Status
+------
+63/100 completed
+63.0% (ETA: 31s)
+
+Status
+------
+64/100 completed
+64.0% (ETA: 30s)
+
+Result for https://www.nudevista.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.squirt.org/
+* doing DNS query for www.squirt.org
+* connecting to 158.106.84.60:80
+* doing HTTP(s) request http://www.squirt.org/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+65/100 completed
+65.0% (ETA: 29s)
+* performing control request with backend
+
+Result for http://www.bongacams.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.squirt.org/
+* doing DNS query for www.squirt.org
+* connecting to 158.106.84.60:443
+* doing HTTP(s) request https://www.squirt.org/
+* performing control request with backend
+
+Result for http://www.squirt.org/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.flirt4free.com/
+* doing DNS query for www.flirt4free.com
+
+Result for https://www.bongacams.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.flirt4free.com/
+* doing DNS query for www.flirt4free.com
+* connecting to 204.8.234.144:443
+* connecting to 204.8.234.144:80
+* doing HTTP(s) request http://www.flirt4free.com/
+* doing HTTP(s) request https://www.flirt4free.com/
+
+Status
+------
+66/100 completed
+66.0% (ETA: 27s)
+
+Result for https://www.squirt.org/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.adameve.com/
+* doing DNS query for www.adameve.com
+* connecting to 23.208.53.231:80
+
+Status
+------
+67/100 completed
+67.0% (ETA: 27s)
+* doing HTTP(s) request http://www.adameve.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+68/100 completed
+68.0% (ETA: 26s)
+
+Status
+------
+69/100 completed
+69.0% (ETA: 25s)
+* performing control request with backend
+
+Result for https://www.flirt4free.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.adameve.com/
+* doing DNS query for www.adameve.com
+* connecting to 23.208.53.231:443
+* doing HTTP(s) request https://www.adameve.com/
+
+Result for http://www.flirt4free.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.cam4.com/
+* doing DNS query for www.cam4.com
+* connecting to 199.59.88.246:80
+* connecting to 199.59.88.25:80
+* doing HTTP(s) request http://www.cam4.com/
+
+Result for http://www.adameve.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.cam4.com/
+* doing DNS query for www.cam4.com
+* performing control request with backend
+* connecting to 199.59.88.246:443
+* connecting to 199.59.88.25:443
+* doing HTTP(s) request https://www.cam4.com/
+
+Result for http://www.nhentai.net/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ebaumsworld.com/
+* doing DNS query for www.ebaumsworld.com
+* connecting to 67.214.157.20:80
+* doing HTTP(s) request http://www.ebaumsworld.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.adameve.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ebaumsworld.com/
+* doing DNS query for www.ebaumsworld.com
+* connecting to 67.214.157.20:443
+
+Status
+------
+70/100 completed
+70.0% (ETA: 23s)
+* doing HTTP(s) request https://www.ebaumsworld.com/
+
+Status
+------
+71/100 completed
+71.0% (ETA: 23s)
+* performing control request with backend
+
+Result for http://www.cam4.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.mrskin.com/
+* doing DNS query for www.mrskin.com
+* connecting to 151.139.128.11:80
+
+Result for https://www.cam4.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.mrskin.com/
+* doing DNS query for www.mrskin.com
+* doing HTTP(s) request http://www.mrskin.com/
+* connecting to 151.139.128.11:443
+* doing HTTP(s) request https://www.mrskin.com/
+* performing control request with backend
+
+Status
+------
+72/100 completed
+72.0% (ETA: 22s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+73/100 completed
+73.0% (ETA: 21s)
+
+Result for http://www.ebaumsworld.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.f-list.net/
+* doing DNS query for www.f-list.net
+
+Status
+------
+74/100 completed
+74.0% (ETA: 20s)
+* connecting to 104.26.5.237:80
+* connecting to 104.26.4.237:80
+* connecting to 172.67.71.180:80
+* doing HTTP(s) request http://www.f-list.net/
+
+Result for https://www.ebaumsworld.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.f-list.net/
+* doing DNS query for www.f-list.net
+* connecting to 104.26.5.237:443
+* connecting to 104.26.4.237:443
+* connecting to 172.67.71.180:443
+* doing HTTP(s) request https://www.f-list.net/
+
+Result for https://www.mrskin.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.gfy.com/
+* doing DNS query for www.gfy.com
+* performing control request with backend
+* connecting to 104.22.7.52:80
+* connecting to 172.67.20.206:80
+* connecting to 104.22.6.52:80
+* doing HTTP(s) request http://www.gfy.com/
+* performing control request with backend
+
+Result for http://www.mrskin.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.gfy.com/
+* doing DNS query for www.gfy.com
+* connecting to 104.22.6.52:443
+* connecting to 104.22.7.52:443
+* connecting to 172.67.20.206:443
+* doing HTTP(s) request https://www.gfy.com/
+
+Status
+------
+75/100 completed
+75.0% (ETA: 19s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+76/100 completed
+76.0% (ETA: 19s)
+
+Result for http://www.f-list.net/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.fetlife.com/
+* doing DNS query for www.fetlife.com
+
+Status
+------
+77/100 completed
+77.0% (ETA: 18s)
+
+Status
+------
+78/100 completed
+78.0% (ETA: 17s)
+* connecting to 151.101.200.64:80
+* doing HTTP(s) request http://www.fetlife.com/
+
+Result for https://www.f-list.net/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.fetlife.com/
+* doing DNS query for www.fetlife.com
+* connecting to 151.101.200.64:443
+* doing HTTP(s) request https://www.fetlife.com/
+
+Status
+------
+79/100 completed
+79.0% (ETA: 17s)
+
+Result for https://www.gfy.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.manhunt.net/
+* doing DNS query for www.manhunt.net
+* performing control request with backend
+* connecting to 52.84.53.62:80
+* connecting to 52.84.53.55:80
+* connecting to 52.84.53.58:80
+* connecting to 52.84.53.47:80
+* doing HTTP(s) request http://www.manhunt.net/
+
+Result for http://www.gfy.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.manhunt.net/
+* doing DNS query for www.manhunt.net
+* connecting to 52.84.53.58:443
+* connecting to 52.84.53.47:443
+* connecting to 52.84.53.62:443
+* connecting to 52.84.53.55:443
+
+Status
+------
+80/100 completed
+80.0% (ETA: 16s)
+* performing control request with backend
+* doing HTTP(s) request https://www.manhunt.net/
+
+Status
+------
+81/100 completed
+81.0% (ETA: 15s)
+* performing control request with backend
+
+Status
+------
+82/100 completed
+82.0% (ETA: 14s)
+* performing control request with backend
+
+Status
+------
+83/100 completed
+83.0% (ETA: 14s)
+
+Result for http://www.fetlife.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.4chan.org/
+* doing DNS query for www.4chan.org
+
+Status
+------
+84/100 completed
+84.0% (ETA: 13s)
+* connecting to 104.16.168.99:80
+* connecting to 104.17.136.89:80
+* doing HTTP(s) request http://www.4chan.org/
+
+Result for https://www.fetlife.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.4chan.org/
+* doing DNS query for www.4chan.org
+* connecting to 104.16.168.99:443
+* connecting to 104.17.136.89:443
+* doing HTTP(s) request https://www.4chan.org/
+
+Result for http://www.manhunt.net/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.luscious.net/
+* doing DNS query for www.luscious.net
+* connecting to 68.70.205.2:80
+* connecting to 68.70.205.3:80
+* connecting to 68.70.205.4:80
+* connecting to 68.70.205.1:80
+* doing HTTP(s) request http://www.luscious.net/
+
+Result for https://www.manhunt.net/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.luscious.net/
+* doing DNS query for www.luscious.net
+* connecting to 68.70.205.4:443
+* connecting to 68.70.205.1:443
+* connecting to 68.70.205.2:443
+* connecting to 68.70.205.3:443
+* performing control request with backend
+* doing HTTP(s) request https://www.luscious.net/
+* performing control request with backend
+
+Status
+------
+85/100 completed
+85.0% (ETA: 12s)
+
+Status
+------
+86/100 completed
+86.0% (ETA: 11s)
+
+Status
+------
+87/100 completed
+87.0% (ETA: 11s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+88/100 completed
+88.0% (ETA: 10s)
+
+Result for https://www.4chan.org/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.adam4adam.com/
+* doing DNS query for www.adam4adam.com
+* connecting to 169.46.163.20:80
+
+Result for http://www.4chan.org/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.adam4adam.com/
+* doing DNS query for www.adam4adam.com
+* connecting to 169.46.163.20:443
+* doing HTTP(s) request http://www.adam4adam.com/
+* doing HTTP(s) request https://www.adam4adam.com/
+
+Result for http://www.luscious.net/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.clips4sale.com/
+* doing DNS query for www.clips4sale.com
+
+Result for https://www.luscious.net/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.clips4sale.com/
+* doing DNS query for www.clips4sale.com
+* connecting to 34.236.118.22:443
+* connecting to 54.208.182.233:443
+* connecting to 34.236.118.22:80
+* connecting to 54.208.182.233:80
+* doing HTTP(s) request http://www.clips4sale.com/
+* doing HTTP(s) request https://www.clips4sale.com/
+
+Status
+------
+89/100 completed
+89.0% (ETA: 9s)
+
+Status
+------
+90/100 completed
+90.0% (ETA: 8s)
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.adam4adam.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.fling.com/
+* doing DNS query for www.fling.com
+* connecting to 64.210.151.36:80
+
+Result for https://www.clips4sale.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.fling.com/
+* doing DNS query for www.fling.com
+* doing HTTP(s) request http://www.fling.com/
+* connecting to 64.210.151.36:443
+
+Status
+------
+91/100 completed
+91.0% (ETA: 7s)
+
+Result for http://www.adam4adam.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.freeones.com/
+* doing DNS query for www.freeones.com
+* doing HTTP(s) request https://www.fling.com/
+* connecting to 45.32.2.94:80
+* connecting to 45.32.2.93:80
+* connecting to 45.32.2.91:80
+* connecting to 45.32.2.92:80
+
+Status
+------
+92/100 completed
+92.0% (ETA: 6s)
+* doing HTTP(s) request http://www.freeones.com/
+
+Result for http://www.clips4sale.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.freeones.com/
+* doing DNS query for www.freeones.com
+* connecting to 45.32.2.91:443
+* connecting to 45.32.2.92:443
+* connecting to 45.32.2.94:443
+* connecting to 45.32.2.93:443
+* doing HTTP(s) request https://www.freeones.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+93/100 completed
+93.0% (ETA: 5s)
+
+Status
+------
+94/100 completed
+94.0% (ETA: 5s)
+
+Status
+------
+95/100 completed
+95.0% (ETA: 4s)
+* performing control request with backend
+
+Status
+------
+96/100 completed
+96.0% (ETA: 3s)
+* performing control request with backend
+
+Result for https://www.fling.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for http://www.fling.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for https://www.freeones.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for http://www.freeones.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+97/100 completed
+97.0% (ETA: 2s)
+
+Status
+------
+98/100 completed
+98.0% (ETA: 1s)
+
+Status
+------
+99/100 completed
+99.0% (ETA: 0s)
+
+Status
+------
+100/100 completed
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Accessible URLS
+---------------
+* http://www.xnxx.com/
+* http://www.chaturbate.com/
+* https://www.chaturbate.com/
+* https://www.xnxx.com/
+* https://www.eros.com/
+* http://www.eros.com/
+* http://www.hentai2read.com/
+* https://www.hentai2read.com/
+* http://www.liveleak.com/
+* https://www.liveleak.com/
+* https://www.avn.com/
+* http://www.avn.com/
+* https://www.oglaf.com/
+* http://www.oglaf.com/
+* https://www.adultdvdtalk.com/
+* http://www.adultdvdtalk.com/
+* http://www.literotica.com/
+* https://www.literotica.com/
+* https://www.spankwire.com/
+* http://www.spankwire.com/
+* http://www.xvideos.com/
+* https://www.xvideos.com/
+* http://www.sdc.com/
+* http://www.cams.com/
+* https://www.cams.com/
+* https://www.sdc.com/
+* http://www.iafd.com/
+* http://www.planetsuzy.org/
+* https://www.planetsuzy.org/
+* https://www.escort-ireland.com/
+* http://www.escort-ireland.com/
+* http://www.vintage-erotica-forum.com/
+* https://www.vintage-erotica-forum.com/
+* https://www.porn.com/
+* http://www.porn.com/
+* http://www.hentai-foundry.com/
+* http://www.livejasmin.com/
+* https://www.hentai-foundry.com/
+* https://www.livejasmin.com/
+* http://www.streamate.com/
+* https://www.gayboystube.com/
+* http://www.gayboystube.com/
+* https://www.streamate.com/
+* http://www.youporn.com/
+* https://www.youporn.com/
+* https://www.nhentai.net/
+* http://www.adultdvdempire.com/
+* https://www.adultdvdempire.com/
+* http://www.fabswingers.com/
+* https://www.fabswingers.com/
+* https://www.benaughty.com/
+* http://www.benaughty.com/
+* http://www.nifty.org/
+* http://www.sofurry.com/
+* https://www.sofurry.com/
+* https://www.nifty.org/
+* https://www.mrporngeek.com/
+* http://www.mrporngeek.com/
+* http://www.adultfriendfinder.com/
+* http://www.furaffinity.net/
+* https://www.adultfriendfinder.com/
+* https://www.furaffinity.net/
+* http://www.nudevista.com/
+* https://www.nudevista.com/
+* http://www.bongacams.com/
+* http://www.squirt.org/
+* https://www.bongacams.com/
+* https://www.squirt.org/
+* https://www.flirt4free.com/
+* http://www.flirt4free.com/
+* http://www.adameve.com/
+* http://www.nhentai.net/
+* https://www.adameve.com/
+* http://www.cam4.com/
+* https://www.cam4.com/
+* http://www.ebaumsworld.com/
+* https://www.ebaumsworld.com/
+* https://www.mrskin.com/
+* http://www.mrskin.com/
+* http://www.f-list.net/
+* https://www.f-list.net/
+* https://www.gfy.com/
+* http://www.gfy.com/
+* http://www.fetlife.com/
+* https://www.fetlife.com/
+* http://www.manhunt.net/
+* https://www.manhunt.net/
+* https://www.4chan.org/
+* http://www.4chan.org/
+* http://www.luscious.net/
+* https://www.luscious.net/
+* https://www.adam4adam.com/
+* https://www.clips4sale.com/
+* http://www.adam4adam.com/
+* http://www.clips4sale.com/
+* https://www.fling.com/
+* http://www.fling.com/
+* https://www.freeones.com/
+* http://www.freeones.com/
+
+Not accessible URLS
+-------------------
+* https://www.iafd.com/
+Report ID: 20200727T004455Z_AS9_udocPnBQuGms5PNE7dnDGtn2ighCJto64ivQhmvSEmCFy6VD3S
+325.129830122

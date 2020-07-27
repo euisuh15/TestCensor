@@ -1,0 +1,1956 @@
+Starting Tor
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+58%: Loading relay descriptors
+61%: Loading relay descriptors
+66%: Loading relay descriptors
+74%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for http://www.bing.com/
+* doing DNS query for www.bing.com
+
+Starting test for https://www.bing.com/
+* doing DNS query for www.bing.com
+
+Starting test for http://www.facebook.com/
+* doing DNS query for www.facebook.com
+
+Starting test for https://www.facebook.com/
+* doing DNS query for www.facebook.com
+* connecting to 13.107.21.200:443
+* connecting to 204.79.197.200:443
+* connecting to 13.107.21.200:80
+* connecting to 204.79.197.200:80
+* connecting to 31.13.71.36:443
+* connecting to 31.13.71.36:80
+* doing HTTP(s) request https://www.facebook.com/
+* doing HTTP(s) request http://www.facebook.com/
+* doing HTTP(s) request http://www.bing.com/
+* doing HTTP(s) request https://www.bing.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.bing.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.salesforce.com/
+* doing DNS query for www.salesforce.com
+* connecting to 136.147.56.1:80
+* connecting to 136.147.56.129:80
+* connecting to 136.147.57.129:80
+
+Result for https://www.bing.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.salesforce.com/
+* doing DNS query for www.salesforce.com
+* connecting to 136.147.56.129:443
+* connecting to 136.147.57.129:443
+* connecting to 136.147.56.1:443
+* doing HTTP(s) request http://www.salesforce.com/
+* doing HTTP(s) request https://www.salesforce.com/
+
+Result for https://www.facebook.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ilovepdf.com/
+* doing DNS query for www.ilovepdf.com
+* connecting to 104.20.1.94:80
+* connecting to 104.20.0.94:80
+* doing HTTP(s) request http://www.ilovepdf.com/
+* performing control request with backend
+
+Status
+------
+1/100 completed
+1.0% (ETA: 19s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+2/100 completed
+2.0% (ETA: 38s)
+
+Status
+------
+3/100 completed
+3.0% (ETA: 50s)
+
+Result for http://www.ilovepdf.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ilovepdf.com/
+* doing DNS query for www.ilovepdf.com
+* connecting to 104.20.0.94:443
+* connecting to 104.20.1.94:443
+* doing HTTP(s) request https://www.ilovepdf.com/
+
+Result for http://www.salesforce.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.intuit.com/
+* doing DNS query for www.intuit.com
+* connecting to 23.14.139.152:80
+
+Result for https://www.salesforce.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.intuit.com/
+* doing DNS query for www.intuit.com
+* performing control request with backend
+* connecting to 23.14.139.152:443
+* doing HTTP(s) request http://www.intuit.com/
+* doing HTTP(s) request https://www.intuit.com/
+
+Status
+------
+4/100 completed
+4.0% (ETA: 46s)
+* performing control request with backend
+
+Result for https://www.ilovepdf.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.cnet.com/
+* doing DNS query for www.cnet.com
+* connecting to 199.232.65.188:80
+* performing control request with backend
+* doing HTTP(s) request http://www.cnet.com/
+
+Status
+------
+5/100 completed
+5.0% (ETA: 48s)
+
+Status
+------
+6/100 completed
+6.0% (ETA: 56s)
+
+Result for https://www.intuit.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.cnet.com/
+* doing DNS query for www.cnet.com
+* connecting to 199.232.65.188:443
+
+Result for http://www.intuit.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.youtube.com/
+* doing DNS query for www.youtube.com
+* doing HTTP(s) request https://www.cnet.com/
+* connecting to 172.217.10.46:80
+* connecting to 172.217.10.78:80
+* connecting to 172.217.10.110:80
+* connecting to 172.217.10.142:80
+* connecting to 172.217.12.142:80
+* connecting to 172.217.6.206:80
+* connecting to 142.250.64.78:80
+* connecting to 142.250.64.110:80
+* connecting to 172.217.11.46:80
+* connecting to 172.217.12.174:80
+* connecting to 172.217.12.206:80
+* connecting to 172.217.7.14:80
+* connecting to 172.217.10.238:80
+* connecting to 172.217.165.142:80
+* connecting to 172.217.9.238:80
+* connecting to 172.217.10.14:80
+* doing HTTP(s) request http://www.youtube.com/
+* performing control request with backend
+
+Status
+------
+7/100 completed
+7.0% (ETA: 57s)
+* performing control request with backend
+
+Result for http://www.cnet.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.youtube.com/
+* doing DNS query for www.youtube.com
+* performing control request with backend
+* connecting to 172.217.10.142:443
+* connecting to 172.217.12.142:443
+* connecting to 172.217.6.206:443
+* connecting to 142.250.64.78:443
+* connecting to 142.250.64.110:443
+* connecting to 172.217.11.46:443
+* connecting to 172.217.12.174:443
+* connecting to 172.217.12.206:443
+* connecting to 172.217.7.14:443
+* connecting to 172.217.10.238:443
+* connecting to 172.217.165.142:443
+* connecting to 172.217.9.238:443
+* connecting to 172.217.10.14:443
+* connecting to 172.217.10.46:443
+* connecting to 172.217.10.78:443
+* connecting to 172.217.10.110:443
+* doing HTTP(s) request https://www.youtube.com/
+
+Result for https://www.cnet.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.en.wikipedia.org/
+* doing DNS query for www.en.wikipedia.org
+
+Status
+------
+8/100 completed
+8.0% (ETA: 57s)
+* doing HTTP(s) request http://www.en.wikipedia.org/
+
+Status
+------
+9/100 completed
+9.0% (ETA: 61s)
+Error performing HTTP request: http://www.en.wikipedia.org/
+* performing control request with backend
+
+Result for http://www.youtube.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.en.wikipedia.org/
+* doing DNS query for www.en.wikipedia.org
+* doing HTTP(s) request https://www.en.wikipedia.org/
+Error performing HTTP request: http://www.en.wikipedia.org/
+Error performing HTTP request: https://www.en.wikipedia.org/
+Error performing HTTP request: http://www.en.wikipedia.org/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+Error performing HTTP request: https://www.en.wikipedia.org/
+
+Result for https://www.youtube.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.google.com/
+* doing DNS query for www.google.com
+* connecting to 142.250.64.100:80
+Error performing HTTP request: https://www.en.wikipedia.org/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+* doing HTTP(s) request http://www.google.com/
+
+Status
+------
+10/100 completed
+10.0% (ETA: 57s)
+
+Status
+------
+11/100 completed
+11.0% (ETA: 61s)
+
+Result for http://www.en.wikipedia.org/
+---------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.google.com/
+* doing DNS query for www.google.com
+* connecting to 142.250.64.100:443
+
+Result for https://www.en.wikipedia.org/
+----------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for http://www.archive.org/
+* doing DNS query for www.archive.org
+* doing HTTP(s) request https://www.google.com/
+* connecting to 207.241.224.2:80
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+12/100 completed
+12.0% (ETA: 58s)
+
+Result for http://www.google.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.archive.org/
+* doing DNS query for www.archive.org
+
+Status
+------
+13/100 completed
+13.0% (ETA: 61s)
+
+Status
+------
+14/100 completed
+14.0% (ETA: 65s)
+* connecting to 207.241.224.2:443
+
+Result for https://www.google.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.fiverr.com/
+* doing DNS query for www.fiverr.com
+
+Status
+------
+15/100 completed
+15.0% (ETA: 67s)
+* connecting to 104.16.154.71:80
+* connecting to 104.18.254.23:80
+* doing HTTP(s) request http://www.fiverr.com/
+
+Status
+------
+16/100 completed
+16.0% (ETA: 65s)
+* performing control request with backend
+
+Status
+------
+17/100 completed
+17.0% (ETA: 67s)
+Error performing HTTP request: http://www.facebook.com/
+
+Result for http://www.fiverr.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.fiverr.com/
+* doing DNS query for www.fiverr.com
+* connecting to 104.18.254.23:443
+* connecting to 104.16.154.71:443
+* doing HTTP(s) request https://www.fiverr.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.facebook.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.mail.google.com/
+* doing DNS query for www.mail.google.com
+* doing HTTP(s) request http://www.mail.google.com/
+Error performing HTTP request: http://www.mail.google.com/
+Error performing HTTP request: http://www.mail.google.com/
+
+Result for https://www.fiverr.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.mail.google.com/
+* doing DNS query for www.mail.google.com
+* doing HTTP(s) request https://www.mail.google.com/
+Error performing HTTP request: http://www.mail.google.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+
+Status
+------
+18/100 completed
+18.0% (ETA: 58s)
+Error performing HTTP request: https://www.mail.google.com/
+Error performing HTTP request: https://www.mail.google.com/
+Error performing HTTP request: https://www.mail.google.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+
+Status
+------
+19/100 completed
+19.0% (ETA: 57s)
+
+Result for http://www.mail.google.com/
+--------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for http://www.wordpress.com/
+* doing DNS query for www.wordpress.com
+* connecting to 192.0.78.13:80
+* connecting to 192.0.78.12:80
+* doing HTTP(s) request http://www.wordpress.com/
+
+Result for https://www.mail.google.com/
+---------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.wordpress.com/
+* doing DNS query for www.wordpress.com
+* connecting to 192.0.78.13:443
+* connecting to 192.0.78.12:443
+* doing HTTP(s) request https://www.wordpress.com/
+
+Status
+------
+20/100 completed
+20.0% (ETA: 54s)
+
+Status
+------
+21/100 completed
+21.0% (ETA: 56s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+22/100 completed
+22.0% (ETA: 57s)
+
+Result for http://www.wordpress.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.zendesk.com/
+* doing DNS query for www.zendesk.com
+* connecting to 104.18.2.228:80
+* connecting to 104.18.3.228:80
+* doing HTTP(s) request http://www.zendesk.com/
+
+Result for https://www.wordpress.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.zendesk.com/
+* doing DNS query for www.zendesk.com
+* connecting to 104.18.2.228:443
+* connecting to 104.18.3.228:443
+* doing HTTP(s) request https://www.zendesk.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+23/100 completed
+23.0% (ETA: 54s)
+
+Result for http://www.zendesk.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.imgur.com/
+* doing DNS query for www.imgur.com
+
+Status
+------
+24/100 completed
+24.0% (ETA: 55s)
+* connecting to 199.232.64.193:80
+* doing HTTP(s) request http://www.imgur.com/
+
+Result for https://www.zendesk.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.imgur.com/
+* doing DNS query for www.imgur.com
+* connecting to 199.232.64.193:443
+* doing HTTP(s) request https://www.imgur.com/
+* performing control request with backend
+
+Status
+------
+25/100 completed
+25.0% (ETA: 53s)
+* performing control request with backend
+
+Status
+------
+26/100 completed
+26.0% (ETA: 54s)
+
+Result for https://www.imgur.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.github.com/
+* doing DNS query for www.github.com
+* doing HTTP(s) request http://www.archive.org/
+* connecting to 140.82.114.4:80
+
+Result for http://www.imgur.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.github.com/
+* doing DNS query for www.github.com
+* doing HTTP(s) request http://www.github.com/
+* connecting to 140.82.114.4:443
+* doing HTTP(s) request https://www.github.com/
+
+Status
+------
+27/100 completed
+27.0% (ETA: 51s)
+* doing HTTP(s) request https://www.archive.org/
+* performing control request with backend
+
+Status
+------
+28/100 completed
+28.0% (ETA: 52s)
+* performing control request with backend
+
+Result for https://www.github.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.yahoo.com/
+* doing DNS query for www.yahoo.com
+* connecting to 72.30.35.9:80
+* connecting to 72.30.35.10:80
+* connecting to 98.138.219.231:80
+* connecting to 98.138.219.232:80
+
+Result for http://www.github.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.yahoo.com/
+* doing DNS query for www.yahoo.com
+* doing HTTP(s) request http://www.yahoo.com/
+* connecting to 72.30.35.10:443
+* connecting to 98.138.219.231:443
+* connecting to 98.138.219.232:443
+* connecting to 72.30.35.9:443
+* doing HTTP(s) request https://www.yahoo.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+29/100 completed
+29.0% (ETA: 49s)
+
+Status
+------
+30/100 completed
+30.0% (ETA: 50s)
+
+Result for https://www.yahoo.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.play.google.com/
+* doing DNS query for www.play.google.com
+* doing HTTP(s) request http://www.play.google.com/
+
+Result for http://www.yahoo.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.play.google.com/
+* doing DNS query for www.play.google.com
+* doing HTTP(s) request https://www.play.google.com/
+Error performing HTTP request: http://www.play.google.com/
+Error performing HTTP request: https://www.play.google.com/
+Error performing HTTP request: http://www.play.google.com/
+Error performing HTTP request: https://www.play.google.com/
+Error performing HTTP request: http://www.play.google.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+Error performing HTTP request: https://www.play.google.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+
+Result for http://www.play.google.com/
+--------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for http://www.support.microsoft.com/
+* doing DNS query for www.support.microsoft.com
+* connecting to 23.221.201.225:80
+
+Result for https://www.play.google.com/
+---------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.support.microsoft.com/
+* doing DNS query for www.support.microsoft.com
+* doing HTTP(s) request http://www.support.microsoft.com/
+* connecting to 23.221.201.225:443
+* doing HTTP(s) request https://www.support.microsoft.com/
+
+Status
+------
+31/100 completed
+31.0% (ETA: 44s)
+
+Status
+------
+32/100 completed
+32.0% (ETA: 45s)
+* performing control request with backend
+
+Status
+------
+33/100 completed
+33.0% (ETA: 45s)
+
+Status
+------
+34/100 completed
+34.0% (ETA: 45s)
+* performing control request with backend
+
+Result for http://www.support.microsoft.com/
+--------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.mozilla.org/
+* doing DNS query for www.mozilla.org
+* connecting to 104.18.164.34:80
+* connecting to 104.18.165.34:80
+* doing HTTP(s) request http://www.mozilla.org/
+
+Result for https://www.support.microsoft.com/
+---------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.mozilla.org/
+* doing DNS query for www.mozilla.org
+* connecting to 104.18.164.34:443
+* connecting to 104.18.165.34:443
+* doing HTTP(s) request https://www.mozilla.org/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+35/100 completed
+35.0% (ETA: 43s)
+
+Status
+------
+36/100 completed
+36.0% (ETA: 43s)
+
+Result for https://www.mozilla.org/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.soundcloud.com/
+* doing DNS query for www.soundcloud.com
+* connecting to 13.249.131.55:80
+* connecting to 13.249.131.37:80
+* connecting to 13.249.131.34:80
+* connecting to 13.249.131.57:80
+* doing HTTP(s) request http://www.soundcloud.com/
+
+Result for http://www.mozilla.org/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.soundcloud.com/
+* doing DNS query for www.soundcloud.com
+* connecting to 13.249.131.34:443
+* connecting to 13.249.131.57:443
+* connecting to 13.249.131.55:443
+* connecting to 13.249.131.37:443
+* doing HTTP(s) request https://www.soundcloud.com/
+
+Status
+------
+37/100 completed
+37.0% (ETA: 42s)
+
+Status
+------
+38/100 completed
+38.0% (ETA: 42s)
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.soundcloud.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.slideshare.net/
+* doing DNS query for www.slideshare.net
+Error performing HTTP request: http://www.archive.org/
+* connecting to 108.174.10.19:80
+
+Result for https://www.soundcloud.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.slideshare.net/
+* doing DNS query for www.slideshare.net
+* doing HTTP(s) request http://www.slideshare.net/
+* connecting to 108.174.10.19:443
+* doing HTTP(s) request https://www.slideshare.net/
+Error performing HTTP request: https://www.archive.org/
+
+Status
+------
+39/100 completed
+39.0% (ETA: 40s)
+* performing control request with backend
+
+Status
+------
+40/100 completed
+40.0% (ETA: 40s)
+* performing control request with backend
+
+Result for https://www.slideshare.net/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.duckduckgo.com/
+* doing DNS query for www.duckduckgo.com
+* connecting to 52.149.246.39:80
+* doing HTTP(s) request http://www.duckduckgo.com/
+
+Result for http://www.slideshare.net/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.duckduckgo.com/
+* doing DNS query for www.duckduckgo.com
+* connecting to 52.149.246.39:443
+* doing HTTP(s) request https://www.duckduckgo.com/
+* performing control request with backend
+
+Status
+------
+41/100 completed
+41.0% (ETA: 38s)
+* performing control request with backend
+
+Result for http://www.duckduckgo.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.trello.com/
+* doing DNS query for www.trello.com
+* connecting to 23.6.70.137:80
+* doing HTTP(s) request http://www.trello.com/
+
+Status
+------
+42/100 completed
+42.0% (ETA: 38s)
+
+Result for https://www.duckduckgo.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.trello.com/
+* doing DNS query for www.trello.com
+* connecting to 23.6.70.137:443
+* doing HTTP(s) request https://www.trello.com/
+* performing control request with backend
+
+Status
+------
+43/100 completed
+43.0% (ETA: 37s)
+
+Status
+------
+44/100 completed
+44.0% (ETA: 37s)
+
+Result for http://www.trello.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.mediafire.com/
+* doing DNS query for www.mediafire.com
+* performing control request with backend
+* connecting to 104.16.202.237:80
+* connecting to 104.16.203.237:80
+* doing HTTP(s) request http://www.mediafire.com/
+
+Result for https://www.trello.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.mediafire.com/
+* doing DNS query for www.mediafire.com
+* connecting to 104.16.203.237:443
+* connecting to 104.16.202.237:443
+* doing HTTP(s) request https://www.mediafire.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+45/100 completed
+45.0% (ETA: 35s)
+
+Result for http://www.mediafire.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.office.com/
+* doing DNS query for www.office.com
+* connecting to 13.107.6.156:80
+* doing HTTP(s) request http://www.office.com/
+
+Result for https://www.mediafire.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.office.com/
+* doing DNS query for www.office.com
+* connecting to 13.107.6.156:443
+* doing HTTP(s) request https://www.office.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+46/100 completed
+46.0% (ETA: 35s)
+
+Status
+------
+47/100 completed
+47.0% (ETA: 34s)
+
+Result for https://www.office.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.apple.com/
+* doing DNS query for www.apple.com
+
+Result for http://www.office.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.apple.com/
+* doing DNS query for www.apple.com
+* connecting to 23.40.29.15:443
+* connecting to 23.40.29.15:80
+
+Status
+------
+48/100 completed
+48.0% (ETA: 34s)
+* doing HTTP(s) request https://www.apple.com/
+* doing HTTP(s) request http://www.apple.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+49/100 completed
+49.0% (ETA: 33s)
+
+Status
+------
+50/100 completed
+50.0% (ETA: 33s)
+
+Result for https://www.apple.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.msn.com/
+* doing DNS query for www.msn.com
+* connecting to 204.79.197.203:80
+
+Result for http://www.apple.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.msn.com/
+* doing DNS query for www.msn.com
+* doing HTTP(s) request http://www.msn.com/
+* connecting to 204.79.197.203:443
+* doing HTTP(s) request https://www.msn.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+51/100 completed
+51.0% (ETA: 32s)
+
+Status
+------
+52/100 completed
+52.0% (ETA: 32s)
+
+Result for https://www.msn.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.adobe.com/
+* doing DNS query for www.adobe.com
+Error performing HTTP request: http://www.archive.org/
+
+Result for http://www.msn.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.adobe.com/
+* doing DNS query for www.adobe.com
+* connecting to 23.194.120.100:443
+* connecting to 23.194.120.100:80
+* doing HTTP(s) request https://www.adobe.com/
+* doing HTTP(s) request http://www.adobe.com/
+* performing control request with backend
+* performing control request with backend
+Error performing HTTP request: https://www.archive.org/
+
+Result for https://www.adobe.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.tumblr.com/
+* doing DNS query for www.tumblr.com
+* connecting to 152.199.24.192:80
+* doing HTTP(s) request http://www.tumblr.com/
+
+Result for http://www.adobe.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.tumblr.com/
+* doing DNS query for www.tumblr.com
+* connecting to 152.199.24.192:443
+
+Status
+------
+53/100 completed
+53.0% (ETA: 30s)
+* doing HTTP(s) request https://www.tumblr.com/
+
+Status
+------
+54/100 completed
+54.0% (ETA: 30s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+55/100 completed
+55.0% (ETA: 30s)
+
+Status
+------
+56/100 completed
+56.0% (ETA: 29s)
+
+Result for https://www.tumblr.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.aws.amazon.com/
+* doing DNS query for www.aws.amazon.com
+* connecting to 72.21.210.29:80
+
+Result for http://www.tumblr.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.aws.amazon.com/
+* doing DNS query for www.aws.amazon.com
+* connecting to 72.21.210.29:443
+* doing HTTP(s) request http://www.aws.amazon.com/
+* doing HTTP(s) request https://www.aws.amazon.com/
+Error performing HTTP request: https://www.aws.amazon.com/
+Error performing HTTP request: https://www.aws.amazon.com/
+Error performing HTTP request: https://www.aws.amazon.com/
+Failed to perform HTTP request connection_refused_error
+* performing control request with backend
+
+Status
+------
+57/100 completed
+57.0% (ETA: 29s)
+
+Status
+------
+58/100 completed
+58.0% (ETA: 28s)
+* performing control request with backend
+
+Result for http://www.aws.amazon.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.linkedin.com/
+* doing DNS query for www.linkedin.com
+* connecting to 13.107.42.14:80
+* doing HTTP(s) request http://www.linkedin.com/
+
+Result for https://www.aws.amazon.com/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.linkedin.com/
+* doing DNS query for www.linkedin.com
+* connecting to 13.107.42.14:443
+* doing HTTP(s) request https://www.linkedin.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+59/100 completed
+59.0% (ETA: 27s)
+
+Status
+------
+60/100 completed
+60.0% (ETA: 27s)
+
+Result for https://www.linkedin.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.search.yahoo.com/
+* doing DNS query for www.search.yahoo.com
+* connecting to 212.82.100.150:80
+
+Result for http://www.linkedin.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.search.yahoo.com/
+* doing DNS query for www.search.yahoo.com
+* doing HTTP(s) request http://www.search.yahoo.com/
+* connecting to 212.82.100.150:443
+* doing HTTP(s) request https://www.search.yahoo.com/
+* performing control request with backend
+
+Status
+------
+61/100 completed
+61.0% (ETA: 26s)
+
+Status
+------
+62/100 completed
+62.0% (ETA: 25s)
+* performing control request with backend
+
+Result for http://www.search.yahoo.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.mail.yahoo.com/
+* doing DNS query for www.mail.yahoo.com
+* connecting to 212.82.100.150:80
+* doing HTTP(s) request http://www.mail.yahoo.com/
+
+Result for https://www.search.yahoo.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.mail.yahoo.com/
+* doing DNS query for www.mail.yahoo.com
+* connecting to 212.82.100.150:443
+* doing HTTP(s) request https://www.mail.yahoo.com/
+* performing control request with backend
+Error performing HTTP request: https://www.mail.yahoo.com/
+
+Status
+------
+63/100 completed
+63.0% (ETA: 24s)
+Error performing HTTP request: https://www.mail.yahoo.com/
+
+Result for http://www.mail.yahoo.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.twitter.com/
+* doing DNS query for www.twitter.com
+* connecting to 104.244.42.193:80
+* connecting to 104.244.42.65:80
+* doing HTTP(s) request http://www.twitter.com/
+Error performing HTTP request: https://www.mail.yahoo.com/
+Failed to perform HTTP request response_never_received
+* performing control request with backend
+
+Status
+------
+64/100 completed
+64.0% (ETA: 23s)
+Error performing HTTP request: http://www.archive.org/
+Failed to perform HTTP request generic_timeout_error
+* performing control request with backend
+
+Status
+------
+65/100 completed
+65.0% (ETA: 23s)
+
+Result for https://www.mail.yahoo.com/
+--------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.twitter.com/
+* doing DNS query for www.twitter.com
+* connecting to 104.244.42.193:443
+* connecting to 104.244.42.65:443
+* doing HTTP(s) request https://www.twitter.com/
+* performing control request with backend
+Error performing HTTP request: https://www.archive.org/
+Failed to perform HTTP request generic_timeout_error
+* performing control request with backend
+
+Status
+------
+66/100 completed
+66.0% (ETA: 22s)
+* performing control request with backend
+
+Result for http://www.archive.org/
+----------------------------------
+* BLOCKING DETECTED due to tcp_ip
+* Is NOT accessible
+
+
+Starting test for http://www.paypal.com/
+* doing DNS query for www.paypal.com
+* connecting to 23.208.40.124:80
+* doing HTTP(s) request http://www.paypal.com/
+
+Result for http://www.twitter.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.paypal.com/
+* doing DNS query for www.paypal.com
+* connecting to 23.208.40.124:443
+* doing HTTP(s) request https://www.paypal.com/
+
+Result for https://www.twitter.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.smallpdf.com/
+* doing DNS query for www.smallpdf.com
+* connecting to 54.171.111.133:80
+* connecting to 54.72.97.228:80
+
+Status
+------
+67/100 completed
+67.0% (ETA: 21s)
+* doing HTTP(s) request http://www.smallpdf.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.archive.org/
+-----------------------------------
+* BLOCKING DETECTED due to tcp_ip
+* Is NOT accessible
+
+
+Starting test for https://www.smallpdf.com/
+* doing DNS query for www.smallpdf.com
+* connecting to 54.171.111.133:443
+* connecting to 54.72.97.228:443
+* doing HTTP(s) request https://www.smallpdf.com/
+
+Status
+------
+68/100 completed
+68.0% (ETA: 21s)
+* performing control request with backend
+
+Status
+------
+69/100 completed
+69.0% (ETA: 20s)
+
+Result for https://www.paypal.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.blogger.com/
+* doing DNS query for www.blogger.com
+* connecting to 172.217.12.137:80
+
+Status
+------
+70/100 completed
+70.0% (ETA: 20s)
+* doing HTTP(s) request http://www.blogger.com/
+
+Result for http://www.paypal.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.blogger.com/
+* doing DNS query for www.blogger.com
+* connecting to 172.217.12.137:443
+* doing HTTP(s) request https://www.blogger.com/
+* performing control request with backend
+
+Result for http://www.smallpdf.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.dropbox.com/
+* doing DNS query for www.dropbox.com
+* connecting to 162.125.4.1:80
+* doing HTTP(s) request http://www.dropbox.com/
+
+Status
+------
+71/100 completed
+71.0% (ETA: 19s)
+
+Result for https://www.smallpdf.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.dropbox.com/
+* doing DNS query for www.dropbox.com
+
+Status
+------
+72/100 completed
+72.0% (ETA: 19s)
+* connecting to 162.125.4.1:443
+* doing HTTP(s) request https://www.dropbox.com/
+* performing control request with backend
+
+Status
+------
+73/100 completed
+73.0% (ETA: 18s)
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.dropbox.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.godaddy.com/
+* doing DNS query for www.godaddy.com
+* connecting to 23.51.162.241:80
+
+Status
+------
+74/100 completed
+74.0% (ETA: 17s)
+* doing HTTP(s) request http://www.godaddy.com/
+
+Result for https://www.blogger.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.godaddy.com/
+* doing DNS query for www.godaddy.com
+* connecting to 23.51.162.241:443
+* doing HTTP(s) request https://www.godaddy.com/
+
+Result for http://www.blogger.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.stackoverflow.com/
+* doing DNS query for www.stackoverflow.com
+* connecting to 151.101.129.69:80
+* connecting to 151.101.1.69:80
+* connecting to 151.101.65.69:80
+* connecting to 151.101.193.69:80
+* doing HTTP(s) request http://www.stackoverflow.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+75/100 completed
+75.0% (ETA: 16s)
+
+Result for https://www.dropbox.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.stackoverflow.com/
+* doing DNS query for www.stackoverflow.com
+
+Status
+------
+76/100 completed
+76.0% (ETA: 16s)
+* connecting to 151.101.193.69:443
+* connecting to 151.101.129.69:443
+* connecting to 151.101.1.69:443
+* connecting to 151.101.65.69:443
+* doing HTTP(s) request https://www.stackoverflow.com/
+* performing control request with backend
+
+Result for https://www.godaddy.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.speedtest.net/
+* doing DNS query for www.speedtest.net
+
+Status
+------
+77/100 completed
+77.0% (ETA: 15s)
+* connecting to 151.101.250.219:80
+
+Result for http://www.godaddy.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.speedtest.net/
+* doing DNS query for www.speedtest.net
+* doing HTTP(s) request http://www.speedtest.net/
+* connecting to 151.101.250.219:443
+
+Result for http://www.stackoverflow.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.vimeo.com/
+* doing DNS query for www.vimeo.com
+* doing HTTP(s) request https://www.speedtest.net/
+* connecting to 151.101.128.217:80
+* connecting to 151.101.0.217:80
+* connecting to 151.101.64.217:80
+* connecting to 151.101.192.217:80
+* performing control request with backend
+* doing HTTP(s) request http://www.vimeo.com/
+
+Status
+------
+78/100 completed
+78.0% (ETA: 15s)
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.stackoverflow.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.vimeo.com/
+* doing DNS query for www.vimeo.com
+* connecting to 151.101.192.217:443
+* connecting to 151.101.128.217:443
+* connecting to 151.101.0.217:443
+* connecting to 151.101.64.217:443
+* doing HTTP(s) request https://www.vimeo.com/
+
+Status
+------
+79/100 completed
+79.0% (ETA: 14s)
+
+Result for https://www.speedtest.net/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.zoho.com/
+* doing DNS query for www.zoho.com
+
+Result for http://www.speedtest.net/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.zoho.com/
+* doing DNS query for www.zoho.com
+
+Status
+------
+80/100 completed
+80.0% (ETA: 13s)
+* connecting to 136.143.190.155:443
+* connecting to 136.143.190.155:80
+* doing HTTP(s) request http://www.zoho.com/
+* doing HTTP(s) request https://www.zoho.com/
+
+Status
+------
+81/100 completed
+81.0% (ETA: 13s)
+
+Result for http://www.vimeo.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ask.com/
+* doing DNS query for www.ask.com
+* performing control request with backend
+* connecting to 151.101.250.114:80
+* doing HTTP(s) request http://www.ask.com/
+* performing control request with backend
+
+Status
+------
+82/100 completed
+82.0% (ETA: 12s)
+* performing control request with backend
+
+Status
+------
+83/100 completed
+83.0% (ETA: 12s)
+
+Result for https://www.zoho.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ask.com/
+* doing DNS query for www.ask.com
+
+Status
+------
+84/100 completed
+84.0% (ETA: 11s)
+* connecting to 151.101.250.114:443
+* doing HTTP(s) request https://www.ask.com/
+* performing control request with backend
+
+Result for https://www.vimeo.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.docs.google.com/
+* doing DNS query for www.docs.google.com
+* connecting to 172.217.197.189:80
+* doing HTTP(s) request http://www.docs.google.com/
+
+Status
+------
+85/100 completed
+85.0% (ETA: 10s)
+
+Result for http://www.zoho.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.docs.google.com/
+* doing DNS query for www.docs.google.com
+* connecting to 172.217.197.189:443
+* performing control request with backend
+* doing HTTP(s) request https://www.docs.google.com/
+
+Result for http://www.ask.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.pinterest.com/
+* doing DNS query for www.pinterest.com
+* connecting to 151.101.200.84:80
+* doing HTTP(s) request http://www.pinterest.com/
+
+Status
+------
+86/100 completed
+86.0% (ETA: 10s)
+
+Status
+------
+87/100 completed
+87.0% (ETA: 9s)
+
+Result for https://www.ask.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.pinterest.com/
+* doing DNS query for www.pinterest.com
+* connecting to 151.101.200.84:443
+* doing HTTP(s) request https://www.pinterest.com/
+
+Status
+------
+88/100 completed
+88.0% (ETA: 8s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+89/100 completed
+89.0% (ETA: 8s)
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.pinterest.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.microsoft.com/
+* doing DNS query for www.microsoft.com
+
+Result for http://www.pinterest.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.microsoft.com/
+* doing DNS query for www.microsoft.com
+* connecting to 23.40.30.30:443
+* connecting to 23.40.30.30:80
+
+Status
+------
+90/100 completed
+90.0% (ETA: 7s)
+* doing HTTP(s) request https://www.microsoft.com/
+* doing HTTP(s) request http://www.microsoft.com/
+
+Result for https://www.docs.google.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.skype.com/
+* doing DNS query for www.skype.com
+* connecting to 52.113.194.133:80
+
+Result for http://www.docs.google.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.skype.com/
+* doing DNS query for www.skype.com
+* doing HTTP(s) request http://www.skype.com/
+* connecting to 52.113.194.133:443
+* doing HTTP(s) request https://www.skype.com/
+
+Status
+------
+91/100 completed
+91.0% (ETA: 6s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+92/100 completed
+92.0% (ETA: 5s)
+* performing control request with backend
+
+Result for http://www.microsoft.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.wikihow.com/
+* doing DNS query for www.wikihow.com
+
+Result for https://www.microsoft.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.wikihow.com/
+* doing DNS query for www.wikihow.com
+* connecting to 199.232.66.110:443
+* connecting to 199.232.66.110:80
+* performing control request with backend
+* doing HTTP(s) request https://www.wikihow.com/
+* doing HTTP(s) request http://www.wikihow.com/
+
+Result for https://www.skype.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for http://www.skype.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.wikihow.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for https://www.wikihow.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+93/100 completed
+93.0% (ETA: 5s)
+
+Status
+------
+94/100 completed
+94.0% (ETA: 4s)
+
+Status
+------
+95/100 completed
+95.0% (ETA: 3s)
+
+Status
+------
+96/100 completed
+96.0% (ETA: 2s)
+
+Status
+------
+97/100 completed
+97.0% (ETA: 2s)
+
+Status
+------
+98/100 completed
+98.0% (ETA: 1s)
+
+Status
+------
+99/100 completed
+99.0% (ETA: 0s)
+
+Status
+------
+100/100 completed
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Accessible URLS
+---------------
+* http://www.bing.com/
+* https://www.bing.com/
+* https://www.facebook.com/
+* http://www.ilovepdf.com/
+* http://www.salesforce.com/
+* https://www.salesforce.com/
+* https://www.ilovepdf.com/
+* https://www.intuit.com/
+* http://www.intuit.com/
+* http://www.cnet.com/
+* https://www.cnet.com/
+* http://www.youtube.com/
+* https://www.youtube.com/
+* http://www.google.com/
+* https://www.google.com/
+* http://www.fiverr.com/
+* http://www.facebook.com/
+* https://www.fiverr.com/
+* http://www.wordpress.com/
+* https://www.wordpress.com/
+* http://www.zendesk.com/
+* https://www.zendesk.com/
+* https://www.imgur.com/
+* http://www.imgur.com/
+* https://www.github.com/
+* http://www.github.com/
+* https://www.yahoo.com/
+* http://www.yahoo.com/
+* http://www.support.microsoft.com/
+* https://www.support.microsoft.com/
+* https://www.mozilla.org/
+* http://www.mozilla.org/
+* http://www.soundcloud.com/
+* https://www.soundcloud.com/
+* https://www.slideshare.net/
+* http://www.slideshare.net/
+* http://www.duckduckgo.com/
+* https://www.duckduckgo.com/
+* http://www.trello.com/
+* https://www.trello.com/
+* http://www.mediafire.com/
+* https://www.mediafire.com/
+* https://www.office.com/
+* http://www.office.com/
+* https://www.apple.com/
+* http://www.apple.com/
+* https://www.msn.com/
+* http://www.msn.com/
+* https://www.adobe.com/
+* http://www.adobe.com/
+* https://www.tumblr.com/
+* http://www.tumblr.com/
+* http://www.aws.amazon.com/
+* https://www.linkedin.com/
+* http://www.linkedin.com/
+* http://www.search.yahoo.com/
+* https://www.search.yahoo.com/
+* http://www.mail.yahoo.com/
+* http://www.twitter.com/
+* https://www.twitter.com/
+* https://www.paypal.com/
+* http://www.paypal.com/
+* http://www.smallpdf.com/
+* https://www.smallpdf.com/
+* http://www.dropbox.com/
+* https://www.blogger.com/
+* http://www.blogger.com/
+* https://www.dropbox.com/
+* https://www.godaddy.com/
+* http://www.godaddy.com/
+* http://www.stackoverflow.com/
+* https://www.stackoverflow.com/
+* https://www.speedtest.net/
+* http://www.speedtest.net/
+* http://www.vimeo.com/
+* https://www.zoho.com/
+* https://www.vimeo.com/
+* http://www.zoho.com/
+* http://www.ask.com/
+* https://www.ask.com/
+* https://www.pinterest.com/
+* http://www.pinterest.com/
+* https://www.docs.google.com/
+* http://www.docs.google.com/
+* http://www.microsoft.com/
+* https://www.microsoft.com/
+* https://www.skype.com/
+* http://www.skype.com/
+* http://www.wikihow.com/
+* https://www.wikihow.com/
+
+Not accessible URLS
+-------------------
+* http://www.en.wikipedia.org/
+* https://www.en.wikipedia.org/
+* http://www.mail.google.com/
+* https://www.mail.google.com/
+* http://www.play.google.com/
+* https://www.play.google.com/
+* https://www.aws.amazon.com/
+* https://www.mail.yahoo.com/
+* http://www.archive.org/
+* https://www.archive.org/
+
+URLS possibly blocked due to tcp_ip
+-----------------------------------
+* http://www.archive.org/
+* https://www.archive.org/
+
+URLS possibly blocked due to dns
+--------------------------------
+* https://www.aws.amazon.com/
+Report ID: 20200727T010708Z_AS9_DMxvKEAEZsQsfBZMMhrBvQZQ7DWWTRVMXaMJgVS3cYZaaozCRo
+257.606907129

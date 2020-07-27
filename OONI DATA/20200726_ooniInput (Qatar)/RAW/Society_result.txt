@@ -1,0 +1,1082 @@
+[!] Error processing dns_spoof.py
+[!] Error processing traceroute.py
+Starting Tor
+5%: Connecting to directory server
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+56%: Loading relay descriptors
+60%: Loading relay descriptors
+65%: Loading relay descriptors
+71%: Loading relay descriptors
+78%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for https://www.nih.gov/
+* doing DNS query for www.nih.gov
+
+Starting test for https://www.irs.gov/
+* doing DNS query for www.irs.gov
+
+Starting test for https://www.patreon.com/
+* doing DNS query for www.patreon.com
+
+Starting test for https://www.who.int/
+* doing DNS query for www.who.int
+* connecting to 104.16.7.49:443
+* connecting to 104.16.6.49:443
+* doing HTTP(s) request https://www.patreon.com/
+* connecting to 35.169.209.222:443
+* connecting to 52.72.169.229:443
+* connecting to 99.84.222.111:443
+* connecting to 99.84.222.38:443
+* connecting to 99.84.222.51:443
+* connecting to 99.84.222.123:443
+* doing HTTP(s) request https://www.nih.gov/
+* doing HTTP(s) request https://www.who.int/
+* connecting to 104.88.56.61:443
+* doing HTTP(s) request https://www.irs.gov/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 128634: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd8 in position 26259: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 17653: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 14933: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.patreon.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.jw.org/
+* doing DNS query for www.jw.org
+
+Result for https://www.who.int/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.europa.eu/
+* doing DNS query for www.europa.eu
+
+Status
+------
+1 completed 50 remaining
+2.0% (ETA: 11s)
+* connecting to 104.97.51.163:443
+* doing HTTP(s) request https://www.jw.org/
+
+Result for https://www.nih.gov/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.biblegateway.com/
+* doing DNS query for www.biblegateway.com
+
+Status
+------
+2 completed 50 remaining
+4.0% (ETA: 21s)
+
+Result for https://www.irs.gov/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.correios.com.br/
+* doing DNS query for www.correios.com.br
+* connecting to 13.226.118.59:443
+* connecting to 13.226.118.93:443
+* connecting to 13.226.118.70:443
+* connecting to 13.226.118.63:443
+* doing HTTP(s) request https://www.biblegateway.com/
+* connecting to 147.67.210.25:443
+* connecting to 147.67.34.25:443
+* doing HTTP(s) request https://www.europa.eu/
+
+Status
+------
+3 completed 50 remaining
+6.0% (ETA: 26s)
+
+Status
+------
+4 completed 50 remaining
+8.0% (ETA: 33s)
+* connecting to 201.48.198.24:443
+* doing HTTP(s) request https://www.correios.com.br/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 479: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd8 in position 32009: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.jw.org/
+------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.ancestry.com/
+* doing DNS query for www.ancestry.com
+
+Result for https://www.biblegateway.com/
+----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.ato.gov.au/
+* doing DNS query for www.ato.gov.au
+* connecting to 45.60.153.132:443
+* doing HTTP(s) request https://www.ancestry.com/
+
+Status
+------
+5 completed 50 remaining
+10.0% (ETA: 22s)
+* connecting to 2.23.241.158:443
+
+Status
+------
+6 completed 50 remaining
+12.0% (ETA: 25s)
+* doing HTTP(s) request https://www.ato.gov.au/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd0 in position 6481: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 2532: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.europa.eu/
+---------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.state.gov/
+* doing DNS query for www.state.gov
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 92: ordinal not in range(128)
+* performing control request with backend
+* connecting to 104.97.49.149:443
+* doing HTTP(s) request https://www.state.gov/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 3118: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+7 completed 50 remaining
+14.0% (ETA: 24s)
+
+Result for https://www.ato.gov.au/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.ec.europa.eu/
+* doing DNS query for www.ec.europa.eu
+
+Result for https://www.ancestry.com/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.un.org/
+* doing DNS query for www.un.org
+* connecting to 147.67.34.30:443
+* connecting to 147.67.210.30:443
+* doing HTTP(s) request https://www.ec.europa.eu/
+
+Status
+------
+8 completed 50 remaining
+16.0% (ETA: 23s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 782: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+9 completed 50 remaining
+18.0% (ETA: 25s)
+* connecting to 157.150.185.49:443
+* doing HTTP(s) request https://www.un.org/
+
+Result for https://www.correios.com.br/
+---------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.answers.yahoo.com/
+* doing DNS query for www.answers.yahoo.com
+* connecting to 76.13.32.153:443
+* doing HTTP(s) request https://www.answers.yahoo.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 702: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+10 completed 50 remaining
+20.0% (ETA: 23s)
+
+Result for https://www.state.gov/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.collegeboard.org/
+* doing DNS query for www.collegeboard.org
+* connecting to 2.23.241.193:443
+* doing HTTP(s) request https://www.collegeboard.org/
+
+Result for https://www.un.org/
+------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.bbb.org/
+* doing DNS query for www.bbb.org
+* connecting to 216.52.119.101:443
+
+Status
+------
+11 completed 50 remaining
+22.0% (ETA: 23s)
+* doing HTTP(s) request https://www.bbb.org/
+
+Status
+------
+12 completed 50 remaining
+24.0% (ETA: 23s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 538: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 275: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 13139: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.collegeboard.org/
+----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.match.com/
+* doing DNS query for www.match.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 3313: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.ec.europa.eu/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.royalmail.com/
+* doing DNS query for www.royalmail.com
+* connecting to 208.83.240.49:443
+* doing HTTP(s) request https://www.match.com/
+
+Status
+------
+13 completed 50 remaining
+26.0% (ETA: 22s)
+
+Result for https://www.answers.yahoo.com/
+-----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.legacy.com/
+* doing DNS query for www.legacy.com
+* connecting to 77.95.81.226:443
+* doing HTTP(s) request https://www.royalmail.com/
+* connecting to 104.17.186.220:443
+* connecting to 104.17.188.220:443
+* connecting to 104.17.189.220:443
+* connecting to 104.17.187.220:443
+* connecting to 104.17.185.220:443
+* doing HTTP(s) request https://www.legacy.com/
+
+Status
+------
+14 completed 50 remaining
+28.0% (ETA: 22s)
+
+Status
+------
+15 completed 50 remaining
+30.0% (ETA: 23s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 12611: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 394: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.legacy.com/
+----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.post.japanpost.jp/
+* doing DNS query for www.post.japanpost.jp
+
+Result for https://www.match.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.ssa.gov/
+* doing DNS query for www.ssa.gov
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 41998: ordinal not in range(128)
+* performing control request with backend
+* connecting to 137.200.4.16:443
+* doing HTTP(s) request https://www.ssa.gov/
+
+Result for https://www.bbb.org/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.slate.com/
+* doing DNS query for www.slate.com
+
+Status
+------
+16 completed 50 remaining
+32.0% (ETA: 20s)
+
+Status
+------
+17 completed 50 remaining
+34.0% (ETA: 21s)
+* connecting to 199.232.37.131:443
+* doing HTTP(s) request https://www.slate.com/
+
+Result for https://www.royalmail.com/
+-------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.change.org/
+* doing DNS query for www.change.org
+* connecting to 43.253.48.17:443
+* doing HTTP(s) request https://www.post.japanpost.jp/
+
+Status
+------
+18 completed 50 remaining
+36.0% (ETA: 20s)
+
+Status
+------
+19 completed 50 remaining
+38.0% (ETA: 20s)
+* connecting to 104.17.89.51:443
+* connecting to 104.17.88.51:443
+* doing HTTP(s) request https://www.change.org/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 18194: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 490: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 3105: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.ssa.gov/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.auspost.com.au/
+* doing DNS query for www.auspost.com.au
+
+Result for https://www.change.org/
+----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.worldbank.org/
+* doing DNS query for www.worldbank.org
+
+Result for https://www.slate.com/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.infowars.com/
+* doing DNS query for www.infowars.com
+* connecting to 13.227.2.212:443
+* connecting to 13.226.118.51:443
+* connecting to 13.226.118.33:443
+* connecting to 13.226.118.114:443
+* connecting to 13.226.118.45:443
+* doing HTTP(s) request https://www.auspost.com.au/
+* doing HTTP(s) request https://www.worldbank.org/
+* connecting to 104.16.184.40:443
+* connecting to 104.16.250.6:443
+
+Status
+------
+20 completed 50 remaining
+40.0% (ETA: 17s)
+* doing HTTP(s) request https://www.infowars.com/
+
+Status
+------
+21 completed 50 remaining
+42.0% (ETA: 17s)
+
+Status
+------
+22 completed 50 remaining
+44.0% (ETA: 18s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 7344: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 90054: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.worldbank.org/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.biblehub.com/
+* doing DNS query for www.biblehub.com
+* connecting to 192.169.82.74:443
+* doing HTTP(s) request https://www.biblehub.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe9 in position 447: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.infowars.com/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.fao.org/
+* doing DNS query for www.fao.org
+
+Status
+------
+23 completed 50 remaining
+46.0% (ETA: 16s)
+* connecting to 104.18.23.5:443
+* connecting to 104.18.22.5:443
+* doing HTTP(s) request https://www.fao.org/
+
+Status
+------
+24 completed 50 remaining
+48.0% (ETA: 16s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 197301: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.biblehub.com/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.cosmopolitan.com/
+* doing DNS query for www.cosmopolitan.com
+* connecting to 199.232.36.155:443
+* doing HTTP(s) request https://www.cosmopolitan.com/
+
+Status
+------
+25 completed 50 remaining
+50.0% (ETA: 14s)
+
+Result for https://www.auspost.com.au/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.aarp.org/
+* doing DNS query for www.aarp.org
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd8 in position 14383: ordinal not in range(128)
+* performing control request with backend
+* connecting to 13.226.118.58:443
+* connecting to 13.226.118.92:443
+* connecting to 13.226.118.107:443
+* connecting to 13.226.118.84:443
+
+Status
+------
+26 completed 50 remaining
+52.0% (ETA: 14s)
+* doing HTTP(s) request https://www.aarp.org/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 228361: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.fao.org/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.sec.gov/
+* doing DNS query for www.sec.gov
+* connecting to 104.122.128.243:443
+* doing HTTP(s) request https://www.sec.gov/
+
+Status
+------
+27 completed 50 remaining
+54.0% (ETA: 13s)
+
+Result for https://www.post.japanpost.jp/
+-----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.va.gov/
+* doing DNS query for www.va.gov
+* connecting to 152.133.106.221:443
+
+Result for https://www.cosmopolitan.com/
+----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.snopes.com/
+* doing DNS query for www.snopes.com
+* doing HTTP(s) request https://www.va.gov/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 253: ordinal not in range(128)
+* performing control request with backend
+* connecting to 13.226.118.15:443
+* connecting to 13.226.118.20:443
+* connecting to 13.226.118.29:443
+* connecting to 13.226.118.30:443
+
+Status
+------
+28 completed 50 remaining
+56.0% (ETA: 13s)
+* doing HTTP(s) request https://www.snopes.com/
+
+Status
+------
+29 completed 50 remaining
+58.0% (ETA: 13s)
+
+Result for https://www.aarp.org/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.salon.com/
+* doing DNS query for www.salon.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 23927: ordinal not in range(128)
+* performing control request with backend
+* connecting to 104.16.245.94:443
+* connecting to 104.16.246.94:443
+* doing HTTP(s) request https://www.salon.com/
+
+Status
+------
+30 completed 50 remaining
+60.0% (ETA: 12s)
+
+Result for https://www.sec.gov/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.familysearch.org/
+* doing DNS query for www.familysearch.org
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 1266: ordinal not in range(128)
+* performing control request with backend
+* connecting to 99.86.230.48:443
+* connecting to 99.86.230.64:443
+* connecting to 99.86.230.72:443
+* connecting to 99.86.230.52:443
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 65646: ordinal not in range(128)
+* performing control request with backend
+* doing HTTP(s) request https://www.familysearch.org/
+
+Status
+------
+31 completed 50 remaining
+62.0% (ETA: 11s)
+
+Result for https://www.salon.com/
+---------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.menshealth.com/
+* doing DNS query for www.menshealth.com
+* connecting to 199.232.36.155:443
+* doing HTTP(s) request https://www.menshealth.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xca in position 21484: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.va.gov/
+------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.digg.com/
+* doing DNS query for www.digg.com
+
+Status
+------
+32 completed 50 remaining
+64.0% (ETA: 11s)
+* connecting to 172.67.33.204:443
+* connecting to 104.20.9.174:443
+* connecting to 104.20.10.174:443
+* doing HTTP(s) request https://www.digg.com/
+
+Status
+------
+33 completed 50 remaining
+66.0% (ETA: 10s)
+
+Result for https://www.snopes.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.expatriates.com/
+* doing DNS query for www.expatriates.com
+* connecting to 104.17.96.47:443
+* connecting to 104.17.82.49:443
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 189044: ordinal not in range(128)
+* performing control request with backend
+* doing HTTP(s) request https://www.expatriates.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 1072: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc5 in position 30498: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+34 completed 50 remaining
+68.0% (ETA: 10s)
+
+Result for https://www.menshealth.com/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.theknot.com/
+* doing DNS query for www.theknot.com
+* connecting to 104.16.209.249:443
+* connecting to 104.16.208.249:443
+* doing HTTP(s) request https://www.theknot.com/
+
+Result for https://www.familysearch.org/
+----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.esquire.com/
+* doing DNS query for www.esquire.com
+
+Status
+------
+35 completed 50 remaining
+70.0% (ETA: 9s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+* connecting to 199.232.36.155:443
+
+Result for https://www.digg.com/
+--------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.complex.com/
+* doing DNS query for www.complex.com
+* doing HTTP(s) request https://www.esquire.com/
+* connecting to 151.101.210.133:443
+* doing HTTP(s) request https://www.complex.com/
+
+Status
+------
+36 completed 50 remaining
+72.0% (ETA: 9s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 50414: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+37 completed 50 remaining
+74.0% (ETA: 8s)
+
+Result for https://www.expatriates.com/
+---------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.hi5.com/
+* doing DNS query for www.hi5.com
+* connecting to 135.84.35.167:443
+* doing HTTP(s) request https://www.hi5.com/
+
+Status
+------
+38 completed 50 remaining
+76.0% (ETA: 7s)
+
+Result for https://www.theknot.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.alrajhibank.com.sa/
+* doing DNS query for www.alrajhibank.com.sa
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 204918: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+39 completed 50 remaining
+78.0% (ETA: 7s)
+
+Result for https://www.esquire.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.sulekha.com/
+* doing DNS query for www.sulekha.com
+* connecting to 52.170.100.84:443
+* doing HTTP(s) request https://www.sulekha.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 32789: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+40 completed 50 remaining
+80.0% (ETA: 6s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 116709: ordinal not in range(128)
+* performing control request with backend
+* connecting to 193.19.90.20:443
+* doing HTTP(s) request https://www.alrajhibank.com.sa/
+
+Result for https://www.complex.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.weforum.org/
+* doing DNS query for www.weforum.org
+
+Result for https://www.hi5.com/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.unesco.org/
+* doing DNS query for www.unesco.org
+
+Status
+------
+41 completed 50 remaining
+82.0% (ETA: 5s)
+
+Status
+------
+42 completed 50 remaining
+84.0% (ETA: 5s)
+* connecting to 88.221.102.60:443
+* connecting to 193.242.192.41:443
+* doing HTTP(s) request https://www.weforum.org/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xef in position 0: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.sulekha.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.justice.gov/
+* doing DNS query for www.justice.gov
+* connecting to 104.97.54.151:443
+* doing HTTP(s) request https://www.justice.gov/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 11553: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+43 completed 50 remaining
+86.0% (ETA: 4s)
+
+Result for https://www.weforum.org/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.uspto.gov/
+* doing DNS query for www.uspto.gov
+* connecting to 151.207.240.133:443
+* doing HTTP(s) request https://www.uspto.gov/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 3031: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+44 completed 50 remaining
+88.0% (ETA: 3s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 30010: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.justice.gov/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.thrillist.com/
+* doing DNS query for www.thrillist.com
+* connecting to 151.101.208.122:443
+* doing HTTP(s) request https://www.thrillist.com/
+
+Status
+------
+45 completed 50 remaining
+90.0% (ETA: 3s)
+
+Result for https://www.uspto.gov/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.companieshouse.gov.uk/
+* doing DNS query for www.companieshouse.gov.uk
+
+Status
+------
+46 completed 50 remaining
+92.0% (ETA: 2s)
+* connecting to 199.232.36.144:443
+* doing HTTP(s) request https://www.companieshouse.gov.uk/
+Error performing HTTP request: https://www.companieshouse.gov.uk/
+Error performing HTTP request: https://www.companieshouse.gov.uk/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xf0 in position 33845: ordinal not in range(128)
+* performing control request with backend
+Error performing HTTP request: https://www.companieshouse.gov.uk/
+Failed to perform HTTP request response_never_received
+* performing control request with backend
+
+Result for https://www.thrillist.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Result for https://www.companieshouse.gov.uk/
+---------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Status
+------
+47 completed 50 remaining
+94.0% (ETA: 1s)
+
+Status
+------
+48 completed 50 remaining
+96.0% (ETA: 1s)
+* doing HTTP(s) request https://www.unesco.org/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd9 in position 9278: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.alrajhibank.com.sa/
+------------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Status
+------
+49 completed 50 remaining
+98.0% (ETA: 0s)
+Error performing HTTP request: https://www.unesco.org/
+Error performing HTTP request: https://www.unesco.org/
+Error performing HTTP request: https://www.unesco.org/
+Failed to perform HTTP request generic_timeout_error
+* performing control request with backend
+
+Result for https://www.unesco.org/
+----------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Status
+------
+50 completed 50 remaining
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Not accessible URLS
+-------------------
+* https://www.patreon.com/
+* https://www.who.int/
+* https://www.nih.gov/
+* https://www.irs.gov/
+* https://www.jw.org/
+* https://www.biblegateway.com/
+* https://www.europa.eu/
+* https://www.ato.gov.au/
+* https://www.ancestry.com/
+* https://www.correios.com.br/
+* https://www.state.gov/
+* https://www.un.org/
+* https://www.collegeboard.org/
+* https://www.ec.europa.eu/
+* https://www.answers.yahoo.com/
+* https://www.legacy.com/
+* https://www.match.com/
+* https://www.bbb.org/
+* https://www.royalmail.com/
+* https://www.ssa.gov/
+* https://www.change.org/
+* https://www.slate.com/
+* https://www.worldbank.org/
+* https://www.infowars.com/
+* https://www.biblehub.com/
+* https://www.auspost.com.au/
+* https://www.fao.org/
+* https://www.post.japanpost.jp/
+* https://www.cosmopolitan.com/
+* https://www.aarp.org/
+* https://www.sec.gov/
+* https://www.salon.com/
+* https://www.va.gov/
+* https://www.snopes.com/
+* https://www.menshealth.com/
+* https://www.familysearch.org/
+* https://www.digg.com/
+* https://www.expatriates.com/
+* https://www.theknot.com/
+* https://www.esquire.com/
+* https://www.complex.com/
+* https://www.hi5.com/
+* https://www.sulekha.com/
+* https://www.weforum.org/
+* https://www.justice.gov/
+* https://www.uspto.gov/
+* https://www.thrillist.com/
+* https://www.companieshouse.gov.uk/
+* https://www.alrajhibank.com.sa/
+* https://www.unesco.org/
+
+URLS possibly blocked due to http-failure
+-----------------------------------------
+* https://www.patreon.com/
+* https://www.nih.gov/
+* https://www.europa.eu/
+* https://www.ancestry.com/
+* https://www.correios.com.br/
+* https://www.un.org/
+* https://www.ec.europa.eu/
+* https://www.legacy.com/
+* https://www.bbb.org/
+* https://www.royalmail.com/
+* https://www.ssa.gov/
+* https://www.change.org/
+* https://www.infowars.com/
+* https://www.biblehub.com/
+* https://www.fao.org/
+* https://www.salon.com/
+* https://www.va.gov/
+* https://www.digg.com/
+* https://www.expatriates.com/
+* https://www.theknot.com/
+* https://www.hi5.com/
+* https://www.sulekha.com/
+* https://www.alrajhibank.com.sa/
+
+URLS possibly blocked due to dns
+--------------------------------
+* https://www.who.int/
+* https://www.irs.gov/
+* https://www.jw.org/
+* https://www.biblegateway.com/
+* https://www.ato.gov.au/
+* https://www.state.gov/
+* https://www.collegeboard.org/
+* https://www.answers.yahoo.com/
+* https://www.match.com/
+* https://www.slate.com/
+* https://www.worldbank.org/
+* https://www.auspost.com.au/
+* https://www.post.japanpost.jp/
+* https://www.cosmopolitan.com/
+* https://www.aarp.org/
+* https://www.sec.gov/
+* https://www.snopes.com/
+* https://www.menshealth.com/
+* https://www.familysearch.org/
+* https://www.esquire.com/
+* https://www.complex.com/
+* https://www.weforum.org/
+* https://www.justice.gov/
+* https://www.uspto.gov/
+* https://www.thrillist.com/
+* https://www.companieshouse.gov.uk/
+Report ID: 20200726T154507Z_AS29384_xymtImSuBgfADXw1iE9Kob3ObaqoATB0wwJ6wErfRrpGGGLE4r
+381.361922026

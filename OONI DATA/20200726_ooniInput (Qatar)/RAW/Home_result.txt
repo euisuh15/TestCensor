@@ -1,0 +1,1103 @@
+[!] Error processing dns_spoof.py
+[!] Error processing traceroute.py
+Starting Tor
+5%: Connecting to directory server
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+51%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+52%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+54%: Loading relay descriptors
+56%: Loading relay descriptors
+60%: Loading relay descriptors
+64%: Loading relay descriptors
+70%: Loading relay descriptors
+77%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for https://www.finance.yahoo.com/
+* doing DNS query for www.finance.yahoo.com
+
+Starting test for https://www.cnbc.com/
+* doing DNS query for www.cnbc.com
+
+Starting test for https://www.yelp.com/
+* doing DNS query for www.yelp.com
+
+Starting test for https://www.irs.gov/
+* doing DNS query for www.irs.gov
+* connecting to 104.122.129.68:443
+* doing HTTP(s) request https://www.cnbc.com/
+* connecting to 212.82.100.151:443
+* doing HTTP(s) request https://www.finance.yahoo.com/
+* connecting to 151.101.208.116:443
+* doing HTTP(s) request https://www.yelp.com/
+* connecting to 23.78.197.214:443
+* doing HTTP(s) request https://www.irs.gov/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 17650: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.irs.gov/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.marketwatch.com/
+* doing DNS query for www.marketwatch.com
+* connecting to 88.221.100.114:443
+* doing HTTP(s) request https://www.marketwatch.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 129338: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 261541: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+1 completed 50 remaining
+2.0% (ETA: 9s)
+
+Result for https://www.cnbc.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.gsmarena.com/
+* doing DNS query for www.gsmarena.com
+* connecting to 148.251.96.211:443
+* doing HTTP(s) request https://www.gsmarena.com/
+
+Status
+------
+2 completed 50 remaining
+4.0% (ETA: 12s)
+
+Result for https://www.yelp.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.digitaltrends.com/
+* doing DNS query for www.digitaltrends.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 121709: ordinal not in range(128)
+* performing control request with backend
+* connecting to 151.101.210.49:443
+* doing HTTP(s) request https://www.digitaltrends.com/
+
+Status
+------
+3 completed 50 remaining
+6.0% (ETA: 15s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.finance.yahoo.com/
+-----------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.theverge.com/
+* doing DNS query for www.theverge.com
+* connecting to 151.101.209.52:443
+* doing HTTP(s) request https://www.theverge.com/
+
+Result for https://www.gsmarena.com/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.engadget.com/
+* doing DNS query for www.engadget.com
+
+Status
+------
+4 completed 50 remaining
+8.0% (ETA: 16s)
+* connecting to 76.13.32.141:443
+
+Result for https://www.marketwatch.com/
+---------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.fool.com/
+* doing DNS query for www.fool.com
+* doing HTTP(s) request https://www.engadget.com/
+* connecting to 199.232.37.143:443
+* doing HTTP(s) request https://www.fool.com/
+
+Status
+------
+5 completed 50 remaining
+10.0% (ETA: 17s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 95490: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+6 completed 50 remaining
+12.0% (ETA: 20s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 115405: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 6709: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.theverge.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.allrecipes.com/
+* doing DNS query for www.allrecipes.com
+
+Result for https://www.digitaltrends.com/
+-----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.trustpilot.com/
+* doing DNS query for www.trustpilot.com
+* connecting to 13.93.202.50:443
+* connecting to 13.226.118.115:443
+* connecting to 13.226.118.112:443
+* connecting to 13.226.118.22:443
+* connecting to 13.226.118.85:443
+* doing HTTP(s) request https://www.allrecipes.com/
+* doing HTTP(s) request https://www.trustpilot.com/
+
+Status
+------
+7 completed 50 remaining
+14.0% (ETA: 19s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 46645: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+8 completed 50 remaining
+16.0% (ETA: 21s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 16302: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.fool.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.tomsguide.com/
+* doing DNS query for www.tomsguide.com
+* connecting to 185.113.25.55:443
+* doing HTTP(s) request https://www.tomsguide.com/
+
+Result for https://www.trustpilot.com/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.kbb.com/
+* doing DNS query for www.kbb.com
+
+Status
+------
+9 completed 50 remaining
+18.0% (ETA: 19s)
+* connecting to 104.122.133.28:443
+
+Result for https://www.engadget.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.gizmodo.com/
+* doing DNS query for www.gizmodo.com
+* doing HTTP(s) request https://www.kbb.com/
+* connecting to 151.101.130.166:443
+* connecting to 151.101.66.166:443
+* connecting to 151.101.2.166:443
+* connecting to 151.101.194.166:443
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 215775: ordinal not in range(128)
+* performing control request with backend
+* doing HTTP(s) request https://www.gizmodo.com/
+
+Status
+------
+10 completed 50 remaining
+20.0% (ETA: 19s)
+
+Status
+------
+11 completed 50 remaining
+22.0% (ETA: 20s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 119011: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.allrecipes.com/
+--------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.instructables.com/
+* doing DNS query for www.instructables.com
+* connecting to 151.101.209.105:443
+* doing HTTP(s) request https://www.instructables.com/
+
+Result for https://www.tomsguide.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.bankrate.com/
+* doing DNS query for www.bankrate.com
+* connecting to 151.101.209.132:443
+* doing HTTP(s) request https://www.bankrate.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 213756: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+12 completed 50 remaining
+24.0% (ETA: 19s)
+
+Status
+------
+13 completed 50 remaining
+26.0% (ETA: 20s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xef in position 142586: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.kbb.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.tomshardware.com/
+* doing DNS query for www.tomshardware.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 86747: ordinal not in range(128)
+* performing control request with backend
+* connecting to 185.113.25.56:443
+* doing HTTP(s) request https://www.tomshardware.com/
+
+Result for https://www.gizmodo.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.bbb.org/
+* doing DNS query for www.bbb.org
+
+Status
+------
+14 completed 50 remaining
+28.0% (ETA: 19s)
+* connecting to 216.52.119.101:443
+* doing HTTP(s) request https://www.bbb.org/
+
+Result for https://www.instructables.com/
+-----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.goodhousekeeping.com/
+* doing DNS query for www.goodhousekeeping.com
+* connecting to 151.101.208.155:443
+* doing HTTP(s) request https://www.goodhousekeeping.com/
+
+Status
+------
+15 completed 50 remaining
+30.0% (ETA: 18s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 100540: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+16 completed 50 remaining
+32.0% (ETA: 19s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 286359: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 3313: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.tomshardware.com/
+----------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.edmunds.com/
+* doing DNS query for www.edmunds.com
+* connecting to 95.100.170.154:443
+* connecting to 95.100.170.145:443
+* doing HTTP(s) request https://www.edmunds.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 282662: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+17 completed 50 remaining
+34.0% (ETA: 18s)
+
+Result for https://www.bbb.org/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.ssa.gov/
+* doing DNS query for www.ssa.gov
+
+Result for https://www.bankrate.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.money.cnn.com/
+* doing DNS query for www.money.cnn.com
+
+Result for https://www.goodhousekeeping.com/
+--------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.carfax.com/
+* doing DNS query for www.carfax.com
+* connecting to 151.101.209.67:443
+* connecting to 137.200.4.16:443
+* doing HTTP(s) request https://www.money.cnn.com/
+* doing HTTP(s) request https://www.ssa.gov/
+* connecting to 107.22.90.20:443
+* connecting to 54.86.246.26:443
+* connecting to 3.90.127.62:443
+* doing HTTP(s) request https://www.carfax.com/
+
+Status
+------
+18 completed 50 remaining
+36.0% (ETA: 18s)
+
+Status
+------
+19 completed 50 remaining
+38.0% (ETA: 18s)
+
+Status
+------
+20 completed 50 remaining
+40.0% (ETA: 18s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 18194: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.carfax.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.babycenter.com/
+* doing DNS query for www.babycenter.com
+* connecting to 2.23.225.94:443
+* doing HTTP(s) request https://www.babycenter.com/
+
+Status
+------
+21 completed 50 remaining
+42.0% (ETA: 16s)
+
+Result for https://www.ssa.gov/
+-------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.thespruce.com/
+* doing DNS query for www.thespruce.com
+* connecting to 199.232.38.137:443
+* doing HTTP(s) request https://www.thespruce.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 1089: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 55879: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+22 completed 50 remaining
+44.0% (ETA: 15s)
+
+Result for https://www.money.cnn.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.travel.state.gov/
+* doing DNS query for www.travel.state.gov
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Status
+------
+23 completed 50 remaining
+46.0% (ETA: 15s)
+* connecting to 13.58.170.124:443
+* connecting to 13.58.116.30:443
+* connecting to 52.14.234.144:443
+* connecting to 18.220.218.98:443
+* connecting to 18.220.190.158:443
+* connecting to 18.219.108.36:443
+* connecting to 18.219.92.14:443
+* connecting to 18.219.36.149:443
+* connecting to 18.219.22.127:443
+* connecting to 18.219.0.83:443
+* connecting to 18.218.199.172:443
+* connecting to 18.218.132.161:443
+* connecting to 18.217.102.85:443
+* connecting to 18.217.66.14:443
+* connecting to 18.217.38.127:443
+* connecting to 18.216.147.148:443
+* connecting to 18.216.81.98:443
+* connecting to 18.216.14.33:443
+
+Result for https://www.babycenter.com/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.food.com/
+* doing DNS query for www.food.com
+* doing HTTP(s) request https://www.travel.state.gov/
+* connecting to 184.29.68.136:443
+* doing HTTP(s) request https://www.food.com/
+
+Result for https://www.thespruce.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.thekitchn.com/
+* doing DNS query for www.thekitchn.com
+
+Status
+------
+24 completed 50 remaining
+48.0% (ETA: 14s)
+* connecting to 151.101.210.49:443
+* doing HTTP(s) request https://www.thekitchn.com/
+
+Status
+------
+25 completed 50 remaining
+50.0% (ETA: 14s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xd9 in position 130: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.thekitchn.com/
+-------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.dpreview.com/
+* doing DNS query for www.dpreview.com
+* connecting to 13.226.118.56:443
+* connecting to 13.226.118.98:443
+* connecting to 13.226.118.35:443
+* connecting to 13.226.118.31:443
+* doing HTTP(s) request https://www.dpreview.com/
+
+Result for https://www.food.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.lifehack.org/
+* doing DNS query for www.lifehack.org
+* connecting to 104.20.199.58:443
+* connecting to 104.20.198.58:443
+* connecting to 172.67.18.35:443
+* doing HTTP(s) request https://www.lifehack.org/
+
+Status
+------
+26 completed 50 remaining
+52.0% (ETA: 13s)
+
+Status
+------
+27 completed 50 remaining
+54.0% (ETA: 12s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 34960: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.travel.state.gov/
+----------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.thespruceeats.com/
+* doing DNS query for www.thespruceeats.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xef in position 29275: ordinal not in range(128)
+* performing control request with backend
+* connecting to 199.232.38.137:443
+* doing HTTP(s) request https://www.thespruceeats.com/
+
+Result for https://www.lifehack.org/
+------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.consumerreports.org/
+* doing DNS query for www.consumerreports.org
+
+Status
+------
+28 completed 50 remaining
+56.0% (ETA: 12s)
+* connecting to 13.225.214.32:443
+* connecting to 13.225.214.98:443
+* connecting to 13.225.214.13:443
+* connecting to 13.225.214.116:443
+* doing HTTP(s) request https://www.consumerreports.org/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 151336: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.dpreview.com/
+------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.bonappetit.com/
+* doing DNS query for www.bonappetit.com
+* connecting to 199.232.36.239:443
+* doing HTTP(s) request https://www.bonappetit.com/
+
+Status
+------
+29 completed 50 remaining
+58.0% (ETA: 11s)
+
+Status
+------
+30 completed 50 remaining
+60.0% (ETA: 11s)
+
+Result for https://www.thespruceeats.com/
+-----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.youneedabudget.com/
+* doing DNS query for www.youneedabudget.com
+* connecting to 104.26.14.242:443
+* connecting to 172.67.69.237:443
+* connecting to 104.26.15.242:443
+* doing HTTP(s) request https://www.youneedabudget.com/
+
+Status
+------
+31 completed 50 remaining
+62.0% (ETA: 10s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 25054: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 24693: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 1051: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.consumerreports.org/
+-------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.fixya.com/
+* doing DNS query for www.fixya.com
+
+Result for https://www.youneedabudget.com/
+------------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.bhg.com/
+* doing DNS query for www.bhg.com
+* connecting to 104.18.18.77:443
+* connecting to 104.18.19.77:443
+* doing HTTP(s) request https://www.fixya.com/
+
+Result for https://www.bonappetit.com/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.countryliving.com/
+* doing DNS query for www.countryliving.com
+* connecting to 143.204.148.66:443
+* connecting to 143.204.148.98:443
+* connecting to 143.204.148.125:443
+* connecting to 143.204.148.11:443
+* doing HTTP(s) request https://www.bhg.com/
+* connecting to 199.232.36.155:443
+* doing HTTP(s) request https://www.countryliving.com/
+
+Status
+------
+32 completed 50 remaining
+64.0% (ETA: 9s)
+
+Status
+------
+33 completed 50 remaining
+66.0% (ETA: 9s)
+
+Status
+------
+34 completed 50 remaining
+68.0% (ETA: 9s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.fixya.com/
+---------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.marthastewart.com/
+* doing DNS query for www.marthastewart.com
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 139743: ordinal not in range(128)
+* performing control request with backend
+* connecting to 13.33.60.84:443
+* connecting to 13.33.60.7:443
+* connecting to 13.33.60.35:443
+* connecting to 13.33.60.34:443
+* doing HTTP(s) request https://www.marthastewart.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 87163: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+35 completed 50 remaining
+70.0% (ETA: 8s)
+
+Result for https://www.bhg.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.food.ndtv.com/
+* doing DNS query for www.food.ndtv.com
+* doing HTTP(s) request https://www.food.ndtv.com/
+Error performing HTTP request: https://www.food.ndtv.com/
+Error performing HTTP request: https://www.food.ndtv.com/
+Error performing HTTP request: https://www.food.ndtv.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+
+Result for https://www.countryliving.com/
+-----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.ehow.com/
+* doing DNS query for www.ehow.com
+* connecting to 104.120.89.122:443
+* doing HTTP(s) request https://www.ehow.com/
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 59109: ordinal not in range(128)
+* performing control request with backend
+
+Status
+------
+36 completed 50 remaining
+72.0% (ETA: 8s)
+
+Status
+------
+37 completed 50 remaining
+74.0% (ETA: 7s)
+
+Result for https://www.food.ndtv.com/
+-------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.apartmenttherapy.com/
+* doing DNS query for www.apartmenttherapy.com
+* connecting to 199.232.38.49:443
+* doing HTTP(s) request https://www.apartmenttherapy.com/
+
+Result for https://www.marthastewart.com/
+-----------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.realsimple.com/
+* doing DNS query for www.realsimple.com
+* connecting to 13.33.60.113:443
+* connecting to 13.33.60.19:443
+* connecting to 13.33.60.42:443
+* connecting to 13.33.60.81:443
+* doing HTTP(s) request https://www.realsimple.com/
+
+Status
+------
+38 completed 50 remaining
+76.0% (ETA: 7s)
+
+Status
+------
+39 completed 50 remaining
+78.0% (ETA: 6s)
+Failed to perform HTTP request unknown_failure decoding Unicode is not supported
+* performing control request with backend
+
+Result for https://www.apartmenttherapy.com/
+--------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.gardeningknowhow.com/
+* doing DNS query for www.gardeningknowhow.com
+* connecting to 151.139.128.11:443
+* doing HTTP(s) request https://www.gardeningknowhow.com/
+
+Status
+------
+40 completed 50 remaining
+80.0% (ETA: 5s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 127574: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 73742: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.gardeningknowhow.com/
+--------------------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Starting test for https://www.parents.com/
+* doing DNS query for www.parents.com
+* connecting to 143.204.148.12:443
+* connecting to 143.204.148.60:443
+* connecting to 143.204.148.99:443
+* connecting to 143.204.148.115:443
+* doing HTTP(s) request https://www.parents.com/
+
+Status
+------
+41 completed 50 remaining
+82.0% (ETA: 5s)
+
+Result for https://www.realsimple.com/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.hgtv.com/
+* doing DNS query for www.hgtv.com
+* connecting to 184.29.68.136:443
+* doing HTTP(s) request https://www.hgtv.com/
+
+Status
+------
+42 completed 50 remaining
+84.0% (ETA: 4s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 94832: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xef in position 14707: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.hgtv.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.healthcare.gov/
+* doing DNS query for www.healthcare.gov
+* connecting to 104.97.55.144:443
+* doing HTTP(s) request https://www.healthcare.gov/
+
+Result for https://www.parents.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.bobvila.com/
+* doing DNS query for www.bobvila.com
+
+Status
+------
+43 completed 50 remaining
+86.0% (ETA: 3s)
+* connecting to 151.101.210.217:443
+* doing HTTP(s) request https://www.bobvila.com/
+
+Status
+------
+44 completed 50 remaining
+88.0% (ETA: 3s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc3 in position 5134: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 60929: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.healthcare.gov/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.cafemom.com/
+* doing DNS query for www.cafemom.com
+* connecting to 54.205.137.44:443
+* connecting to 3.227.111.115:443
+* doing HTTP(s) request https://www.cafemom.com/
+
+Status
+------
+45 completed 50 remaining
+90.0% (ETA: 2s)
+
+Result for https://www.bobvila.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.foodandwine.com/
+* doing DNS query for www.foodandwine.com
+* connecting to 99.84.112.13:443
+* connecting to 99.84.112.22:443
+* connecting to 99.84.112.46:443
+* connecting to 99.84.112.66:443
+* doing HTTP(s) request https://www.foodandwine.com/
+
+Status
+------
+46 completed 50 remaining
+92.0% (ETA: 2s)
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xc2 in position 86315: ordinal not in range(128)
+* performing control request with backend
+Failed to perform HTTP request unknown_failure 'ascii' codec can't decode byte 0xe2 in position 116632: ordinal not in range(128)
+* performing control request with backend
+
+Result for https://www.foodandwine.com/
+---------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Status
+------
+47 completed 50 remaining
+94.0% (ETA: 1s)
+
+Result for https://www.cafemom.com/
+-----------------------------------
+* BLOCKING DETECTED due to http-failure
+* Is NOT accessible
+
+
+Status
+------
+48 completed 50 remaining
+96.0% (ETA: 1s)
+
+Starting test for https://www.edmunds.com/
+* doing DNS query for www.edmunds.com
+* connecting to 82.148.119.230:443
+* connecting to 82.148.119.244:443
+* doing HTTP(s) request https://www.edmunds.com/
+
+Starting test for https://www.ehow.com/
+* doing DNS query for www.ehow.com
+* connecting to 104.97.55.64:443
+* doing HTTP(s) request https://www.ehow.com/
+
+Status
+------
+49 completed 50 remaining
+98.0% (ETA: 0s)
+
+Status
+------
+50 completed 50 remaining
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Not accessible URLS
+-------------------
+* https://www.irs.gov/
+* https://www.cnbc.com/
+* https://www.yelp.com/
+* https://www.finance.yahoo.com/
+* https://www.gsmarena.com/
+* https://www.marketwatch.com/
+* https://www.theverge.com/
+* https://www.digitaltrends.com/
+* https://www.fool.com/
+* https://www.trustpilot.com/
+* https://www.engadget.com/
+* https://www.allrecipes.com/
+* https://www.tomsguide.com/
+* https://www.kbb.com/
+* https://www.gizmodo.com/
+* https://www.instructables.com/
+* https://www.tomshardware.com/
+* https://www.bbb.org/
+* https://www.bankrate.com/
+* https://www.goodhousekeeping.com/
+* https://www.carfax.com/
+* https://www.ssa.gov/
+* https://www.money.cnn.com/
+* https://www.babycenter.com/
+* https://www.thespruce.com/
+* https://www.thekitchn.com/
+* https://www.food.com/
+* https://www.travel.state.gov/
+* https://www.lifehack.org/
+* https://www.dpreview.com/
+* https://www.thespruceeats.com/
+* https://www.consumerreports.org/
+* https://www.youneedabudget.com/
+* https://www.bonappetit.com/
+* https://www.fixya.com/
+* https://www.bhg.com/
+* https://www.countryliving.com/
+* https://www.food.ndtv.com/
+* https://www.marthastewart.com/
+* https://www.apartmenttherapy.com/
+* https://www.gardeningknowhow.com/
+* https://www.realsimple.com/
+* https://www.hgtv.com/
+* https://www.parents.com/
+* https://www.healthcare.gov/
+* https://www.bobvila.com/
+* https://www.foodandwine.com/
+* https://www.cafemom.com/
+* https://www.edmunds.com/
+* https://www.ehow.com/
+
+URLS possibly blocked due to http-failure
+-----------------------------------------
+* https://www.finance.yahoo.com/
+* https://www.gsmarena.com/
+* https://www.allrecipes.com/
+* https://www.gizmodo.com/
+* https://www.tomshardware.com/
+* https://www.bbb.org/
+* https://www.ssa.gov/
+* https://www.travel.state.gov/
+* https://www.lifehack.org/
+* https://www.youneedabudget.com/
+* https://www.fixya.com/
+* https://www.gardeningknowhow.com/
+* https://www.cafemom.com/
+
+URLS possibly blocked due to dns
+--------------------------------
+* https://www.irs.gov/
+* https://www.cnbc.com/
+* https://www.yelp.com/
+* https://www.marketwatch.com/
+* https://www.theverge.com/
+* https://www.digitaltrends.com/
+* https://www.fool.com/
+* https://www.trustpilot.com/
+* https://www.engadget.com/
+* https://www.tomsguide.com/
+* https://www.kbb.com/
+* https://www.instructables.com/
+* https://www.bankrate.com/
+* https://www.goodhousekeeping.com/
+* https://www.carfax.com/
+* https://www.money.cnn.com/
+* https://www.babycenter.com/
+* https://www.thespruce.com/
+* https://www.thekitchn.com/
+* https://www.food.com/
+* https://www.dpreview.com/
+* https://www.thespruceeats.com/
+* https://www.consumerreports.org/
+* https://www.bonappetit.com/
+* https://www.bhg.com/
+* https://www.countryliving.com/
+* https://www.marthastewart.com/
+* https://www.apartmenttherapy.com/
+* https://www.realsimple.com/
+* https://www.hgtv.com/
+* https://www.parents.com/
+* https://www.healthcare.gov/
+* https://www.bobvila.com/
+* https://www.foodandwine.com/
+Report ID: 20200726T141501Z_AS29384_vmM9xhKTq1HH9KOh9wNYkenp4eybl9xnCMgm1Qqljnukxs7LII
+Error performing HTTP request: https://www.edmunds.com/
+Error performing HTTP request: https://www.ehow.com/
+Error performing HTTP request: https://www.ehow.com/
+Error performing HTTP request: https://www.edmunds.com/
+712.651365042
