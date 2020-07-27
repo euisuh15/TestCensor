@@ -1,0 +1,1954 @@
+Starting Tor
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+57%: Loading relay descriptors
+61%: Loading relay descriptors
+65%: Loading relay descriptors
+71%: Loading relay descriptors
+78%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for http://www.psu.edu/
+* doing DNS query for www.psu.edu
+
+Starting test for https://www.psu.edu/
+* doing DNS query for www.psu.edu
+
+Starting test for http://www.spanishdict.com/
+* doing DNS query for www.spanishdict.com
+
+Starting test for https://www.spanishdict.com/
+* doing DNS query for www.spanishdict.com
+* connecting to 34.233.52.159:443
+* connecting to 3.218.161.142:443
+* connecting to 18.210.46.239:443
+* connecting to 34.233.52.159:80
+* connecting to 3.218.161.142:80
+* connecting to 18.210.46.239:80
+* doing HTTP(s) request http://www.spanishdict.com/
+* doing HTTP(s) request https://www.spanishdict.com/
+* connecting to 146.186.157.6:443
+* connecting to 146.186.157.6:80
+* doing HTTP(s) request http://www.psu.edu/
+* doing HTTP(s) request https://www.psu.edu/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.spanishdict.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.berkeley.edu/
+* doing DNS query for www.berkeley.edu
+* connecting to 52.88.197.125:80
+* connecting to 54.69.24.145:80
+* doing HTTP(s) request http://www.berkeley.edu/
+* performing control request with backend
+
+Result for http://www.spanishdict.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.berkeley.edu/
+* doing DNS query for www.berkeley.edu
+* connecting to 52.88.197.125:443
+* connecting to 54.69.24.145:443
+* doing HTTP(s) request https://www.berkeley.edu/
+* performing control request with backend
+
+Result for https://www.psu.edu/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.urbandictionary.com/
+* doing DNS query for www.urbandictionary.com
+* connecting to 151.101.108.207:80
+* doing HTTP(s) request http://www.urbandictionary.com/
+
+Status
+------
+1/100 completed
+1.0% (ETA: 18s)
+* performing control request with backend
+
+Status
+------
+2/100 completed
+2.0% (ETA: 30s)
+
+Result for http://www.psu.edu/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.urbandictionary.com/
+* doing DNS query for www.urbandictionary.com
+* connecting to 151.101.108.207:443
+* doing HTTP(s) request https://www.urbandictionary.com/
+* performing control request with backend
+
+Result for http://www.berkeley.edu/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.mapquest.com/
+* doing DNS query for www.mapquest.com
+
+Status
+------
+3/100 completed
+3.0% (ETA: 43s)
+* connecting to 54.70.167.10:80
+* connecting to 35.155.236.192:80
+* connecting to 52.35.218.176:80
+
+Result for https://www.berkeley.edu/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.mapquest.com/
+* doing DNS query for www.mapquest.com
+* connecting to 54.70.167.10:443
+* connecting to 35.155.236.192:443
+* connecting to 52.35.218.176:443
+* doing HTTP(s) request http://www.mapquest.com/
+* doing HTTP(s) request https://www.mapquest.com/
+
+Result for http://www.urbandictionary.com/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.szu.edu.cn/
+* doing DNS query for www.szu.edu.cn
+* connecting to 210.39.12.247:80
+* doing HTTP(s) request http://www.szu.edu.cn/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.urbandictionary.com/
+-------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.szu.edu.cn/
+* doing DNS query for www.szu.edu.cn
+* connecting to 210.39.12.247:443
+* doing HTTP(s) request https://www.szu.edu.cn/
+
+Status
+------
+4/100 completed
+4.0% (ETA: 44s)
+* performing control request with backend
+
+Status
+------
+5/100 completed
+5.0% (ETA: 54s)
+
+Status
+------
+6/100 completed
+6.0% (ETA: 64s)
+* performing control request with backend
+
+Result for https://www.mapquest.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.cornell.edu/
+* doing DNS query for www.cornell.edu
+* connecting to 40.117.44.12:80
+* doing HTTP(s) request http://www.cornell.edu/
+
+Result for http://www.mapquest.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.cornell.edu/
+* doing DNS query for www.cornell.edu
+* connecting to 40.117.44.12:443
+* doing HTTP(s) request https://www.cornell.edu/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.cornell.edu/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.stackoverflow.com/
+* doing DNS query for www.stackoverflow.com
+* connecting to 151.101.193.69:80
+* connecting to 151.101.65.69:80
+* connecting to 151.101.129.69:80
+* connecting to 151.101.1.69:80
+* doing HTTP(s) request http://www.stackoverflow.com/
+* performing control request with backend
+
+Result for https://www.cornell.edu/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.stackoverflow.com/
+* doing DNS query for www.stackoverflow.com
+* connecting to 151.101.193.69:443
+* connecting to 151.101.65.69:443
+* connecting to 151.101.129.69:443
+* connecting to 151.101.1.69:443
+* doing HTTP(s) request https://www.stackoverflow.com/
+
+Status
+------
+7/100 completed
+7.0% (ETA: 46s)
+
+Result for https://www.szu.edu.cn/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.coursera.org/
+* doing DNS query for www.coursera.org
+* connecting to 99.86.144.31:80
+* connecting to 99.86.144.36:80
+* connecting to 99.86.144.51:80
+* connecting to 99.86.144.123:80
+* doing HTTP(s) request http://www.coursera.org/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.szu.edu.cn/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.coursera.org/
+* doing DNS query for www.coursera.org
+* connecting to 99.86.144.31:443
+* connecting to 99.86.144.36:443
+* connecting to 99.86.144.51:443
+* connecting to 99.86.144.123:443
+* doing HTTP(s) request https://www.coursera.org/
+
+Status
+------
+8/100 completed
+8.0% (ETA: 49s)
+
+Status
+------
+9/100 completed
+9.0% (ETA: 55s)
+
+Status
+------
+10/100 completed
+10.0% (ETA: 60s)
+* performing control request with backend
+
+Result for http://www.stackoverflow.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.du.ac.in/
+* doing DNS query for www.du.ac.in
+
+Status
+------
+11/100 completed
+11.0% (ETA: 62s)
+* connecting to 14.139.45.149:80
+* doing HTTP(s) request http://www.du.ac.in/
+
+Status
+------
+12/100 completed
+12.0% (ETA: 65s)
+
+Result for https://www.stackoverflow.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.du.ac.in/
+* doing DNS query for www.du.ac.in
+* connecting to 14.139.45.149:443
+
+Result for http://www.coursera.org/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.answers.yahoo.com/
+* doing DNS query for www.answers.yahoo.com
+
+Result for https://www.coursera.org/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.answers.yahoo.com/
+* doing DNS query for www.answers.yahoo.com
+* doing HTTP(s) request https://www.du.ac.in/
+* connecting to 124.108.115.74:443
+* connecting to 180.222.102.151:443
+* connecting to 124.108.115.74:80
+* connecting to 180.222.102.151:80
+* doing HTTP(s) request https://www.answers.yahoo.com/
+* doing HTTP(s) request http://www.answers.yahoo.com/
+* performing control request with backend
+
+Status
+------
+13/100 completed
+13.0% (ETA: 65s)
+
+Status
+------
+14/100 completed
+14.0% (ETA: 69s)
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.du.ac.in/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.udemy.com/
+* doing DNS query for www.udemy.com
+* connecting to 104.16.91.52:80
+* connecting to 104.16.92.52:80
+* doing HTTP(s) request http://www.udemy.com/
+* performing control request with backend
+
+Result for https://www.answers.yahoo.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.udemy.com/
+* doing DNS query for www.udemy.com
+* connecting to 104.16.92.52:443
+* connecting to 104.16.91.52:443
+* doing HTTP(s) request https://www.udemy.com/
+* performing control request with backend
+
+Result for http://www.answers.yahoo.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.blackboard.com/
+* doing DNS query for www.blackboard.com
+* connecting to 104.17.96.235:80
+* connecting to 104.17.95.235:80
+* doing HTTP(s) request http://www.blackboard.com/
+
+Result for https://www.du.ac.in/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+* performing control request with backend
+
+Status
+------
+15/100 completed
+15.0% (ETA: 55s)
+
+Starting test for https://www.blackboard.com/
+* doing DNS query for www.blackboard.com
+* connecting to 104.17.96.235:443
+* connecting to 104.17.95.235:443
+* doing HTTP(s) request https://www.blackboard.com/
+* performing control request with backend
+
+Result for http://www.udemy.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for https://www.udemy.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+16/100 completed
+16.0% (ETA: 55s)
+
+Starting test for http://www.dictionary.cambridge.org/
+* doing DNS query for www.dictionary.cambridge.org
+* connecting to 54.174.181.241:80
+
+Status
+------
+17/100 completed
+17.0% (ETA: 58s)
+
+Starting test for https://www.dictionary.cambridge.org/
+* doing DNS query for www.dictionary.cambridge.org
+* connecting to 54.174.181.241:443
+* doing HTTP(s) request http://www.dictionary.cambridge.org/
+* doing HTTP(s) request https://www.dictionary.cambridge.org/
+
+Result for https://www.blackboard.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for http://www.blackboard.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+18/100 completed
+18.0% (ETA: 59s)
+
+Starting test for http://www.britannica.com/
+* doing DNS query for www.britannica.com
+* connecting to 52.74.167.70:80
+* connecting to 52.220.58.211:80
+* doing HTTP(s) request http://www.britannica.com/
+
+Status
+------
+19/100 completed
+19.0% (ETA: 61s)
+
+Starting test for https://www.britannica.com/
+* doing DNS query for www.britannica.com
+* connecting to 52.220.58.211:443
+* connecting to 52.74.167.70:443
+* doing HTTP(s) request https://www.britannica.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+20/100 completed
+20.0% (ETA: 62s)
+* performing control request with backend
+
+Result for https://www.dictionary.cambridge.org/
+------------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.tureng.com/
+* doing DNS query for www.tureng.com
+
+Result for http://www.dictionary.cambridge.org/
+-----------------------------------------------
+* No blocking detected
+* Is accessible
+
+* connecting to 172.67.203.7:80
+* connecting to 104.27.178.91:80
+* connecting to 104.27.179.91:80
+* doing HTTP(s) request http://www.tureng.com/
+
+Result for https://www.britannica.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for http://www.britannica.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+21/100 completed
+21.0% (ETA: 58s)
+
+Starting test for https://www.tureng.com/
+* doing DNS query for www.tureng.com
+* connecting to 104.27.179.91:443
+* connecting to 104.27.178.91:443
+* connecting to 172.67.203.7:443
+* doing HTTP(s) request https://www.tureng.com/
+
+Status
+------
+22/100 completed
+22.0% (ETA: 59s)
+
+Starting test for http://www.udacity.com/
+* doing DNS query for www.udacity.com
+* connecting to 104.16.104.31:80
+* connecting to 104.16.103.31:80
+* doing HTTP(s) request http://www.udacity.com/
+
+Status
+------
+23/100 completed
+23.0% (ETA: 60s)
+
+Starting test for https://www.udacity.com/
+* doing DNS query for www.udacity.com
+* connecting to 104.16.104.31:443
+* connecting to 104.16.103.31:443
+* doing HTTP(s) request https://www.udacity.com/
+
+Status
+------
+24/100 completed
+24.0% (ETA: 62s)
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+25/100 completed
+25.0% (ETA: 62s)
+
+Status
+------
+26/100 completed
+26.0% (ETA: 63s)
+* performing control request with backend
+
+Status
+------
+27/100 completed
+27.0% (ETA: 63s)
+
+Status
+------
+28/100 completed
+28.0% (ETA: 63s)
+
+Status
+------
+29/100 completed
+29.0% (ETA: 64s)
+
+Result for http://www.tureng.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.powerthesaurus.org/
+* doing DNS query for www.powerthesaurus.org
+* connecting to 51.161.115.112:80
+* connecting to 51.161.116.195:80
+* doing HTTP(s) request http://www.powerthesaurus.org/
+
+Result for http://www.udacity.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.powerthesaurus.org/
+* doing DNS query for www.powerthesaurus.org
+* connecting to 51.161.116.195:443
+* connecting to 51.161.115.112:443
+
+Result for https://www.udacity.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.sjtu.edu.cn/
+* doing DNS query for www.sjtu.edu.cn
+* performing control request with backend
+* doing HTTP(s) request https://www.powerthesaurus.org/
+* connecting to 202.120.2.119:80
+* doing HTTP(s) request http://www.sjtu.edu.cn/
+
+Result for https://www.tureng.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.sjtu.edu.cn/
+* doing DNS query for www.sjtu.edu.cn
+* connecting to 202.120.2.119:443
+* doing HTTP(s) request https://www.sjtu.edu.cn/
+* performing control request with backend
+
+Status
+------
+30/100 completed
+30.0% (ETA: 63s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+31/100 completed
+31.0% (ETA: 62s)
+
+Result for http://www.powerthesaurus.org/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.yellowpages.com/
+* doing DNS query for www.yellowpages.com
+
+Result for https://www.powerthesaurus.org/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.yellowpages.com/
+* doing DNS query for www.yellowpages.com
+
+Result for https://www.sjtu.edu.cn/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.stanford.edu/
+* doing DNS query for www.stanford.edu
+* connecting to 104.18.165.96:80
+* connecting to 104.18.167.96:80
+* connecting to 104.18.166.96:80
+* connecting to 104.18.168.96:80
+* connecting to 104.18.164.96:80
+* doing HTTP(s) request http://www.stanford.edu/
+
+Status
+------
+32/100 completed
+32.0% (ETA: 58s)
+
+Result for http://www.sjtu.edu.cn/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.stanford.edu/
+* doing DNS query for www.stanford.edu
+* performing control request with backend
+* connecting to 104.18.165.96:443
+* connecting to 104.18.167.96:443
+* connecting to 104.18.166.96:443
+* connecting to 104.18.168.96:443
+* connecting to 104.18.164.96:443
+* doing HTTP(s) request https://www.stanford.edu/
+* performing control request with backend
+
+Result for http://www.stanford.edu/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.goodreads.com/
+* doing DNS query for www.goodreads.com
+* connecting to 52.94.226.87:80
+* doing HTTP(s) request http://www.goodreads.com/
+
+Status
+------
+33/100 completed
+33.0% (ETA: 54s)
+
+Status
+------
+34/100 completed
+34.0% (ETA: 54s)
+* performing control request with backend
+
+Result for https://www.stanford.edu/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.goodreads.com/
+* doing DNS query for www.goodreads.com
+
+Status
+------
+35/100 completed
+35.0% (ETA: 54s)
+* connecting to 52.94.226.87:443
+* doing HTTP(s) request https://www.goodreads.com/
+
+Status
+------
+36/100 completed
+36.0% (ETA: 55s)
+* performing control request with backend
+
+Status
+------
+37/100 completed
+37.0% (ETA: 54s)
+
+Status
+------
+38/100 completed
+38.0% (ETA: 55s)
+
+Status
+------
+39/100 completed
+39.0% (ETA: 55s)
+* doing HTTP(s) request https://www.yellowpages.com/
+* doing HTTP(s) request http://www.yellowpages.com/
+
+Result for http://www.goodreads.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.linguee.com/
+* doing DNS query for www.linguee.com
+* connecting to 78.138.112.35:80
+* doing HTTP(s) request http://www.linguee.com/
+
+Result for https://www.goodreads.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.linguee.com/
+* doing DNS query for www.linguee.com
+* connecting to 78.138.112.35:443
+* doing HTTP(s) request https://www.linguee.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+40/100 completed
+40.0% (ETA: 52s)
+
+Status
+------
+41/100 completed
+41.0% (ETA: 52s)
+
+Result for https://www.linguee.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.cambridge.org/
+* doing DNS query for www.cambridge.org
+
+Result for http://www.linguee.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.cambridge.org/
+* doing DNS query for www.cambridge.org
+* connecting to 104.16.55.52:443
+* connecting to 104.16.56.52:443
+* connecting to 104.16.55.52:80
+* connecting to 104.16.56.52:80
+* doing HTTP(s) request https://www.cambridge.org/
+* doing HTTP(s) request http://www.cambridge.org/
+* performing control request with backend
+* performing control request with backend
+Error performing HTTP request: https://www.yellowpages.com/
+Error performing HTTP request: http://www.yellowpages.com/
+
+Result for http://www.cambridge.org/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.thefreedictionary.com/
+* doing DNS query for www.thefreedictionary.com
+* connecting to 45.34.10.165:80
+
+Result for https://www.cambridge.org/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.thefreedictionary.com/
+* doing DNS query for www.thefreedictionary.com
+* connecting to 45.34.10.165:443
+* doing HTTP(s) request http://www.thefreedictionary.com/
+* doing HTTP(s) request https://www.thefreedictionary.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+42/100 completed
+42.0% (ETA: 46s)
+Error performing HTTP request: http://www.yellowpages.com/
+Error performing HTTP request: https://www.yellowpages.com/
+Error performing HTTP request: http://www.yellowpages.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+Error performing HTTP request: https://www.yellowpages.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+
+Status
+------
+43/100 completed
+43.0% (ETA: 46s)
+
+Status
+------
+44/100 completed
+44.0% (ETA: 46s)
+
+Status
+------
+45/100 completed
+45.0% (ETA: 46s)
+
+Result for https://www.thefreedictionary.com/
+---------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.howstuffworks.com/
+* doing DNS query for www.howstuffworks.com
+* connecting to 99.86.144.4:80
+* connecting to 99.86.144.89:80
+* connecting to 99.86.144.110:80
+* connecting to 99.86.144.3:80
+* doing HTTP(s) request http://www.howstuffworks.com/
+
+Result for http://www.thefreedictionary.com/
+--------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.howstuffworks.com/
+* doing DNS query for www.howstuffworks.com
+* connecting to 99.86.144.4:443
+* connecting to 99.86.144.89:443
+* connecting to 99.86.144.110:443
+* connecting to 99.86.144.3:443
+* doing HTTP(s) request https://www.howstuffworks.com/
+
+Status
+------
+46/100 completed
+46.0% (ETA: 45s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+47/100 completed
+47.0% (ETA: 44s)
+
+Status
+------
+48/100 completed
+48.0% (ETA: 44s)
+
+Result for https://www.howstuffworks.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nlm.nih.gov/
+* doing DNS query for www.nlm.nih.gov
+* connecting to 99.84.238.12:80
+* connecting to 99.84.238.112:80
+* connecting to 99.84.238.69:80
+* connecting to 99.84.238.114:80
+
+Result for http://www.howstuffworks.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nlm.nih.gov/
+* doing DNS query for www.nlm.nih.gov
+
+Result for https://www.yellowpages.com/
+---------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for http://www.edx.org/
+* doing DNS query for www.edx.org
+* connecting to 99.84.238.12:443
+* connecting to 99.84.238.112:443
+* connecting to 99.84.238.69:443
+* connecting to 99.84.238.114:443
+* connecting to 104.16.177.84:80
+* connecting to 104.16.179.84:80
+* connecting to 104.16.180.84:80
+* connecting to 104.16.181.84:80
+* connecting to 104.16.178.84:80
+* doing HTTP(s) request http://www.edx.org/
+* doing HTTP(s) request http://www.nlm.nih.gov/
+* doing HTTP(s) request https://www.nlm.nih.gov/
+
+Result for http://www.yellowpages.com/
+--------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.edx.org/
+* doing DNS query for www.edx.org
+* connecting to 104.16.177.84:443
+* connecting to 104.16.179.84:443
+* connecting to 104.16.180.84:443
+* connecting to 104.16.181.84:443
+* connecting to 104.16.178.84:443
+* doing HTTP(s) request https://www.edx.org/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+49/100 completed
+49.0% (ETA: 41s)
+
+Result for http://www.edx.org/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.elsevier.com/
+* doing DNS query for www.elsevier.com
+* connecting to 203.82.24.7:80
+
+Result for https://www.edx.org/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.elsevier.com/
+* doing DNS query for www.elsevier.com
+* connecting to 203.82.24.7:443
+* doing HTTP(s) request http://www.elsevier.com/
+* doing HTTP(s) request https://www.elsevier.com/
+
+Status
+------
+50/100 completed
+50.0% (ETA: 41s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+51/100 completed
+51.0% (ETA: 40s)
+
+Status
+------
+52/100 completed
+52.0% (ETA: 40s)
+
+Result for https://www.nlm.nih.gov/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ecollege.com/
+* doing DNS query for www.ecollege.com
+
+Result for http://www.nlm.nih.gov/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ecollege.com/
+* doing DNS query for www.ecollege.com
+* connecting to 54.175.49.62:443
+* connecting to 54.209.16.180:443
+* connecting to 52.4.47.53:443
+* connecting to 54.175.49.62:80
+* connecting to 54.209.16.180:80
+* connecting to 52.4.47.53:80
+* doing HTTP(s) request https://www.ecollege.com/
+* doing HTTP(s) request http://www.ecollege.com/
+Error performing HTTP request: https://www.ecollege.com/
+Error performing HTTP request: https://www.ecollege.com/
+* performing control request with backend
+Error performing HTTP request: https://www.ecollege.com/
+Failed to perform HTTP request response_never_received
+* performing control request with backend
+
+Result for https://www.elsevier.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.jnu.edu.cn/
+* doing DNS query for www.jnu.edu.cn
+
+Result for http://www.elsevier.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.jnu.edu.cn/
+* doing DNS query for www.jnu.edu.cn
+* connecting to 202.43.61.249:443
+* connecting to 202.43.61.249:80
+* doing HTTP(s) request http://www.jnu.edu.cn/
+* doing HTTP(s) request https://www.jnu.edu.cn/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+53/100 completed
+53.0% (ETA: 37s)
+
+Status
+------
+54/100 completed
+54.0% (ETA: 37s)
+
+Status
+------
+55/100 completed
+55.0% (ETA: 37s)
+
+Result for http://www.ecollege.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.turnitin.com/
+* doing DNS query for www.turnitin.com
+* connecting to 151.101.230.133:80
+* doing HTTP(s) request http://www.turnitin.com/
+
+Status
+------
+56/100 completed
+56.0% (ETA: 36s)
+* performing control request with backend
+
+Result for https://www.ecollege.com/
+------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.turnitin.com/
+* doing DNS query for www.turnitin.com
+* connecting to 151.101.230.133:443
+* doing HTTP(s) request https://www.turnitin.com/
+* performing control request with backend
+
+Result for http://www.turnitin.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.wiktionary.org/
+* doing DNS query for www.wiktionary.org
+
+Result for https://www.jnu.edu.cn/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.wiktionary.org/
+* doing DNS query for www.wiktionary.org
+* connecting to 103.102.166.224:443
+* connecting to 103.102.166.224:80
+* doing HTTP(s) request https://www.wiktionary.org/
+* doing HTTP(s) request http://www.wiktionary.org/
+
+Result for http://www.jnu.edu.cn/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.thesaurus.com/
+* doing DNS query for www.thesaurus.com
+* connecting to 151.101.110.133:80
+* doing HTTP(s) request http://www.thesaurus.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.turnitin.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+57/100 completed
+57.0% (ETA: 34s)
+
+Starting test for https://www.thesaurus.com/
+* doing DNS query for www.thesaurus.com
+* connecting to 151.101.110.133:443
+* doing HTTP(s) request https://www.thesaurus.com/
+* performing control request with backend
+
+Result for https://www.wiktionary.org/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+58/100 completed
+58.0% (ETA: 33s)
+
+Starting test for http://www.yourdictionary.com/
+* doing DNS query for www.yourdictionary.com
+* connecting to 99.86.144.71:80
+* connecting to 99.86.144.112:80
+* connecting to 99.86.144.58:80
+* connecting to 99.86.144.37:80
+* doing HTTP(s) request http://www.yourdictionary.com/
+* performing control request with backend
+
+Result for http://www.wiktionary.org/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for http://www.thesaurus.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+59/100 completed
+59.0% (ETA: 33s)
+
+Starting test for https://www.yourdictionary.com/
+* doing DNS query for www.yourdictionary.com
+* connecting to 99.86.144.71:443
+* connecting to 99.86.144.112:443
+* connecting to 99.86.144.58:443
+* connecting to 99.86.144.37:443
+* doing HTTP(s) request https://www.yourdictionary.com/
+* performing control request with backend
+
+Status
+------
+60/100 completed
+60.0% (ETA: 32s)
+
+Starting test for http://www.en.wiktionary.org/
+* doing DNS query for www.en.wiktionary.org
+
+Status
+------
+61/100 completed
+61.0% (ETA: 32s)
+
+Result for https://www.thesaurus.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.en.wiktionary.org/
+* doing DNS query for www.en.wiktionary.org
+* doing HTTP(s) request https://www.en.wiktionary.org/
+* doing HTTP(s) request http://www.en.wiktionary.org/
+Error performing HTTP request: https://www.en.wiktionary.org/
+Error performing HTTP request: http://www.en.wiktionary.org/
+Error performing HTTP request: https://www.en.wiktionary.org/
+Error performing HTTP request: http://www.en.wiktionary.org/
+Error performing HTTP request: https://www.en.wiktionary.org/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+Error performing HTTP request: http://www.en.wiktionary.org/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+
+Status
+------
+62/100 completed
+62.0% (ETA: 31s)
+
+Result for http://www.yourdictionary.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.tableau.com/
+* doing DNS query for www.tableau.com
+* connecting to 184.25.92.108:80
+* doing HTTP(s) request http://www.tableau.com/
+* performing control request with backend
+
+Status
+------
+63/100 completed
+63.0% (ETA: 31s)
+
+Status
+------
+64/100 completed
+64.0% (ETA: 30s)
+
+Result for https://www.yourdictionary.com/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.tableau.com/
+* doing DNS query for www.tableau.com
+* connecting to 184.25.92.108:443
+* doing HTTP(s) request https://www.tableau.com/
+* performing control request with backend
+
+Status
+------
+65/100 completed
+65.0% (ETA: 30s)
+
+Status
+------
+66/100 completed
+66.0% (ETA: 29s)
+
+Result for https://www.en.wiktionary.org/
+-----------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for http://www.ed.gov/
+* doing DNS query for www.ed.gov
+
+Result for http://www.en.wiktionary.org/
+----------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.ed.gov/
+* doing DNS query for www.ed.gov
+* connecting to 165.224.131.183:443
+* connecting to 165.224.131.183:80
+
+Status
+------
+67/100 completed
+67.0% (ETA: 29s)
+* doing HTTP(s) request https://www.ed.gov/
+* doing HTTP(s) request http://www.ed.gov/
+
+Result for http://www.tableau.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.merriam-webster.com/
+* doing DNS query for www.merriam-webster.com
+* connecting to 99.86.144.66:80
+* connecting to 99.86.144.75:80
+* connecting to 99.86.144.102:80
+* connecting to 99.86.144.123:80
+* doing HTTP(s) request http://www.merriam-webster.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.tableau.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.merriam-webster.com/
+* doing DNS query for www.merriam-webster.com
+* connecting to 99.86.144.66:443
+* connecting to 99.86.144.75:443
+* connecting to 99.86.144.102:443
+* connecting to 99.86.144.123:443
+* doing HTTP(s) request https://www.merriam-webster.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.merriam-webster.com/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for https://www.merriam-webster.com/
+-------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for https://www.ed.gov/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for http://www.ed.gov/
+-----------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+68/100 completed
+68.0% (ETA: 24s)
+
+Starting test for http://www.faradars.org/
+* doing DNS query for www.faradars.org
+* connecting to 185.51.201.38:80
+* connecting to 185.51.201.18:80
+* doing HTTP(s) request http://www.faradars.org/
+
+Status
+------
+69/100 completed
+69.0% (ETA: 23s)
+
+Starting test for https://www.faradars.org/
+* doing DNS query for www.faradars.org
+* connecting to 185.51.201.18:443
+* connecting to 185.51.201.38:443
+* doing HTTP(s) request https://www.faradars.org/
+
+Status
+------
+70/100 completed
+70.0% (ETA: 22s)
+
+Starting test for http://www.mit.edu/
+* doing DNS query for www.mit.edu
+
+Status
+------
+71/100 completed
+71.0% (ETA: 22s)
+
+Starting test for https://www.mit.edu/
+* doing DNS query for www.mit.edu
+
+Status
+------
+72/100 completed
+72.0% (ETA: 22s)
+* connecting to 184.25.185.14:443
+* connecting to 184.25.185.14:80
+* doing HTTP(s) request http://www.mit.edu/
+* doing HTTP(s) request https://www.mit.edu/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+73/100 completed
+73.0% (ETA: 21s)
+Error performing HTTP request: https://www.faradars.org/
+
+Status
+------
+74/100 completed
+74.0% (ETA: 20s)
+Error performing HTTP request: https://www.faradars.org/
+* performing control request with backend
+
+Status
+------
+75/100 completed
+75.0% (ETA: 20s)
+Error performing HTTP request: https://www.faradars.org/
+Failed to perform HTTP request response_never_received
+* performing control request with backend
+
+Result for http://www.mit.edu/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.collegeboard.org/
+* doing DNS query for www.collegeboard.org
+* connecting to 23.33.150.217:80
+* doing HTTP(s) request http://www.collegeboard.org/
+
+Result for https://www.mit.edu/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.collegeboard.org/
+* doing DNS query for www.collegeboard.org
+
+Status
+------
+76/100 completed
+76.0% (ETA: 19s)
+* connecting to 23.33.150.217:443
+* doing HTTP(s) request https://www.collegeboard.org/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+77/100 completed
+77.0% (ETA: 18s)
+
+Status
+------
+78/100 completed
+78.0% (ETA: 18s)
+
+Result for http://www.faradars.org/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.oup.com/
+* doing DNS query for www.oup.com
+
+Result for https://www.faradars.org/
+------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.oup.com/
+* doing DNS query for www.oup.com
+
+Result for https://www.collegeboard.org/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.mindmeister.com/
+* doing DNS query for www.mindmeister.com
+* connecting to 104.20.7.160:80
+* connecting to 104.20.6.160:80
+
+Result for http://www.collegeboard.org/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.mindmeister.com/
+* doing DNS query for www.mindmeister.com
+* connecting to 104.20.6.160:443
+* connecting to 104.20.7.160:443
+* doing HTTP(s) request http://www.mindmeister.com/
+* doing HTTP(s) request https://www.mindmeister.com/
+* connecting to 75.2.119.185:443
+* connecting to 75.2.119.185:80
+* doing HTTP(s) request https://www.oup.com/
+* doing HTTP(s) request http://www.oup.com/
+* performing control request with backend
+
+Status
+------
+79/100 completed
+79.0% (ETA: 16s)
+
+Status
+------
+80/100 completed
+80.0% (ETA: 15s)
+* performing control request with backend
+
+Result for https://www.mindmeister.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.jhu.edu/
+* doing DNS query for www.jhu.edu
+* connecting to 104.76.88.27:80
+* doing HTTP(s) request http://www.jhu.edu/
+* performing control request with backend
+
+Result for http://www.mindmeister.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.jhu.edu/
+* doing DNS query for www.jhu.edu
+* connecting to 104.76.88.27:443
+* doing HTTP(s) request https://www.jhu.edu/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.jhu.edu/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.whitepages.com/
+* doing DNS query for www.whitepages.com
+* connecting to 52.10.170.204:80
+* connecting to 35.162.37.252:80
+* connecting to 52.35.193.241:80
+* doing HTTP(s) request http://www.whitepages.com/
+* performing control request with backend
+
+Result for https://www.oup.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for http://www.oup.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for http://www.jhu.edu/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for http://www.whitepages.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+81/100 completed
+81.0% (ETA: 13s)
+
+Starting test for https://www.whitepages.com/
+* doing DNS query for www.whitepages.com
+* connecting to 52.10.170.204:443
+* connecting to 35.162.37.252:443
+* connecting to 52.35.193.241:443
+* doing HTTP(s) request https://www.whitepages.com/
+* performing control request with backend
+
+Status
+------
+82/100 completed
+82.0% (ETA: 12s)
+
+Starting test for http://www.harvard.edu/
+* doing DNS query for www.harvard.edu
+* connecting to 23.185.0.1:80
+* doing HTTP(s) request http://www.harvard.edu/
+
+Status
+------
+83/100 completed
+83.0% (ETA: 12s)
+
+Starting test for https://www.harvard.edu/
+* doing DNS query for www.harvard.edu
+* connecting to 23.185.0.1:443
+* doing HTTP(s) request https://www.harvard.edu/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+84/100 completed
+84.0% (ETA: 11s)
+
+Starting test for http://www.investopedia.com/
+* doing DNS query for www.investopedia.com
+* connecting to 151.101.110.137:80
+* doing HTTP(s) request http://www.investopedia.com/
+
+Status
+------
+85/100 completed
+85.0% (ETA: 10s)
+* performing control request with backend
+
+Status
+------
+86/100 completed
+86.0% (ETA: 10s)
+
+Status
+------
+87/100 completed
+87.0% (ETA: 9s)
+
+Status
+------
+88/100 completed
+88.0% (ETA: 8s)
+
+Status
+------
+89/100 completed
+89.0% (ETA: 8s)
+
+Result for https://www.harvard.edu/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.investopedia.com/
+* doing DNS query for www.investopedia.com
+* connecting to 151.101.110.137:443
+* doing HTTP(s) request https://www.investopedia.com/
+
+Result for https://www.whitepages.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.wordreference.com/
+* doing DNS query for www.wordreference.com
+
+Result for http://www.harvard.edu/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.wordreference.com/
+* doing DNS query for www.wordreference.com
+* connecting to 104.238.220.102:443
+* connecting to 104.238.220.102:80
+* doing HTTP(s) request https://www.wordreference.com/
+* doing HTTP(s) request http://www.wordreference.com/
+
+Status
+------
+90/100 completed
+90.0% (ETA: 7s)
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.investopedia.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.archive.org/
+* doing DNS query for www.archive.org
+* connecting to 207.241.224.2:80
+* doing HTTP(s) request http://www.archive.org/
+* performing control request with backend
+
+Status
+------
+91/100 completed
+91.0% (ETA: 6s)
+* performing control request with backend
+
+Result for https://www.investopedia.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.archive.org/
+* doing DNS query for www.archive.org
+* connecting to 207.241.224.2:443
+* doing HTTP(s) request https://www.archive.org/
+
+Result for https://www.wordreference.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+92/100 completed
+92.0% (ETA: 6s)
+
+Result for http://www.wordreference.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+93/100 completed
+93.0% (ETA: 5s)
+
+Status
+------
+94/100 completed
+94.0% (ETA: 4s)
+* performing control request with backend
+
+Result for http://www.archive.org/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for https://www.archive.org/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+95/100 completed
+95.0% (ETA: 3s)
+
+Status
+------
+96/100 completed
+96.0% (ETA: 2s)
+
+Status
+------
+97/100 completed
+97.0% (ETA: 2s)
+
+Status
+------
+98/100 completed
+98.0% (ETA: 1s)
+
+Status
+------
+99/100 completed
+99.0% (ETA: 0s)
+
+Status
+------
+100/100 completed
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Accessible URLS
+---------------
+* https://www.spanishdict.com/
+* http://www.spanishdict.com/
+* https://www.psu.edu/
+* http://www.psu.edu/
+* http://www.berkeley.edu/
+* https://www.berkeley.edu/
+* http://www.urbandictionary.com/
+* https://www.urbandictionary.com/
+* https://www.mapquest.com/
+* http://www.mapquest.com/
+* http://www.cornell.edu/
+* https://www.cornell.edu/
+* https://www.szu.edu.cn/
+* http://www.szu.edu.cn/
+* http://www.stackoverflow.com/
+* https://www.stackoverflow.com/
+* http://www.coursera.org/
+* https://www.coursera.org/
+* http://www.du.ac.in/
+* https://www.answers.yahoo.com/
+* http://www.answers.yahoo.com/
+* https://www.du.ac.in/
+* http://www.udemy.com/
+* https://www.udemy.com/
+* https://www.blackboard.com/
+* http://www.blackboard.com/
+* https://www.dictionary.cambridge.org/
+* http://www.dictionary.cambridge.org/
+* https://www.britannica.com/
+* http://www.britannica.com/
+* http://www.tureng.com/
+* http://www.udacity.com/
+* https://www.udacity.com/
+* https://www.tureng.com/
+* http://www.powerthesaurus.org/
+* https://www.powerthesaurus.org/
+* https://www.sjtu.edu.cn/
+* http://www.sjtu.edu.cn/
+* http://www.stanford.edu/
+* https://www.stanford.edu/
+* http://www.goodreads.com/
+* https://www.goodreads.com/
+* https://www.linguee.com/
+* http://www.linguee.com/
+* http://www.cambridge.org/
+* https://www.cambridge.org/
+* https://www.thefreedictionary.com/
+* http://www.thefreedictionary.com/
+* https://www.howstuffworks.com/
+* http://www.howstuffworks.com/
+* http://www.edx.org/
+* https://www.edx.org/
+* https://www.nlm.nih.gov/
+* http://www.nlm.nih.gov/
+* https://www.elsevier.com/
+* http://www.elsevier.com/
+* http://www.ecollege.com/
+* http://www.turnitin.com/
+* https://www.jnu.edu.cn/
+* http://www.jnu.edu.cn/
+* https://www.turnitin.com/
+* https://www.wiktionary.org/
+* http://www.wiktionary.org/
+* http://www.thesaurus.com/
+* https://www.thesaurus.com/
+* http://www.yourdictionary.com/
+* https://www.yourdictionary.com/
+* http://www.tableau.com/
+* https://www.tableau.com/
+* http://www.merriam-webster.com/
+* https://www.ed.gov/
+* http://www.ed.gov/
+* https://www.merriam-webster.com/
+* http://www.mit.edu/
+* https://www.mit.edu/
+* http://www.faradars.org/
+* https://www.collegeboard.org/
+* http://www.collegeboard.org/
+* https://www.mindmeister.com/
+* http://www.mindmeister.com/
+* https://www.jhu.edu/
+* https://www.oup.com/
+* http://www.oup.com/
+* http://www.jhu.edu/
+* http://www.whitepages.com/
+* https://www.harvard.edu/
+* https://www.whitepages.com/
+* http://www.harvard.edu/
+* http://www.investopedia.com/
+* https://www.investopedia.com/
+* https://www.wordreference.com/
+* http://www.wordreference.com/
+* http://www.archive.org/
+* https://www.archive.org/
+
+Not accessible URLS
+-------------------
+* https://www.yellowpages.com/
+* http://www.yellowpages.com/
+* https://www.ecollege.com/
+* https://www.en.wiktionary.org/
+* http://www.en.wiktionary.org/
+* https://www.faradars.org/
+
+URLS possibly blocked due to dns
+--------------------------------
+* https://www.yellowpages.com/
+* http://www.yellowpages.com/
+Report ID: 20200718T165835Z_AS4766_ahk4RepB17Vfsm6qX31mciBu2p0OgWH564yH0TNl5bZf3pVno3

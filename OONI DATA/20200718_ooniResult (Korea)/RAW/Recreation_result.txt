@@ -1,0 +1,1961 @@
+Starting Tor
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+57%: Loading relay descriptors
+61%: Loading relay descriptors
+65%: Loading relay descriptors
+71%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for http://www.ana.co.jp/
+* doing DNS query for www.ana.co.jp
+
+Starting test for https://www.ana.co.jp/
+* doing DNS query for www.ana.co.jp
+
+Starting test for http://www.ebaumsworld.com/
+* doing DNS query for www.ebaumsworld.com
+
+Starting test for https://www.ebaumsworld.com/
+* doing DNS query for www.ebaumsworld.com
+* connecting to 104.75.38.10:443
+* connecting to 104.75.38.10:80
+* doing HTTP(s) request http://www.ana.co.jp/
+* doing HTTP(s) request https://www.ana.co.jp/
+* connecting to 67.214.157.20:443
+* connecting to 67.214.157.20:80
+* doing HTTP(s) request https://www.ebaumsworld.com/
+* doing HTTP(s) request http://www.ebaumsworld.com/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.ana.co.jp/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.easyjet.com/
+* doing DNS query for www.easyjet.com
+* connecting to 104.74.206.62:80
+* doing HTTP(s) request http://www.easyjet.com/
+
+Result for http://www.ana.co.jp/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.easyjet.com/
+* doing DNS query for www.easyjet.com
+* connecting to 104.74.206.62:443
+* doing HTTP(s) request https://www.easyjet.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.ebaumsworld.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.orbitz.com/
+* doing DNS query for www.orbitz.com
+* connecting to 104.74.207.88:80
+* doing HTTP(s) request http://www.orbitz.com/
+
+Status
+------
+1/100 completed
+1.0% (ETA: 24s)
+
+Result for http://www.ebaumsworld.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.orbitz.com/
+* doing DNS query for www.orbitz.com
+* connecting to 104.74.207.88:443
+* doing HTTP(s) request https://www.orbitz.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+2/100 completed
+2.0% (ETA: 41s)
+
+Result for http://www.easyjet.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.popularmechanics.com/
+* doing DNS query for www.popularmechanics.com
+* connecting to 151.101.108.155:80
+* doing HTTP(s) request http://www.popularmechanics.com/
+
+Status
+------
+3/100 completed
+3.0% (ETA: 49s)
+* performing control request with backend
+
+Result for https://www.easyjet.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.popularmechanics.com/
+* doing DNS query for www.popularmechanics.com
+* connecting to 151.101.108.155:443
+* doing HTTP(s) request https://www.popularmechanics.com/
+* performing control request with backend
+
+Result for http://www.orbitz.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.grubhub.com/
+* doing DNS query for www.grubhub.com
+
+Status
+------
+4/100 completed
+4.0% (ETA: 58s)
+
+Result for https://www.orbitz.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.grubhub.com/
+* doing DNS query for www.grubhub.com
+* connecting to 151.101.109.160:443
+* connecting to 151.101.109.160:80
+* doing HTTP(s) request https://www.grubhub.com/
+* doing HTTP(s) request http://www.grubhub.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.popularmechanics.com/
+-------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.honda.com/
+* doing DNS query for www.honda.com
+
+Result for https://www.popularmechanics.com/
+--------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.honda.com/
+* doing DNS query for www.honda.com
+* connecting to 104.74.210.164:443
+* connecting to 104.74.210.164:80
+* doing HTTP(s) request http://www.honda.com/
+* doing HTTP(s) request https://www.honda.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.grubhub.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.autoblog.com/
+* doing DNS query for www.autoblog.com
+* connecting to 67.195.231.20:80
+* doing HTTP(s) request http://www.autoblog.com/
+
+Result for https://www.grubhub.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+5/100 completed
+5.0% (ETA: 50s)
+
+Starting test for https://www.autoblog.com/
+* doing DNS query for www.autoblog.com
+* connecting to 67.195.231.20:443
+* performing control request with backend
+* doing HTTP(s) request https://www.autoblog.com/
+
+Status
+------
+6/100 completed
+6.0% (ETA: 57s)
+
+Result for http://www.honda.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.uber.com/
+* doing DNS query for www.uber.com
+* connecting to 104.36.196.223:80
+* connecting to 104.36.196.226:80
+* connecting to 104.36.196.232:80
+* connecting to 104.36.196.225:80
+* connecting to 104.36.196.229:80
+
+Result for https://www.honda.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+* doing HTTP(s) request http://www.uber.com/
+* performing control request with backend
+
+Status
+------
+7/100 completed
+7.0% (ETA: 60s)
+
+Starting test for https://www.uber.com/
+* doing DNS query for www.uber.com
+* connecting to 104.36.196.223:443
+* connecting to 104.36.196.226:443
+* connecting to 104.36.196.232:443
+* connecting to 104.36.196.225:443
+* connecting to 104.36.196.229:443
+* doing HTTP(s) request https://www.uber.com/
+
+Status
+------
+8/100 completed
+8.0% (ETA: 67s)
+
+Status
+------
+9/100 completed
+9.0% (ETA: 69s)
+
+Status
+------
+10/100 completed
+10.0% (ETA: 75s)
+
+Result for http://www.autoblog.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.expedia.com/
+* doing DNS query for www.expedia.com
+* connecting to 23.35.221.120:80
+* doing HTTP(s) request http://www.expedia.com/
+
+Status
+------
+11/100 completed
+11.0% (ETA: 79s)
+* performing control request with backend
+
+Status
+------
+12/100 completed
+12.0% (ETA: 85s)
+
+Status
+------
+13/100 completed
+13.0% (ETA: 91s)
+
+Result for https://www.autoblog.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.expedia.com/
+* doing DNS query for www.expedia.com
+* connecting to 23.35.221.120:443
+* doing HTTP(s) request https://www.expedia.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+14/100 completed
+14.0% (ETA: 96s)
+* performing control request with backend
+
+Result for http://www.expedia.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.turkishairlines.com/
+* doing DNS query for www.turkishairlines.com
+
+Result for https://www.expedia.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.turkishairlines.com/
+* doing DNS query for www.turkishairlines.com
+* connecting to 104.74.216.165:443
+* connecting to 104.74.216.165:80
+* doing HTTP(s) request https://www.turkishairlines.com/
+* doing HTTP(s) request http://www.turkishairlines.com/
+
+Status
+------
+15/100 completed
+15.0% (ETA: 87s)
+
+Status
+------
+16/100 completed
+16.0% (ETA: 89s)
+
+Result for https://www.uber.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.hyatt.com/
+* doing DNS query for www.hyatt.com
+* connecting to 104.75.9.162:80
+* doing HTTP(s) request http://www.hyatt.com/
+
+Result for http://www.uber.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.hyatt.com/
+* doing DNS query for www.hyatt.com
+* connecting to 104.75.9.162:443
+* doing HTTP(s) request https://www.hyatt.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+17/100 completed
+17.0% (ETA: 86s)
+
+Status
+------
+18/100 completed
+18.0% (ETA: 88s)
+
+Result for http://www.hyatt.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.united.com/
+* doing DNS query for www.united.com
+* connecting to 104.74.194.65:80
+* doing HTTP(s) request http://www.united.com/
+
+Result for https://www.hyatt.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.united.com/
+* doing DNS query for www.united.com
+* connecting to 104.74.194.65:443
+* doing HTTP(s) request https://www.united.com/
+
+Status
+------
+19/100 completed
+19.0% (ETA: 82s)
+
+Status
+------
+20/100 completed
+20.0% (ETA: 85s)
+
+Status
+------
+21/100 completed
+21.0% (ETA: 88s)
+
+Status
+------
+22/100 completed
+22.0% (ETA: 90s)
+Error performing HTTP request: https://www.united.com/
+
+Starting test for http://www.turkishairlines.com/
+* doing DNS query for www.turkishairlines.com
+* connecting to 202.43.51.187:80
+* doing HTTP(s) request http://www.turkishairlines.com/
+
+Starting test for https://www.turkishairlines.com/
+* doing DNS query for www.turkishairlines.com
+* connecting to 202.43.51.187:443
+* doing HTTP(s) request https://www.turkishairlines.com/
+
+Starting test for http://www.united.com/
+* doing DNS query for www.united.com
+* connecting to 104.74.248.100:80
+* doing HTTP(s) request http://www.united.com/
+
+Starting test for https://www.united.com/
+* doing DNS query for www.united.com
+* connecting to 104.74.248.100:443
+* doing HTTP(s) request https://www.united.com/
+Error performing HTTP request: https://www.united.com/
+Error performing HTTP request: https://www.united.com/
+Error performing HTTP request: https://www.united.com/
+Failed to perform HTTP request response_never_received
+* performing control request with backend
+
+Starting test for http://www.chevrolet.com/
+* doing DNS query for www.chevrolet.com
+* connecting to 114.108.188.30:80
+* doing HTTP(s) request http://www.chevrolet.com/
+* performing control request with backend
+
+Status
+------
+23/100 completed
+23.0% (ETA: 7s)
+
+Result for http://www.chevrolet.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.chevrolet.com/
+* doing DNS query for www.chevrolet.com
+* connecting to 114.108.188.30:443
+* doing HTTP(s) request https://www.chevrolet.com/
+* performing control request with backend
+
+Result for https://www.chevrolet.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.emirates.com/
+* doing DNS query for www.emirates.com
+* connecting to 104.74.248.83:80
+* doing HTTP(s) request http://www.emirates.com/
+
+Status
+------
+24/100 completed
+24.0% (ETA: 7s)
+* performing control request with backend
+
+Status
+------
+25/100 completed
+25.0% (ETA: 8s)
+
+Result for http://www.emirates.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.emirates.com/
+* doing DNS query for www.emirates.com
+* connecting to 104.74.248.83:443
+* doing HTTP(s) request https://www.emirates.com/
+* performing control request with backend
+
+Status
+------
+26/100 completed
+26.0% (ETA: 8s)
+
+Result for https://www.emirates.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.aa.com/
+* doing DNS query for www.aa.com
+* connecting to 104.74.234.186:80
+* doing HTTP(s) request http://www.aa.com/
+
+Status
+------
+27/100 completed
+27.0% (ETA: 8s)
+* performing control request with backend
+
+Result for http://www.aa.com/
+-----------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.aa.com/
+* doing DNS query for www.aa.com
+* connecting to 104.74.234.186:443
+* doing HTTP(s) request https://www.aa.com/
+
+Status
+------
+28/100 completed
+28.0% (ETA: 8s)
+* performing control request with backend
+
+Result for https://www.aa.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.9gag.com/
+* doing DNS query for www.9gag.com
+* connecting to 104.16.107.144:80
+* connecting to 104.16.105.144:80
+* connecting to 104.16.106.144:80
+* connecting to 104.16.103.144:80
+* connecting to 104.16.104.144:80
+* doing HTTP(s) request http://www.9gag.com/
+
+Status
+------
+29/100 completed
+29.0% (ETA: 8s)
+* performing control request with backend
+
+Result for http://www.9gag.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.9gag.com/
+* doing DNS query for www.9gag.com
+* connecting to 104.16.107.144:443
+* connecting to 104.16.105.144:443
+* connecting to 104.16.106.144:443
+* connecting to 104.16.103.144:443
+* connecting to 104.16.104.144:443
+* doing HTTP(s) request https://www.9gag.com/
+
+Status
+------
+30/100 completed
+30.0% (ETA: 8s)
+* performing control request with backend
+
+Result for https://www.9gag.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.lego.com/
+* doing DNS query for www.lego.com
+* connecting to 173.223.227.179:80
+* connecting to 173.223.227.201:80
+* doing HTTP(s) request http://www.lego.com/
+* performing control request with backend
+
+Status
+------
+31/100 completed
+31.0% (ETA: 8s)
+
+Result for http://www.lego.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.lego.com/
+* doing DNS query for www.lego.com
+* connecting to 173.223.227.179:443
+* connecting to 173.223.227.201:443
+* doing HTTP(s) request https://www.lego.com/
+* performing control request with backend
+
+Result for https://www.lego.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.caranddriver.com/
+* doing DNS query for www.caranddriver.com
+* connecting to 151.101.108.155:80
+* doing HTTP(s) request http://www.caranddriver.com/
+* performing control request with backend
+
+Status
+------
+32/100 completed
+32.0% (ETA: 8s)
+
+Result for http://www.caranddriver.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.caranddriver.com/
+* doing DNS query for www.caranddriver.com
+* connecting to 151.101.108.155:443
+* doing HTTP(s) request https://www.caranddriver.com/
+* performing control request with backend
+
+Status
+------
+33/100 completed
+33.0% (ETA: 8s)
+
+Result for https://www.caranddriver.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.timeout.com/
+* doing DNS query for www.timeout.com
+* connecting to 99.86.144.112:80
+* connecting to 99.86.144.120:80
+* connecting to 99.86.144.119:80
+* connecting to 99.86.144.84:80
+* doing HTTP(s) request http://www.timeout.com/
+
+Status
+------
+34/100 completed
+34.0% (ETA: 8s)
+* performing control request with backend
+
+Status
+------
+35/100 completed
+35.0% (ETA: 8s)
+
+Result for http://www.timeout.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.timeout.com/
+* doing DNS query for www.timeout.com
+* connecting to 99.86.144.112:443
+* connecting to 99.86.144.120:443
+* connecting to 99.86.144.119:443
+* connecting to 99.86.144.84:443
+* doing HTTP(s) request https://www.timeout.com/
+* performing control request with backend
+
+Result for https://www.timeout.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.hilton.com/
+* doing DNS query for www.hilton.com
+* connecting to 104.74.231.70:80
+* doing HTTP(s) request http://www.hilton.com/
+
+Status
+------
+36/100 completed
+36.0% (ETA: 8s)
+
+Status
+------
+37/100 completed
+37.0% (ETA: 8s)
+* performing control request with backend
+
+Result for http://www.hilton.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.hilton.com/
+* doing DNS query for www.hilton.com
+* connecting to 104.74.231.70:443
+* doing HTTP(s) request https://www.hilton.com/
+
+Status
+------
+38/100 completed
+38.0% (ETA: 8s)
+* performing control request with backend
+
+Result for https://www.hilton.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.petfinder.com/
+* doing DNS query for www.petfinder.com
+* connecting to 3.220.215.139:80
+* connecting to 3.94.139.111:80
+* connecting to 52.2.167.194:80
+* doing HTTP(s) request http://www.petfinder.com/
+
+Status
+------
+39/100 completed
+39.0% (ETA: 8s)
+* performing control request with backend
+
+Result for http://www.petfinder.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.petfinder.com/
+* doing DNS query for www.petfinder.com
+* connecting to 52.2.167.194:443
+* connecting to 3.94.139.111:443
+* connecting to 3.220.215.139:443
+* doing HTTP(s) request https://www.petfinder.com/
+* performing control request with backend
+
+Status
+------
+40/100 completed
+40.0% (ETA: 8s)
+
+Result for https://www.petfinder.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.marriott.com/
+* doing DNS query for www.marriott.com
+* connecting to 104.74.153.90:80
+* doing HTTP(s) request http://www.marriott.com/
+* performing control request with backend
+
+Status
+------
+41/100 completed
+41.0% (ETA: 8s)
+
+Result for http://www.marriott.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.marriott.com/
+* doing DNS query for www.marriott.com
+* connecting to 104.74.153.90:443
+* doing HTTP(s) request https://www.marriott.com/
+* performing control request with backend
+
+Result for https://www.marriott.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.zomato.com/
+* doing DNS query for www.zomato.com
+* connecting to 104.75.32.202:80
+* doing HTTP(s) request http://www.zomato.com/
+
+Status
+------
+42/100 completed
+42.0% (ETA: 8s)
+
+Status
+------
+43/100 completed
+43.0% (ETA: 8s)
+
+Starting test for https://www.zomato.com/
+* doing DNS query for www.zomato.com
+* connecting to 184.25.24.235:443
+* doing HTTP(s) request https://www.zomato.com/
+
+Starting test for http://www.hotels.com/
+* doing DNS query for www.hotels.com
+* connecting to 104.74.238.32:80
+* doing HTTP(s) request http://www.hotels.com/
+
+Status
+------
+44/100 completed
+44.0% (ETA: 7s)
+
+Status
+------
+45/100 completed
+45.0% (ETA: 7s)
+
+Starting test for https://www.hotels.com/
+* doing DNS query for www.hotels.com
+* connecting to 104.74.238.32:443
+* doing HTTP(s) request https://www.hotels.com/
+
+Status
+------
+46/100 completed
+46.0% (ETA: 7s)
+
+Starting test for http://www.zomato.com/
+* doing DNS query for www.zomato.com
+* connecting to 184.25.24.235:80
+* doing HTTP(s) request http://www.zomato.com/
+
+Starting test for https://www.zomato.com/
+* doing DNS query for www.zomato.com
+* connecting to 184.25.24.235:443
+* doing HTTP(s) request https://www.zomato.com/
+
+Starting test for http://www.hotels.com/
+* doing DNS query for www.hotels.com
+* connecting to 104.74.238.32:80
+* doing HTTP(s) request http://www.hotels.com/
+
+Starting test for https://www.hotels.com/
+* doing DNS query for www.hotels.com
+* connecting to 104.74.238.32:443
+* doing HTTP(s) request https://www.hotels.com/
+
+Starting test for http://www.booking.com/
+* doing DNS query for www.booking.com
+* connecting to 185.28.220.2:80
+* doing HTTP(s) request http://www.booking.com/
+* performing control request with backend
+
+Status
+------
+47/100 completed
+47.0% (ETA: 3s)
+
+Result for http://www.booking.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.booking.com/
+* doing DNS query for www.booking.com
+* connecting to 185.28.220.2:443
+* doing HTTP(s) request https://www.booking.com/
+* performing control request with backend
+
+Status
+------
+48/100 completed
+48.0% (ETA: 3s)
+
+Result for https://www.booking.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.delta.com/
+* doing DNS query for www.delta.com
+* connecting to 104.74.234.110:80
+* doing HTTP(s) request http://www.delta.com/
+* performing control request with backend
+
+Result for http://www.delta.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.delta.com/
+* doing DNS query for www.delta.com
+* connecting to 104.74.234.110:443
+* doing HTTP(s) request https://www.delta.com/
+
+Status
+------
+49/100 completed
+49.0% (ETA: 3s)
+* performing control request with backend
+
+Status
+------
+50/100 completed
+50.0% (ETA: 3s)
+
+Result for https://www.delta.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.hotwire.com/
+* doing DNS query for www.hotwire.com
+* connecting to 104.74.237.249:80
+* doing HTTP(s) request http://www.hotwire.com/
+
+Status
+------
+51/100 completed
+51.0% (ETA: 3s)
+* performing control request with backend
+
+Result for http://www.hotwire.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.hotwire.com/
+* doing DNS query for www.hotwire.com
+* connecting to 104.74.237.249:443
+* doing HTTP(s) request https://www.hotwire.com/
+
+Status
+------
+52/100 completed
+52.0% (ETA: 3s)
+* performing control request with backend
+
+Result for https://www.hotwire.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ford.com/
+* doing DNS query for www.ford.com
+* connecting to 104.74.233.80:80
+* doing HTTP(s) request http://www.ford.com/
+
+Status
+------
+53/100 completed
+53.0% (ETA: 3s)
+
+Starting test for https://www.ford.com/
+* doing DNS query for www.ford.com
+* connecting to 104.74.233.80:443
+* doing HTTP(s) request https://www.ford.com/
+
+Starting test for http://www.qatarairways.com/
+* doing DNS query for www.qatarairways.com
+* connecting to 184.25.80.92:80
+* doing HTTP(s) request http://www.qatarairways.com/
+* performing control request with backend
+
+Status
+------
+54/100 completed
+54.0% (ETA: 3s)
+
+Status
+------
+55/100 completed
+55.0% (ETA: 3s)
+
+Result for http://www.qatarairways.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.qatarairways.com/
+* doing DNS query for www.qatarairways.com
+* connecting to 184.25.80.92:443
+* doing HTTP(s) request https://www.qatarairways.com/
+* performing control request with backend
+
+Starting test for http://www.travel.state.gov/
+* doing DNS query for www.travel.state.gov
+* connecting to 13.58.116.30:80
+* connecting to 18.219.108.36:80
+* connecting to 18.219.92.14:80
+* connecting to 13.58.170.124:80
+* connecting to 18.217.66.14:80
+* connecting to 18.216.14.33:80
+* connecting to 18.218.132.161:80
+* connecting to 18.217.38.127:80
+* connecting to 52.14.234.144:80
+* connecting to 18.220.218.98:80
+* connecting to 18.216.147.148:80
+* connecting to 18.220.190.158:80
+* connecting to 18.219.36.149:80
+* connecting to 18.217.102.85:80
+* connecting to 18.216.81.98:80
+* connecting to 18.218.199.172:80
+* connecting to 18.219.22.127:80
+* connecting to 18.219.0.83:80
+
+Status
+------
+56/100 completed
+56.0% (ETA: 3s)
+* doing HTTP(s) request http://www.travel.state.gov/
+
+Result for https://www.qatarairways.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.travel.state.gov/
+* doing DNS query for www.travel.state.gov
+* connecting to 13.58.116.30:443
+* connecting to 18.219.108.36:443
+* connecting to 18.219.92.14:443
+* connecting to 13.58.170.124:443
+* connecting to 18.217.66.14:443
+* connecting to 18.216.14.33:443
+* connecting to 18.218.132.161:443
+* connecting to 18.217.38.127:443
+* connecting to 52.14.234.144:443
+* connecting to 18.220.218.98:443
+* connecting to 18.216.147.148:443
+* connecting to 18.220.190.158:443
+* connecting to 18.219.36.149:443
+* connecting to 18.217.102.85:443
+* connecting to 18.216.81.98:443
+* connecting to 18.218.199.172:443
+* connecting to 18.219.22.127:443
+* connecting to 18.219.0.83:443
+* doing HTTP(s) request https://www.travel.state.gov/
+
+Status
+------
+57/100 completed
+57.0% (ETA: 3s)
+* performing control request with backend
+
+Status
+------
+58/100 completed
+58.0% (ETA: 3s)
+* performing control request with backend
+
+Result for http://www.travel.state.gov/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.priceline.com/
+* doing DNS query for www.priceline.com
+* connecting to 151.101.194.186:80
+* connecting to 151.101.2.186:80
+* connecting to 151.101.66.186:80
+* connecting to 151.101.130.186:80
+* doing HTTP(s) request http://www.priceline.com/
+
+Result for https://www.travel.state.gov/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.priceline.com/
+* doing DNS query for www.priceline.com
+* connecting to 151.101.130.186:443
+* connecting to 151.101.66.186:443
+* connecting to 151.101.2.186:443
+* connecting to 151.101.194.186:443
+* doing HTTP(s) request https://www.priceline.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+59/100 completed
+59.0% (ETA: 3s)
+
+Status
+------
+60/100 completed
+60.0% (ETA: 3s)
+
+Result for http://www.priceline.com/
+------------------------------------
+* BLOCKING DETECTED due to http-diff
+* Is NOT accessible
+
+
+Starting test for http://www.volvocars.com/
+* doing DNS query for www.volvocars.com
+* connecting to 104.74.252.8:80
+* doing HTTP(s) request http://www.volvocars.com/
+
+Result for https://www.priceline.com/
+-------------------------------------
+* BLOCKING DETECTED due to http-diff
+* Is NOT accessible
+
+
+Starting test for https://www.volvocars.com/
+* doing DNS query for www.volvocars.com
+* connecting to 104.74.252.8:443
+* doing HTTP(s) request https://www.volvocars.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+61/100 completed
+61.0% (ETA: 3s)
+
+Status
+------
+62/100 completed
+62.0% (ETA: 3s)
+
+Result for https://www.volvocars.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.southwest.com/
+* doing DNS query for www.southwest.com
+* connecting to 23.74.21.212:80
+* doing HTTP(s) request http://www.southwest.com/
+
+Result for http://www.volvocars.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.southwest.com/
+* doing DNS query for www.southwest.com
+* connecting to 23.74.21.212:443
+* doing HTTP(s) request https://www.southwest.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+63/100 completed
+63.0% (ETA: 3s)
+
+Status
+------
+64/100 completed
+64.0% (ETA: 3s)
+
+Result for https://www.southwest.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.vrbo.com/
+* doing DNS query for www.vrbo.com
+* connecting to 151.101.229.90:80
+* doing HTTP(s) request http://www.vrbo.com/
+
+Result for http://www.southwest.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.vrbo.com/
+* doing DNS query for www.vrbo.com
+* connecting to 151.101.229.90:443
+* doing HTTP(s) request https://www.vrbo.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+65/100 completed
+65.0% (ETA: 3s)
+
+Status
+------
+66/100 completed
+66.0% (ETA: 3s)
+
+Result for http://www.vrbo.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.recreation.gov/
+* doing DNS query for www.recreation.gov
+* connecting to 99.84.238.123:80
+* connecting to 99.84.238.50:80
+* connecting to 99.84.238.41:80
+* connecting to 99.84.238.60:80
+* doing HTTP(s) request http://www.recreation.gov/
+
+Result for https://www.vrbo.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.recreation.gov/
+* doing DNS query for www.recreation.gov
+* connecting to 99.84.238.123:443
+* connecting to 99.84.238.50:443
+* connecting to 99.84.238.41:443
+* connecting to 99.84.238.60:443
+* doing HTTP(s) request https://www.recreation.gov/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+67/100 completed
+67.0% (ETA: 3s)
+
+Status
+------
+68/100 completed
+68.0% (ETA: 3s)
+
+Result for https://www.recreation.gov/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ryanair.com/
+* doing DNS query for www.ryanair.com
+* connecting to 99.86.144.2:80
+* connecting to 99.86.144.6:80
+* connecting to 99.86.144.80:80
+* connecting to 99.86.144.127:80
+* doing HTTP(s) request http://www.ryanair.com/
+
+Result for http://www.recreation.gov/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ryanair.com/
+* doing DNS query for www.ryanair.com
+* connecting to 99.86.144.2:443
+* connecting to 99.86.144.6:443
+* connecting to 99.86.144.80:443
+* connecting to 99.86.144.127:443
+* doing HTTP(s) request https://www.ryanair.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+69/100 completed
+69.0% (ETA: 3s)
+
+Status
+------
+70/100 completed
+70.0% (ETA: 2s)
+
+Result for http://www.ryanair.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.porsche.com/
+* doing DNS query for www.porsche.com
+* connecting to 152.195.56.159:80
+* doing HTTP(s) request http://www.porsche.com/
+
+Result for https://www.ryanair.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.porsche.com/
+* doing DNS query for www.porsche.com
+* connecting to 152.195.56.159:443
+* performing control request with backend
+* doing HTTP(s) request https://www.porsche.com/
+* performing control request with backend
+
+Status
+------
+71/100 completed
+71.0% (ETA: 2s)
+
+Status
+------
+72/100 completed
+72.0% (ETA: 2s)
+
+Result for https://www.porsche.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.travelandleisure.com/
+* doing DNS query for www.travelandleisure.com
+* connecting to 143.204.131.42:80
+* connecting to 143.204.131.82:80
+* connecting to 143.204.131.40:80
+* connecting to 143.204.131.127:80
+* doing HTTP(s) request http://www.travelandleisure.com/
+
+Result for http://www.porsche.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.travelandleisure.com/
+* doing DNS query for www.travelandleisure.com
+* connecting to 143.204.131.42:443
+* connecting to 143.204.131.82:443
+* connecting to 143.204.131.40:443
+* connecting to 143.204.131.127:443
+* doing HTTP(s) request https://www.travelandleisure.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+73/100 completed
+73.0% (ETA: 2s)
+
+Status
+------
+74/100 completed
+74.0% (ETA: 2s)
+
+Result for https://www.travelandleisure.com/
+--------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.cracked.com/
+* doing DNS query for www.cracked.com
+* connecting to 99.84.238.82:80
+* connecting to 99.84.238.120:80
+* connecting to 99.84.238.54:80
+* connecting to 99.84.238.102:80
+* doing HTTP(s) request http://www.cracked.com/
+
+Result for http://www.travelandleisure.com/
+-------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.cracked.com/
+* doing DNS query for www.cracked.com
+* connecting to 99.84.238.82:443
+* connecting to 99.84.238.120:443
+* connecting to 99.84.238.54:443
+* connecting to 99.84.238.102:443
+* doing HTTP(s) request https://www.cracked.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.cracked.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.agoda.com/
+* doing DNS query for www.agoda.com
+* connecting to 104.74.252.149:80
+* doing HTTP(s) request http://www.agoda.com/
+* performing control request with backend
+
+Result for https://www.cracked.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.agoda.com/
+* doing DNS query for www.agoda.com
+* connecting to 104.74.252.149:443
+* doing HTTP(s) request https://www.agoda.com/
+
+Status
+------
+75/100 completed
+75.0% (ETA: 2s)
+* performing control request with backend
+
+Status
+------
+76/100 completed
+76.0% (ETA: 2s)
+
+Status
+------
+77/100 completed
+77.0% (ETA: 2s)
+
+Result for http://www.agoda.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.kayak.com/
+* doing DNS query for www.kayak.com
+
+Status
+------
+78/100 completed
+78.0% (ETA: 2s)
+* connecting to 151.101.229.29:80
+* doing HTTP(s) request http://www.kayak.com/
+
+Result for https://www.agoda.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.kayak.com/
+* doing DNS query for www.kayak.com
+* connecting to 151.101.229.29:443
+* doing HTTP(s) request https://www.kayak.com/
+
+Status
+------
+79/100 completed
+79.0% (ETA: 2s)
+
+Status
+------
+80/100 completed
+80.0% (ETA: 2s)
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.kayak.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.loc.gov/
+* doing DNS query for www.loc.gov
+* connecting to 104.16.54.16:80
+* connecting to 104.16.55.16:80
+* doing HTTP(s) request http://www.loc.gov/
+
+Result for https://www.kayak.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.loc.gov/
+* doing DNS query for www.loc.gov
+* connecting to 104.16.55.16:443
+* connecting to 104.16.54.16:443
+* doing HTTP(s) request https://www.loc.gov/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.loc.gov/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.tripadvisor.com/
+* doing DNS query for www.tripadvisor.com
+* connecting to 192.229.189.119:80
+* doing HTTP(s) request http://www.tripadvisor.com/
+
+Result for http://www.loc.gov/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.tripadvisor.com/
+* doing DNS query for www.tripadvisor.com
+* connecting to 192.229.189.119:443
+* doing HTTP(s) request https://www.tripadvisor.com/
+
+Status
+------
+81/100 completed
+81.0% (ETA: 2s)
+* performing control request with backend
+
+Status
+------
+82/100 completed
+82.0% (ETA: 2s)
+* performing control request with backend
+
+Status
+------
+83/100 completed
+83.0% (ETA: 1s)
+
+Status
+------
+84/100 completed
+84.0% (ETA: 1s)
+
+Result for http://www.tripadvisor.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.xe.com/
+* doing DNS query for www.xe.com
+* connecting to 99.86.144.129:80
+* connecting to 99.86.144.95:80
+* connecting to 99.86.144.45:80
+* connecting to 99.86.144.47:80
+* doing HTTP(s) request http://www.xe.com/
+* performing control request with backend
+
+Result for https://www.tripadvisor.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.xe.com/
+* doing DNS query for www.xe.com
+* connecting to 99.86.144.129:443
+* connecting to 99.86.144.95:443
+* connecting to 99.86.144.45:443
+* connecting to 99.86.144.47:443
+* doing HTTP(s) request https://www.xe.com/
+* performing control request with backend
+
+Status
+------
+85/100 completed
+85.0% (ETA: 1s)
+
+Status
+------
+86/100 completed
+86.0% (ETA: 1s)
+
+Result for http://www.xe.com/
+-----------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.aeroflot.ru/
+* doing DNS query for www.aeroflot.ru
+* connecting to 182.162.59.28:80
+* doing HTTP(s) request http://www.aeroflot.ru/
+
+Result for https://www.xe.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.aeroflot.ru/
+* doing DNS query for www.aeroflot.ru
+* connecting to 182.162.59.28:443
+* doing HTTP(s) request https://www.aeroflot.ru/
+
+Status
+------
+87/100 completed
+87.0% (ETA: 1s)
+
+Status
+------
+88/100 completed
+88.0% (ETA: 1s)
+
+Starting test for http://www.ford.com/
+* doing DNS query for www.ford.com
+* connecting to 104.74.233.80:80
+* doing HTTP(s) request http://www.ford.com/
+
+Starting test for https://www.ford.com/
+* doing DNS query for www.ford.com
+* connecting to 104.74.233.80:443
+* doing HTTP(s) request https://www.ford.com/
+
+Starting test for http://www.aeroflot.ru/
+* doing DNS query for www.aeroflot.ru
+* connecting to 104.74.235.201:80
+* doing HTTP(s) request http://www.aeroflot.ru/
+
+Starting test for https://www.aeroflot.ru/
+* doing DNS query for www.aeroflot.ru
+* connecting to 104.74.235.201:443
+* doing HTTP(s) request https://www.aeroflot.ru/
+
+Starting test for http://www.jal.co.jp/
+* doing DNS query for www.jal.co.jp
+* connecting to 23.33.155.81:80
+* doing HTTP(s) request http://www.jal.co.jp/
+
+Status
+------
+89/100 completed
+89.0% (ETA: 0s)
+
+Starting test for https://www.jal.co.jp/
+* doing DNS query for www.jal.co.jp
+* connecting to 23.33.155.81:443
+* doing HTTP(s) request https://www.jal.co.jp/
+
+Status
+------
+90/100 completed
+90.0% (ETA: 0s)
+Error performing HTTP request: https://www.jal.co.jp/
+Error performing HTTP request: https://www.jal.co.jp/
+Error performing HTTP request: https://www.jal.co.jp/
+Failed to perform HTTP request response_never_received
+* performing control request with backend
+
+Result for https://www.jal.co.jp/
+---------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for http://www.opentable.com/
+* doing DNS query for www.opentable.com
+* connecting to 104.74.239.59:80
+* doing HTTP(s) request http://www.opentable.com/
+
+Status
+------
+91/100 completed
+91.0% (ETA: 0s)
+
+Starting test for https://www.opentable.com/
+* doing DNS query for www.opentable.com
+
+Starting test for http://www.flightradar24.com/
+* doing DNS query for www.flightradar24.com
+* connecting to 104.17.43.52:80
+* connecting to 104.17.42.52:80
+* connecting to 104.17.46.52:80
+* connecting to 104.17.45.52:80
+* connecting to 104.17.44.52:80
+* doing HTTP(s) request http://www.flightradar24.com/
+* connecting to 104.74.239.59:443
+* doing HTTP(s) request https://www.opentable.com/
+* performing control request with backend
+
+Status
+------
+92/100 completed
+92.0% (ETA: 0s)
+
+Status
+------
+93/100 completed
+93.0% (ETA: 0s)
+
+Result for http://www.flightradar24.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.flightradar24.com/
+* doing DNS query for www.flightradar24.com
+* connecting to 104.17.42.52:443
+* connecting to 104.17.43.52:443
+* connecting to 104.17.46.52:443
+* connecting to 104.17.44.52:443
+* connecting to 104.17.45.52:443
+* doing HTTP(s) request https://www.flightradar24.com/
+* performing control request with backend
+
+Status
+------
+94/100 completed
+94.0% (ETA: 0s)
+
+Result for https://www.flightradar24.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.travelocity.com/
+* doing DNS query for www.travelocity.com
+* connecting to 104.74.238.208:80
+* doing HTTP(s) request http://www.travelocity.com/
+* performing control request with backend
+
+Result for http://www.travelocity.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.travelocity.com/
+* doing DNS query for www.travelocity.com
+* connecting to 104.74.238.208:443
+* doing HTTP(s) request https://www.travelocity.com/
+* performing control request with backend
+
+Status
+------
+95/100 completed
+95.0% (ETA: 0s)
+
+Result for https://www.travelocity.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+96/100 completed
+96.0% (ETA: 0s)
+
+Status
+------
+97/100 completed
+97.0% (ETA: 0s)
+
+Starting test for http://www.jal.co.jp/
+* doing DNS query for www.jal.co.jp
+* connecting to 202.43.56.122:80
+* doing HTTP(s) request http://www.jal.co.jp/
+
+Starting test for http://www.opentable.com/
+* doing DNS query for www.opentable.com
+* connecting to 104.74.211.179:80
+* doing HTTP(s) request http://www.opentable.com/
+
+Starting test for https://www.opentable.com/
+* doing DNS query for www.opentable.com
+* connecting to 104.74.211.179:443
+* doing HTTP(s) request https://www.opentable.com/
+
+Status
+------
+98/100 completed
+98.0% (ETA: 0s)
+
+Status
+------
+99/100 completed
+99.0% (ETA: 0s)
+
+Status
+------
+100/100 completed
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Accessible URLS
+---------------
+* https://www.ana.co.jp/
+* http://www.ana.co.jp/
+* https://www.ebaumsworld.com/
+* http://www.ebaumsworld.com/
+* http://www.easyjet.com/
+* https://www.easyjet.com/
+* http://www.orbitz.com/
+* https://www.orbitz.com/
+* http://www.popularmechanics.com/
+* https://www.popularmechanics.com/
+* http://www.grubhub.com/
+* https://www.grubhub.com/
+* http://www.honda.com/
+* https://www.honda.com/
+* http://www.autoblog.com/
+* https://www.autoblog.com/
+* http://www.expedia.com/
+* https://www.expedia.com/
+* https://www.uber.com/
+* http://www.uber.com/
+* http://www.hyatt.com/
+* https://www.hyatt.com/
+* http://www.chevrolet.com/
+* https://www.chevrolet.com/
+* http://www.emirates.com/
+* https://www.emirates.com/
+* http://www.aa.com/
+* https://www.aa.com/
+* http://www.9gag.com/
+* https://www.9gag.com/
+* http://www.lego.com/
+* https://www.lego.com/
+* http://www.caranddriver.com/
+* https://www.caranddriver.com/
+* http://www.timeout.com/
+* https://www.timeout.com/
+* http://www.hilton.com/
+* https://www.hilton.com/
+* http://www.petfinder.com/
+* https://www.petfinder.com/
+* http://www.marriott.com/
+* https://www.marriott.com/
+* http://www.booking.com/
+* https://www.booking.com/
+* http://www.delta.com/
+* https://www.delta.com/
+* http://www.hotwire.com/
+* https://www.hotwire.com/
+* http://www.qatarairways.com/
+* https://www.qatarairways.com/
+* http://www.travel.state.gov/
+* https://www.travel.state.gov/
+* https://www.volvocars.com/
+* http://www.volvocars.com/
+* https://www.southwest.com/
+* http://www.southwest.com/
+* http://www.vrbo.com/
+* https://www.vrbo.com/
+* https://www.recreation.gov/
+* http://www.recreation.gov/
+* http://www.ryanair.com/
+* https://www.ryanair.com/
+* https://www.porsche.com/
+* http://www.porsche.com/
+* https://www.travelandleisure.com/
+* http://www.travelandleisure.com/
+* http://www.cracked.com/
+* https://www.cracked.com/
+* http://www.agoda.com/
+* https://www.agoda.com/
+* http://www.kayak.com/
+* https://www.kayak.com/
+* https://www.loc.gov/
+* http://www.loc.gov/
+* http://www.tripadvisor.com/
+* https://www.tripadvisor.com/
+* http://www.xe.com/
+* https://www.xe.com/
+* http://www.flightradar24.com/
+* https://www.flightradar24.com/
+* http://www.travelocity.com/
+* https://www.travelocity.com/
+
+Not accessible URLS
+-------------------
+* https://www.united.com/
+* http://www.turkishairlines.com/
+* https://www.turkishairlines.com/
+* http://www.united.com/
+* http://www.zomato.com/
+* https://www.zomato.com/
+* http://www.hotels.com/
+* https://www.hotels.com/
+* http://www.priceline.com/
+* https://www.priceline.com/
+* http://www.ford.com/
+* https://www.ford.com/
+* https://www.jal.co.jp/
+* http://www.aeroflot.ru/
+* https://www.aeroflot.ru/
+* http://www.jal.co.jp/
+* http://www.opentable.com/
+* https://www.opentable.com/
+
+URLS possibly blocked due to http-diff
+--------------------------------------
+* http://www.priceline.com/
+* https://www.priceline.com/
+
+URLS possibly blocked due to dns
+--------------------------------
+* https://www.jal.co.jp/
+Report ID: 20200718T162232Z_AS4766_bXQRXyyx2PsxezRhnwdejryCrCA8MDvbBU4NVipcyFdO5cpSGm
+Error performing HTTP request: https://www.ford.com/
+Error performing HTTP request: https://www.zomato.com/
+Error performing HTTP request: https://www.aeroflot.ru/
+Error performing HTTP request: http://www.hotels.com/
+Error performing HTTP request: http://www.aeroflot.ru/
+Error performing HTTP request: https://www.opentable.com/
+Error performing HTTP request: http://www.ford.com/
+Error performing HTTP request: http://www.turkishairlines.com/
+Error performing HTTP request: http://www.united.com/
+Error performing HTTP request: http://www.hotels.com/
+Error performing HTTP request: https://www.zomato.com/
+Error performing HTTP request: https://www.hotels.com/
+Error performing HTTP request: http://www.opentable.com/
+Error performing HTTP request: https://www.turkishairlines.com/
+Error performing HTTP request: http://www.zomato.com/
+Error performing HTTP request: http://www.united.com/
+Error performing HTTP request: https://www.aeroflot.ru/
+Error performing HTTP request: http://www.zomato.com/
+Error performing HTTP request: http://www.ford.com/
+Error performing HTTP request: https://www.ford.com/
+Error performing HTTP request: https://www.united.com/
+Error performing HTTP request: https://www.turkishairlines.com/
+Error performing HTTP request: http://www.jal.co.jp/
+Error performing HTTP request: http://www.opentable.com/
+Error performing HTTP request: http://www.aeroflot.ru/
+Error performing HTTP request: http://www.jal.co.jp/
+Error performing HTTP request: https://www.opentable.com/
+Error performing HTTP request: http://www.turkishairlines.com/
+Error performing HTTP request: https://www.hotels.com/

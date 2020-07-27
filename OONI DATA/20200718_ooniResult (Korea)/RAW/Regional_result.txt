@@ -1,0 +1,1889 @@
+Starting Tor
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+57%: Loading relay descriptors
+61%: Loading relay descriptors
+65%: Loading relay descriptors
+71%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for http://www.apple.com/
+* doing DNS query for www.apple.com
+
+Starting test for https://www.apple.com/
+* doing DNS query for www.apple.com
+
+Starting test for http://www.chase.com/
+* doing DNS query for www.chase.com
+
+Starting test for https://www.chase.com/
+* doing DNS query for www.chase.com
+* connecting to 202.43.56.35:443
+* connecting to 202.43.56.35:80
+* doing HTTP(s) request https://www.apple.com/
+* doing HTTP(s) request http://www.apple.com/
+* performing control request with backend
+* performing control request with backend
+* connecting to 159.53.85.137:443
+* connecting to 159.53.85.137:80
+* doing HTTP(s) request https://www.chase.com/
+* doing HTTP(s) request http://www.chase.com/
+* performing control request with backend
+
+Result for https://www.apple.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.adobe.com/
+* doing DNS query for www.adobe.com
+* connecting to 23.50.0.99:80
+* doing HTTP(s) request http://www.adobe.com/
+* performing control request with backend
+
+Result for http://www.apple.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.adobe.com/
+* doing DNS query for www.adobe.com
+* connecting to 23.50.0.99:443
+* doing HTTP(s) request https://www.adobe.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.adobe.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.target.com/
+* doing DNS query for www.target.com
+* connecting to 151.101.110.187:80
+* doing HTTP(s) request http://www.target.com/
+* performing control request with backend
+
+Status
+------
+1/100 completed
+1.0% (ETA: 31s)
+
+Result for https://www.adobe.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.target.com/
+* doing DNS query for www.target.com
+* connecting to 151.101.110.187:443
+* doing HTTP(s) request https://www.target.com/
+
+Result for https://www.chase.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.xfinity.com/
+* doing DNS query for www.xfinity.com
+* performing control request with backend
+* connecting to 104.74.216.140:80
+* doing HTTP(s) request http://www.xfinity.com/
+
+Status
+------
+2/100 completed
+2.0% (ETA: 51s)
+
+Result for http://www.chase.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.xfinity.com/
+* doing DNS query for www.xfinity.com
+* connecting to 104.74.216.140:443
+* doing HTTP(s) request https://www.xfinity.com/
+* performing control request with backend
+
+Result for http://www.target.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.theguardian.com/
+* doing DNS query for www.theguardian.com
+* connecting to 151.101.109.111:80
+* doing HTTP(s) request http://www.theguardian.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+3/100 completed
+3.0% (ETA: 54s)
+
+Status
+------
+4/100 completed
+4.0% (ETA: 61s)
+
+Result for https://www.target.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.theguardian.com/
+* doing DNS query for www.theguardian.com
+* connecting to 151.101.109.111:443
+* doing HTTP(s) request https://www.theguardian.com/
+
+Status
+------
+5/100 completed
+5.0% (ETA: 69s)
+* performing control request with backend
+
+Status
+------
+6/100 completed
+6.0% (ETA: 78s)
+
+Result for http://www.theguardian.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.indiatimes.com/
+* doing DNS query for www.indiatimes.com
+* connecting to 114.108.188.189:80
+* doing HTTP(s) request http://www.indiatimes.com/
+* performing control request with backend
+
+Result for http://www.xfinity.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.indiatimes.com/
+* doing DNS query for www.indiatimes.com
+* connecting to 114.108.188.189:443
+* doing HTTP(s) request https://www.indiatimes.com/
+* performing control request with backend
+
+Result for https://www.xfinity.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.economictimes.indiatimes.com/
+* doing DNS query for www.economictimes.indiatimes.com
+* connecting to 119.207.66.153:80
+* connecting to 119.207.66.192:80
+* doing HTTP(s) request http://www.economictimes.indiatimes.com/
+
+Result for https://www.theguardian.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.economictimes.indiatimes.com/
+* doing DNS query for www.economictimes.indiatimes.com
+* connecting to 119.207.66.153:443
+* connecting to 119.207.66.192:443
+* doing HTTP(s) request https://www.economictimes.indiatimes.com/
+Error performing HTTP request: https://www.economictimes.indiatimes.com/
+Error performing HTTP request: https://www.economictimes.indiatimes.com/
+
+Status
+------
+7/100 completed
+7.0% (ETA: 71s)
+Error performing HTTP request: https://www.economictimes.indiatimes.com/
+Failed to perform HTTP request response_never_received
+* performing control request with backend
+
+Result for http://www.indiatimes.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ikea.com/
+* doing DNS query for www.ikea.com
+* connecting to 202.43.58.10:80
+* doing HTTP(s) request http://www.ikea.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+8/100 completed
+8.0% (ETA: 76s)
+
+Result for https://www.indiatimes.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ikea.com/
+* doing DNS query for www.ikea.com
+* connecting to 202.43.58.10:443
+* doing HTTP(s) request https://www.ikea.com/
+* performing control request with backend
+
+Result for http://www.ikea.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.weather.com/
+* doing DNS query for www.weather.com
+* connecting to 104.75.28.46:80
+* doing HTTP(s) request http://www.weather.com/
+
+Result for http://www.economictimes.indiatimes.com/
+---------------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+9/100 completed
+9.0% (ETA: 76s)
+
+Starting test for https://www.weather.com/
+* doing DNS query for www.weather.com
+* connecting to 104.75.28.46:443
+* doing HTTP(s) request https://www.weather.com/
+
+Status
+------
+10/100 completed
+10.0% (ETA: 84s)
+
+Result for https://www.economictimes.indiatimes.com/
+----------------------------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for http://www.fidelity.com/
+* doing DNS query for www.fidelity.com
+* connecting to 104.74.196.44:80
+* doing HTTP(s) request http://www.fidelity.com/
+* performing control request with backend
+
+Result for https://www.ikea.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+11/100 completed
+11.0% (ETA: 80s)
+
+Starting test for https://www.fidelity.com/
+* doing DNS query for www.fidelity.com
+* connecting to 104.74.196.44:443
+* doing HTTP(s) request https://www.fidelity.com/
+* performing control request with backend
+Error performing HTTP request: http://www.weather.com/
+
+Status
+------
+12/100 completed
+12.0% (ETA: 84s)
+Error performing HTTP request: https://www.weather.com/
+
+Result for http://www.fidelity.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.yahoo.com/
+* doing DNS query for www.yahoo.com
+* connecting to 106.10.250.11:80
+* connecting to 106.10.250.10:80
+* doing HTTP(s) request http://www.yahoo.com/
+
+Result for https://www.fidelity.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+13/100 completed
+13.0% (ETA: 80s)
+
+Starting test for https://www.yahoo.com/
+* doing DNS query for www.yahoo.com
+* connecting to 106.10.250.11:443
+* connecting to 106.10.250.10:443
+* doing HTTP(s) request https://www.yahoo.com/
+* performing control request with backend
+Error performing HTTP request: http://www.weather.com/
+Error performing HTTP request: https://www.weather.com/
+
+Status
+------
+14/100 completed
+14.0% (ETA: 81s)
+
+Status
+------
+15/100 completed
+15.0% (ETA: 86s)
+
+Status
+------
+16/100 completed
+16.0% (ETA: 90s)
+* performing control request with backend
+
+Status
+------
+17/100 completed
+17.0% (ETA: 91s)
+
+Status
+------
+18/100 completed
+18.0% (ETA: 94s)
+
+Result for http://www.yahoo.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ndtv.com/
+* doing DNS query for www.ndtv.com
+* connecting to 184.25.88.180:80
+* doing HTTP(s) request http://www.ndtv.com/
+* performing control request with backend
+
+Status
+------
+19/100 completed
+19.0% (ETA: 95s)
+Error performing HTTP request: http://www.weather.com/
+Failed to perform HTTP request unknown_failure cannot concatenate 'str' and 'URI' objects
+* performing control request with backend
+
+Status
+------
+20/100 completed
+20.0% (ETA: 98s)
+Error performing HTTP request: https://www.weather.com/
+Failed to perform HTTP request unknown_failure cannot concatenate 'str' and 'URI' objects
+* performing control request with backend
+
+Result for https://www.yahoo.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ndtv.com/
+* doing DNS query for www.ndtv.com
+* connecting to 184.25.88.180:443
+* doing HTTP(s) request https://www.ndtv.com/
+* performing control request with backend
+
+Result for http://www.ndtv.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.fedex.com/
+* doing DNS query for www.fedex.com
+* connecting to 23.50.2.130:80
+* doing HTTP(s) request http://www.fedex.com/
+* performing control request with backend
+
+Result for https://www.ndtv.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.fedex.com/
+* doing DNS query for www.fedex.com
+* connecting to 23.50.2.130:443
+* doing HTTP(s) request https://www.fedex.com/
+* performing control request with backend
+
+Result for http://www.fedex.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.alibaba.com/
+* doing DNS query for www.alibaba.com
+* connecting to 202.43.58.97:80
+* doing HTTP(s) request http://www.alibaba.com/
+* performing control request with backend
+
+Status
+------
+21/100 completed
+21.0% (ETA: 82s)
+
+Result for https://www.fedex.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.alibaba.com/
+* doing DNS query for www.alibaba.com
+* connecting to 202.43.58.97:443
+* doing HTTP(s) request https://www.alibaba.com/
+* performing control request with backend
+
+Status
+------
+22/100 completed
+22.0% (ETA: 84s)
+
+Status
+------
+23/100 completed
+23.0% (ETA: 83s)
+
+Result for http://www.alibaba.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.amazon.ca/
+* doing DNS query for www.amazon.ca
+* connecting to 99.86.206.64:80
+* doing HTTP(s) request http://www.amazon.ca/
+
+Status
+------
+24/100 completed
+24.0% (ETA: 85s)
+
+Result for https://www.alibaba.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.amazon.ca/
+* doing DNS query for www.amazon.ca
+* connecting to 99.86.206.64:443
+* doing HTTP(s) request https://www.amazon.ca/
+
+Status
+------
+25/100 completed
+25.0% (ETA: 86s)
+
+Status
+------
+26/100 completed
+26.0% (ETA: 87s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+27/100 completed
+27.0% (ETA: 83s)
+
+Result for http://www.amazon.ca/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.uk.search.yahoo.com/
+* doing DNS query for www.uk.search.yahoo.com
+* doing HTTP(s) request http://www.uk.search.yahoo.com/
+
+Status
+------
+28/100 completed
+28.0% (ETA: 83s)
+Error performing HTTP request: http://www.uk.search.yahoo.com/
+
+Result for https://www.amazon.ca/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.uk.search.yahoo.com/
+* doing DNS query for www.uk.search.yahoo.com
+Error performing HTTP request: http://www.uk.search.yahoo.com/
+* doing HTTP(s) request https://www.uk.search.yahoo.com/
+Error performing HTTP request: http://www.uk.search.yahoo.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+Error performing HTTP request: https://www.uk.search.yahoo.com/
+Error performing HTTP request: https://www.uk.search.yahoo.com/
+Error performing HTTP request: https://www.uk.search.yahoo.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+
+Result for http://www.weather.com/
+----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for http://www.homedepot.com/
+* doing DNS query for www.homedepot.com
+* connecting to 104.74.194.207:80
+* doing HTTP(s) request http://www.homedepot.com/
+* performing control request with backend
+
+Result for https://www.weather.com/
+-----------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.homedepot.com/
+* doing DNS query for www.homedepot.com
+* connecting to 104.74.194.207:443
+* doing HTTP(s) request https://www.homedepot.com/
+* performing control request with backend
+
+Result for http://www.homedepot.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nlm.nih.gov/
+* doing DNS query for www.nlm.nih.gov
+
+Status
+------
+29/100 completed
+29.0% (ETA: 78s)
+
+Status
+------
+30/100 completed
+30.0% (ETA: 79s)
+
+Result for https://www.homedepot.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nlm.nih.gov/
+* doing DNS query for www.nlm.nih.gov
+
+Status
+------
+31/100 completed
+31.0% (ETA: 79s)
+
+Status
+------
+32/100 completed
+32.0% (ETA: 81s)
+
+Result for http://www.uk.search.yahoo.com/
+------------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for http://www.bestbuy.com/
+* doing DNS query for www.bestbuy.com
+* connecting to 182.162.58.210:80
+* doing HTTP(s) request http://www.bestbuy.com/
+* connecting to 99.84.238.114:443
+* connecting to 99.84.238.12:443
+* connecting to 99.84.238.69:443
+* connecting to 99.84.238.112:443
+* connecting to 99.84.238.114:80
+* connecting to 99.84.238.12:80
+* connecting to 99.84.238.69:80
+* connecting to 99.84.238.112:80
+* doing HTTP(s) request https://www.nlm.nih.gov/
+* doing HTTP(s) request http://www.nlm.nih.gov/
+
+Status
+------
+33/100 completed
+33.0% (ETA: 80s)
+
+Result for https://www.uk.search.yahoo.com/
+-------------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.bestbuy.com/
+* doing DNS query for www.bestbuy.com
+* connecting to 182.162.58.210:443
+* doing HTTP(s) request https://www.bestbuy.com/
+* performing control request with backend
+
+Status
+------
+34/100 completed
+34.0% (ETA: 80s)
+* performing control request with backend
+
+Status
+------
+35/100 completed
+35.0% (ETA: 80s)
+
+Status
+------
+36/100 completed
+36.0% (ETA: 79s)
+
+Result for https://www.nlm.nih.gov/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nih.gov/
+* doing DNS query for www.nih.gov
+* connecting to 35.169.209.222:80
+* connecting to 52.72.169.229:80
+
+Result for http://www.nlm.nih.gov/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nih.gov/
+* doing DNS query for www.nih.gov
+* connecting to 35.169.209.222:443
+* connecting to 52.72.169.229:443
+* doing HTTP(s) request http://www.nih.gov/
+* doing HTTP(s) request https://www.nih.gov/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+37/100 completed
+37.0% (ETA: 75s)
+
+Status
+------
+38/100 completed
+38.0% (ETA: 76s)
+
+Result for https://www.nih.gov/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.google.com/
+* doing DNS query for www.google.com
+* connecting to 172.217.26.4:80
+* doing HTTP(s) request http://www.google.com/
+* performing control request with backend
+
+Result for http://www.nih.gov/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.google.com/
+* doing DNS query for www.google.com
+* connecting to 172.217.26.4:443
+* doing HTTP(s) request https://www.google.com/
+* performing control request with backend
+
+Result for http://www.google.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.dailymail.co.uk/
+* doing DNS query for www.dailymail.co.uk
+* connecting to 184.25.27.128:80
+* doing HTTP(s) request http://www.dailymail.co.uk/
+
+Status
+------
+39/100 completed
+39.0% (ETA: 69s)
+* performing control request with backend
+
+Status
+------
+40/100 completed
+40.0% (ETA: 68s)
+
+Result for https://www.google.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.dailymail.co.uk/
+* doing DNS query for www.dailymail.co.uk
+* connecting to 184.25.27.128:443
+* doing HTTP(s) request https://www.dailymail.co.uk/
+* performing control request with backend
+
+Status
+------
+41/100 completed
+41.0% (ETA: 67s)
+
+Result for http://www.dailymail.co.uk/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.walmart.com/
+* doing DNS query for www.walmart.com
+* connecting to 184.25.20.43:80
+* doing HTTP(s) request http://www.walmart.com/
+
+Result for https://www.dailymail.co.uk/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.walmart.com/
+* doing DNS query for www.walmart.com
+* connecting to 184.25.20.43:443
+* doing HTTP(s) request https://www.walmart.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+42/100 completed
+42.0% (ETA: 65s)
+
+Result for http://www.walmart.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ca.gov/
+* doing DNS query for www.ca.gov
+* connecting to 110.232.178.201:80
+* doing HTTP(s) request http://www.ca.gov/
+
+Result for https://www.walmart.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ca.gov/
+* doing DNS query for www.ca.gov
+* connecting to 110.232.178.201:443
+* doing HTTP(s) request https://www.ca.gov/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+43/100 completed
+43.0% (ETA: 59s)
+
+Status
+------
+44/100 completed
+44.0% (ETA: 59s)
+
+Result for https://www.ca.gov/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.google.co.in/
+* doing DNS query for www.google.co.in
+* connecting to 172.217.161.67:80
+* doing HTTP(s) request http://www.google.co.in/
+* performing control request with backend
+
+Status
+------
+45/100 completed
+45.0% (ETA: 58s)
+
+Result for http://www.ca.gov/
+-----------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.google.co.in/
+* doing DNS query for www.google.co.in
+* connecting to 172.217.161.67:443
+* doing HTTP(s) request https://www.google.co.in/
+
+Status
+------
+46/100 completed
+46.0% (ETA: 58s)
+* performing control request with backend
+
+Status
+------
+47/100 completed
+47.0% (ETA: 57s)
+
+Result for http://www.google.co.in/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ebay.co.uk/
+* doing DNS query for www.ebay.co.uk
+* connecting to 23.35.222.141:80
+* doing HTTP(s) request http://www.ebay.co.uk/
+
+Status
+------
+48/100 completed
+48.0% (ETA: 56s)
+
+Result for https://www.google.co.in/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ebay.co.uk/
+* doing DNS query for www.ebay.co.uk
+* connecting to 23.35.222.141:443
+* doing HTTP(s) request https://www.ebay.co.uk/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+49/100 completed
+49.0% (ETA: 54s)
+
+Status
+------
+50/100 completed
+50.0% (ETA: 54s)
+
+Result for https://www.ebay.co.uk/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.icicibank.com/
+* doing DNS query for www.icicibank.com
+* connecting to 114.108.188.121:80
+* doing HTTP(s) request http://www.icicibank.com/
+
+Result for http://www.ebay.co.uk/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.icicibank.com/
+* doing DNS query for www.icicibank.com
+* connecting to 114.108.188.121:443
+* doing HTTP(s) request https://www.icicibank.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+51/100 completed
+51.0% (ETA: 51s)
+
+Status
+------
+52/100 completed
+52.0% (ETA: 51s)
+
+Result for https://www.icicibank.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.amazon.co.jp/
+* doing DNS query for www.amazon.co.jp
+* connecting to 184.25.20.247:80
+* doing HTTP(s) request http://www.amazon.co.jp/
+
+Result for http://www.icicibank.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.amazon.co.jp/
+* doing DNS query for www.amazon.co.jp
+* connecting to 184.25.20.247:443
+* doing HTTP(s) request https://www.amazon.co.jp/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+53/100 completed
+53.0% (ETA: 48s)
+
+Status
+------
+54/100 completed
+54.0% (ETA: 48s)
+
+Result for https://www.amazon.co.jp/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.bbc.co.uk/
+* doing DNS query for www.bbc.co.uk
+* connecting to 212.58.237.251:80
+* connecting to 212.58.233.251:80
+* doing HTTP(s) request http://www.bbc.co.uk/
+
+Result for http://www.amazon.co.jp/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.bbc.co.uk/
+* doing DNS query for www.bbc.co.uk
+* connecting to 212.58.237.251:443
+* connecting to 212.58.233.251:443
+* doing HTTP(s) request https://www.bbc.co.uk/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.bbc.co.uk/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.bet365.com/
+* doing DNS query for www.bet365.com
+* connecting to 5.226.176.16:80
+* doing HTTP(s) request http://www.bet365.com/
+* performing control request with backend
+
+Status
+------
+55/100 completed
+55.0% (ETA: 45s)
+
+Status
+------
+56/100 completed
+56.0% (ETA: 45s)
+
+Result for http://www.bbc.co.uk/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.bet365.com/
+* doing DNS query for www.bet365.com
+* connecting to 5.226.176.16:443
+* doing HTTP(s) request https://www.bet365.com/
+* performing control request with backend
+
+Result for http://www.bet365.com/
+---------------------------------
+* BLOCKING DETECTED due to http-diff
+* Is NOT accessible
+
+
+Starting test for http://www.aol.com/
+* doing DNS query for www.aol.com
+* connecting to 67.195.231.20:80
+* doing HTTP(s) request http://www.aol.com/
+
+Result for https://www.bet365.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.aol.com/
+* doing DNS query for www.aol.com
+* connecting to 67.195.231.20:443
+* doing HTTP(s) request https://www.aol.com/
+
+Status
+------
+57/100 completed
+57.0% (ETA: 43s)
+
+Status
+------
+58/100 completed
+58.0% (ETA: 42s)
+* performing control request with backend
+
+Status
+------
+59/100 completed
+59.0% (ETA: 42s)
+* performing control request with backend
+
+Status
+------
+60/100 completed
+60.0% (ETA: 41s)
+
+Result for http://www.aol.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.microsoft.com/
+* doing DNS query for www.microsoft.com
+* connecting to 23.212.13.232:80
+* doing HTTP(s) request http://www.microsoft.com/
+* performing control request with backend
+
+Result for https://www.aol.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.microsoft.com/
+* doing DNS query for www.microsoft.com
+* connecting to 23.212.13.232:443
+* doing HTTP(s) request https://www.microsoft.com/
+* performing control request with backend
+
+Result for http://www.microsoft.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.bankofamerica.com/
+* doing DNS query for www.bankofamerica.com
+
+Result for https://www.microsoft.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.bankofamerica.com/
+* doing DNS query for www.bankofamerica.com
+* connecting to 171.161.199.100:443
+* connecting to 171.161.199.100:80
+* doing HTTP(s) request http://www.bankofamerica.com/
+* doing HTTP(s) request https://www.bankofamerica.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+61/100 completed
+61.0% (ETA: 36s)
+
+Status
+------
+62/100 completed
+62.0% (ETA: 36s)
+
+Status
+------
+63/100 completed
+63.0% (ETA: 36s)
+
+Status
+------
+64/100 completed
+64.0% (ETA: 35s)
+
+Result for https://www.bankofamerica.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ups.com/
+* doing DNS query for www.ups.com
+* connecting to 23.50.3.164:80
+* doing HTTP(s) request http://www.ups.com/
+* performing control request with backend
+
+Result for http://www.bankofamerica.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ups.com/
+* doing DNS query for www.ups.com
+* connecting to 23.50.3.164:443
+* doing HTTP(s) request https://www.ups.com/
+* performing control request with backend
+
+Status
+------
+65/100 completed
+65.0% (ETA: 33s)
+
+Result for https://www.ups.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.webex.com/
+* doing DNS query for www.webex.com
+* connecting to 23.46.22.34:80
+* doing HTTP(s) request http://www.webex.com/
+* performing control request with backend
+
+Result for http://www.ups.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.webex.com/
+* doing DNS query for www.webex.com
+
+Status
+------
+66/100 completed
+66.0% (ETA: 32s)
+* connecting to 23.46.22.34:443
+* doing HTTP(s) request https://www.webex.com/
+* performing control request with backend
+
+Result for http://www.webex.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.usps.com/
+* doing DNS query for www.usps.com
+* connecting to 23.212.13.44:80
+* doing HTTP(s) request http://www.usps.com/
+* performing control request with backend
+
+Result for https://www.webex.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.usps.com/
+* doing DNS query for www.usps.com
+* connecting to 23.212.13.44:443
+* doing HTTP(s) request https://www.usps.com/
+* performing control request with backend
+
+Result for http://www.usps.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.amazon.co.uk/
+* doing DNS query for www.amazon.co.uk
+* connecting to 99.86.146.58:80
+* doing HTTP(s) request http://www.amazon.co.uk/
+
+Result for https://www.usps.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.amazon.co.uk/
+* doing DNS query for www.amazon.co.uk
+* connecting to 99.86.146.58:443
+* doing HTTP(s) request https://www.amazon.co.uk/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.amazon.co.uk/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.hp.com/
+* doing DNS query for www.hp.com
+* connecting to 15.73.200.22:80
+* connecting to 15.72.238.25:80
+* doing HTTP(s) request http://www.hp.com/
+
+Result for https://www.amazon.co.uk/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+* performing control request with backend
+
+Status
+------
+67/100 completed
+67.0% (ETA: 28s)
+
+Starting test for https://www.hp.com/
+* doing DNS query for www.hp.com
+* connecting to 15.73.200.22:443
+* connecting to 15.72.238.25:443
+* doing HTTP(s) request https://www.hp.com/
+
+Status
+------
+68/100 completed
+68.0% (ETA: 27s)
+Error performing HTTP request: https://www.hp.com/
+Error performing HTTP request: https://www.hp.com/
+
+Status
+------
+69/100 completed
+69.0% (ETA: 27s)
+
+Status
+------
+70/100 completed
+70.0% (ETA: 26s)
+* performing control request with backend
+
+Status
+------
+71/100 completed
+71.0% (ETA: 25s)
+
+Status
+------
+72/100 completed
+72.0% (ETA: 25s)
+
+Status
+------
+73/100 completed
+73.0% (ETA: 24s)
+
+Status
+------
+74/100 completed
+74.0% (ETA: 23s)
+
+Result for http://www.hp.com/
+-----------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.google.co.uk/
+* doing DNS query for www.google.co.uk
+* connecting to 216.58.220.131:80
+* doing HTTP(s) request http://www.google.co.uk/
+* performing control request with backend
+
+Result for https://www.hp.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.google.co.uk/
+* doing DNS query for www.google.co.uk
+* connecting to 216.58.220.131:443
+* doing HTTP(s) request https://www.google.co.uk/
+* performing control request with backend
+
+Status
+------
+75/100 completed
+75.0% (ETA: 21s)
+
+Result for http://www.google.co.uk/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.nytimes.com/
+* doing DNS query for www.nytimes.com
+* connecting to 151.101.229.164:80
+* doing HTTP(s) request http://www.nytimes.com/
+
+Result for https://www.google.co.uk/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.nytimes.com/
+* doing DNS query for www.nytimes.com
+* connecting to 151.101.229.164:443
+* doing HTTP(s) request https://www.nytimes.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+76/100 completed
+76.0% (ETA: 20s)
+
+Status
+------
+77/100 completed
+77.0% (ETA: 19s)
+
+Status
+------
+78/100 completed
+78.0% (ETA: 18s)
+
+Result for https://www.nytimes.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.irs.gov/
+* doing DNS query for www.irs.gov
+
+Result for http://www.nytimes.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.irs.gov/
+* doing DNS query for www.irs.gov
+* connecting to 23.47.176.91:443
+* connecting to 23.47.176.91:80
+* doing HTTP(s) request https://www.irs.gov/
+* doing HTTP(s) request http://www.irs.gov/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.irs.gov/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.wellsfargo.com/
+* doing DNS query for www.wellsfargo.com
+* connecting to 159.45.66.145:80
+* doing HTTP(s) request http://www.wellsfargo.com/
+
+Result for http://www.irs.gov/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.wellsfargo.com/
+* doing DNS query for www.wellsfargo.com
+* connecting to 159.45.66.145:443
+* doing HTTP(s) request https://www.wellsfargo.com/
+* performing control request with backend
+
+Status
+------
+79/100 completed
+79.0% (ETA: 17s)
+* performing control request with backend
+
+Status
+------
+80/100 completed
+80.0% (ETA: 16s)
+
+Status
+------
+81/100 completed
+81.0% (ETA: 15s)
+
+Status
+------
+82/100 completed
+82.0% (ETA: 15s)
+
+Result for http://www.wellsfargo.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.flipkart.com/
+* doing DNS query for www.flipkart.com
+* connecting to 163.53.78.128:80
+* doing HTTP(s) request http://www.flipkart.com/
+
+Result for https://www.wellsfargo.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.flipkart.com/
+* doing DNS query for www.flipkart.com
+* connecting to 163.53.78.128:443
+* doing HTTP(s) request https://www.flipkart.com/
+
+Status
+------
+83/100 completed
+83.0% (ETA: 14s)
+
+Status
+------
+84/100 completed
+84.0% (ETA: 13s)
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.flipkart.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.samsung.com/
+* doing DNS query for www.samsung.com
+* connecting to 202.43.55.46:80
+* doing HTTP(s) request http://www.samsung.com/
+* performing control request with backend
+
+Result for http://www.flipkart.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.samsung.com/
+* doing DNS query for www.samsung.com
+* connecting to 202.43.55.46:443
+* doing HTTP(s) request https://www.samsung.com/
+* performing control request with backend
+
+Status
+------
+85/100 completed
+85.0% (ETA: 11s)
+
+Status
+------
+86/100 completed
+86.0% (ETA: 11s)
+
+Result for https://www.samsung.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.moneycontrol.com/
+* doing DNS query for www.moneycontrol.com
+
+Result for http://www.samsung.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.moneycontrol.com/
+* doing DNS query for www.moneycontrol.com
+* connecting to 23.50.0.19:443
+* connecting to 23.50.0.19:80
+* doing HTTP(s) request https://www.moneycontrol.com/
+* doing HTTP(s) request http://www.moneycontrol.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.moneycontrol.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.asos.com/
+* doing DNS query for www.asos.com
+* connecting to 61.111.58.53:80
+* connecting to 61.111.58.62:80
+* doing HTTP(s) request http://www.asos.com/
+* performing control request with backend
+
+Result for http://www.moneycontrol.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.asos.com/
+* doing DNS query for www.asos.com
+* connecting to 61.111.58.53:443
+* connecting to 61.111.58.62:443
+* doing HTTP(s) request https://www.asos.com/
+* performing control request with backend
+
+Result for http://www.asos.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.rt.com/
+* doing DNS query for www.rt.com
+
+Result for https://www.asos.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.rt.com/
+* doing DNS query for www.rt.com
+* connecting to 37.48.108.112:443
+* connecting to 37.48.108.112:80
+* doing HTTP(s) request https://www.rt.com/
+* doing HTTP(s) request http://www.rt.com/
+
+Status
+------
+87/100 completed
+87.0% (ETA: 9s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+88/100 completed
+88.0% (ETA: 9s)
+
+Status
+------
+89/100 completed
+89.0% (ETA: 8s)
+
+Status
+------
+90/100 completed
+90.0% (ETA: 7s)
+
+Status
+------
+91/100 completed
+91.0% (ETA: 7s)
+
+Status
+------
+92/100 completed
+92.0% (ETA: 6s)
+
+Result for https://www.rt.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.amazon.com/
+* doing DNS query for www.amazon.com
+* connecting to 99.86.206.83:80
+* doing HTTP(s) request http://www.amazon.com/
+
+Result for http://www.rt.com/
+-----------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.amazon.com/
+* doing DNS query for www.amazon.com
+* connecting to 99.86.206.83:443
+* doing HTTP(s) request https://www.amazon.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+93/100 completed
+93.0% (ETA: 5s)
+
+Status
+------
+94/100 completed
+94.0% (ETA: 4s)
+
+Result for https://www.amazon.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.zillow.com/
+* doing DNS query for www.zillow.com
+* connecting to 99.86.144.120:80
+* connecting to 99.86.144.111:80
+* connecting to 99.86.144.106:80
+* connecting to 99.86.144.100:80
+* doing HTTP(s) request http://www.zillow.com/
+
+Result for http://www.amazon.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.zillow.com/
+* doing DNS query for www.zillow.com
+* connecting to 99.86.144.100:443
+* connecting to 99.86.144.106:443
+* connecting to 99.86.144.111:443
+* connecting to 99.86.144.120:443
+* doing HTTP(s) request https://www.zillow.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.zillow.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+95/100 completed
+95.0% (ETA: 3s)
+
+Status
+------
+96/100 completed
+96.0% (ETA: 3s)
+
+Result for https://www.zillow.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+97/100 completed
+97.0% (ETA: 2s)
+
+Status
+------
+98/100 completed
+98.0% (ETA: 1s)
+
+Starting test for http://www.bestbuy.com/
+* doing DNS query for www.bestbuy.com
+* connecting to 182.162.58.210:80
+* doing HTTP(s) request http://www.bestbuy.com/
+
+Starting test for https://www.bestbuy.com/
+* doing DNS query for www.bestbuy.com
+* connecting to 182.162.58.210:443
+* doing HTTP(s) request https://www.bestbuy.com/
+
+Status
+------
+99/100 completed
+99.0% (ETA: 0s)
+
+Status
+------
+100/100 completed
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Accessible URLS
+---------------
+* https://www.apple.com/
+* http://www.apple.com/
+* http://www.adobe.com/
+* https://www.adobe.com/
+* https://www.chase.com/
+* http://www.chase.com/
+* http://www.target.com/
+* https://www.target.com/
+* http://www.theguardian.com/
+* http://www.xfinity.com/
+* https://www.xfinity.com/
+* https://www.theguardian.com/
+* http://www.indiatimes.com/
+* https://www.indiatimes.com/
+* http://www.ikea.com/
+* http://www.economictimes.indiatimes.com/
+* https://www.ikea.com/
+* http://www.fidelity.com/
+* https://www.fidelity.com/
+* http://www.yahoo.com/
+* https://www.yahoo.com/
+* http://www.ndtv.com/
+* https://www.ndtv.com/
+* http://www.fedex.com/
+* https://www.fedex.com/
+* http://www.alibaba.com/
+* https://www.alibaba.com/
+* http://www.amazon.ca/
+* https://www.amazon.ca/
+* http://www.homedepot.com/
+* https://www.homedepot.com/
+* https://www.nlm.nih.gov/
+* http://www.nlm.nih.gov/
+* https://www.nih.gov/
+* http://www.nih.gov/
+* http://www.google.com/
+* https://www.google.com/
+* http://www.dailymail.co.uk/
+* https://www.dailymail.co.uk/
+* http://www.walmart.com/
+* https://www.walmart.com/
+* https://www.ca.gov/
+* http://www.ca.gov/
+* http://www.google.co.in/
+* https://www.google.co.in/
+* https://www.ebay.co.uk/
+* http://www.ebay.co.uk/
+* https://www.icicibank.com/
+* http://www.icicibank.com/
+* https://www.amazon.co.jp/
+* http://www.amazon.co.jp/
+* https://www.bbc.co.uk/
+* http://www.bbc.co.uk/
+* https://www.bet365.com/
+* http://www.aol.com/
+* https://www.aol.com/
+* http://www.microsoft.com/
+* https://www.microsoft.com/
+* https://www.bankofamerica.com/
+* http://www.bankofamerica.com/
+* https://www.ups.com/
+* http://www.ups.com/
+* http://www.webex.com/
+* https://www.webex.com/
+* http://www.usps.com/
+* https://www.usps.com/
+* http://www.amazon.co.uk/
+* https://www.amazon.co.uk/
+* http://www.hp.com/
+* https://www.hp.com/
+* http://www.google.co.uk/
+* https://www.google.co.uk/
+* https://www.nytimes.com/
+* http://www.nytimes.com/
+* https://www.irs.gov/
+* http://www.irs.gov/
+* http://www.wellsfargo.com/
+* https://www.wellsfargo.com/
+* https://www.flipkart.com/
+* http://www.flipkart.com/
+* https://www.samsung.com/
+* http://www.samsung.com/
+* https://www.moneycontrol.com/
+* http://www.moneycontrol.com/
+* http://www.asos.com/
+* https://www.asos.com/
+* https://www.rt.com/
+* http://www.rt.com/
+* https://www.amazon.com/
+* http://www.amazon.com/
+* http://www.zillow.com/
+* https://www.zillow.com/
+
+Not accessible URLS
+-------------------
+* https://www.economictimes.indiatimes.com/
+* http://www.weather.com/
+* https://www.weather.com/
+* http://www.uk.search.yahoo.com/
+* https://www.uk.search.yahoo.com/
+* http://www.bet365.com/
+* http://www.bestbuy.com/
+* https://www.bestbuy.com/
+
+URLS possibly blocked due to http-diff
+--------------------------------------
+* http://www.bet365.com/
+
+URLS possibly blocked due to dns
+--------------------------------
+* https://www.economictimes.indiatimes.com/
+* http://www.weather.com/
+* https://www.weather.com/
+Report ID: 20200718T170333Z_AS4766_1knVB3FFb6HFGLVKj8xah7hXoJW0ne7Z2dinUzZ2ZKQk6yIlkM
+Error performing HTTP request: http://www.bestbuy.com/
+Error performing HTTP request: https://www.bestbuy.com/
+Error performing HTTP request: https://www.bestbuy.com/
+Error performing HTTP request: http://www.bestbuy.com/

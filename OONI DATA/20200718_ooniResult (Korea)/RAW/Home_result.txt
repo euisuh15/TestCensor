@@ -1,0 +1,1963 @@
+Starting Tor
+5%: Connecting to directory server
+10%: Finishing handshake with directory server
+15%: Establishing an encrypted directory connection
+20%: Asking for networkstatus consensus
+25%: Loading networkstatus consensus
+40%: Loading authority key certs
+45%: Asking for relay descriptors
+50%: Loading relay descriptors
+51%: Loading relay descriptors
+52%: Loading relay descriptors
+54%: Loading relay descriptors
+58%: Loading relay descriptors
+61%: Loading relay descriptors
+66%: Loading relay descriptors
+72%: Loading relay descriptors
+80%: Connecting to the Tor network
+85%: Finishing handshake with first hop
+90%: Establishing a Tor circuit
+100%: Done
+Tor has started
+Found your IP via Tor
+Looking up collector and test helpers with http://nkvphnp3p6agi5qq.onion
+Setting collector and test helpers for web_connectivity
+Creating report with OONIB Reporter. Please be patient.
+This may take up to 1-2 minutes...
+
+Starting test for http://www.bbb.org/
+* doing DNS query for www.bbb.org
+
+Starting test for https://www.bbb.org/
+* doing DNS query for www.bbb.org
+
+Starting test for http://www.bobvila.com/
+* doing DNS query for www.bobvila.com
+
+Starting test for https://www.bobvila.com/
+* doing DNS query for www.bobvila.com
+* connecting to 151.101.230.217:443
+* connecting to 151.101.230.217:80
+* doing HTTP(s) request https://www.bobvila.com/
+* doing HTTP(s) request http://www.bobvila.com/
+* connecting to 216.52.119.101:443
+* connecting to 216.52.119.101:80
+* doing HTTP(s) request http://www.bbb.org/
+* doing HTTP(s) request https://www.bbb.org/
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.bbb.org/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.thekitchn.com/
+* doing DNS query for www.thekitchn.com
+* connecting to 151.101.230.49:80
+* doing HTTP(s) request http://www.thekitchn.com/
+* performing control request with backend
+
+Result for http://www.bbb.org/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.thekitchn.com/
+* doing DNS query for www.thekitchn.com
+* connecting to 151.101.230.49:443
+* doing HTTP(s) request https://www.thekitchn.com/
+* performing control request with backend
+
+Result for http://www.bobvila.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.lifehack.org/
+* doing DNS query for www.lifehack.org
+* connecting to 104.20.199.58:80
+* connecting to 172.67.18.35:80
+* connecting to 104.20.198.58:80
+* doing HTTP(s) request http://www.lifehack.org/
+* performing control request with backend
+
+Result for https://www.bobvila.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.lifehack.org/
+* doing DNS query for www.lifehack.org
+* connecting to 104.20.198.58:443
+* connecting to 172.67.18.35:443
+* connecting to 104.20.199.58:443
+* doing HTTP(s) request https://www.lifehack.org/
+* performing control request with backend
+
+Result for http://www.thekitchn.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ehow.com/
+* doing DNS query for www.ehow.com
+* connecting to 184.25.28.33:80
+* doing HTTP(s) request http://www.ehow.com/
+
+Result for https://www.thekitchn.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ehow.com/
+* doing DNS query for www.ehow.com
+* connecting to 184.25.28.33:443
+* doing HTTP(s) request https://www.ehow.com/
+
+Result for https://www.lifehack.org/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.travel.state.gov/
+* doing DNS query for www.travel.state.gov
+
+Result for http://www.lifehack.org/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+* connecting to 18.216.14.33:80
+* connecting to 18.217.102.85:80
+* connecting to 18.220.218.98:80
+* connecting to 13.58.170.124:80
+* connecting to 18.219.22.127:80
+* connecting to 18.216.81.98:80
+* connecting to 18.218.199.172:80
+* connecting to 18.219.108.36:80
+* connecting to 18.217.66.14:80
+* connecting to 18.219.36.149:80
+* connecting to 52.14.234.144:80
+* connecting to 18.220.190.158:80
+* connecting to 18.217.38.127:80
+* connecting to 18.219.0.83:80
+* connecting to 13.58.116.30:80
+* connecting to 18.219.92.14:80
+* connecting to 18.218.132.161:80
+* connecting to 18.216.147.148:80
+* doing HTTP(s) request http://www.travel.state.gov/
+
+Status
+------
+1/100 completed
+1.0% (ETA: 12s)
+
+Starting test for https://www.travel.state.gov/
+* doing DNS query for www.travel.state.gov
+* connecting to 18.216.147.148:443
+* connecting to 18.219.36.149:443
+* connecting to 18.218.199.172:443
+* connecting to 18.217.102.85:443
+* connecting to 18.216.14.33:443
+* connecting to 18.218.132.161:443
+* connecting to 18.219.108.36:443
+* connecting to 18.217.66.14:443
+* connecting to 18.219.0.83:443
+* connecting to 52.14.234.144:443
+* connecting to 13.58.170.124:443
+* connecting to 18.220.190.158:443
+* connecting to 18.217.38.127:443
+* connecting to 18.219.92.14:443
+* connecting to 18.219.22.127:443
+* connecting to 18.216.81.98:443
+* connecting to 13.58.116.30:443
+* connecting to 18.220.218.98:443
+
+Status
+------
+2/100 completed
+2.0% (ETA: 24s)
+* performing control request with backend
+
+Status
+------
+3/100 completed
+3.0% (ETA: 31s)
+
+Status
+------
+4/100 completed
+4.0% (ETA: 38s)
+* doing HTTP(s) request https://www.travel.state.gov/
+
+Status
+------
+5/100 completed
+5.0% (ETA: 43s)
+
+Result for http://www.travel.state.gov/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.parents.com/
+* doing DNS query for www.parents.com
+* connecting to 99.84.238.109:80
+* connecting to 99.84.238.91:80
+* connecting to 99.84.238.6:80
+* connecting to 99.84.238.37:80
+* doing HTTP(s) request http://www.parents.com/
+
+Status
+------
+6/100 completed
+6.0% (ETA: 49s)
+
+Status
+------
+7/100 completed
+7.0% (ETA: 54s)
+
+Status
+------
+8/100 completed
+8.0% (ETA: 60s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+9/100 completed
+9.0% (ETA: 61s)
+
+Result for http://www.parents.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.parents.com/
+* doing DNS query for www.parents.com
+* connecting to 99.84.238.37:443
+* connecting to 99.84.238.6:443
+* connecting to 99.84.238.91:443
+* connecting to 99.84.238.109:443
+* doing HTTP(s) request https://www.parents.com/
+* performing control request with backend
+
+Result for https://www.travel.state.gov/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.marketwatch.com/
+* doing DNS query for www.marketwatch.com
+* connecting to 104.75.22.111:80
+* doing HTTP(s) request http://www.marketwatch.com/
+* performing control request with backend
+
+Result for https://www.parents.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.marketwatch.com/
+* doing DNS query for www.marketwatch.com
+* connecting to 104.75.22.111:443
+* doing HTTP(s) request https://www.marketwatch.com/
+* performing control request with backend
+
+Result for http://www.marketwatch.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.allrecipes.com/
+* doing DNS query for www.allrecipes.com
+* connecting to 13.93.202.50:80
+* doing HTTP(s) request http://www.allrecipes.com/
+
+Status
+------
+10/100 completed
+10.0% (ETA: 51s)
+
+Result for https://www.marketwatch.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.allrecipes.com/
+* doing DNS query for www.allrecipes.com
+* connecting to 13.93.202.50:443
+* doing HTTP(s) request https://www.allrecipes.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+11/100 completed
+11.0% (ETA: 48s)
+
+Result for http://www.allrecipes.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.thespruceeats.com/
+* doing DNS query for www.thespruceeats.com
+
+Result for https://www.allrecipes.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.thespruceeats.com/
+* doing DNS query for www.thespruceeats.com
+* connecting to 151.101.110.137:443
+* connecting to 151.101.110.137:80
+* doing HTTP(s) request https://www.thespruceeats.com/
+* doing HTTP(s) request http://www.thespruceeats.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.thespruceeats.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.food.ndtv.com/
+* doing DNS query for www.food.ndtv.com
+* doing HTTP(s) request http://www.food.ndtv.com/
+Error performing HTTP request: http://www.food.ndtv.com/
+Error performing HTTP request: http://www.food.ndtv.com/
+Error performing HTTP request: http://www.food.ndtv.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+
+Result for http://www.thespruceeats.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.food.ndtv.com/
+* doing DNS query for www.food.ndtv.com
+* doing HTTP(s) request https://www.food.ndtv.com/
+Error performing HTTP request: https://www.food.ndtv.com/
+Error performing HTTP request: https://www.food.ndtv.com/
+Error performing HTTP request: https://www.food.ndtv.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+
+Status
+------
+12/100 completed
+12.0% (ETA: 44s)
+
+Status
+------
+13/100 completed
+13.0% (ETA: 46s)
+
+Status
+------
+14/100 completed
+14.0% (ETA: 48s)
+
+Result for http://www.food.ndtv.com/
+------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for http://www.engadget.com/
+* doing DNS query for www.engadget.com
+
+Result for https://www.food.ndtv.com/
+-------------------------------------
+* No blocking detected
+* Is NOT accessible
+
+
+Starting test for https://www.engadget.com/
+* doing DNS query for www.engadget.com
+* connecting to 67.195.231.20:443
+* connecting to 67.195.231.20:80
+* doing HTTP(s) request http://www.engadget.com/
+* doing HTTP(s) request https://www.engadget.com/
+
+Status
+------
+15/100 completed
+15.0% (ETA: 48s)
+
+Status
+------
+16/100 completed
+16.0% (ETA: 51s)
+* performing control request with backend
+
+Status
+------
+17/100 completed
+17.0% (ETA: 52s)
+
+Status
+------
+18/100 completed
+18.0% (ETA: 54s)
+
+Status
+------
+19/100 completed
+19.0% (ETA: 56s)
+
+Status
+------
+20/100 completed
+20.0% (ETA: 58s)
+* performing control request with backend
+
+Result for https://www.engadget.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.hgtv.com/
+* doing DNS query for www.hgtv.com
+* connecting to 23.35.220.153:80
+* doing HTTP(s) request http://www.hgtv.com/
+* performing control request with backend
+
+Result for http://www.engadget.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.hgtv.com/
+* doing DNS query for www.hgtv.com
+* connecting to 23.35.220.153:443
+* doing HTTP(s) request https://www.hgtv.com/
+* performing control request with backend
+
+Result for http://www.hgtv.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.ssa.gov/
+* doing DNS query for www.ssa.gov
+* connecting to 137.200.39.19:80
+* doing HTTP(s) request http://www.ssa.gov/
+
+Result for https://www.hgtv.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.ssa.gov/
+* doing DNS query for www.ssa.gov
+* connecting to 137.200.39.19:443
+* performing control request with backend
+* doing HTTP(s) request https://www.ssa.gov/
+* performing control request with backend
+
+Status
+------
+21/100 completed
+21.0% (ETA: 46s)
+
+Status
+------
+22/100 completed
+22.0% (ETA: 47s)
+
+Result for https://www.ssa.gov/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.money.cnn.com/
+* doing DNS query for www.money.cnn.com
+* connecting to 151.101.229.67:80
+
+Result for http://www.ssa.gov/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.money.cnn.com/
+* doing DNS query for www.money.cnn.com
+* connecting to 151.101.229.67:443
+* doing HTTP(s) request http://www.money.cnn.com/
+* doing HTTP(s) request https://www.money.cnn.com/
+
+Status
+------
+23/100 completed
+23.0% (ETA: 47s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+24/100 completed
+24.0% (ETA: 47s)
+
+Status
+------
+25/100 completed
+25.0% (ETA: 47s)
+
+Status
+------
+26/100 completed
+26.0% (ETA: 48s)
+
+Result for http://www.money.cnn.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.kbb.com/
+* doing DNS query for www.kbb.com
+* doing HTTP(s) request http://www.kbb.com/
+
+Result for https://www.money.cnn.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.kbb.com/
+* doing DNS query for www.kbb.com
+* doing HTTP(s) request https://www.kbb.com/
+Error performing HTTP request: http://www.kbb.com/
+Error performing HTTP request: https://www.kbb.com/
+Error performing HTTP request: http://www.kbb.com/
+Error performing HTTP request: https://www.kbb.com/
+Error performing HTTP request: http://www.kbb.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+Error performing HTTP request: https://www.kbb.com/
+Failed to perform HTTP request dns_lookup_error
+* performing control request with backend
+
+Result for http://www.kbb.com/
+------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for http://www.countryliving.com/
+* doing DNS query for www.countryliving.com
+* connecting to 151.101.108.155:80
+* doing HTTP(s) request http://www.countryliving.com/
+
+Result for https://www.kbb.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.countryliving.com/
+* doing DNS query for www.countryliving.com
+* connecting to 151.101.108.155:443
+* doing HTTP(s) request https://www.countryliving.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.countryliving.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.fool.com/
+* doing DNS query for www.fool.com
+* connecting to 151.101.109.143:80
+
+Result for https://www.countryliving.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.fool.com/
+* doing DNS query for www.fool.com
+* connecting to 151.101.109.143:443
+* doing HTTP(s) request http://www.fool.com/
+* doing HTTP(s) request https://www.fool.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.fool.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.realsimple.com/
+* doing DNS query for www.realsimple.com
+* connecting to 143.204.131.85:80
+* connecting to 143.204.131.83:80
+* connecting to 143.204.131.11:80
+* connecting to 143.204.131.51:80
+* doing HTTP(s) request http://www.realsimple.com/
+
+Result for http://www.fool.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+27/100 completed
+27.0% (ETA: 43s)
+
+Starting test for https://www.realsimple.com/
+* doing DNS query for www.realsimple.com
+
+Status
+------
+28/100 completed
+28.0% (ETA: 44s)
+* connecting to 143.204.131.51:443
+* connecting to 143.204.131.11:443
+* connecting to 143.204.131.83:443
+* connecting to 143.204.131.85:443
+* doing HTTP(s) request https://www.realsimple.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.realsimple.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.youneedabudget.com/
+* doing DNS query for www.youneedabudget.com
+* connecting to 104.26.15.242:80
+* connecting to 172.67.69.237:80
+* connecting to 104.26.14.242:80
+* doing HTTP(s) request http://www.youneedabudget.com/
+
+Result for http://www.realsimple.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+* performing control request with backend
+
+Status
+------
+29/100 completed
+29.0% (ETA: 42s)
+
+Starting test for https://www.youneedabudget.com/
+* doing DNS query for www.youneedabudget.com
+* connecting to 104.26.14.242:443
+* connecting to 172.67.69.237:443
+* connecting to 104.26.15.242:443
+* doing HTTP(s) request https://www.youneedabudget.com/
+* performing control request with backend
+
+Status
+------
+30/100 completed
+30.0% (ETA: 43s)
+
+Status
+------
+31/100 completed
+31.0% (ETA: 43s)
+
+Status
+------
+32/100 completed
+32.0% (ETA: 43s)
+
+Result for http://www.youneedabudget.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.goodhousekeeping.com/
+* doing DNS query for www.goodhousekeeping.com
+* connecting to 151.101.108.155:80
+* doing HTTP(s) request http://www.goodhousekeeping.com/
+* performing control request with backend
+
+Result for https://www.youneedabudget.com/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.goodhousekeeping.com/
+* doing DNS query for www.goodhousekeeping.com
+* connecting to 151.101.108.155:443
+* doing HTTP(s) request https://www.goodhousekeeping.com/
+* performing control request with backend
+
+Result for http://www.goodhousekeeping.com/
+-------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.tomshardware.com/
+* doing DNS query for www.tomshardware.com
+
+Result for https://www.goodhousekeeping.com/
+--------------------------------------------
+* No blocking detected
+* Is accessible
+
+* connecting to 185.113.25.55:80
+* doing HTTP(s) request http://www.tomshardware.com/
+
+Status
+------
+33/100 completed
+33.0% (ETA: 41s)
+
+Starting test for https://www.tomshardware.com/
+* doing DNS query for www.tomshardware.com
+* connecting to 185.113.25.55:443
+
+Status
+------
+34/100 completed
+34.0% (ETA: 42s)
+* doing HTTP(s) request https://www.tomshardware.com/
+
+Status
+------
+35/100 completed
+35.0% (ETA: 42s)
+
+Status
+------
+36/100 completed
+36.0% (ETA: 42s)
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.tomshardware.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.yelp.com/
+* doing DNS query for www.yelp.com
+* connecting to 151.101.228.116:80
+* doing HTTP(s) request http://www.yelp.com/
+
+Result for https://www.tomshardware.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.yelp.com/
+* doing DNS query for www.yelp.com
+* connecting to 151.101.228.116:443
+
+Status
+------
+37/100 completed
+37.0% (ETA: 41s)
+* doing HTTP(s) request https://www.yelp.com/
+* performing control request with backend
+
+Status
+------
+38/100 completed
+38.0% (ETA: 41s)
+
+Status
+------
+39/100 completed
+39.0% (ETA: 41s)
+* performing control request with backend
+
+Status
+------
+40/100 completed
+40.0% (ETA: 41s)
+
+Status
+------
+41/100 completed
+41.0% (ETA: 41s)
+
+Status
+------
+42/100 completed
+42.0% (ETA: 41s)
+
+Result for http://www.yelp.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.trustpilot.com/
+* doing DNS query for www.trustpilot.com
+* connecting to 99.86.144.81:80
+* connecting to 99.86.144.59:80
+* connecting to 99.86.144.50:80
+* connecting to 99.86.144.107:80
+* doing HTTP(s) request http://www.trustpilot.com/
+* performing control request with backend
+
+Result for https://www.yelp.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.trustpilot.com/
+* doing DNS query for www.trustpilot.com
+* connecting to 99.86.144.107:443
+* connecting to 99.86.144.50:443
+* connecting to 99.86.144.59:443
+* connecting to 99.86.144.81:443
+* doing HTTP(s) request https://www.trustpilot.com/
+* performing control request with backend
+
+Result for http://www.trustpilot.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.bonappetit.com/
+* doing DNS query for www.bonappetit.com
+* connecting to 151.101.228.239:80
+* doing HTTP(s) request http://www.bonappetit.com/
+
+Result for https://www.trustpilot.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.bonappetit.com/
+* doing DNS query for www.bonappetit.com
+* connecting to 151.101.228.239:443
+* doing HTTP(s) request https://www.bonappetit.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+43/100 completed
+43.0% (ETA: 39s)
+
+Result for http://www.bonappetit.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.edmunds.com/
+* doing DNS query for www.edmunds.com
+* connecting to 23.67.53.122:80
+* connecting to 23.67.53.89:80
+* doing HTTP(s) request http://www.edmunds.com/
+
+Result for https://www.bonappetit.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.edmunds.com/
+* doing DNS query for www.edmunds.com
+* connecting to 23.67.53.122:443
+* connecting to 23.67.53.89:443
+* doing HTTP(s) request https://www.edmunds.com/
+
+Status
+------
+44/100 completed
+44.0% (ETA: 39s)
+
+Status
+------
+45/100 completed
+45.0% (ETA: 39s)
+
+Status
+------
+46/100 completed
+46.0% (ETA: 39s)
+
+Status
+------
+47/100 completed
+47.0% (ETA: 34s)
+
+Status
+------
+48/100 completed
+48.0% (ETA: 34s)
+
+Starting test for http://www.ehow.com/
+* doing DNS query for www.ehow.com
+* connecting to 184.25.28.33:80
+* doing HTTP(s) request http://www.ehow.com/
+
+Starting test for https://www.ehow.com/
+* doing DNS query for www.ehow.com
+* connecting to 184.25.28.33:443
+* doing HTTP(s) request https://www.ehow.com/
+
+Starting test for http://www.edmunds.com/
+* doing DNS query for www.edmunds.com
+* connecting to 23.67.53.89:80
+* connecting to 23.67.53.122:80
+* doing HTTP(s) request http://www.edmunds.com/
+
+Starting test for https://www.edmunds.com/
+* doing DNS query for www.edmunds.com
+* connecting to 23.67.53.89:443
+* connecting to 23.67.53.122:443
+* doing HTTP(s) request https://www.edmunds.com/
+
+Starting test for http://www.tomsguide.com/
+* doing DNS query for www.tomsguide.com
+
+Starting test for https://www.tomsguide.com/
+* doing DNS query for www.tomsguide.com
+* connecting to 185.113.25.56:443
+* connecting to 185.113.25.56:80
+* doing HTTP(s) request https://www.tomsguide.com/
+* doing HTTP(s) request http://www.tomsguide.com/
+
+Status
+------
+49/100 completed
+49.0% (ETA: 7s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+50/100 completed
+50.0% (ETA: 7s)
+
+Result for https://www.tomsguide.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.dpreview.com/
+* doing DNS query for www.dpreview.com
+* connecting to 99.86.144.123:80
+* connecting to 99.86.144.81:80
+* connecting to 99.86.144.52:80
+* connecting to 99.86.144.46:80
+* doing HTTP(s) request http://www.dpreview.com/
+
+Result for http://www.tomsguide.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.dpreview.com/
+* doing DNS query for www.dpreview.com
+* connecting to 99.86.144.46:443
+* connecting to 99.86.144.52:443
+* connecting to 99.86.144.81:443
+* connecting to 99.86.144.123:443
+* doing HTTP(s) request https://www.dpreview.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.dpreview.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.finance.yahoo.com/
+* doing DNS query for www.finance.yahoo.com
+* connecting to 98.136.103.24:80
+* doing HTTP(s) request http://www.finance.yahoo.com/
+
+Result for https://www.dpreview.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.finance.yahoo.com/
+* doing DNS query for www.finance.yahoo.com
+* connecting to 98.136.103.24:443
+* doing HTTP(s) request https://www.finance.yahoo.com/
+
+Status
+------
+51/100 completed
+51.0% (ETA: 7s)
+
+Status
+------
+52/100 completed
+52.0% (ETA: 7s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+53/100 completed
+53.0% (ETA: 7s)
+
+Status
+------
+54/100 completed
+54.0% (ETA: 7s)
+
+Result for http://www.finance.yahoo.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.cafemom.com/
+* doing DNS query for www.cafemom.com
+* connecting to 52.1.187.218:80
+* connecting to 34.197.118.59:80
+* doing HTTP(s) request http://www.cafemom.com/
+
+Result for https://www.finance.yahoo.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.cafemom.com/
+* doing DNS query for www.cafemom.com
+* connecting to 34.197.118.59:443
+* connecting to 52.1.187.218:443
+* doing HTTP(s) request https://www.cafemom.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.cafemom.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.babycenter.com/
+* doing DNS query for www.babycenter.com
+* connecting to 104.74.196.97:80
+* doing HTTP(s) request http://www.babycenter.com/
+* performing control request with backend
+
+Result for https://www.cafemom.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.babycenter.com/
+* doing DNS query for www.babycenter.com
+* connecting to 104.74.196.97:443
+* doing HTTP(s) request https://www.babycenter.com/
+* performing control request with backend
+
+Result for http://www.babycenter.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.instructables.com/
+* doing DNS query for www.instructables.com
+* connecting to 151.101.229.105:80
+* doing HTTP(s) request http://www.instructables.com/
+* performing control request with backend
+
+Result for https://www.babycenter.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.instructables.com/
+* doing DNS query for www.instructables.com
+* connecting to 151.101.229.105:443
+* doing HTTP(s) request https://www.instructables.com/
+* performing control request with backend
+
+Result for http://www.instructables.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.foodandwine.com/
+* doing DNS query for www.foodandwine.com
+* connecting to 143.204.131.86:80
+* connecting to 143.204.131.4:80
+* connecting to 143.204.131.46:80
+* connecting to 143.204.131.127:80
+* doing HTTP(s) request http://www.foodandwine.com/
+
+Result for https://www.instructables.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+* performing control request with backend
+
+Result for http://www.foodandwine.com/
+--------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+55/100 completed
+55.0% (ETA: 6s)
+
+Starting test for https://www.foodandwine.com/
+* doing DNS query for www.foodandwine.com
+* connecting to 143.204.131.46:443
+* connecting to 143.204.131.4:443
+* connecting to 143.204.131.86:443
+* connecting to 143.204.131.127:443
+* doing HTTP(s) request https://www.foodandwine.com/
+* performing control request with backend
+
+Status
+------
+56/100 completed
+56.0% (ETA: 6s)
+
+Starting test for http://www.carfax.com/
+* doing DNS query for www.carfax.com
+* connecting to 216.117.25.113:80
+* doing HTTP(s) request http://www.carfax.com/
+
+Status
+------
+57/100 completed
+57.0% (ETA: 6s)
+
+Status
+------
+58/100 completed
+58.0% (ETA: 6s)
+
+Status
+------
+59/100 completed
+59.0% (ETA: 6s)
+
+Result for https://www.foodandwine.com/
+---------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.carfax.com/
+* doing DNS query for www.carfax.com
+* connecting to 216.117.25.113:443
+* doing HTTP(s) request https://www.carfax.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.carfax.com/
+---------------------------------
+* BLOCKING DETECTED due to http-diff
+* Is NOT accessible
+
+
+Starting test for http://www.thespruce.com/
+* doing DNS query for www.thespruce.com
+
+Result for https://www.carfax.com/
+----------------------------------
+* BLOCKING DETECTED due to http-diff
+* Is NOT accessible
+
+
+Starting test for https://www.thespruce.com/
+* doing DNS query for www.thespruce.com
+* connecting to 151.101.110.137:443
+* connecting to 151.101.110.137:80
+* doing HTTP(s) request http://www.thespruce.com/
+* doing HTTP(s) request https://www.thespruce.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+60/100 completed
+60.0% (ETA: 6s)
+
+Result for https://www.thespruce.com/
+-------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.gizmodo.com/
+* doing DNS query for www.gizmodo.com
+* connecting to 151.101.130.166:80
+* connecting to 151.101.2.166:80
+* connecting to 151.101.66.166:80
+* connecting to 151.101.194.166:80
+* doing HTTP(s) request http://www.gizmodo.com/
+
+Result for http://www.thespruce.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+* performing control request with backend
+
+Result for http://www.gizmodo.com/
+----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+61/100 completed
+61.0% (ETA: 6s)
+
+Starting test for https://www.gizmodo.com/
+* doing DNS query for www.gizmodo.com
+* connecting to 151.101.130.166:443
+* connecting to 151.101.2.166:443
+* connecting to 151.101.66.166:443
+* connecting to 151.101.194.166:443
+* doing HTTP(s) request https://www.gizmodo.com/
+* performing control request with backend
+
+Status
+------
+62/100 completed
+62.0% (ETA: 6s)
+
+Starting test for http://www.apartmenttherapy.com/
+* doing DNS query for www.apartmenttherapy.com
+
+Status
+------
+63/100 completed
+63.0% (ETA: 6s)
+* connecting to 151.101.230.49:80
+* doing HTTP(s) request http://www.apartmenttherapy.com/
+* performing control request with backend
+
+Result for https://www.gizmodo.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.apartmenttherapy.com/
+* doing DNS query for www.apartmenttherapy.com
+* connecting to 151.101.230.49:443
+* doing HTTP(s) request https://www.apartmenttherapy.com/
+* performing control request with backend
+
+Result for http://www.apartmenttherapy.com/
+-------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+64/100 completed
+64.0% (ETA: 6s)
+
+Starting test for http://www.irs.gov/
+* doing DNS query for www.irs.gov
+* connecting to 104.115.147.192:80
+* doing HTTP(s) request http://www.irs.gov/
+
+Result for https://www.apartmenttherapy.com/
+--------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+65/100 completed
+65.0% (ETA: 6s)
+
+Starting test for https://www.irs.gov/
+* doing DNS query for www.irs.gov
+* connecting to 104.115.147.192:443
+* doing HTTP(s) request https://www.irs.gov/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+66/100 completed
+66.0% (ETA: 6s)
+
+Status
+------
+67/100 completed
+67.0% (ETA: 5s)
+
+Status
+------
+68/100 completed
+68.0% (ETA: 5s)
+
+Result for https://www.irs.gov/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.theverge.com/
+* doing DNS query for www.theverge.com
+* connecting to 151.101.229.52:80
+* doing HTTP(s) request http://www.theverge.com/
+* performing control request with backend
+
+Result for http://www.irs.gov/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.theverge.com/
+* doing DNS query for www.theverge.com
+* connecting to 151.101.229.52:443
+* doing HTTP(s) request https://www.theverge.com/
+* performing control request with backend
+
+Result for http://www.theverge.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.cnbc.com/
+* doing DNS query for www.cnbc.com
+* connecting to 184.25.21.67:80
+* doing HTTP(s) request http://www.cnbc.com/
+* performing control request with backend
+
+Status
+------
+69/100 completed
+69.0% (ETA: 5s)
+
+Result for https://www.theverge.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.cnbc.com/
+* doing DNS query for www.cnbc.com
+* connecting to 184.25.21.67:443
+* doing HTTP(s) request https://www.cnbc.com/
+* performing control request with backend
+
+Status
+------
+70/100 completed
+70.0% (ETA: 5s)
+
+Status
+------
+71/100 completed
+71.0% (ETA: 5s)
+
+Result for http://www.cnbc.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.digitaltrends.com/
+* doing DNS query for www.digitaltrends.com
+* connecting to 151.101.230.49:80
+* doing HTTP(s) request http://www.digitaltrends.com/
+* performing control request with backend
+
+Result for https://www.cnbc.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.digitaltrends.com/
+* doing DNS query for www.digitaltrends.com
+* connecting to 151.101.230.49:443
+* doing HTTP(s) request https://www.digitaltrends.com/
+* performing control request with backend
+
+Status
+------
+72/100 completed
+72.0% (ETA: 5s)
+
+Status
+------
+73/100 completed
+73.0% (ETA: 5s)
+
+Status
+------
+74/100 completed
+74.0% (ETA: 5s)
+
+Result for http://www.digitaltrends.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.gsmarena.com/
+* doing DNS query for www.gsmarena.com
+* connecting to 148.251.96.211:80
+* doing HTTP(s) request http://www.gsmarena.com/
+
+Result for https://www.digitaltrends.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.gsmarena.com/
+* doing DNS query for www.gsmarena.com
+* connecting to 148.251.96.211:443
+* doing HTTP(s) request https://www.gsmarena.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+75/100 completed
+75.0% (ETA: 4s)
+
+Status
+------
+76/100 completed
+76.0% (ETA: 4s)
+
+Result for https://www.gsmarena.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.food.com/
+* doing DNS query for www.food.com
+* connecting to 23.50.0.151:80
+* doing HTTP(s) request http://www.food.com/
+
+Result for http://www.gsmarena.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.food.com/
+* doing DNS query for www.food.com
+* connecting to 23.50.0.151:443
+* doing HTTP(s) request https://www.food.com/
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.food.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.consumerreports.org/
+* doing DNS query for www.consumerreports.org
+* connecting to 13.224.29.121:80
+* connecting to 13.224.29.125:80
+* connecting to 13.224.29.117:80
+* connecting to 13.224.29.104:80
+* doing HTTP(s) request http://www.consumerreports.org/
+
+Result for https://www.food.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+77/100 completed
+77.0% (ETA: 4s)
+
+Starting test for https://www.consumerreports.org/
+* doing DNS query for www.consumerreports.org
+* connecting to 13.224.29.104:443
+* connecting to 13.224.29.117:443
+* connecting to 13.224.29.125:443
+* connecting to 13.224.29.121:443
+* doing HTTP(s) request https://www.consumerreports.org/
+
+Status
+------
+78/100 completed
+78.0% (ETA: 4s)
+
+Status
+------
+79/100 completed
+79.0% (ETA: 4s)
+
+Status
+------
+80/100 completed
+80.0% (ETA: 4s)
+* performing control request with backend
+* performing control request with backend
+
+Result for http://www.consumerreports.org/
+------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.bankrate.com/
+* doing DNS query for www.bankrate.com
+* connecting to 151.101.229.132:80
+* doing HTTP(s) request http://www.bankrate.com/
+
+Result for https://www.consumerreports.org/
+-------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.bankrate.com/
+* doing DNS query for www.bankrate.com
+* connecting to 151.101.229.132:443
+* doing HTTP(s) request https://www.bankrate.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+81/100 completed
+81.0% (ETA: 3s)
+
+Result for https://www.bankrate.com/
+------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.marthastewart.com/
+* doing DNS query for www.marthastewart.com
+* connecting to 99.84.238.34:80
+* connecting to 99.84.238.103:80
+* connecting to 99.84.238.26:80
+* connecting to 99.84.238.94:80
+
+Status
+------
+82/100 completed
+82.0% (ETA: 3s)
+* doing HTTP(s) request http://www.marthastewart.com/
+
+Status
+------
+83/100 completed
+83.0% (ETA: 3s)
+
+Status
+------
+84/100 completed
+84.0% (ETA: 3s)
+
+Result for http://www.bankrate.com/
+-----------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.marthastewart.com/
+* doing DNS query for www.marthastewart.com
+* connecting to 99.84.238.94:443
+* connecting to 99.84.238.26:443
+* connecting to 99.84.238.103:443
+* connecting to 99.84.238.34:443
+* doing HTTP(s) request https://www.marthastewart.com/
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+85/100 completed
+85.0% (ETA: 3s)
+
+Starting test for http://www.care.com/
+* doing DNS query for www.care.com
+* connecting to 104.74.209.174:80
+* doing HTTP(s) request http://www.care.com/
+
+Starting test for https://www.care.com/
+* doing DNS query for www.care.com
+* connecting to 104.74.209.174:443
+* doing HTTP(s) request https://www.care.com/
+
+Status
+------
+86/100 completed
+86.0% (ETA: 3s)
+
+Result for http://www.marthastewart.com/
+----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.bhg.com/
+* doing DNS query for www.bhg.com
+* connecting to 99.84.238.116:80
+* connecting to 99.84.238.13:80
+* connecting to 99.84.238.96:80
+* connecting to 99.84.238.73:80
+* doing HTTP(s) request http://www.bhg.com/
+* performing control request with backend
+
+Result for https://www.marthastewart.com/
+-----------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.bhg.com/
+* doing DNS query for www.bhg.com
+* connecting to 99.84.238.73:443
+* connecting to 99.84.238.96:443
+* connecting to 99.84.238.13:443
+* connecting to 99.84.238.116:443
+* doing HTTP(s) request https://www.bhg.com/
+* performing control request with backend
+
+Status
+------
+87/100 completed
+87.0% (ETA: 2s)
+* performing control request with backend
+* performing control request with backend
+
+Status
+------
+88/100 completed
+88.0% (ETA: 2s)
+
+Status
+------
+89/100 completed
+89.0% (ETA: 2s)
+
+Result for https://www.care.com/
+--------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for http://www.fixya.com/
+* doing DNS query for www.fixya.com
+* connecting to 104.18.19.77:80
+* connecting to 104.18.18.77:80
+* doing HTTP(s) request http://www.fixya.com/
+
+Result for http://www.care.com/
+-------------------------------
+* BLOCKING DETECTED due to dns
+* Is NOT accessible
+
+
+Starting test for https://www.fixya.com/
+* doing DNS query for www.fixya.com
+* connecting to 104.18.19.77:443
+* connecting to 104.18.18.77:443
+* doing HTTP(s) request https://www.fixya.com/
+
+Status
+------
+90/100 completed
+90.0% (ETA: 2s)
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.bhg.com/
+-------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for http://www.gardeningknowhow.com/
+* doing DNS query for www.gardeningknowhow.com
+
+Result for http://www.bhg.com/
+------------------------------
+* No blocking detected
+* Is accessible
+
+
+Starting test for https://www.gardeningknowhow.com/
+* doing DNS query for www.gardeningknowhow.com
+* connecting to 151.139.128.11:443
+* connecting to 151.139.128.11:80
+* doing HTTP(s) request http://www.gardeningknowhow.com/
+* doing HTTP(s) request https://www.gardeningknowhow.com/
+
+Status
+------
+91/100 completed
+91.0% (ETA: 2s)
+* performing control request with backend
+* performing control request with backend
+
+Result for https://www.fixya.com/
+---------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for http://www.fixya.com/
+--------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+92/100 completed
+92.0% (ETA: 1s)
+
+Result for https://www.gardeningknowhow.com/
+--------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Result for http://www.gardeningknowhow.com/
+-------------------------------------------
+* No blocking detected
+* Is accessible
+
+
+Status
+------
+93/100 completed
+93.0% (ETA: 1s)
+
+Status
+------
+94/100 completed
+94.0% (ETA: 1s)
+
+Status
+------
+95/100 completed
+95.0% (ETA: 1s)
+
+Status
+------
+96/100 completed
+96.0% (ETA: 0s)
+
+Status
+------
+97/100 completed
+97.0% (ETA: 0s)
+
+Status
+------
+98/100 completed
+98.0% (ETA: 0s)
+
+Status
+------
+99/100 completed
+99.0% (ETA: 0s)
+
+Status
+------
+100/100 completed
+99.0% (ETA: 1s)
+Summary for web_connectivity
+----------------------------
+
+Accessible URLS
+---------------
+* https://www.bbb.org/
+* http://www.bbb.org/
+* http://www.bobvila.com/
+* https://www.bobvila.com/
+* http://www.thekitchn.com/
+* https://www.thekitchn.com/
+* https://www.lifehack.org/
+* http://www.lifehack.org/
+* http://www.travel.state.gov/
+* http://www.parents.com/
+* https://www.travel.state.gov/
+* https://www.parents.com/
+* http://www.marketwatch.com/
+* https://www.marketwatch.com/
+* http://www.allrecipes.com/
+* https://www.allrecipes.com/
+* https://www.thespruceeats.com/
+* http://www.thespruceeats.com/
+* https://www.engadget.com/
+* http://www.engadget.com/
+* http://www.hgtv.com/
+* https://www.hgtv.com/
+* https://www.ssa.gov/
+* http://www.ssa.gov/
+* http://www.money.cnn.com/
+* https://www.money.cnn.com/
+* http://www.countryliving.com/
+* https://www.countryliving.com/
+* https://www.fool.com/
+* http://www.fool.com/
+* https://www.realsimple.com/
+* http://www.realsimple.com/
+* http://www.youneedabudget.com/
+* https://www.youneedabudget.com/
+* http://www.goodhousekeeping.com/
+* https://www.goodhousekeeping.com/
+* http://www.tomshardware.com/
+* https://www.tomshardware.com/
+* http://www.yelp.com/
+* https://www.yelp.com/
+* http://www.trustpilot.com/
+* https://www.trustpilot.com/
+* http://www.bonappetit.com/
+* https://www.bonappetit.com/
+* https://www.tomsguide.com/
+* http://www.tomsguide.com/
+* http://www.dpreview.com/
+* https://www.dpreview.com/
+* http://www.finance.yahoo.com/
+* https://www.finance.yahoo.com/
+* http://www.cafemom.com/
+* https://www.cafemom.com/
+* http://www.babycenter.com/
+* https://www.babycenter.com/
+* http://www.instructables.com/
+* https://www.instructables.com/
+* http://www.foodandwine.com/
+* https://www.foodandwine.com/
+* https://www.thespruce.com/
+* http://www.thespruce.com/
+* http://www.gizmodo.com/
+* https://www.gizmodo.com/
+* http://www.apartmenttherapy.com/
+* https://www.apartmenttherapy.com/
+* https://www.irs.gov/
+* http://www.irs.gov/
+* http://www.theverge.com/
+* https://www.theverge.com/
+* http://www.cnbc.com/
+* https://www.cnbc.com/
+* http://www.digitaltrends.com/
+* https://www.digitaltrends.com/
+* https://www.gsmarena.com/
+* http://www.gsmarena.com/
+* http://www.food.com/
+* https://www.food.com/
+* http://www.consumerreports.org/
+* https://www.consumerreports.org/
+* https://www.bankrate.com/
+* http://www.bankrate.com/
+* http://www.marthastewart.com/
+* https://www.marthastewart.com/
+* https://www.bhg.com/
+* http://www.bhg.com/
+* https://www.fixya.com/
+* http://www.fixya.com/
+* https://www.gardeningknowhow.com/
+* http://www.gardeningknowhow.com/
+
+Not accessible URLS
+-------------------
+* http://www.food.ndtv.com/
+* https://www.food.ndtv.com/
+* http://www.kbb.com/
+* https://www.kbb.com/
+* http://www.ehow.com/
+* https://www.ehow.com/
+* http://www.carfax.com/
+* https://www.carfax.com/
+* http://www.edmunds.com/
+* https://www.edmunds.com/
+* https://www.care.com/
+* http://www.care.com/
+
+URLS possibly blocked due to http-diff
+--------------------------------------
+* http://www.carfax.com/
+* https://www.carfax.com/
+
+URLS possibly blocked due to dns
+--------------------------------
+* http://www.kbb.com/
+* https://www.kbb.com/
+* https://www.care.com/
+* http://www.care.com/
+Report ID: 20200718T155738Z_AS4766_nFgCGM9WVJBpdJKleCWs10pt04rEPQzwhuf3M69ymE05bl1y5Y
+Error performing HTTP request: https://www.edmunds.com/
+Error performing HTTP request: https://www.ehow.com/
+Error performing HTTP request: http://www.ehow.com/
+Error performing HTTP request: http://www.ehow.com/
+Error performing HTTP request: http://www.edmunds.com/
+Error performing HTTP request: https://www.ehow.com/
+Error performing HTTP request: https://www.edmunds.com/
+Error performing HTTP request: http://www.edmunds.com/
